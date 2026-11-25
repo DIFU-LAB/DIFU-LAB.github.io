@@ -17,11 +17,11 @@
   },
   "visitorCounter": {
     "enabled": true,
-    "namespace": "difulab.com",
+    "namespace": "difulab.org",
     "key": "seil-lab-opt-in-sessions-v1",
     "hosts": [
-      "difulab.com",
-      "www.difulab.com",
+      "difulab.org",
+      "www.difulab.org",
       "difu-lab.github.io"
     ]
   }
