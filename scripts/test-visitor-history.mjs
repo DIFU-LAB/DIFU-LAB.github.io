@@ -1,8 +1,13 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
 import { emptyHistory, ingest, summarize, sourceId, validateHistory, runArchive, goatDays, collectCumulative } from './visitor-history.mjs';
-const cfg = JSON.parse(readFileSync('content/site/services.json', 'utf8'));
+// Keep provider tests independent of editable production service settings.
+const cfg = {
+    visitorMap: { enabled: true, endpoint: '', provider: 'auto' },
+    visitorCounter: { enabled: true, namespace: 'example.org', key: 'test-counter', hosts: ['example.com', 'example.org'] },
+    goatCounter: { enabled: true, site: '' },
+    visitorDots: { enabled: true, mapUrl: '', counterUrl: '', detailsUrl: '' },
+};
 const cf = (date, visits, countries = {}, generation = '1') => ({ provider: 'cloudflare', account: 'https://example.workers.dev', kind: 'cumulative', date, visits, countries, generation });
 const gc = (date, visits, countries = {}) => ({ provider: 'goatcounter', account: 'lab', kind: 'daily', date, visits, countries });
 test('daily snapshots of cumulative sources are not summed; retries replace the same date', () => {
@@ -27,7 +32,10 @@ test('archive suppresses small geographic markers, keeps total-only counters and
 test('Abacus reads without incrementing; Cloudflare requests complete country aggregates', async () => {
     const seen = []; const fetcher = async (url, opts) => { seen.push([url, opts.headers]); return { ok: true, json: async () => url.includes('abacus') ? { value: 77 } : { visits: 100, countries: { GB: 50, US: 2 } } }; };
     const a = await collectCumulative({ provider: 'abacus' }, cfg, fetcher); assert.equal(a.visits, 77); assert(seen[0][0].includes('/get/')); assert(!seen[0][0].includes('/hit/'));
-    const b = await collectCumulative({ provider: 'cloudflare', account: 'https://example.workers.dev' }, cfg, fetcher); assert.equal(b.countries.US, 2); assert.equal(seen[1][0], 'https://example.workers.dev/archive'); assert.equal(seen[1][1].Origin, 'https://difulab.org');
+    const b = await collectCumulative({ provider: 'cloudflare', account: 'https://example.workers.dev' }, cfg, fetcher); assert.equal(b.countries.US, 2); assert.equal(seen[1][0], 'https://example.workers.dev/archive'); assert.equal(seen[1][1].Origin, 'https://example.com');
+    const reversed = structuredClone(cfg); reversed.visitorCounter.hosts.reverse();
+    await collectCumulative({ provider: 'cloudflare', account: 'https://example.workers.dev' }, reversed, fetcher);
+    assert.equal(seen[2][1].Origin, 'https://example.org');
 });
 test('switching services continues reading previously archived configured sources, failed fetch retains data', async () => {
     const h = emptyHistory(), c = structuredClone(cfg); c.visitorMap.endpoint = 'https://example.workers.dev'; c.visitorMap.provider = 'cloudflare'; const now = new Date('2026-11-25T04:00:00Z');
