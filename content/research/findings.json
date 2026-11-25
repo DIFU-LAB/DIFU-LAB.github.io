@@ -11,6 +11,10 @@
       {
         "provider": "youtube",
         "id": "bjiYEs1x-7E"
+      },
+      {
+        "provider": "local",
+        "src": "/media/research/videos/who-just-said-this-robot.mp4"
       }
     ],
     "translations": {
@@ -33,6 +37,10 @@
       {
         "provider": "youtube",
         "id": "Qn0xo4JyG9c"
+      },
+      {
+        "provider": "local",
+        "src": "/media/research/videos/human-impression-social-mirroring.mp4"
       }
     ],
     "translations": {
