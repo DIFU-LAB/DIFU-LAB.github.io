@@ -2,6 +2,7 @@ import { recordVisit, clearVisitorSession } from "./visitor";
 import {useEffect} from "react";
 import {useLocation} from "wouter";
 import {loadVisitorCounter} from "./visitorCounter";
+import { recordGoatCounterVisit } from "./goatCounter";
 import {services,useConsent} from "./consent";
 export function ExternalServices(){
   const {allowed}=useConsent();const [path]=useLocation();
@@ -23,5 +24,10 @@ export function ExternalServices(){
     const timer = window.setTimeout(() => { void recordVisit(controller.signal); }, 0);
     return () => { window.clearTimeout(timer); controller.abort(); };
   },[allowed.visitorMap,path]);
+  useEffect(()=>{
+    if (!allowed.goatCounter) return;
+    const timer = window.setTimeout(() => recordGoatCounterVisit(services.goatCounter.site), 0);
+    return () => window.clearTimeout(timer);
+  },[allowed.goatCounter]);
   return null;
 }

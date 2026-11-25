@@ -3,7 +3,7 @@ main = "worker.mjs"
 compatibility_date = "2026-01-01"
 workers_dev = true
 [vars]
-ALLOWED_ORIGINS = "https://difulab.com,https://www.difulab.com,https://difulab.org,https://www.difulab.org,https://difu-lab.github.io"
+ALLOWED_ORIGINS = "https://difulab.org,https://www.difulab.org,https://difulab.org,https://www.difulab.org,https://difu-lab.github.io"
 [[d1_databases]]
 binding = "DB"
 database_name = "seil-visitors"

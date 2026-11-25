@@ -4,13 +4,42 @@ on:
     branches: [main, master]
   pull_request:
   workflow_dispatch:
+  schedule:
+    - cron: '23 4 * * *'
 permissions:
   contents: read
 concurrency:
   group: pages-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 jobs:
+  archive:
+    if: github.event_name != 'pull_request' && github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Preserve visitor aggregates in Git
+        env:
+          VITE_VISITOR_MAP_ENDPOINT: ${{ vars.VITE_VISITOR_MAP_ENDPOINT }}
+          VITE_GOATCOUNTER_SITE: ${{ vars.VITE_GOATCOUNTER_SITE }}
+          GOATCOUNTER_API_KEY: ${{ secrets.GOATCOUNTER_API_KEY }}
+          VISITOR_HISTORY_GENERATION_CLOUDFLARE: ${{ vars.VISITOR_HISTORY_GENERATION_CLOUDFLARE }}
+          VISITOR_HISTORY_GENERATION_ABACUS: ${{ vars.VISITOR_HISTORY_GENERATION_ABACUS }}
+        run: bash scripts/archive-visitor-history.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: visitor-history
+          path: ${{ runner.temp }}/seil-visitor-public/visitor-history.json
+          if-no-files-found: error
+          retention-days: 1
   build:
+    needs: archive
+    if: always() && (needs.archive.result == 'success' || needs.archive.result == 'skipped')
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -49,18 +78,33 @@ jobs:
         env:
           PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}
           VITE_VISITOR_MAP_ENDPOINT: ${{ vars.VITE_VISITOR_MAP_ENDPOINT }}
+          VITE_GOATCOUNTER_SITE: ${{ vars.VITE_GOATCOUNTER_SITE }}
         run: pnpm build
       - name: Verify static deployment
         run: |
           node scripts/check-build.mjs
           pnpm test
+      - name: Download archived aggregate
+        if: needs.archive.result == 'success'
+        uses: actions/download-artifact@v4
+        with:
+          name: visitor-history
+          path: dist
+      - name: Fetch aggregate GoatCounter snapshot
+        continue-on-error: true
+        if: github.event_name != 'pull_request'
+        env:
+          VITE_VISITOR_MAP_ENDPOINT: ${{ vars.VITE_VISITOR_MAP_ENDPOINT }}
+          VITE_GOATCOUNTER_SITE: ${{ vars.VITE_GOATCOUNTER_SITE }}
+          GOATCOUNTER_API_KEY: ${{ secrets.GOATCOUNTER_API_KEY }}
+        run: node --experimental-strip-types scripts/snapshot-goatcounter.mjs
       - name: Upload Pages artifact
         if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
           path: dist
   deploy:
-    if: github.event_name != 'pull_request' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
+    if: github.event_name != 'pull_request' && github.ref_name == github.event.repository.default_branch
     needs: build
     runs-on: ubuntu-latest
     permissions:

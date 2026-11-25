@@ -110,6 +110,23 @@ for key,cfg in records.get(content/'site/services.json',{}).items():
   field='scriptUrl' if key=='analytics' else 'endpoint'
   if not cfg.get(field,'').startswith('https://') and not (key=='visitorMap' and not cfg.get(field)):fail(content/'site/services.json',key+' requires HTTPS '+field)
   if key=='analytics' and not cfg.get('websiteId'):fail(content/'site/services.json','analytics requires websiteId')
+ if key=='visitorMap' and cfg.get('provider') not in ('auto','cloudflare','visitordots','goatcounter'):
+  fail(content/'site/services.json','visitorMap.provider must be auto, cloudflare, goatcounter or visitordots')
+ if key=='visitorDots' and cfg.get('enabled'):
+  from urllib.parse import urlsplit
+  fields=('mapUrl','counterUrl','detailsUrl')
+  values=[cfg.get(field) for field in fields]
+  if any(values):
+   for field,value in zip(fields,values):
+    try:
+     u=urlsplit(value) if isinstance(value,str) else None
+     host=u.hostname if u else None
+     if not u or u.scheme!='https' or not host or not (host=='visitordots.com' or host.endswith('.visitordots.com')) or u.username or u.password or u.port or u.fragment:raise ValueError()
+    except ValueError:fail(content/'site/services.json','visitorDots requires a provider-issued HTTPS '+field)
+   if len(set(str(v) for v in values))!=3:fail(content/'site/services.json','visitorDots map, visitor card and details URLs must be distinct')
+ if key=='goatCounter':
+  site=cfg.get('site')
+  if not isinstance(site,str) or (site and not re.fullmatch(r'[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?',site)):fail(content/'site/services.json','goatCounter.site must be a public account code, not an API key or URL')
  if key=='visitorCounter' and cfg.get('enabled'):
   for field in ('namespace','key'):
    if not isinstance(cfg.get(field),str) or not re.fullmatch(r'[A-Za-z0-9_.-]{3,64}',cfg[field]):fail(content/'site/services.json','visitorCounter requires valid '+field)

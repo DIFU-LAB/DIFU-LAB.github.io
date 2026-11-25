@@ -47,6 +47,14 @@ export default {
         const result = await env.DB.prepare('INSERT OR IGNORE INTO visit_dedupe(fingerprint,bucket,country,latitude,longitude) VALUES(?,?,?,?,?)').bind(fingerprint, bucket, country, located ? lat : UNKNOWN, located ? lon : UNKNOWN).run();
         return json({ recorded: !!result.meta?.changes });
       }
+      if (path === '/archive' && request.method === 'GET') {
+        // Full country-level aggregates only; no raw IP, fingerprint or cell details.
+        const [total, countries] = await env.DB.batch([
+          env.DB.prepare('SELECT COALESCE(SUM(visits),0) AS visits FROM visit_regions'),
+          env.DB.prepare("SELECT country AS countryCode, SUM(visits) AS visits FROM visit_regions WHERE country <> '' GROUP BY country ORDER BY country")
+        ]);
+        return json({visits:total.results[0].visits,countries:Object.fromEntries(countries.results.map(row=>[row.countryCode,row.visits]))});
+      }
       if (path === '/summary' && request.method === 'GET') {
         // Fixed cache key per allowed origin; arbitrary query strings cannot bust it.
         const cacheUrl = new URL(request.url); cacheUrl.search = ''; cacheUrl.searchParams.set('origin', origin); cacheUrl.searchParams.set('version', '2');

@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react";
-import { services, useConsent } from "./consent";
+import { services, useConsent, visitorMapProvider } from "./consent";
 export interface VisitorSummary {
   visits: number;
+  updatedAt?: string;
+  historical?: boolean;
+  from?: string;
   countries: number;
   topCountries: { countryCode: string; visits: number }[];
   points: { latitude: number; longitude: number; visits: number }[];
@@ -40,16 +43,19 @@ export function useVisitorSummary() {
   const [isError, setError] = useState(false);
   useEffect(() => {
     setData(undefined); setError(false);
-    if (!allowed.visitorMap) return;
+    if (!allowed.visitorMap && !allowed.goatCounter) return;
     const controller = new AbortController(); let pending = false;
     const load = async () => {
       if (document.hidden || pending || controller.signal.aborted) return;
       pending = true;
       try {
-        const response = await fetch(`${services.visitorMap.endpoint}/summary`, { credentials: 'omit', referrerPolicy: 'no-referrer', signal: controller.signal });
+        const url = visitorMapProvider === 'goatcounter'
+          ? `${import.meta.env.BASE_URL}visitor-stats.json`
+          : `${services.visitorMap.endpoint}/summary`;
+        const response = await fetch(url, { cache: 'no-store', credentials: 'omit', referrerPolicy: 'no-referrer', signal: controller.signal });
         if (!response.ok) throw Error('summary');
         const value: unknown = await response.json();
-        if (!validSummary(value)) throw Error('invalid summary');
+        if (!validSummary(value) || (visitorMapProvider === 'goatcounter' && (typeof value.updatedAt !== 'string' || !Number.isFinite(Date.parse(value.updatedAt))))) throw Error('invalid summary');
         if (!controller.signal.aborted) { setData(value); setError(false); }
       } catch { if (!controller.signal.aborted) setError(true); }
       finally { pending = false; }
@@ -58,6 +64,28 @@ export function useVisitorSummary() {
     const timer = setInterval(load, interval);
     document.addEventListener('visibilitychange', load);
     return () => { controller.abort(); clearInterval(timer); document.removeEventListener('visibilitychange', load); };
-  }, [allowed.visitorMap]);
-  return { data: allowed.visitorMap ? data : undefined, isLoading: allowed.visitorMap && !data && !isError, isError };
+  }, [allowed.visitorMap, allowed.goatCounter]);
+  const enabled = allowed.visitorMap || allowed.goatCounter;
+  return { data: enabled ? data : undefined, isLoading: enabled && !data && !isError, isError };
+}
+
+/** Public first-party aggregates, not a tracker. No storage or third-party requests. */
+export function useVisitorHistory() {
+  const [data, setData] = useState<VisitorSummary>();
+  useEffect(() => {
+    const controller = new AbortController();
+    const load = async () => {
+      if (document.hidden || controller.signal.aborted) return;
+      try {
+        const response = await fetch(`${import.meta.env.BASE_URL}visitor-history.json`, {cache:'no-store', credentials:'omit', signal:controller.signal});
+        if (!response.ok) return;
+        const value: unknown = await response.json();
+        if (validSummary(value) && value.historical === true && typeof value.updatedAt === 'string' && Number.isFinite(Date.parse(value.updatedAt)) && !controller.signal.aborted) setData(value);
+      } catch { /* retain the last confirmed snapshot; live provider remains available */ }
+    };
+    void load();
+    document.addEventListener('visibilitychange',load);
+    return () => { controller.abort(); document.removeEventListener('visibilitychange',load); };
+  }, []);
+  return data;
 }

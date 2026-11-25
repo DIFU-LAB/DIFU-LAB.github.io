@@ -5,7 +5,8 @@
   "visitorMap": {
     "enabled": true,
     "endpoint": "",
-    "showWhenDisabled": false
+    "showWhenDisabled": false,
+    "provider": "auto"
   },
   "analytics": {
     "enabled": false,
@@ -26,5 +27,15 @@
       "www.difulab.org",
       "difu-lab.github.io"
     ]
+  },
+  "visitorDots": {
+    "enabled": false,
+    "mapUrl": "",
+    "counterUrl": "",
+    "detailsUrl": ""
+  },
+  "goatCounter": {
+    "enabled": true,
+    "site": ""
   }
 }

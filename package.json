@@ -12,7 +12,7 @@
     "validate": "python3 scripts/validate-content.py && node scripts/check-i18n.mjs",
     "cms": "python3 scripts/cms.py",
     "format": "prettier --write client/src content",
-    "test": "node --test scripts/test-visitor-map.mjs scripts/test-cache.mjs scripts/test-video-sources.mjs scripts/test-localized-content.mjs && python3 scripts/test-media.py"
+    "test": "node --test scripts/test-visitor-map.mjs scripts/test-visitor-history.mjs scripts/test-cache.mjs scripts/test-video-sources.mjs scripts/test-localized-content.mjs && python3 scripts/test-media.py"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",

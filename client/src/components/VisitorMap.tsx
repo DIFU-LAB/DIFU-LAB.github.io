@@ -1,8 +1,9 @@
 import { useTranslation } from "react-i18next";
 import { useMemo } from "react";
 import { useVisitorCounter } from "@/services/visitorCounter";
-import { useVisitorSummary } from "@/services/visitor";
-import { useConsent, services } from "@/services/consent";
+import { useVisitorSummary, useVisitorHistory } from "@/services/visitor";
+import { HostedVisitorMap } from "@/components/HostedVisitorMap";
+import { useConsent, services, visitorMapProvider } from "@/services/consent";
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { useLanguage } from "@/contexts/LanguageContext";
 import {
@@ -41,7 +42,9 @@ export function VisitorMap() {
   const { language } = useLanguage();
   const consent=useConsent();
   const sessionCount = useVisitorCounter();
-  const { data, isLoading, isError } = useVisitorSummary();
+  const { data: liveData, isLoading, isError } = useVisitorSummary();
+  const history = useVisitorHistory();
+  const data = history ?? liveData;
 
   const locale = language === "zh" ? "zh-CN" : "en-GB";
   const numberFormat = useMemo(() => new Intl.NumberFormat(locale), [locale]);
@@ -53,6 +56,8 @@ export function VisitorMap() {
     }
   }, [locale]);
 
+  const goatCounter = !history && visitorMapProvider === "goatcounter";
+  const countLabel = goatCounter ? t("Visitors") : t("Visits");
   const points = data?.points ?? [];
   const maxVisitors = points.reduce((max, p) => Math.max(max, p.visits), 1);
   const lab = projectToMap(LAB_LOCATION.latitude, LAB_LOCATION.longitude);
@@ -62,11 +67,12 @@ export function VisitorMap() {
   const countryName = (code: string) => regionNames?.of(code) ?? code;
 
   const mapLabel = ready
-    ? `${t("Visitor map")}: ${numberFormat.format(data.visits)} ${t("Visits")}, ${numberFormat.format(data.countries)} ${t("Countries and regions")}`
+    ? `${t("Visitor map")}: ${numberFormat.format(data.visits)} ${countLabel}, ${numberFormat.format(data.countries)} ${t("Countries and regions")}`
     : t("Visitor map");
 
-  const showMap = services.visitorMap.showWhenDisabled || consent.allowed.visitorMap;
+  const showMap = !!history || (visitorMapProvider !== "visitordots" && (services.visitorMap.showWhenDisabled || consent.allowed.visitorMap || consent.allowed.goatCounter));
   if (!showMap) {
+    if (visitorMapProvider === "visitordots") return <>{null}{consent.allowed.visitorDots && <HostedVisitorMap key="hosted" />}</>;
     if (sessionCount === undefined) return null;
     return <section id="visitor-map" aria-label={t("Website visits")} className="py-12 lg:py-16 bg-white border-t border-[#E2E8F0]">
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
@@ -81,6 +87,7 @@ export function VisitorMap() {
     </section>;
   }
   return (
+    <>
     <section
       id="visitor-map"
       aria-labelledby="visitor-map-heading"
@@ -96,10 +103,10 @@ export function VisitorMap() {
               {t("Visitors around the world")}
             </h2>
 
-            <p className="mt-3 text-sm text-[#64748B]">{t("Opt-in visits (30-minute sessions)")}</p>
+            <p className="mt-3 text-sm text-[#64748B]">{history ? t("Historical opt-in visits (combined provider counts, not unique visitors)") : goatCounter ? t("Opt-in visitors (last 30 days)") : t("Opt-in visits (30-minute sessions)")}</p>
             <dl className="mt-8 grid grid-cols-2 gap-6 border-t border-[#E2E8F0] pt-6">
               <div>
-                <dt className="text-sm text-[#64748B]">{t("Visits")}</dt>
+                <dt className="text-sm text-[#64748B]">{countLabel}</dt>
                 <dd
                   data-visitor-stat="visits"
                   className="mt-1 text-4xl text-[#1B2A4A] font-heading tabular-nums"
@@ -115,12 +122,14 @@ export function VisitorMap() {
                   data-visitor-stat="countries"
                   className="mt-1 text-4xl text-[#1B2A4A] font-heading tabular-nums"
                 >
-                  {formatCount(data?.countries)}
+                  {history && data?.visits && !data.countries ? "-" : formatCount(data?.countries)}
                 </dd>
               </div>
             </dl>
 
-            {isError && ready && <p className="mt-4 text-sm text-[#64748B]">{t("Showing last available statistics.")}</p>}
+            {history && data?.updatedAt && <p className="mt-4 text-xs text-[#64748B]">{t("Archive updated: {date}", {date: new Intl.DateTimeFormat(locale, {dateStyle: "medium", timeZone: "UTC"}).format(new Date(data.updatedAt))})}</p>}
+            {goatCounter && data?.updatedAt && <p className="mt-4 text-xs text-[#64748B]">{t("Statistics updated: {date}", {date: new Intl.DateTimeFormat(locale, {dateStyle: "medium", timeStyle: "short"}).format(new Date(data.updatedAt))})}</p>}
+            {!history && isError && ready && <p className="mt-4 text-sm text-[#64748B]">{t("Showing last available statistics.")}</p>}
             {!ready && <p className="mt-4 text-sm text-[#64748B]">{isLoading ? t("Loading visitor statistics…") : t("Visitor statistics are currently unavailable.")}</p>}
             {ready && data.topCountries.length > 0 && (
               <div className="mt-8">
@@ -192,7 +201,7 @@ export function VisitorMap() {
                       key={`${point.latitude},${point.longitude}`}
                       data-visitor-point
                     >
-                      <title>{numberFormat.format(point.visits)} {t("Visits")}</title>
+                      <title>{numberFormat.format(point.visits)} {countLabel}</title>
                       <circle
                         cx={x}
                         cy={y}
@@ -228,7 +237,7 @@ export function VisitorMap() {
                     className="inline-block w-2.5 h-2.5 rounded-full bg-[#8B1A1A]/80"
                     aria-hidden="true"
                   />
-                  {t("Visits")}
+                  {countLabel}
                 </span>
                 <span className="inline-flex items-center gap-2">
                   <span
@@ -238,7 +247,7 @@ export function VisitorMap() {
                   {t("SEIL Lab, Guildford")}
                 </span>
                 <span>
-                  {t("Locations are approximate. IP addresses are not stored.")}
+                  {history || goatCounter ? t("Markers show approximate country locations.") : t("Locations are approximate. IP addresses are not stored.")}
                 </span>
               </figcaption>
             </figure>
@@ -246,5 +255,7 @@ export function VisitorMap() {
         </div>
       </div>
     </section>
+    {history && visitorMapProvider === "visitordots" && consent.allowed.visitorDots && <HostedVisitorMap key="hosted" secondary />}
+    </>
   );
 }
