@@ -34,6 +34,10 @@
     {
       "provider": "youtube",
       "id": "jpFk4xBFm9E"
+    },
+    {
+      "provider": "local",
+      "src": "/media/research/videos/iros-2025-hangzhou-keynote.mp4"
     }
   ]
 }

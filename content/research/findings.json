@@ -41,6 +41,10 @@
       {
         "provider": "youtube",
         "id": "Jv8lMv8z85M"
+      },
+      {
+        "provider": "local",
+        "src": "/media/research/videos/ro-man-2023-social-cues.mp4"
       }
     ]
   },
