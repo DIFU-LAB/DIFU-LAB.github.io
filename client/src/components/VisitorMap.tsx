@@ -71,7 +71,7 @@ export function VisitorMap() {
         <ScrollReveal direction="up" duration={600}>
           <div className="flex flex-wrap items-center justify-between gap-5">
             <div><h2 className="text-3xl lg:text-4xl text-[#1B2A4A] font-heading">{language === "zh" ? "网站访问" : "Website visits"}</h2>
-              <p className="mt-2 text-sm text-[#64748B]">{language === "zh" ? "经同意的浏览会话次数（非独立访客）" : "Opted-in browser sessions, not unique visitors."}</p></div>
+              <p className="mt-2 text-sm text-[#64748B]">{language === "zh" ? "网站访客数" : "Number of visitors"}</p></div>
             <div className="text-4xl text-[#1B2A4A] font-heading tabular-nums" data-visitor-stat="sessions">{numberFormat.format(sessionCount)}</div>
           </div>
         </ScrollReveal>
