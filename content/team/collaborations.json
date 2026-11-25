@@ -5,42 +5,72 @@
       "name": "Social Robotics Lab",
       "lead": "Prof Ginevra Castellano",
       "institution": "Uppsala University",
-      "url": "https://www.uu.se/en/contact-and-organisation/staff?query=N14-947"
+      "url": "https://www.uu.se/en/contact-and-organisation/staff?query=N14-947",
+      "translations": {
+        "zh": {
+          "institution": "乌普萨拉大学"
+        }
+      }
     },
     {
       "id": "knowledge-technology-group",
       "name": "Knowledge Technology Group",
       "lead": "Prof Stefan Wermter",
       "institution": "University of Hamburg",
-      "url": "https://www.inf.uni-hamburg.de/en/inst/ab/wtm/people/wermter.html"
+      "url": "https://www.inf.uni-hamburg.de/en/inst/ab/wtm/people/wermter.html",
+      "translations": {
+        "zh": {
+          "institution": "汉堡大学"
+        }
+      }
     },
     {
       "id": "tams-group",
       "name": "TAMS Group",
       "lead": "Prof Jianwei Zhang",
       "institution": "University of Hamburg",
-      "url": "https://tams.informatik.uni-hamburg.de/people/zhang/"
+      "url": "https://tams.informatik.uni-hamburg.de/people/zhang/",
+      "translations": {
+        "zh": {
+          "institution": "汉堡大学"
+        }
+      }
     },
     {
       "id": "carelab",
       "name": "Carelab",
       "lead": "Prof Xun Liu",
       "institution": "Chinese Academy of Sciences",
-      "url": "https://psych.cas.cn/sourcedb/cn/expert/201007/t20100722_6369822.html"
+      "url": "https://psych.cas.cn/sourcedb/cn/expert/201007/t20100722_6369822.html",
+      "translations": {
+        "zh": {
+          "institution": "中国科学院"
+        }
+      }
     },
     {
       "id": "contact-lab",
       "name": "CONTACT Lab",
       "lead": "Dr Alessandra Sciutti",
       "institution": "Italian Institute of Technology",
-      "url": "https://www.iit.it/it/web/cognitive-architecture-for-collaborative-technologies/home"
+      "url": "https://www.iit.it/it/web/cognitive-architecture-for-collaborative-technologies/home",
+      "translations": {
+        "zh": {
+          "institution": "意大利理工学院"
+        }
+      }
     },
     {
       "id": "human-machine-interaction-innovation-group",
       "name": "Human-Machine Interaction & Innovation Group",
       "lead": "Dr Maria Kyrarini",
       "institution": "Santa Clara University",
-      "url": "https://www.scu.edu/engineering/faculty/kyrarini-maria/"
+      "url": "https://www.scu.edu/engineering/faculty/kyrarini-maria/",
+      "translations": {
+        "zh": {
+          "institution": "圣克拉拉大学"
+        }
+      }
     }
   ],
   "collaborators": [
@@ -51,7 +81,15 @@
       "specialism": "Cyber security, privacy, digital identity, and formal verification",
       "department": "School of Computer Science and Electronic Engineering",
       "institution": "University of Surrey",
-      "profileUrl": "https://www.surrey.ac.uk/people/steve-schneider"
+      "profileUrl": "https://www.surrey.ac.uk/people/steve-schneider",
+      "translations": {
+        "zh": {
+          "title": "安全系统教授",
+          "specialism": "网络安全、隐私、数字身份与形式化验证",
+          "department": "计算机科学与电子工程学院",
+          "institution": "萨里大学"
+        }
+      }
     },
     {
       "id": "roman-bauer",
@@ -60,7 +98,15 @@
       "specialism": "Computational modelling of biological dynamics, especially the brain",
       "department": "School of Computer Science and Electronic Engineering",
       "institution": "University of Surrey",
-      "profileUrl": "https://www.surrey.ac.uk/people/roman-bauer"
+      "profileUrl": "https://www.surrey.ac.uk/people/roman-bauer",
+      "translations": {
+        "zh": {
+          "title": "高级讲师（副教授）",
+          "specialism": "生物动力学的计算建模，尤其是大脑",
+          "department": "计算机科学与电子工程学院",
+          "institution": "萨里大学"
+        }
+      }
     },
     {
       "id": "alireza-tamaddoni-nezhad",
@@ -69,7 +115,15 @@
       "specialism": "Explainable AI, symbolic and logic-based machine learning",
       "department": "School of Computer Science and Electronic Engineering",
       "institution": "University of Surrey",
-      "profileUrl": "https://www.surrey.ac.uk/people/alireza-tamaddoni-nezhad"
+      "profileUrl": "https://www.surrey.ac.uk/people/alireza-tamaddoni-nezhad",
+      "translations": {
+        "zh": {
+          "title": "机器学习与计算智能Reader（副教授）",
+          "specialism": "可解释人工智能、符号与逻辑机器学习",
+          "department": "计算机科学与电子工程学院",
+          "institution": "萨里大学"
+        }
+      }
     },
     {
       "id": "tom-hall",
@@ -78,7 +132,15 @@
       "specialism": "Experimental music, computer music, sound art and music notation",
       "department": "Music and Media",
       "institution": "University of Surrey",
-      "profileUrl": "https://www.surrey.ac.uk/people/tom-hall"
+      "profileUrl": "https://www.surrey.ac.uk/people/tom-hall",
+      "translations": {
+        "zh": {
+          "title": "创意音乐技术高级讲师（副教授）",
+          "specialism": "实验音乐、计算机音乐、声音艺术与音乐记谱",
+          "department": "音乐与媒体",
+          "institution": "萨里大学"
+        }
+      }
     },
     {
       "id": "diptesh-kanojia",
@@ -87,7 +149,15 @@
       "specialism": "Natural language processing and machine learning",
       "department": "School of Computer Science and Electronic Engineering",
       "institution": "University of Surrey",
-      "profileUrl": "https://www.surrey.ac.uk/people/diptesh-kanojia"
+      "profileUrl": "https://www.surrey.ac.uk/people/diptesh-kanojia",
+      "translations": {
+        "zh": {
+          "title": "以人为中心的人工智能高级讲师（副教授）",
+          "specialism": "自然语言处理与机器学习",
+          "department": "计算机科学与电子工程学院",
+          "institution": "萨里大学"
+        }
+      }
     },
     {
       "id": "peng-wang",
@@ -97,7 +167,16 @@
       "department": "School of Computer Science and Electronic Engineering",
       "researchCentre": "Centre for Vision, Speech and Signal Processing (CVSSP)",
       "institution": "University of Surrey",
-      "profileUrl": "https://www.surrey.ac.uk/people/peng-wang-fhea"
+      "profileUrl": "https://www.surrey.ac.uk/people/peng-wang-fhea",
+      "translations": {
+        "zh": {
+          "title": "机器人学讲师（助理教授）",
+          "specialism": "通过数字孪生与人工智能开展机器人感知、学习与协作",
+          "department": "计算机科学与电子工程学院",
+          "researchCentre": "视觉、语音与信号处理中心（CVSSP）",
+          "institution": "萨里大学"
+        }
+      }
     },
     {
       "id": "simon-hadfield",
@@ -107,7 +186,16 @@
       "department": "School of Computer Science and Electronic Engineering",
       "researchCentre": "Centre for Vision, Speech and Signal Processing (CVSSP)",
       "institution": "University of Surrey",
-      "profileUrl": "https://www.surrey.ac.uk/people/simon-hadfield"
+      "profileUrl": "https://www.surrey.ac.uk/people/simon-hadfield",
+      "translations": {
+        "zh": {
+          "title": "机器人视觉与自主系统教授",
+          "specialism": "机器人视觉、自主系统、机器学习与三维计算机视觉",
+          "department": "计算机科学与电子工程学院",
+          "researchCentre": "视觉、语音与信号处理中心（CVSSP）",
+          "institution": "萨里大学"
+        }
+      }
     }
   ]
 }

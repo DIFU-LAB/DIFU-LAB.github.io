@@ -17,7 +17,13 @@
     "treatment": "Natural, light portrait retouching; identity and documentary scene preserved",
     "date": "2026-11-02"
   },
-  "titleZh": "主持剑桥跨学科会议",
-  "descriptionZh": "首届认知科学、计算建模与 AI 跨学科会议于2025年5月9日至10日在剑桥大学举行，由 Di Fu 组织并主持，共有120人参加。",
-  "categoryZh": "会议"
+  "translations": {
+    "zh": {
+      "title": "主持剑桥跨学科会议",
+      "category": "会议",
+      "description": "首届认知科学、计算建模与 AI 跨学科会议于2025年5月9日至10日在剑桥大学举行，由 Di Fu 组织并主持，共有120人参加。",
+      "dateLabel": "2025年5月9-10日",
+      "sourceLabel": "萨里大学"
+    }
+  }
 }

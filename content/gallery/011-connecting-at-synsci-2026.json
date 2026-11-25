@@ -17,7 +17,13 @@
     "treatment": "Natural, light portrait retouching; identity and documentary scene preserved",
     "date": "2026-11-02"
   },
-  "titleZh": "在 SynSci 2026 交流",
-  "descriptionZh": "在格拉斯哥举行的 SynSci - Synergy for Science 2026 卫星会议上与同行研究人员交流。",
-  "categoryZh": "团队活动"
+  "translations": {
+    "zh": {
+      "title": "在 SynSci 2026 交流",
+      "category": "团队活动",
+      "description": "在格拉斯哥举行的 SynSci - Synergy for Science 2026 卫星会议上与同行研究人员交流。",
+      "dateLabel": "2026 年 7 月",
+      "sourceLabel": "Di Fu 的 LinkedIn 主页"
+    }
+  }
 }

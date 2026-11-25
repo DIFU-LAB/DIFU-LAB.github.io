@@ -4,7 +4,7 @@
     "title": "Human-like crossmodal social attention",
     "paperTitle": "A trained humanoid robot can perform human-like crossmodal social attention and conflict resolution",
     "venue": "International Journal of Social Robotics · 2023",
-    "description": "A trained audio-visual saliency model enabled iCub to reproduce human-like attentional responses to gaze and sound cues, including differences between congruent and conflicting signals. Human performance remained superior overall.",
+    "description": "A trained audiovisual saliency model enabled iCub to reproduce human-like attentional responses to gaze and sound cues, including differences between congruent and conflicting signals. Human performance remained superior overall.",
     "paperUrl": "https://doi.org/10.1007/s12369-023-00993-3",
     "videoLabel": "Watch demo",
     "sources": [
@@ -12,14 +12,21 @@
         "provider": "youtube",
         "id": "bjiYEs1x-7E"
       }
-    ]
+    ],
+    "translations": {
+      "zh": {
+        "title": "类人跨模态社会注意",
+        "description": "经过训练的视听显著性模型使iCub能够再现类似人类的注视和声音线索注意反应，包括对一致与冲突信号的不同反应。总体而言，人类表现仍然更优。",
+        "videoLabel": "观看演示"
+      }
+    }
   },
   {
     "id": "social-mirroring",
     "title": "How embodiment shapes social mirroring",
     "paperTitle": "Human Impression of Humanoid Robots Mirroring Social Cues",
     "venue": "ACM/IEEE HRI Companion · 2024",
-    "description": "Two experiments compared affective mirroring by iCub and Pepper and movement mirroring with different iCub control methods. iCub was perceived as more humanlike, while vision-based control produced better movement mirroring than IMU-based control.",
+    "description": "Two experiments compared affective mirroring by iCub and Pepper, and movement mirroring with different iCub control methods. iCub was perceived as more humanlike, while vision-based control produced better movement mirroring than IMU-based control.",
     "paperUrl": "https://doi.org/10.1145/3610978.3640580",
     "videoLabel": "Watch talk",
     "sources": [
@@ -27,7 +34,14 @@
         "provider": "youtube",
         "id": "Qn0xo4JyG9c"
       }
-    ]
+    ],
+    "translations": {
+      "zh": {
+        "title": "具身性如何影响社会模仿",
+        "description": "两项实验比较了 iCub 和 Pepper 的情感模仿，以及采用不同控制方法的 iCub 动作模仿。iCub 被认为更像人；与基于 IMU 的控制相比，基于视觉的控制带来了更好的动作模仿效果。",
+        "videoLabel": "观看演讲"
+      }
+    }
   },
   {
     "id": "robot-cooperation",
@@ -46,7 +60,14 @@
         "provider": "local",
         "src": "/media/research/videos/ro-man-2023-social-cues.mp4"
       }
-    ]
+    ],
+    "translations": {
+      "zh": {
+        "title": "人际-机器人协作中的社会线索",
+        "description": "在三方协作任务中，机器人的积极面部表情提升了协作表现和感知到的机器人智能水平。机器人注视发出指令的人，也提高了感知到的智能水平。",
+        "videoLabel": "观看演讲"
+      }
+    }
   },
   {
     "id": "hri-free",
@@ -61,7 +82,18 @@
       "srcSet": "/media/team/ipDBpiIedoPvpAId.webp 800w, /media/team/DYzFOtkDJyeCwmZC.webp 1200w",
       "width": 1200,
       "height": 675,
-      "alt": "iCub watching a screen of faces beside priority-map, simulation and physical head-eye movement panels"
+      "alt": "iCub watching a screen of faces beside priority-map, simulation and physical head-eye movement panels",
+      "translations": {
+        "zh": {
+          "alt": "iCub 注视屏幕中的人脸，旁为优先图、仿真投射与实体头眼运动画面"
+        }
+      }
+    },
+    "translations": {
+      "zh": {
+        "title": "HRI-Free：评估具身社会注意",
+        "description": "一种认知机器人仿真方法使用iCub和人类注视数据集评估注意模型。该方法支持在物理环境中开展可扩展、可复现的早期评估，减少这一阶段对大规模人类参与者研究的需求。"
+      }
     }
   }
 ]

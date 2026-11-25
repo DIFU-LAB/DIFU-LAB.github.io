@@ -2,7 +2,7 @@
   "collaboration": {
     "title": "Human-human-robot cooperation",
     "alt": "Two people and iCub around a tabletop shape-sorting task with an occluder and response buttons.",
-    "caption": "Two participants and iCub in a shared shape-sorting task, used to investigate how robot gaze and facial expressions shape cooperation and perceptions of intelligence.",
+    "caption": "Two participants and iCub in a cooperation experiment testing how robot social cues affect human-human coordination.",
     "credit": "Experimental photograph provided by Di Fu; Fu et al., IEEE RO-MAN, 2023.",
     "sourceLabel": "HIT research presentation, slide 12",
     "kind": "experiment-photograph",
@@ -12,12 +12,21 @@
     "srcSet": "/media/research/ylCNfpCuQjaUZHQN.webp 800w, /media/research/collaboration.webp 1280w, /media/research/collaboration-full.webp 2000w",
     "fullSrc": "/media/research/collaboration-full.webp",
     "width": 2000,
-    "height": 1500
+    "height": 1500,
+    "translations": {
+      "zh": {
+        "title": "人与人-机器人合作",
+        "alt": "两人和 iCub 围坐在桌边进行图形分类任务，桌上设有遮挡板和响应按钮。",
+        "caption": "两名参与者与 iCub 开展协作实验，检验机器人社会线索如何影响人与人的协调。",
+        "credit": "实验照片由 Di Fu 提供；Fu 等，IEEE RO-MAN，2023。",
+        "sourceLabel": "HIT 研究报告，第 12 页幻灯片"
+      }
+    }
   },
   "humanAttention": {
     "title": "Human audiovisual attention experiment",
-    "alt": "A participant wearing headphones faces three avatars on a screen in an audiovisual attention experiment.",
-    "caption": "A human audiovisual task manipulates the agreement between gaze cues and sound location to study attentional orienting across the senses.",
+    "alt": "A participant wearing headphones faces three screen-based avatars during an audiovisual attention experiment.",
+    "caption": "An audiovisual task tests how gaze and sound location jointly orient human attention.",
     "credit": "Research video cover provided by Di Fu; Fu et al., International Journal of Social Robotics, 2023.",
     "sourceLabel": "IIT keynote, slides 7 and 21",
     "kind": "research-video-cover",
@@ -27,7 +36,16 @@
     "srcSet": "/media/research/ZOOErtZZndXXSsCM.webp 800w, /media/research/humanattention.webp 1280w, /media/research/humanattention-full.webp 1666w",
     "fullSrc": "/media/research/humanattention-full.webp",
     "width": 1666,
-    "height": 944
+    "height": 944,
+    "translations": {
+      "zh": {
+        "title": "人类视听注意实验",
+        "alt": "一名戴着耳机的参与者面向屏幕上的三个虚拟形象，参加一项视听注意实验。",
+        "caption": "视听实验检验注视与声音位置如何共同引导人类注意。",
+        "credit": "研究视频封面由 Di Fu 提供；Fu 等，《International Journal of Social Robotics》，2023。",
+        "sourceLabel": "IIT 主题演讲，第 7 页和第 21 页"
+      }
+    }
   },
   "icubAttention": {
     "title": "Crossmodal social attention on iCub",
@@ -42,12 +60,19 @@
     "srcSet": "/media/research/SCtItIDvQwcuVGZK.webp 800w, /media/research/icubattention.webp 1280w, /media/research/icubattention-full.webp 1920w",
     "fullSrc": "/media/research/icubattention-full.webp",
     "width": 1920,
-    "height": 1080
+    "height": 1080,
+    "translations": {
+      "zh": {
+        "title": "iCub 上的跨模态社会注意",
+        "alt": "无声原始录像：戴着耳机的 iCub 机器人头部注视显示器上三个戴口罩的虚拟人，并在视听注意实验中转动眼球。",
+        "caption": "原始实验录像：iCub 搭载我们训练的视听显著性模型，观看与人类被试相同的戴口罩虚拟人场景，并依据注视与声音线索调整视线。"
+      }
+    }
   },
   "crossmodalModel": {
     "title": "Computational modelling of audiovisual attention",
-    "alt": "Complete computational modelling slide showing social cue representations, directed attention, sequential integration and binaural audiovisual sound localisation.",
-    "caption": "Social cue representations and temporal integration predict attention, while binaural audiovisual modelling connects audio and video inputs to fixation-density predictions. The complete keynote figure is retained, including its original labels.",
+    "alt": "Computational modelling slide showing social-cue representations, directed attention, sequential integration and binaural audiovisual sound localisation.",
+    "caption": "Human behavioural results inform the crossmodal attention model and its iCub implementation.",
     "credit": "Full-slide rendering from Di Fu's IIT keynote, slide 8; Fu et al., International Journal of Social Robotics, 2023.",
     "sourceLabel": "IIT keynote, slide 8",
     "kind": "complete-keynote-model-figure",
@@ -57,11 +82,20 @@
     "srcSet": "/media/research/jtaUiFzgWywVIcqi.webp 800w, /media/research/crossmodalmodel.webp 1280w, /media/research/crossmodalmodel-full.webp 1920w",
     "fullSrc": "/media/research/crossmodalmodel-full.webp",
     "width": 1920,
-    "height": 1080
+    "height": 1080,
+    "translations": {
+      "zh": {
+        "title": "视听注意的计算建模",
+        "alt": "计算建模幻灯片，展示社会线索表征、定向注意、序贯整合，以及双耳视听声音定位。",
+        "caption": "人类行为结果启发跨模态注意模型及其在 iCub 上的实现。",
+        "credit": "Di Fu 在 IIT 主旨演讲第 8 页幻灯片的完整呈现；Fu 等，《International Journal of Social Robotics》，2023。",
+        "sourceLabel": "IIT 主题演讲，第 8 页"
+      }
+    }
   },
   "hriFree": {
     "title": "HRI-Free: physical and simulated evaluation",
-    "alt": "Complete HRI-Free figure with panels A, B and C showing iCub sensing, social cue and gaze-history inputs, priority-map prediction and physical versus simulated views.",
+    "alt": "HRI-Free figure: panels A-C show iCub sensing, social-cue and gaze-history inputs, priority-map predictions, and physical and simulated views.",
     "caption": "HRI-Free evaluates attention models using prerecorded stimuli and human gaze data with physical iCub sensing. This is early-stage evaluation, not live human interaction.",
     "credit": "Fig. 3 from Abawi and Fu, IEEE ICRA, 2025.",
     "sourceLabel": "Abawi and Fu, IEEE ICRA 2025, Fig. 3",
@@ -72,12 +106,21 @@
     "srcSet": "/media/research/XAyfIztSRFHywHMG.webp 800w, /media/research/hrifree.webp 1280w, /media/research/hrifree-full.webp 2560w",
     "fullSrc": "/media/research/hrifree-full.webp",
     "width": 2560,
-    "height": 1045
+    "height": 1045,
+    "translations": {
+      "zh": {
+        "title": "HRI-Free：物理与模拟评估",
+        "alt": "HRI-Free 图示：A-C 面板展示 iCub 的感知输入、社会线索与注视历史输入、优先级图预测，以及实体与模拟视图。",
+        "caption": "HRI-Free 使用预录刺激、人类注视数据及实体 iCub 感知评估注意模型。这是早期评估，并非实时人机交互。",
+        "credit": "图 3 引自 Abawi 和 Fu，IEEE ICRA，2025。",
+        "sourceLabel": "Abawi 和 Fu，IEEE ICRA 2025，图 3"
+      }
+    }
   },
   "hriEvaluation": {
     "title": "Embodied social-attention evaluation",
-    "alt": "Physical iCub facing prerecorded multi-person video beside priority-map, simulation-projection and head-eye-movement panels.",
-    "caption": "Social-attention predictions connect to simulated views and physical iCub head and eye movements while the robot observes prerecorded social video.",
+    "alt": "Physical iCub facing prerecorded multi-person video, beside panels showing a priority map, simulation projection and head-eye movements.",
+    "caption": "Social-attention predictions connect to simulated views and physical iCub head and eye movements as the robot observes prerecorded social video.",
     "credit": "Research image from Di Fu's University of Surrey profile; HRI-Free, IEEE ICRA, 2025.",
     "sourceLabel": "Surrey official profile, 21 May 2025",
     "kind": "official-research-image",
@@ -87,7 +130,16 @@
     "srcSet": "/media/research/FTBmMRgJgJetqjEL.webp 800w, /media/research/hrievaluation.webp 1280w, /media/research/hrievaluation-full.webp 2000w",
     "fullSrc": "/media/research/hrievaluation-full.webp",
     "width": 2000,
-    "height": 1013
+    "height": 1013,
+    "translations": {
+      "zh": {
+        "title": "具身社会注意评估",
+        "alt": "实体iCub面向多人预录视频，旁侧面板展示优先级图、仿真投影及头眼运动。",
+        "caption": "社会注意预测与模拟视角及实体 iCub 的头部和眼动相对应；机器人观察的是预录社会视频。",
+        "credit": "研究图片来源：Di Fu 的萨里大学个人主页；HRI-Free，IEEE ICRA，2025。",
+        "sourceLabel": "萨里大学官方个人简介，2025年5月21日"
+      }
+    }
   },
   "hriPipeline": {
     "title": "HRI-Free scanpath control pipeline",
@@ -102,7 +154,16 @@
     "srcSet": "/media/research/nZFnlOgmNzopEoSG.webp 800w, /media/research/hripipeline.webp 1280w, /media/research/hripipeline-full.webp 2560w",
     "fullSrc": "/media/research/hripipeline-full.webp",
     "width": 2560,
-    "height": 669
+    "height": 669,
+    "translations": {
+      "zh": {
+        "title": "HRI-Free 扫视路径控制流程",
+        "alt": "流程图：采样的视频帧与音频片段输入社会线索检测；注视历史、输出缓冲与时序整合共同预测优先级图，其峰值经坐标转换后送入机器人注视控制器。",
+        "caption": "注视模型流程：从采样视频与音频中检测社会线索，结合注视历史进行时序整合以预测优先级图，其峰值实时驱动机器人的注视。",
+        "credit": "图 2 引自 Abawi 和 Fu，IEEE ICRA，2025。",
+        "sourceLabel": "Abawi 和 Fu，IEEE ICRA 2025，图 2"
+      }
+    }
   },
   "neuroUnfairness": {
     "title": "Neural responses to unfairness to self and others",
@@ -117,6 +178,15 @@
     "srcSet": "/media/research/fGmlfWqZogyVbKPI.webp 800w, /media/research/neurounfairness.webp 1280w, /media/research/neurounfairness-full.webp 2400w",
     "fullSrc": "/media/research/neurounfairness-full.webp",
     "width": 2400,
-    "height": 1854
+    "height": 1854,
+    "translations": {
+      "zh": {
+        "title": "自身与他人遭受不公时的神经反应",
+        "alt": "论文图 9 不公平加工脑区示意图：辅助运动区和背侧前脑岛为自身与他人共同激活，背侧前扣带回和腹侧前脑岛在自身不公时更强；自身评价募集背侧前扣带回/辅助运动区、右侧背外侧前额叶和前脑岛，自身反应募集左侧前脑岛和壳核；他人评价募集左侧顶下小叶-颞顶联合区，他人反应募集左侧背外侧前额叶。",
+        "caption": "社会决策的 fMRI 元分析：自身与他人遭受不公均激活前脑岛和背侧前扣带回/辅助运动区，且自身不公时更强。他人遭受不公在评价阶段募集心理理论相关脑区（顶下小叶-颞顶联合区），在反应阶段募集认知控制相关脑区（左侧背外侧前额叶）。",
+        "credit": "图 9 引自 Li、Lai 等（含 Fu），NeuroImage，2024；CC BY-NC-ND 4.0。",
+        "sourceLabel": "Li 等，NeuroImage 2024，图 9"
+      }
+    }
   }
 }

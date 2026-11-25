@@ -3,7 +3,7 @@
     "enabled": true
   },
   "visitorMap": {
-    "enabled": false,
+    "enabled": true,
     "endpoint": "",
     "showWhenDisabled": false
   },
@@ -20,6 +20,8 @@
     "namespace": "difulab.org",
     "key": "seil-lab-opt-in-sessions-v1",
     "hosts": [
+      "difulab.com",
+      "www.difulab.com",
       "difulab.org",
       "www.difulab.org",
       "difu-lab.github.io"

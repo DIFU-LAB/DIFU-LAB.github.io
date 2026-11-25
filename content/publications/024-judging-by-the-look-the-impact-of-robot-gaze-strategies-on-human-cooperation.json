@@ -45,5 +45,10 @@
       "recordId": "209961816"
     }
   ],
-  "notes": "Contribution to the RO-MAN 2022 Machine Learning for HRI workshop; available as an arXiv preprint."
+  "notes": "Contribution to the RO-MAN 2022 Machine Learning for HRI workshop; available as an arXiv preprint.",
+  "translations": {
+    "zh": {
+      "notes": "对 RO-MAN 2022 Machine Learning for HRI workshop 的贡献；以 arXiv 预印本形式提供。"
+    }
+  }
 }

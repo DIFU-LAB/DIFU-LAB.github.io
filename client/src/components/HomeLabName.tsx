@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { sailMarkPaths, sailMarkViewBox } from "@/lib/sailMark";
@@ -56,7 +57,8 @@ function SailRopeMark({ className = "" }: { className?: string }) {
 }
 
 export function HomeLabName() {
-  const { t, language } = useLanguage();
+  const { t } = useTranslation();
+  const { language } = useLanguage();
 
   return (
     <section

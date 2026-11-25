@@ -12,6 +12,12 @@
         "image": {
           "src": "/media/home/framework/gestures-480-035000dd.webp",
           "srcSet": "/media/home/framework/gestures-240-2c9ca89b.webp 240w, /media/home/framework/gestures-480-035000dd.webp 480w"
+        },
+        "translations": {
+          "zh": {
+            "label": "手势",
+            "alt": "iCub 视角下围坐虚拟桌旁做手势的虚拟人"
+          }
         }
       },
       {
@@ -22,6 +28,12 @@
         "image": {
           "src": "/media/home/framework/gaze-480-196f81d5.webp",
           "srcSet": "/media/home/framework/gaze-240-a77c5f04.webp 240w, /media/home/framework/gaze-480-196f81d5.webp 480w"
+        },
+        "translations": {
+          "zh": {
+            "label": "注视",
+            "alt": "跨模态注意研究中，iCub 面对屏幕上的三个虚拟人"
+          }
         }
       },
       {
@@ -32,6 +44,12 @@
         "image": {
           "src": "/media/home/framework/facial-expressions-480-b3c4df26.webp",
           "srcSet": "/media/home/framework/facial-expressions-240-8f9c138b.webp 240w, /media/home/framework/facial-expressions-480-b3c4df26.webp 480w"
+        },
+        "translations": {
+          "zh": {
+            "label": "面部表情",
+            "alt": "两人进行形状分类任务，iCub 呈现面部表情"
+          }
         }
       },
       {
@@ -42,6 +60,12 @@
         "image": {
           "src": "/media/home/framework/mirroring-480-02017d4c.webp",
           "srcSet": "/media/home/framework/mirroring-240-86a98820.webp 240w, /media/home/framework/mirroring-480-02017d4c.webp 480w"
+        },
+        "translations": {
+          "zh": {
+            "label": "行为模仿",
+            "alt": "一名参与者面对 Pepper，iCub 在旁"
+          }
         }
       },
       {
@@ -52,9 +76,20 @@
         "image": {
           "src": "/media/home/framework/personality-480-fbb5cd63.webp",
           "srcSet": "/media/home/framework/personality-240-579e4188.webp 240w, /media/home/framework/personality-480-fbb5cd63.webp 480w"
+        },
+        "translations": {
+          "zh": {
+            "label": "人格",
+            "alt": "一名参与者与 NAO 机器人进行触控桌游戏"
+          }
         }
       }
-    ]
+    ],
+    "translations": {
+      "zh": {
+        "title": "社会线索"
+      }
+    }
   },
   "methods": {
     "number": "02",
@@ -68,6 +103,12 @@
         "image": {
           "src": "/media/home/framework/behavioural-tasks-480-c8181805.webp",
           "srcSet": "/media/home/framework/behavioural-tasks-240-a52b1c71.webp 240w, /media/home/framework/behavioural-tasks-480-c8181805.webp 480w"
+        },
+        "translations": {
+          "zh": {
+            "label": "行为任务",
+            "alt": "一名戴耳机的参与者完成视听注意任务"
+          }
         }
       },
       {
@@ -78,6 +119,12 @@
         "image": {
           "src": "/media/home/framework/eye-tracking-480-56ea9eb8.webp",
           "srcSet": "/media/home/framework/eye-tracking-240-ec47c82f.webp 240w, /media/home/framework/eye-tracking-480-56ea9eb8.webp 480w"
+        },
+        "translations": {
+          "zh": {
+            "label": "眼动追踪",
+            "alt": "眼动眼镜记录的人机协作任务画面"
+          }
         }
       },
       {
@@ -88,6 +135,12 @@
         "image": {
           "src": "/media/home/framework/modelling-480-e11f2928.webp",
           "srcSet": "/media/home/framework/modelling-240-fc60b0be.webp 240w, /media/home/framework/modelling-480-e11f2928.webp 480w"
+        },
+        "translations": {
+          "zh": {
+            "label": "深度学习​建模",
+            "alt": "多模态扫描路径预测模型架构"
+          }
         }
       },
       {
@@ -98,6 +151,12 @@
         "image": {
           "src": "/media/home/framework/datasets-480-ce8f9ad4.webp",
           "srcSet": "/media/home/framework/datasets-240-d9a89f20.webp 240w, /media/home/framework/datasets-480-ce8f9ad4.webp 480w"
+        },
+        "translations": {
+          "zh": {
+            "label": "数据集",
+            "alt": "人机交互录制场景上的注视热图"
+          }
         }
       },
       {
@@ -108,14 +167,31 @@
         "image": {
           "src": "/media/home/framework/middleware-480-40df1dc0.webp",
           "srcSet": "/media/home/framework/middleware-240-c6d0177e.webp 240w, /media/home/framework/middleware-480-40df1dc0.webp 480w"
+        },
+        "translations": {
+          "zh": {
+            "label": "中间件",
+            "alt": "由 ROS 2、ZeroMQ 与 YARP 连接的分布式机器人注视流程"
+          }
         }
       }
-    ]
+    ],
+    "translations": {
+      "zh": {
+        "title": "研究方法"
+      }
+    }
   },
   "core": {
     "number": "03",
     "title": "Crossmodal integration",
-    "description": "Combines social cues across modalities to infer social states and drive robot behaviour."
+    "description": "Combines social cues across modalities to infer social states and drive robot behaviour.",
+    "translations": {
+      "zh": {
+        "title": "跨模态整合",
+        "description": "整合跨模态社会线索，推断社会状态，驱动机器人行为。"
+      }
+    }
   },
   "outcomes": {
     "number": "04",
@@ -124,23 +200,57 @@
       {
         "id": "human-like",
         "title": "Human-like social behaviour",
-        "description": "Robots that understand and respond to rich social cues."
+        "description": "Robots that understand and respond to rich social cues.",
+        "translations": {
+          "zh": {
+            "title": "类人社会行为",
+            "description": "机器人能够理解并回应丰富的社会线索。"
+          }
+        }
       },
       {
         "id": "natural-hri",
         "title": "Natural human-robot interaction",
-        "description": "Smoother, more intuitive interaction in real settings."
+        "description": "Smoother, more intuitive interaction in real settings.",
+        "translations": {
+          "zh": {
+            "title": "自然的人机交互",
+            "description": "在真实场景中实现更流畅、更直观的交互。"
+          }
+        }
       },
       {
         "id": "grounded-ai",
         "title": "Psychologically grounded embodied AI",
-        "description": "Built on rigorous experiments and cognitive principles."
+        "description": "Built on rigorous experiments and cognitive principles.",
+        "translations": {
+          "zh": {
+            "title": "以心理学为基础的具身智能",
+            "description": "建立在严谨实验与认知原理之上。"
+          }
+        }
       },
       {
         "id": "impact",
         "title": "Broad impact",
-        "description": "Applications in healthcare, education and assistive robotics."
+        "description": "Applications in healthcare, education and assistive robotics.",
+        "translations": {
+          "zh": {
+            "title": "广泛影响",
+            "description": "应用于医疗、教育与辅助机器人领域。"
+          }
+        }
       }
-    ]
+    ],
+    "translations": {
+      "zh": {
+        "title": "成果与影响"
+      }
+    }
+  },
+  "translations": {
+    "zh": {
+      "title": "跨模态人机交互中的社会线索整合"
+    }
   }
 }

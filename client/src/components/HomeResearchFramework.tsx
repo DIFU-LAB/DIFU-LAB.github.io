@@ -1,3 +1,5 @@
+import { ResponsiveImage } from "@/components/ResponsiveImage";
+import { useTranslation } from "react-i18next";
 import {
   ArrowDown,
   ArrowRight,
@@ -58,7 +60,7 @@ function ColumnHeading({
   title: string;
   inverse?: boolean;
 }) {
-  const { t } = useLanguage();
+  
   return (
     <div
       className={`flex items-baseline gap-3 border-b pb-3 mb-4 ${
@@ -77,14 +79,14 @@ function ColumnHeading({
           inverse ? "text-white" : "text-[#1B2A4A]"
         }`}
       >
-        {t(title)}
+        {title}
       </h3>
     </div>
   );
 }
 
 function ImageRows({ items }: { items: readonly FrameworkItem[] }) {
-  const { t } = useLanguage();
+  const { c } = useLanguage();
   return (
     <ul className="space-y-3">
       {items.map(item => {
@@ -99,14 +101,14 @@ function ImageRows({ items }: { items: readonly FrameworkItem[] }) {
                 className="shrink-0 text-[#8B1A1A]"
               />
               <span className="text-[15px] font-semibold leading-snug text-[#1B2A4A] [word-break:keep-all]">
-                {t(item.label)}
+                {c(item, "label")}
               </span>
             </div>
-            <img
+            <ResponsiveImage
               src={item.image.src}
               srcSet={item.image.srcSet}
               sizes="(min-width: 1280px) 104px, (min-width: 1024px) 96px, 132px"
-              alt={t(item.alt)}
+              alt={c(item, "alt")}
               width={480}
               height={320}
               loading="lazy"
@@ -133,26 +135,27 @@ function Connector() {
 }
 
 export function HomeResearchFramework() {
-  const { t } = useLanguage();
+  const { t } = useTranslation();
+  const { c } = useLanguage();
   const { inputs, methods, core, outcomes } = homeFramework;
 
   return (
     <ScrollReveal direction="up" duration={600} className="mt-14 lg:mt-16">
       <figure id="core-research-framework">
         <figcaption className="font-heading text-2xl lg:text-3xl text-[#1B2A4A] leading-tight mb-8 max-w-3xl">
-          {t(homeFramework.title)}
+          {c(homeFramework, "title")}
         </figcaption>
 
         <div className="grid grid-cols-1 lg:grid-cols-[1.15fr_auto_1.15fr_auto_0.75fr_auto_0.95fr] gap-4 lg:gap-3 items-stretch">
           <div className="border-2 border-[#1B2A4A]/70 bg-white p-5 lg:p-4 xl:p-5">
-            <ColumnHeading number={inputs.number} title={inputs.title} />
+            <ColumnHeading number={inputs.number} title={c(inputs, "title")} />
             <ImageRows items={inputs.items} />
           </div>
 
           <Connector />
 
           <div className="border-2 border-[#1B2A4A]/70 bg-white p-5 lg:p-4 xl:p-5">
-            <ColumnHeading number={methods.number} title={methods.title} />
+            <ColumnHeading number={methods.number} title={c(methods, "title")} />
             <ImageRows items={methods.items} />
           </div>
 
@@ -161,7 +164,7 @@ export function HomeResearchFramework() {
           <div className="border-2 border-[#1B2A4A] bg-[#1B2A4A] text-white p-5 lg:p-4 xl:p-5 flex flex-col">
             <ColumnHeading
               number={core.number}
-              title="Core mechanism"
+              title={t("Core mechanism")}
               inverse
             />
             <div className="flex-1 flex flex-col items-center justify-center text-center gap-5 py-6">
@@ -172,10 +175,10 @@ export function HomeResearchFramework() {
                 className="text-[#E8B4AE]"
               />
               <p className="font-heading text-2xl leading-tight">
-                {t(core.title)}
+                {c(core, "title")}
               </p>
               <p className="text-sm leading-relaxed text-white/80">
-                {t(core.description)}
+                {c(core, "description")}
               </p>
             </div>
           </div>
@@ -183,7 +186,7 @@ export function HomeResearchFramework() {
           <Connector />
 
           <div className="border-2 border-[#1B2A4A]/70 bg-white p-5 lg:p-4 xl:p-5">
-            <ColumnHeading number={outcomes.number} title={outcomes.title} />
+            <ColumnHeading number={outcomes.number} title={c(outcomes, "title")} />
             <ul className="divide-y divide-[#1B2A4A]/10">
               {outcomes.items.map(item => {
                 const Icon = outcomeIcons[item.id] ?? Brain;
@@ -200,10 +203,10 @@ export function HomeResearchFramework() {
                     />
                     <div>
                       <p className="text-[15px] font-semibold leading-snug text-[#1B2A4A]">
-                        {t(item.title)}
+                        {c(item, "title")}
                       </p>
                       <p className="mt-1 text-sm leading-relaxed text-[#4A5568]">
-                        {t(item.description)}
+                        {c(item, "description")}
                       </p>
                     </div>
                   </li>

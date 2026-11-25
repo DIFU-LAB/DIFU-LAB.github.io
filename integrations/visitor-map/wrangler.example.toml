@@ -1,9 +1,16 @@
 name = "seil-visitor-map"
 main = "worker.mjs"
 compatibility_date = "2026-01-01"
+workers_dev = true
 [vars]
-ALLOWED_ORIGINS = "https://difulab.com"
+ALLOWED_ORIGINS = "https://difulab.com,https://www.difulab.com,https://difulab.org,https://www.difulab.org,https://difu-lab.github.io"
 [[d1_databases]]
 binding = "DB"
 database_name = "seil-visitors"
 database_id = "REPLACE_WITH_D1_DATABASE_ID"
+[triggers]
+crons = ["17 3 * * *"]
+[[ratelimits]]
+name = "VISIT_LIMITER"
+namespace_id = "1001"
+simple = { limit = 20, period = 60 }

@@ -1,0 +1,131 @@
+{
+  "title": "Cognition-Inspired Social Intelligence",
+  "subtitle": "Human cognition, computational models and interaction",
+  "introduction": "We investigate the cognitive mechanisms underlying human social perception and multimodal cue integration, develop computational models of these mechanisms, and translate them into socially intelligent robots and conversational AI systems. Through human-AI interaction, we seek both to advance artificial social intelligence and to test and refine theories of human social cognition.",
+  "caption": "A reciprocal, synthetic approach: mechanisms of human social cognition are formalised as computational models that generate human-like social behaviour in artificial agents. How people perceive and interact with these agents provides a controlled yet ecologically valid test of both the models and the cognitive theories behind them.",
+  "pillars": [
+    {
+      "id": "human-social-cognition",
+      "number": "01",
+      "title": "Neurocognitive Mechanisms of Social Cognition",
+      "shortTitle": "Human Social Cognition",
+      "focus": "Understand human mechanisms",
+      "homeSummary": "Investigate how social attention, crossmodal integration and cognitive control shape human social behaviour.",
+      "description": "Behavioural and neural experiments reveal how people select and integrate social cues.",
+      "keywords": [
+        "Social attention",
+        "Crossmodal integration",
+        "Cognitive control"
+      ],
+      "themeIds": [
+        "crossmodal-social-cues",
+        "social-attention"
+      ],
+      "translations": {
+        "zh": {
+          "title": "社会认知的心理与神经机制",
+          "shortTitle": "人类社会认知",
+          "homeSummary": "探究社会注意、跨模态整合和认知控制如何塑造人类社会行为。",
+          "description": "通过行为与神经实验，探究人类如何选择并整合社会线索。"
+        }
+      }
+    },
+    {
+      "id": "human-inspired-modelling",
+      "number": "02",
+      "title": "Human-Inspired Computational Modelling & AI",
+      "shortTitle": "Computational Modelling & AI",
+      "focus": "Formalise and predict",
+      "homeSummary": "Translate human mechanisms and behavioural evidence into computational models and learning systems for cognition-inspired AI.",
+      "description": "Human data constrain computational models, which turn cognitive accounts into testable predictions and robot behaviour.",
+      "keywords": [
+        "Computational models",
+        "Crossmodal learning",
+        "Embodied AI"
+      ],
+      "themeIds": [
+        "embodied-ai"
+      ],
+      "translations": {
+        "zh": {
+          "title": "人类启发的计算建模与 AI",
+          "shortTitle": "计算建模与人工智能",
+          "homeSummary": "将人类机制和行为证据转化为计算模型与学习系统，推动认知启发的 AI。",
+          "description": "人类数据约束计算模型，把认知理论转化为可检验的预测和机器人行为。"
+        }
+      }
+    },
+    {
+      "id": "robotic-simulation-interaction",
+      "number": "03",
+      "title": "Robotic Simulation & Human-Agent Interaction",
+      "shortTitle": "Simulation & Interaction",
+      "focus": "Implement, evaluate and refine",
+      "homeSummary": "Test models through robotic simulation and human-robot or human-AI interaction, using new evidence to refine models and cognitive hypotheses.",
+      "description": "Models drive robot behaviour in simulation and live studies, where we measure how people perceive, trust and cooperate with robots and AI.",
+      "keywords": [
+        "Robotic simulation",
+        "Human-robot cooperation",
+        "Human-AI interaction"
+      ],
+      "themeIds": [
+        "social-robotics",
+        "human-ai-interaction"
+      ],
+      "translations": {
+        "zh": {
+          "title": "机器人仿真与人-智能体交互",
+          "shortTitle": "仿真与交互",
+          "homeSummary": "通过机器人模拟以及人机或人与 AI 互动检验模型，并利用新证据完善模型和认知假设。",
+          "description": "模型在仿真和真人实验中驱动机器人行为，我们据此测量人们如何感知、信任机器人与人工智能，并与之合作。"
+        }
+      }
+    }
+  ],
+  "connections": [
+    {
+      "from": "human-social-cognition",
+      "to": "human-inspired-modelling",
+      "label": "Mechanistic constraints",
+      "description": "Behavioural and neural evidence constrains the architecture and parameters of computational models.",
+      "translations": {
+        "zh": {
+          "label": "机制约束",
+          "description": "行为与神经证据约束计算模型的结构与参数。"
+        }
+      }
+    },
+    {
+      "from": "human-inspired-modelling",
+      "to": "robotic-simulation-interaction",
+      "label": "Embodied implementation",
+      "description": "Models are implemented on robots and conversational agents, generating human-like social behaviour under controlled conditions.",
+      "translations": {
+        "zh": {
+          "label": "具身实现",
+          "description": "模型部署于机器人与对话智能体，在受控条件下生成类人的社会行为。"
+        }
+      }
+    },
+    {
+      "from": "robotic-simulation-interaction",
+      "to": "human-social-cognition",
+      "label": "Interactive validation & new hypotheses",
+      "description": "Interaction studies test whether model-driven behaviour is perceived as socially meaningful, validating the models and generating new hypotheses about human social cognition.",
+      "translations": {
+        "zh": {
+          "label": "交互验证与新假设",
+          "description": "交互研究检验模型驱动的行为能否被人类感知为具有社会意义，从而验证模型，并为人类社会认知研究提出新假设。"
+        }
+      }
+    }
+  ],
+  "translations": {
+    "zh": {
+      "title": "认知启发的社会智能",
+      "subtitle": "人类认知、计算模型与交互实验",
+      "introduction": "我们研究人类社会知觉与多模态线索整合背后的认知机制，构建这些机制的计算模型，并将其转化为具有社会智能的机器人与对话式人工智能系统。通过人与人工智能的交互研究，我们既推动人工社会智能的发展，也检验并完善人类社会认知的理论。",
+      "caption": "相互促进的闭环研究路径：我们将人类社会认知的加工机制形式化为计算模型，使人工智能体产生类人的社会行为；人们在交互中如何感知并回应这些智能体，又为模型及其背后的认知理论提供兼具实验控制与生态效度的检验。"
+    }
+  }
+}

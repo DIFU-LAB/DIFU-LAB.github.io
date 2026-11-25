@@ -1,9 +1,7 @@
 {
   "id": "unique-video-slug",
   "title": "English video title",
-  "titleZh": "中文视频标题",
   "description": "English description",
-  "descriptionZh": "中文说明",
   "poster": "",
   "captionsEn": "",
   "captionsZh": "",
@@ -14,5 +12,11 @@
       "src": "",
       "page": 1
     }
-  ]
+  ],
+  "translations": {
+    "zh": {
+      "title": "中文视频标题",
+      "description": "中文说明"
+    }
+  }
 }

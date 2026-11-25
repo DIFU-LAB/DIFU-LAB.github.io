@@ -49,5 +49,10 @@
       "recordId": "209961814"
     }
   ],
-  "notes": "First published online in 2020; assigned to the 2021 journal issue."
+  "notes": "First published online in 2020; assigned to the 2021 journal issue.",
+  "translations": {
+    "zh": {
+      "notes": "2020 年首次在线发表；编入 2021 年期刊卷期。"
+    }
+  }
 }

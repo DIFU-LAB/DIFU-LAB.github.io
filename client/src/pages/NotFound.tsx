@@ -1,8 +1,10 @@
+import { useTranslation } from "react-i18next";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Link } from "wouter";
 
 export default function NotFound() {
-  const { t, language } = useLanguage();
+  const { t } = useTranslation();
+  const { language } = useLanguage();
 
   return (
     <div className="min-h-screen bg-[#FFFFFF] flex items-center justify-center pt-20">

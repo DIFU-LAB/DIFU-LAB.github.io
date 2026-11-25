@@ -1,3 +1,5 @@
+import { ResponsiveImage } from "@/components/ResponsiveImage";
+import { useTranslation } from "react-i18next";
 import React, { type ReactNode } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { getDiStory, normalizeStoryDashes } from "@/lib/diStory";
@@ -47,10 +49,11 @@ export function renderStoryInline(text: string): ReactNode[] {
 }
 
 export default function DiStory() {
+  const { t } = useTranslation();
   const { language } = useLanguage();
   // Page eyebrow matching other pages' headers; literal, not dictionary-based,
   // so the author's story text never passes through translation.
-  const eyebrow = language === "zh" ? "关于 Di" : "About Di";
+  const eyebrow = t("About Di");
   const story = getDiStory(language);
   // Split the author's title at its first colon into a headline and subtitle.
   // The colon stays in the DOM (visually hidden) so the h1 text is verbatim.
@@ -109,8 +112,8 @@ export default function DiStory() {
               duration={450}
               className="float-left w-32 h-32 sm:w-44 sm:h-44 lg:w-60 lg:h-60 mr-5 lg:mr-8 mb-4 overflow-hidden rounded-sm bg-stone-50 group/portrait"
             >
-              <img
-                src={diProfile.photo}
+              <ResponsiveImage
+                src={diProfile.photo} loading="eager" sizes="(min-width: 1024px) 240px, (min-width: 640px) 176px, 128px"
                 alt="Dr Di Fu"
                 className="w-full h-full object-cover motion-safe:transition-transform motion-safe:duration-200 motion-safe:ease-[cubic-bezier(0.23,1,0.32,1)] motion-safe:group-hover/portrait:scale-[1.04]"
               />

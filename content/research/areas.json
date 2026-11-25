@@ -21,14 +21,28 @@
       {
         "title": "What computational models can learn from human selective attention",
         "label": "Review · 2020",
-        "url": "https://doi.org/10.3389/fnint.2020.00010"
+        "url": "https://doi.org/10.3389/fnint.2020.00010",
+        "translations": {
+          "zh": {
+            "title": "计算模型能从人类选择性注意中学到什么",
+            "label": "综述 · 2020"
+          }
+        }
       },
       {
         "title": "A neurorobotic experiment for crossmodal conflict resolution",
         "label": "IEEE/RSJ IROS · 2018",
         "url": "https://doi.org/10.1109/IROS.2018.8594036"
       }
-    ]
+    ],
+    "translations": {
+      "zh": {
+        "title": "跨模态社会线索整合",
+        "summary": "人们如何整合注视、面部表情、手势和语音，尤其是在不同感官通道的社会线索一致或冲突时？",
+        "question": "跨感官的社会线索如何整合并影响我们的感知与反应？",
+        "description": "社会信号很少只经由单一感官传递。我们研究注视、面部表情、手势与语音何时被整合、何时相互竞争，在行为实验中操控其空间与语义一致性，并据此构建多感官注意的计算模型。"
+      }
+    }
   },
   {
     "id": "social-robotics",
@@ -64,14 +78,22 @@
         "label": "IEEE RO-MAN · 2023",
         "url": "https://doi.org/10.1109/RO-MAN57019.2023.10309321"
       }
-    ]
+    ],
+    "translations": {
+      "zh": {
+        "title": "人机交互与合作",
+        "summary": "机器人的社会线索与具身性如何影响人机交互、共同任务以及人与机器人之间的合作？",
+        "question": "机器人的社会线索如何影响合作、信任以及人们对机器人的评价？",
+        "description": "我们在双人与多人任务中操控机器人的注视、面部表情、声音、模仿与人格特征，测量合作、服从、信任与感知智能等指标；认知机器人仿真则让我们在开展被试实验之前评估机器人行为。"
+      }
+    }
   },
   {
     "id": "human-ai-interaction",
     "number": "03",
     "title": "Human-AI Interaction",
     "summary": "How do people experience and respond to AI, and how should emotional context and individual differences inform its behaviour?",
-    "question": "What makes interaction with AI appropriate to the person, the emotional context and the purpose of the interaction?",
+    "question": "What makes interaction with AI appropriate to the person, emotional context and purpose?",
     "description": "Beyond robots, we study voice assistants, conversational agents and LLM chatbots: how people respond to affective cues, how human strategies and user traits can inform emotion-aware, personalised design, and what AI-mediated social connection means for wellbeing.",
     "tags": [
       "Conversational agents",
@@ -95,13 +117,21 @@
         "label": "ACM/IEEE HRI · 2026",
         "url": "https://doi.org/10.1145/3757279.3788802"
       }
-    ]
+    ],
+    "translations": {
+      "zh": {
+        "title": "人与人工智能交互",
+        "summary": "人们如何体验人工智能并对其作出反应？情绪情境和个体差异应如何影响人工智能的行为？",
+        "question": "如何使人与人工智能的交互适合参与者、情绪情境和交互目的？",
+        "description": "在机器人之外，我们研究语音助手、对话智能体与大语言模型聊天机器人：人们如何回应情感线索，人类应答策略与用户特质如何指导具有情绪感知能力的个性化设计，以及 AI 介导的社会连接对身心福祉意味着什么。"
+      }
+    }
   },
   {
     "id": "social-attention",
     "number": "04",
     "title": "Mechanisms of Social Cognition",
-    "summary": "What makes a face, a gaze direction or a face-like object capture and guide attention-and which mechanisms explain that effect?",
+    "summary": "What makes a face, a gaze direction or a face-like object capture and guide attention - and which mechanisms explain that effect?",
     "question": "Which cognitive and neural mechanisms allow us to detect, attend to and evaluate social information?",
     "description": "We examine how faces, face-like patterns and gaze capture and orient attention, how cognitive control resolves conflict, and how fairness and empathy shape social evaluation, combining behavioural experiments, EEG and neuroimaging.",
     "tags": [
@@ -129,9 +159,22 @@
       {
         "title": "From ambiguous object to illusory faces: EEG decoding reveals a dynamic cascade of face pareidolia",
         "label": "Under review · 2025",
-        "url": "https://doi.org/10.1101/2025.09.10.675272"
+        "url": "https://doi.org/10.1101/2025.09.10.675272",
+        "translations": {
+          "zh": {
+            "label": "审稿中 · 2025"
+          }
+        }
       }
-    ]
+    ],
+    "translations": {
+      "zh": {
+        "title": "社会认知机制",
+        "summary": "是什么使面孔、注视方向或类面孔物体捕获并引导注意？哪些机制可以解释这一效应？",
+        "question": "我们依靠哪些认知与神经机制来觉察、注意并评价社会信息？",
+        "description": "我们研究面孔、似脸图案与注视如何捕获并引导注意，认知控制如何化解冲突，以及公平与共情如何塑造社会评价，综合运用行为实验、脑电与神经影像方法。"
+      }
+    }
   },
   {
     "id": "embodied-ai",
@@ -160,7 +203,12 @@
       {
         "title": "Unified dynamic scanpath predictors outperform individually trained models",
         "label": "Preprint",
-        "url": "https://arxiv.org/abs/2405.02929"
+        "url": "https://arxiv.org/abs/2405.02929",
+        "translations": {
+          "zh": {
+            "label": "预印本"
+          }
+        }
       },
       {
         "title": "A trained humanoid robot can perform human-like crossmodal social attention and conflict resolution",
@@ -177,6 +225,14 @@
         "label": "IJCNN · 2018",
         "url": "https://doi.org/10.1109/IJCNN.2018.8489303"
       }
-    ]
+    ],
+    "translations": {
+      "zh": {
+        "title": "具身智能",
+        "summary": "如何将以人类行为为基础的模型转化为具身系统，并在物理交互中检验其感知与行动？",
+        "question": "如何让基于人类认知的模型赋予人工智能体类人的感知与社会行为？",
+        "description": "我们基于人类数据构建注意、视觉扫描路径与跨模态学习模型，并探讨以人为中心的情感人工智能，如疼痛识别。注意模型用于驱动机器人注视，并在仿人机器人与认知机器人仿真中接受评估。"
+      }
+    }
   }
 ]

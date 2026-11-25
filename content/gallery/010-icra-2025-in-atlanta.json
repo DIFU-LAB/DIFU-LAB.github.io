@@ -17,7 +17,12 @@
     "treatment": "Natural, light portrait retouching; identity and documentary scene preserved",
     "date": "2026-11-02"
   },
-  "titleZh": "亚特兰大的 ICRA 2025",
-  "descriptionZh": "Di Fu 在亚特兰大参加 ICRA 2025，介绍 HRI-Free，并共同主持“人机交互感知”专题。",
-  "categoryZh": "会议"
+  "translations": {
+    "zh": {
+      "title": "亚特兰大的 ICRA 2025",
+      "category": "会议",
+      "description": "Di Fu 在亚特兰大参加 ICRA 2025，介绍 HRI-Free，并共同主持“人机交互感知”专题。",
+      "sourceLabel": "Di Fu 的 LinkedIn 主页"
+    }
+  }
 }

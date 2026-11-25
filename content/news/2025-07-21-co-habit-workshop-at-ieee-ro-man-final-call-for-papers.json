@@ -2,7 +2,7 @@
   "id": 30008,
   "linkedinUrl": "https://www.linkedin.com/posts/doreen-jirak-84640b246_co-habit-workshop-call-for-paper-activity-7353126073015885827-x0qn",
   "title": "CO-HABIT Workshop at IEEE RO-MAN: Final Call for Papers",
-  "excerpt": "A call shared by co-organiser Doreen Jirak invited work on explainable AI, trust and human-centred interaction for the CO-HABIT Workshop at IEEE RO-MAN 2025. This is an archived call for papers.",
+  "excerpt": "A call shared by co-organiser Doreen Jirak invited work on explainable AI, trust and human-centred interaction for the CO-HABIT Workshop at IEEE RO-MAN 2025. Archived call for papers.",
   "content": null,
   "imageUrl": "/media/news/30008.webp",
   "publishedAt": "2025-07-21T18:17:50.000Z",
@@ -13,8 +13,17 @@
     "sourceName": "LinkedIn",
     "sourceKind": "linkedin",
     "dateBasis": "post",
-    "dateValue": "2025-07-21T18:17:50.255Z"
+    "dateValue": "2025-07-21T18:17:50.255Z",
+    "translations": {
+      "zh": {
+        "category": "机会"
+      }
+    }
   },
-  "titleZh": "IEEE RO-MAN上的CO-HABIT研讨会：论文征集最后通知",
-  "excerptZh": "联合组织者 Doreen Jirak 分享的征稿启事，邀请研究者为 IEEE RO-MAN 2025 的 CO-HABIT Workshop 投稿，主题包括可解释人工智能、信任和以人为中心的交互。此征稿启事已存档。"
+  "translations": {
+    "zh": {
+      "title": "IEEE RO-MAN上的CO-HABIT研讨会：论文征集最后通知",
+      "excerpt": "联合组织者 Doreen Jirak 分享的征稿启事，邀请研究者为 IEEE RO-MAN 2025 的 CO-HABIT Workshop 投稿，主题包括可解释人工智能、信任和以人为中心的交互。此征稿启事已存档。"
+    }
+  }
 }

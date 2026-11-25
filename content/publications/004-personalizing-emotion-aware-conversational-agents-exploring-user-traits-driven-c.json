@@ -72,5 +72,10 @@
       "recordId": "209961806"
     }
   ],
-  "notes": "Published in 2026; the 2025 preprint is linked below."
+  "notes": "Published in 2026; the 2025 preprint is linked below.",
+  "translations": {
+    "zh": {
+      "notes": "发表于2026年；下方提供2025年预印本链接。"
+    }
+  }
 }

@@ -6,7 +6,7 @@ All flags are in `content/site/services.json`. The site works without a backend 
 |---|---|---|
 | YouTube | enabled, consent required | local poster and direct external video link; no iframe or thumbnail request before consent |
 | Bilibili | enabled, separate consent required | local poster and direct external video link; no iframe before consent |
-| Abacus visit counter | enabled on production hosts, consent required | count section disappears; no request |
+| Abacus visit counter | fallback when no Worker is configured, consent required | count section disappears; no request |
 | Visitor map | disabled until a real endpoint is configured | map section hidden by default, or retain a static outline with `showWhenDisabled: true`; no invented visitor counts |
 | Analytics (Umami-compatible script) | disabled | no script loaded; no layout change |
 | Latin fonts | build-time local download | same font families served locally; no optional browser provider |
@@ -28,40 +28,37 @@ The first consented request uses the documented `/hit/{namespace}/{key}` endpoin
 
 The provider documents a rate limit of 30 requests per 10 seconds per IP and expiry after six months without access. Public increments can be abused; the service provides no contractual uptime or accuracy guarantee. It is suitable for indicative public website traffic, not authoritative analytics. Review third-party data processing with your institution before retaining the enabled setting. If you need country-level statistics or the original world map, configure the separate map service below.
 
-## Visitor map
+## Visitor map: Cloudflare-managed Workers + D1
 
-The original app used a database and IP lookup. GitHub Pages cannot execute that code. The original SVG world-map component, layout, stats and marker animations are retained, with a small JSON adapter instead of tRPC. Configure an independent HTTPS service returning the contract below, or deploy the included Cloudflare Workers + D1 example. The worker is not deployed automatically, and historical visitor data was not exported. It starts with an empty database. Never place secrets in `content/site/services.json`.
+GitHub Pages cannot execute a database backend. Cloudflare runs the Worker and persistent D1 database without a server to host or maintain. The free plans currently provide 100,000 Worker requests/day and D1 quotas of 5 million rows read/day and 100,000 rows written/day; limits and availability can change. [Workers limits](https://developers.cloudflare.com/workers/platform/limits/) · [D1 pricing](https://developers.cloudflare.com/d1/platform/pricing/). No API key is exposed in the browser. The website remains on GitHub Pages. Abacus is the fallback only until the Worker endpoint is configured; the two counters are never used together.
 
-### Deploy the example
+### One-time deployment (required)
 
-Use a Cloudflare account and Wrangler CLI (`npx wrangler`), then:
+1. In Cloudflare, create a D1 database named `seil-visitors` under Workers & Pages / D1. Copy its database UUID. Enable your `workers.dev` subdomain if prompted.
+2. In GitHub repository Settings → Secrets and variables → Actions, create secrets `CLOUDFLARE_API_TOKEN` (account-scoped Workers Scripts Edit and D1 Edit permissions) and `CLOUDFLARE_ACCOUNT_ID`, and repository variable `CLOUDFLARE_D1_DATABASE_ID` with the database UUID. Never put tokens in JSON or source control.
+3. Run the **Deploy Cloudflare visitor map** workflow manually in Actions. It applies the idempotent schema and deploys `seil-visitor-map`. Copy the HTTPS Worker URL printed in the job output.
+4. Verify the deployed service, substituting the real URL: `curl -H 'Origin: https://difulab.com' https://YOUR-WORKER.workers.dev/summary`. A new database returns zero counts and empty arrays, not example numbers.
+5. Set the GitHub Actions repository variable `VITE_VISITOR_MAP_ENDPOINT` to that URL (no `/summary` suffix). Alternatively put the public HTTPS URL in `content/site/services.json` under `visitorMap.endpoint`. Run the Pages workflow again. The map activates after consent on the configured production hosts. Update `ALLOWED_ORIGINS` in `wrangler.example.toml` and `visitorCounter.hosts` in the JSON if the site domain changes.
+
+Manual deployment alternative:
 
 ```sh
 cd integrations/visitor-map
-npx wrangler d1 create seil-visitors
+npx --yes wrangler@4 login
+npx --yes wrangler@4 d1 create seil-visitors
 cp wrangler.example.toml wrangler.toml
-# Insert the returned database ID and allowed site origin(s) into wrangler.toml.
-npx wrangler d1 execute seil-visitors --remote --file=schema.sql
-npx wrangler deploy
+# Replace REPLACE_WITH_D1_DATABASE_ID with the real UUID.
+npx --yes wrangler@4 d1 execute seil-visitors --remote --file=schema.sql
+npx --yes wrangler@4 deploy
 ```
 
-Set `ALLOWED_ORIGINS` to comma-separated exact origins (e.g. `https://difulab.com,https://yourname.github.io`), with no path/trailing slash. Set `visitorMap.endpoint` to the resulting HTTPS Worker URL (without `/visit` or `/summary`) and `visitorMap.enabled` to true. The visitor map appears after consent unless `showWhenDisabled` is true. It fetches `/summary` on load and every minute. For public use, consider Cloudflare rate limiting and bot protection. CORS is not a strong anti-abuse/authentication boundary; the public write endpoint can be abused if unprotected. Review retention and privacy obligations with your institution before enabling.
+This patch cannot provision an account-owned endpoint without Cloudflare credentials. It is deployment-ready, not a claim that a Worker is already running. No historical visits are invented or imported from Abacus. The map will start accumulating new real counts after activation.
 
-The example uses a random local visitor identifier only after consent, hashes it at the worker, and records a coarse approximate location from Cloudflare request metadata (rounded to whole degrees), plus a half-hour bucket. Raw IP, URL, user-agent and email are not written to D1. Cloudflare receives request IP and may have its own logging policies. Public point data require at least two distinct browser identifiers in a location; counts represent opted-in browser identifiers, not verified unique people. Revoking consent removes the local identifier and stops requests; it does not retroactively erase aggregate records. Configure deletion/retention policy and privacy contact before production use. The older server counted hashed IPs, so new stats are not directly comparable.
+### Counting and privacy
 
-Adapter contract: `POST /visit` accepts `{ "visitorId": "UUID" }`; `GET /summary` returns:
+`POST /visit` takes `{ "visitorId": "UUID" }`; `GET /summary` returns `{ "visits": 0, "countries": 0, "topCountries": [], "points": [] }`. Countries use `{countryCode, visits}` and points use `{latitude, longitude, visits}`. Counts are consented fixed 30-minute browser sessions, not unique people or page views. A new session ID is generated per time bucket and deduplicated atomically in D1. Cloudflare provides approximate geolocation; coordinates are rounded to 5-degree grid cells. Cells with fewer than three recorded sessions are not displayed. The top country list shows up to eight countries. No raw IP, exact position, user agent or URL is stored in D1. Fingerprints expire after two days and aggregate totals persist. Consent withdrawal stops tracking and removes the browser session ID; it does not remove prior aggregate counts. Previously stored consent choices are reviewed again for new providers. Cloudflare processes network metadata, and the institution should review the processing, privacy notice and retention policy.
 
-```json
-{
-  "visitors": 0,
-  "visits": 0,
-  "countries": 0,
-  "topCountries": [],
-  "points": []
-}
-```
-
-`topCountries` rows are `{countryCode, visitors}`; `points` rows are `{latitude, longitude, visitors}`. Replace the endpoint with another service implementing this contract if preferred. Network errors do not affect other content. A static map without live data can be enabled using `showWhenDisabled`.
+The Worker rejects unapproved origins, obvious bots and malformed/oversized requests, and has rate limiting. These measures reduce abuse but do not prove visits came from humans. The public endpoint is not an authenticated analytics dashboard. Summaries are edge-cached for two minutes and refreshed by the browser every five minutes when visible; a temporary network failure never invents counts. A static map outline may be enabled with `showWhenDisabled`.
 
 ## Optional analytics
 

@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useEffect } from "react";
 import {
@@ -29,7 +30,8 @@ const themeLinkClass =
 // The loop: 01 -> 02 -> 03 -> back to 01. Stage cards are a map of the page;
 // each theme links to its full description below.
 export function ResearchFramework() {
-  const { t } = useLanguage();
+  const { t } = useTranslation();
+  const { c } = useLanguage();
   const { pillars, connections } = researchFramework;
   const forward = connections.filter(
     connection => connection.to !== pillars[0].id
@@ -84,7 +86,7 @@ export function ResearchFramework() {
                       href={`#${pillar.id}`}
                       className="font-heading text-2xl lg:text-[1.75rem] leading-tight text-[#1B2A4A] hover:text-[#8B1A1A] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#8B1A1A]"
                     >
-                      {t(pillar.shortTitle)}
+                      {c(pillar, "shortTitle")}
                     </a>
                     <ul className="mt-4 space-y-2.5 text-base leading-snug">
                       {pillar.themeIds.map(themeId => {
@@ -94,7 +96,7 @@ export function ResearchFramework() {
                         return theme ? (
                           <li key={themeId}>
                             <a href={`#${theme.id}`} className={themeLinkClass}>
-                              {t(theme.title)}
+                              {c(theme, "title")}
                             </a>
                           </li>
                         ) : null;
@@ -112,7 +114,7 @@ export function ResearchFramework() {
                         className="lg:hidden shrink-0 text-[#8B1A1A]"
                       />
                       <span className="text-sm lg:text-[0.9375rem] font-semibold leading-snug text-[#1B2A4A]">
-                        {t(next.label)}
+                        {c(next, "label")}
                       </span>
                       <ArrowRight
                         size={22}
@@ -141,7 +143,7 @@ export function ResearchFramework() {
                 className="absolute -top-[17px] -left-[10px] text-[#8B1A1A]"
               />
               <span className="absolute left-1/2 top-full -translate-x-1/2 -translate-y-1/2 bg-white px-4 text-sm lg:text-[0.9375rem] font-semibold text-[#1B2A4A] whitespace-nowrap">
-                {t(feedback.label)}
+                {c(feedback, "label")}
               </span>
             </div>
           </div>
@@ -151,7 +153,7 @@ export function ResearchFramework() {
           >
             <Undo2 size={18} className="shrink-0 text-[#8B1A1A]" />
             <span>
-              {t(feedback.label)} - {t("back to 01")}
+              {c(feedback, "label")} - {t("back to 01")}
             </span>
           </div>
 
@@ -165,16 +167,16 @@ export function ResearchFramework() {
                 const to = pillars.find(pillar => pillar.id === connection.to);
                 return (
                   <li key={`${connection.from}-${connection.to}`}>
-                    {t(from?.shortTitle ?? "")} {t("to")}{" "}
-                    {t(to?.shortTitle ?? "")}: {t(connection.label)}.{" "}
-                    {t(connection.description)}
+                    {c(from, "shortTitle")} {t("to")}{" "}
+                    {c(to, "shortTitle")}: {c(connection, "label")}.{" "}
+                    {c(connection, "description")}
                   </li>
                 );
               })}
             </ul>
           </div>
           <figcaption className="mt-6 lg:mt-5 mx-auto max-w-3xl text-center text-base leading-relaxed text-[#4A5568]">
-            {t(researchFramework.caption)}
+            {c(researchFramework, "caption")}
           </figcaption>
         </figure>
       </section>

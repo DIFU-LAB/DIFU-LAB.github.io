@@ -13,8 +13,17 @@
     "sourceName": "LinkedIn",
     "sourceKind": "linkedin",
     "dateBasis": "post",
-    "dateValue": "2026-03-17T23:28:41.460Z"
+    "dateValue": "2026-03-17T23:28:41.460Z",
+    "translations": {
+      "zh": {
+        "category": "演讲与活动"
+      }
+    }
   },
-  "titleZh": "HRI 2026 第二届 InterAI 研讨会：以人为中心的具身化",
-  "excerptZh": "Di Fu 与其他组织者共同举办第二届 InterAI Workshop，汇聚人机交互领域的研究者，讨论具身性、负责任的机器人技术及灵活的人机协作。"
+  "translations": {
+    "zh": {
+      "title": "HRI 2026 第二届 InterAI 研讨会：以人为中心的具身化",
+      "excerpt": "Di Fu 与其他组织者共同举办第二届 InterAI Workshop，汇聚人机交互领域的研究者，讨论具身性、负责任的机器人技术及灵活的人机协作。"
+    }
+  }
 }

@@ -2,7 +2,7 @@
   "id": 30003,
   "linkedinUrl": "https://www.linkedin.com/posts/di-fu-1307a86a_gameresearch-psychologystudy-universityofsurrey-activity-7358915588401897473-upEV",
   "title": "Invitation to Take Part in Beyza’s Game Research Study",
-  "excerpt": "Di Fu shared an invitation to participate in MSc student Beyza’s game research experiment, following her own experience as its first participant. This is an archived recruitment announcement.",
+  "excerpt": "Di Fu shared an invitation to take part in MSc student Beyza’s game research experiment, after being its first participant herself. Archived recruitment announcement.",
   "content": null,
   "imageUrl": "/media/news/30003.webp",
   "publishedAt": "2025-08-06T17:43:18.000Z",
@@ -13,8 +13,17 @@
     "sourceName": "LinkedIn",
     "sourceKind": "linkedin",
     "dateBasis": "post",
-    "dateValue": "2025-08-06T17:43:18.276Z"
+    "dateValue": "2025-08-06T17:43:18.276Z",
+    "translations": {
+      "zh": {
+        "category": "机会"
+      }
+    }
   },
-  "titleZh": "邀请参与 Beyza 的游戏研究",
-  "excerptZh": "Di Fu 分享了硕士生 Beyza 的游戏研究实验招募信息；她本人曾是首位参与者。此招募公告已存档。"
+  "translations": {
+    "zh": {
+      "title": "邀请参与 Beyza 的游戏研究",
+      "excerpt": "Di Fu 分享了硕士生 Beyza 的游戏研究实验招募信息；她本人曾是首位参与者。此招募公告已存档。"
+    }
+  }
 }

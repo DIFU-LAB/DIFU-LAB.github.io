@@ -73,9 +73,30 @@ film_path=content/'pages/home/film.json'
 validate_video(film_path,records.get(film_path,{}),field='alternatives')
 for p in public.rglob('*'):
  if p.is_file() and p.stat().st_size>=100*1024*1024:fail(p,'exceeds GitHub 100 MiB file limit')
-for p in (content/'translations').glob('*.json'):
- for k,v in records.get(p,{}).items():
-  if not isinstance(v,dict) or not all(isinstance(v.get(lang),str) for lang in ('en','zh')):fail(p,'invalid translation '+k[:40])
+def check_translations(p, value):
+ if isinstance(value,list):
+  for item in value:check_translations(p,item)
+ elif isinstance(value,dict):
+  if 'translations' in value:
+   translations=value['translations']
+   if not isinstance(translations,dict):fail(p,'translations must be an object keyed by language ID')
+   else:
+    for lang,fields in translations.items():
+     if not re.fullmatch(r'[a-z]{2,3}(?:-[A-Za-z0-9]+)*',lang) or not isinstance(fields,dict):fail(p,'invalid translation language '+lang);continue
+     for k,v in fields.items():
+      if k not in value or not isinstance(v,str) or not (isinstance(value[k],str) or value[k] is None):fail(p,'invalid translated text field '+lang+'.'+k)
+  for k,v in value.items():
+   if k!='translations':check_translations(p,v)
+for p,v in records.items():
+ if 'provenance' not in p.parts and 'translations' not in p.parts:check_translations(p,v)
+locales=root/'translations/locales'
+try:
+ en=json.loads((locales/'en.json').read_text()); zh=json.loads((locales/'zh-CN.json').read_text())
+ if set(en)!=set(zh):fail(locales,'English and Chinese UI catalog keys must match')
+ for lang,items in [('en',en),('zh-CN',zh)]:
+  for k,v in items.items():
+   if not isinstance(v,str) or not v.strip():fail(locales/(lang+'.json'),'empty UI translation '+k)
+except (OSError,ValueError) as exc:fail(locales,str(exc))
 for p in (root/'client/src').rglob('*'):
  if p.suffix not in ('.ts','.tsx','.css'):continue
  t=p.read_text()
@@ -87,7 +108,7 @@ for key,cfg in records.get(content/'site/services.json',{}).items():
  if not isinstance(cfg.get('enabled'),bool):fail(content/'site/services.json',key+' enabled must be boolean')
  if cfg.get('enabled') and key in ('analytics','visitorMap'):
   field='scriptUrl' if key=='analytics' else 'endpoint'
-  if not cfg.get(field,'').startswith('https://'):fail(content/'site/services.json',key+' requires HTTPS '+field)
+  if not cfg.get(field,'').startswith('https://') and not (key=='visitorMap' and not cfg.get(field)):fail(content/'site/services.json',key+' requires HTTPS '+field)
   if key=='analytics' and not cfg.get('websiteId'):fail(content/'site/services.json','analytics requires websiteId')
  if key=='visitorCounter' and cfg.get('enabled'):
   for field in ('namespace','key'):

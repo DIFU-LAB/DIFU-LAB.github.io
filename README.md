@@ -30,7 +30,8 @@ Open the relevant file on GitHub, click the pencil icon, edit and commit (prefer
 | Change the keynote and chapters | [`content/research/keynote.json`](content/research/keynote.json) |
 | Change the home film or alternate video hosts | [`content/pages/home/film.json`](content/pages/home/film.json) |
 | Add a team member or change a portrait | [`content/team/groups.json`](content/team/groups.json) |
-| Edit a page's text or translation | [`content/translations/`](content/translations/) |
+| Edit content translations | Each content record’s `translations` object |
+| Edit UI translations | [`translations/locales/`](translations/locales/) |
 | Edit home images, framework or hero | [`content/pages/home/`](content/pages/home/) |
 | Edit About Di | [`content/pages/about-di/`](content/pages/about-di/) |
 | Edit research themes, figures and framework | [`content/research/`](content/research/) |
@@ -46,9 +47,8 @@ Use [`content/templates/news.json.example`](content/templates/news.json.example)
 {
   "id": "2026-11-25-new-paper",
   "title": "Our new paper has been accepted",
-  "titleZh": "我们的新论文已被接收",
   "excerpt": "A short summary of the announcement.",
-  "excerptZh": "新闻简介。",
+  "translations": {"zh": {"title": "我们的新论文已被接收", "excerpt": "新闻简介。"}},
   "content": "",
   "imageUrl": "",
   "publishedAt": "2026-11-25T12:00:00Z",
@@ -68,11 +68,9 @@ Replace the sample URL and text. For a picture, upload it to `client/public/medi
 {
   "id": "lab-meeting-2026",
   "title": "Lab meeting",
-  "titleZh": "实验室组会",
   "description": "Members discussing their latest experiments.",
-  "descriptionZh": "成员讨论最新实验。",
+  "translations": {"zh": {"title": "实验室组会", "description": "成员讨论最新实验。", "category": "实验室生活"}},
   "category": "Lab life",
-  "categoryZh": "实验室生活",
   "image": "/media/gallery/lab-meeting.webp",
   "width": 1600,
   "height": 1200,
@@ -123,9 +121,8 @@ Create `content/videos/001-your-video.json` using [`content/templates/videos.jso
 {
   "id": "robot-demo",
   "title": "Robot attention demo",
-  "titleZh": "机器人注意演示",
   "description": "Our attention model in action.",
-  "descriptionZh": "注意模型演示。",
+  "translations": {"zh": {"title": "机器人注意演示", "description": "注意模型演示。"}},
   "poster": "/media/research/videos/robot-demo.webp",
   "captionsEn": "/media/research/videos/robot-demo-en.vtt",
   "captionsZh": "",
@@ -163,31 +160,39 @@ For a new team member, add an object to the desired group's `members` array in `
 
 The `photo` is optional. Use `role` to override the group's role. Upload portraits into `client/public/media/team/`. Edit other team data in `robots.json` and `collaborations.json`.
 
-For existing text, open the corresponding dictionary in `content/translations/`. Change the `en` and `zh` **values**, not the lookup key. For new data text, add an entry using the exact English string as the key. For news, gallery and video records, direct Chinese fields such as `titleZh` and `descriptionZh` are preferred. If a Chinese translation is absent, English is shown instead.
+### Translating content and interface
+
+Content text is kept next to its record. The canonical fields are English. Add a language ID and translated field names under `translations`, including on nested objects:
 
 ```json
 {
-  "Join the lab": {
-    "en": "Join our research group",
-    "zh": "加入我们的研究团队"
+  "title": "Join the lab",
+  "description": "Applications are welcome.",
+  "translations": {
+    "zh": {"title": "加入实验室", "description": "欢迎申请。"}
   }
 }
 ```
 
-This is one entry, not a replacement for the full dictionary. `content/pages/about-di/story.json` contains independent full-length English and Chinese stories. For new page layouts, create a component under `client/src/pages/`, register the route in `client/src/App.tsx`, add a translation dictionary to `LanguageContext.tsx`, update `scripts/routes.mjs` as needed, and add a link to `content/site/navigation.json`. Navigation changes alone do not create a new page.
+`c(record, "title")` automatically selects the current language's override and falls back to English if absent. Keep IDs, dates, URLs, media paths and citation metadata canonical. `content/pages/about-di/story.json` retains its independently authored language versions. Do not use old `titleZh` or global content dictionaries for new records.
+
+UI labels follow TeXlyre: `useTranslation()` and `t("English source key")`, with flat locale files `translations/locales/en.json` and `zh-CN.json`. Interpolation uses `{{variable}}`. `client/src/i18n.ts` registers languages, and `translations/locales.config.json` documents IDs and direction. Add another locale to both when expanding the UI, then expose it in the language selector. Content supports arbitrary language IDs with English fallback. The local CMS exposes the two UI catalogs for value edits; when adding UI keys, update both files together and run `pnpm validate`. The old `content/translations/` dictionaries are retired and no longer read by the app; they can be deleted after applying this update.
+
+For new page layouts, create a component under `client/src/pages/`, register its route in `client/src/App.tsx`, add UI strings to both catalogs, update `scripts/routes.mjs` as needed, and add a link to `content/site/navigation.json`.
 
 ## 6. Media and services
 
-Use lowercase descriptive filenames, keep files in purpose-specific folders, and use `/media/...` paths (not `client/public/media/...`) in content. Images should be appropriately compressed WebP/JPEG/PNG, videos MP4 or WebM, captions VTT. Keep files below GitHub's 100 MiB single-file limit; use provider alternatives for larger videos. Do not store site-served media in Git LFS. Upload assets before saving records referencing them. Deleting a record does not delete its assets automatically because other pages might use them.
+Use lowercase descriptive filenames, keep files in purpose-specific folders, and use `/media/...` paths (not `client/public/media/...`) in content. Images should be appropriately compressed WebP/JPEG/PNG, videos MP4 or WebM, captions VTT. Keep files below GitHub's 100 MiB single-file limit; use provider alternatives for larger videos. Do not store site-served media in Git LFS. Upload assets before saving records referencing them. Publishing generates content-addressed WebP variants at up to six widths (320–2400 px), preserves originals and explicit image families, and lets the browser select via `srcset`/`sizes`. The CI media cache avoids regeneration. Route-level splitting and a bounded service-worker cache for immutable images and JS/CSS reduce repeat loading; HTML, video, analytics and visitor summaries are never stored by the service worker. Deleting a record does not delete its assets automatically because other pages might use them.
 
-External integrations are in `content/site/services.json`. YouTube and Bilibili embeds can be individually disabled. The free Abacus counter is enabled for `difulab.com`, `www.difulab.com` and `difu-lab.github.io` only, after consent. It counts opted-in browser tab sessions approximately, not unique visitors or locations. It requires no account or API key. The optional geographical map remains available with a separate endpoint and consent. See [SERVICES.md](SERVICES.md) for settings, limitations and privacy information. The rest of the site works without any optional external service.
+External integrations are in `content/site/services.json`. YouTube and Bilibili embeds can be individually disabled. The free Abacus counter is enabled for `difulab.com`, `www.difulab.com` and `difu-lab.github.io` only, after consent. It counts opted-in browser tab sessions approximately, not unique visitors or locations. It requires no account or API key. Once the Cloudflare Worker endpoint is configured, the geographical map replaces Abacus as the sole public visitor count. It requires its own consent. See [SERVICES.md](SERVICES.md) for settings, limitations and privacy information. The rest of the site works without any optional external service.
 
 ## 7. Preview, validate and publish
 
-Requirements for a local site preview: Node.js 22, pnpm 10.4.1 (Corepack), Python 3.10+, Git and an internet connection for dependency/font downloads.
+Requirements for a local site preview: Node.js 22, pnpm 10.4.1 (Corepack), Python 3.10+ with Pillow, Git and an internet connection for dependency/font downloads.
 
 ```sh
 corepack enable
+python3 -m pip install Pillow==12.3.0
 pnpm install --frozen-lockfile
 pnpm dev          # preview website; open the URL printed by Vite
 pnpm cms          # optional: run in another terminal

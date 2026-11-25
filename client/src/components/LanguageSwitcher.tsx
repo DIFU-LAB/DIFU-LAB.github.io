@@ -1,10 +1,12 @@
+import { useTranslation } from "react-i18next";
 import { useLanguage } from "@/contexts/LanguageContext";
 export function LanguageSwitcher() {
+  const { t } = useTranslation();
   const { language, setLanguage } = useLanguage();
   return (
     <div
       role="group"
-      aria-label={language === "zh" ? "选择语言" : "Choose language"}
+      aria-label={t("Choose language")}
       className="flex shrink-0 items-center gap-1 text-sm font-medium"
     >
       <button

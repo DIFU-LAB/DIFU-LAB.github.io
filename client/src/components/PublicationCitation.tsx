@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { useEffect, useRef, useState } from "react";
 import { Copy, Download, Quote } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -17,7 +18,8 @@ import {
 } from "@/lib/publicationCitation";
 
 export default function PublicationCitation({ work }: { work: Publication }) {
-  const { t, language } = useLanguage();
+  const { t } = useTranslation();
+  const { language } = useLanguage();
   const [open, setOpen] = useState(false);
   const [status, setStatus] = useState<"copied" | "fallback" | null>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);

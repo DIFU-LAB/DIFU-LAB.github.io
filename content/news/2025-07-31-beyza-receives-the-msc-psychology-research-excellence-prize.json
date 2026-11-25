@@ -13,8 +13,17 @@
     "sourceName": "LinkedIn",
     "sourceKind": "linkedin",
     "dateBasis": "post",
-    "dateValue": "2025-07-31T21:14:23.620Z"
+    "dateValue": "2025-07-31T21:14:23.620Z",
+    "translations": {
+      "zh": {
+        "category": "实验室动态"
+      }
+    }
   },
-  "titleZh": "Beyza荣获心理学硕士研究卓越奖",
-  "excerptZh": "Di Fu 祝贺其硕士论文学生 Beyza Akyıldız-Greenhalgh 获得萨里大学 2025 年心理学硕士夏季会议的研究优秀奖。"
+  "translations": {
+    "zh": {
+      "title": "Beyza荣获心理学硕士研究卓越奖",
+      "excerpt": "Di Fu 祝贺其硕士论文学生 Beyza Akyıldız-Greenhalgh 获得萨里大学 2025 年心理学硕士夏季会议的研究优秀奖。"
+    }
+  }
 }

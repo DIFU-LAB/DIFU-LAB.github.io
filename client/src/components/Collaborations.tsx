@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { ArrowUpRight } from "lucide-react";
 import { ScrollReveal } from "@/components/ScrollReveal";
@@ -11,7 +12,8 @@ const linkStyle =
   "inline-flex items-baseline gap-1.5 text-[#1B2A4A] hover:text-[#8B1A1A] underline decoration-[#CBD5E1] underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#8B1A1A]";
 
 function CollaboratorList({ people }: { people: AcademicCollaborator[] }) {
-  const { t, language } = useLanguage();
+  const { t } = useTranslation();
+  const { language, c } = useLanguage();
 
   return (
     <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-12 lg:gap-x-16">
@@ -36,29 +38,29 @@ function CollaboratorList({ people }: { people: AcademicCollaborator[] }) {
                 </a>
               </h3>
               <p className="text-sm text-[#8B1A1A] font-medium leading-relaxed mb-3">
-                {t(person.title)}
+                {c(person, "title")}
               </p>
               <dl className="text-sm text-[#4A5568] leading-relaxed space-y-2">
                 <div>
                   <dt className="sr-only">{t("Research expertise")}</dt>
-                  <dd className="inline">{t(person.specialism)}</dd>
+                  <dd className="inline">{c(person, "specialism")}</dd>
                 </div>
                 <div>
                   <dt className="sr-only">{t("Affiliation")}</dt>
                   <dd>
                     {person.researchCentre && (
                       <span>
-                        {t(person.researchCentre)}
+                        {c(person, "researchCentre")}
                         <br />
                       </span>
                     )}
                     {person.department && (
                       <span>
-                        {t(person.department)}
+                        {c(person, "department")}
                         <br />
                       </span>
                     )}
-                    <span>{t(person.institution)}</span>
+                    <span>{c(person, "institution")}</span>
                   </dd>
                 </div>
               </dl>
@@ -71,7 +73,8 @@ function CollaboratorList({ people }: { people: AcademicCollaborator[] }) {
 }
 
 export default function Collaborations() {
-  const { t, language } = useLanguage();
+  const { t } = useTranslation();
+  const { language, c } = useLanguage();
 
   return (
     <div className="mt-16 lg:mt-20 space-y-16 lg:space-y-20">
@@ -134,7 +137,7 @@ export default function Collaborations() {
                   <span className="text-[#1B2A4A]">{group.name}</span>
                 )}
                 {group.lead && <span> ({group.lead})</span>}
-                {group.institution && <span>, {t(group.institution)}</span>}
+                {group.institution && <span>, {c(group, "institution")}</span>}
               </li>
             ))}
           </ul>

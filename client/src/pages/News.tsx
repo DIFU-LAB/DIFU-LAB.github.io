@@ -1,3 +1,5 @@
+import { ResponsiveImage } from "@/components/ResponsiveImage";
+import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import { newsItems as localNews } from "@/lib/news";
 import { ArrowUpRight } from "lucide-react";
@@ -11,7 +13,8 @@ import {
 } from "@shared/news";
 
 export default function News() {
-  const { t, language } = useLanguage();
+  const { t } = useTranslation();
+  const { language, c } = useLanguage();
   const linkedinNews = localNews;
   const [selectedYear, setSelectedYear] = useState<number | null>(null);
   const years = Array.from(
@@ -122,9 +125,9 @@ export default function News() {
                     >
                       {item.imageUrl && (
                         <div className="aspect-[16/10] bg-[#F1F3F5] overflow-hidden mb-6">
-                          <img
-                            src={item.imageUrl}
-                            alt={(language === "zh" && item.titleZh ? item.titleZh : t(item.title))}
+                          <ResponsiveImage
+                            src={item.imageUrl} sizes="(min-width: 1280px) 560px, (min-width: 768px) 46vw, calc(100vw - 48px)"
+                            alt={(c(item, "title"))}
                             loading="lazy"
                             decoding="async"
                             className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-[1.02]"
@@ -133,7 +136,7 @@ export default function News() {
                       )}
                       <div className="flex flex-wrap items-center justify-between gap-3 text-xs mb-4">
                         <span className="uppercase tracking-[0.12em] text-[#8B1A1A] font-medium">
-                          {t(source?.category ?? "News")}
+                          {source ? c(source, "category") : t("News")}
                         </span>
                         <time
                           dateTime={date.dateTime}
@@ -143,12 +146,12 @@ export default function News() {
                         </time>
                       </div>
                       <h2 className="text-2xl lg:text-3xl text-[#1B2A4A] leading-tight group-hover:text-[#8B1A1A] transition-colors">
-                        {(language === "zh" && item.titleZh ? item.titleZh : t(item.title))}
+                        {(c(item, "title"))}
                       </h2>
                       <p className="text-sm text-[#4A5568] leading-relaxed mt-4">
                         {item.excerpt
-                          ? (language === "zh" && item.excerptZh ? item.excerptZh : t(item.excerpt))
-                          : t(item.content || "").substring(0, 180)}
+                          ? (c(item, "excerpt"))
+                          : c(item, "content").substring(0, 180)}
                       </p>
                       <span className="inline-flex items-center gap-2 text-sm text-[#8B1A1A] mt-5">
                         {t(sourceCta)} <ArrowUpRight size={14} />
@@ -164,7 +167,7 @@ export default function News() {
                     {(source?.sourceKind === "university" ||
                       source?.sourceKind === "workshop") && (
                       <p className="text-xs text-[#64748B] mt-3">
-                        {t("Source:")} {t(source.sourceName)}
+                        {t("Source:")} {c(source, "sourceName")}
                       </p>
                     )}
                   </article>

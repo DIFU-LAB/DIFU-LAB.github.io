@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { useMemo } from "react";
 import { useVisitorCounter } from "@/services/visitorCounter";
 import { useVisitorSummary } from "@/services/visitor";
@@ -36,7 +37,8 @@ export function markerRadius(visitors: number, maxVisitors: number) {
 }
 
 export function VisitorMap() {
-  const { t, language } = useLanguage();
+  const { t } = useTranslation();
+  const { language } = useLanguage();
   const consent=useConsent();
   const sessionCount = useVisitorCounter();
   const { data, isLoading, isError } = useVisitorSummary();
@@ -52,26 +54,26 @@ export function VisitorMap() {
   }, [locale]);
 
   const points = data?.points ?? [];
-  const maxVisitors = points.reduce((max, p) => Math.max(max, p.visitors), 1);
+  const maxVisitors = points.reduce((max, p) => Math.max(max, p.visits), 1);
   const lab = projectToMap(LAB_LOCATION.latitude, LAB_LOCATION.longitude);
-  const ready = !isLoading && !isError && data;
+  const ready = data;
   const formatCount = (value: number | undefined) =>
     ready && typeof value === "number" ? numberFormat.format(value) : "-";
   const countryName = (code: string) => regionNames?.of(code) ?? code;
 
   const mapLabel = ready
-    ? `${t("Visitor map")}: ${numberFormat.format(data.visitors)} ${t("Visitors")}, ${numberFormat.format(data.countries)} ${t("Countries and regions")}`
+    ? `${t("Visitor map")}: ${numberFormat.format(data.visits)} ${t("Visits")}, ${numberFormat.format(data.countries)} ${t("Countries and regions")}`
     : t("Visitor map");
 
   const showMap = services.visitorMap.showWhenDisabled || consent.allowed.visitorMap;
   if (!showMap) {
     if (sessionCount === undefined) return null;
-    return <section id="visitor-map" aria-label={language === "zh" ? "访问统计" : "Website visits"} className="py-12 lg:py-16 bg-white border-t border-[#E2E8F0]">
+    return <section id="visitor-map" aria-label={t("Website visits")} className="py-12 lg:py-16 bg-white border-t border-[#E2E8F0]">
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
         <ScrollReveal direction="up" duration={600}>
           <div className="flex flex-wrap items-center justify-between gap-5">
-            <div><h2 className="text-3xl lg:text-4xl text-[#1B2A4A] font-heading">{language === "zh" ? "网站访问" : "Website visits"}</h2>
-              <p className="mt-2 text-sm text-[#64748B]">{language === "zh" ? "网站访客数" : "Number of visitors"}</p></div>
+            <div><h2 className="text-3xl lg:text-4xl text-[#1B2A4A] font-heading">{t("Website visits")}</h2>
+              <p className="mt-2 text-sm text-[#64748B]">{t("Opt-in browser sessions")}</p></div>
             <div className="text-4xl text-[#1B2A4A] font-heading tabular-nums" data-visitor-stat="sessions">{numberFormat.format(sessionCount)}</div>
           </div>
         </ScrollReveal>
@@ -94,14 +96,15 @@ export function VisitorMap() {
               {t("Visitors around the world")}
             </h2>
 
+            <p className="mt-3 text-sm text-[#64748B]">{t("Opt-in visits (30-minute sessions)")}</p>
             <dl className="mt-8 grid grid-cols-2 gap-6 border-t border-[#E2E8F0] pt-6">
               <div>
-                <dt className="text-sm text-[#64748B]">{t("Visitors")}</dt>
+                <dt className="text-sm text-[#64748B]">{t("Visits")}</dt>
                 <dd
-                  data-visitor-stat="visitors"
+                  data-visitor-stat="visits"
                   className="mt-1 text-4xl text-[#1B2A4A] font-heading tabular-nums"
                 >
-                  {formatCount(data?.visitors)}
+                  {formatCount(data?.visits)}
                 </dd>
               </div>
               <div>
@@ -117,7 +120,8 @@ export function VisitorMap() {
               </div>
             </dl>
 
-            {!ready && <p className="mt-4 text-sm text-[#64748B]">{language === "zh" ? "访客统计暂不可用。" : "Visitor statistics are currently unavailable."}</p>}
+            {isError && ready && <p className="mt-4 text-sm text-[#64748B]">{t("Showing last available statistics.")}</p>}
+            {!ready && <p className="mt-4 text-sm text-[#64748B]">{isLoading ? t("Loading visitor statistics…") : t("Visitor statistics are currently unavailable.")}</p>}
             {ready && data.topCountries.length > 0 && (
               <div className="mt-8">
                 <h3 className="font-sans text-[11px] uppercase tracking-[0.15em] font-semibold text-[#64748B]">
@@ -125,11 +129,8 @@ export function VisitorMap() {
                 </h3>
                 <ol className="mt-3 space-y-2" data-visitor-top-countries>
                   {data.topCountries.map(item => {
-                    const share = data.visitors
-                      ? Math.max(
-                          4,
-                          Math.round((item.visitors / data.visitors) * 100)
-                        )
+                    const share = data.visits
+                      ? (item.visits / data.visits) * 100
                       : 0;
                     return (
                       <li
@@ -139,7 +140,7 @@ export function VisitorMap() {
                         <div className="flex items-baseline justify-between gap-4">
                           <span>{countryName(item.countryCode)}</span>
                           <span className="tabular-nums text-[#1B2A4A]">
-                            {numberFormat.format(item.visitors)}
+                            {numberFormat.format(item.visits)}
                           </span>
                         </div>
                         <div
@@ -185,12 +186,13 @@ export function VisitorMap() {
                     point.latitude,
                     point.longitude
                   );
-                  const r = markerRadius(point.visitors, maxVisitors);
+                  const r = markerRadius(point.visits, maxVisitors);
                   return (
                     <g
                       key={`${point.latitude},${point.longitude}`}
                       data-visitor-point
                     >
+                      <title>{numberFormat.format(point.visits)} {t("Visits")}</title>
                       <circle
                         cx={x}
                         cy={y}
@@ -226,7 +228,7 @@ export function VisitorMap() {
                     className="inline-block w-2.5 h-2.5 rounded-full bg-[#8B1A1A]/80"
                     aria-hidden="true"
                   />
-                  {t("Visitors")}
+                  {t("Visits")}
                 </span>
                 <span className="inline-flex items-center gap-2">
                   <span

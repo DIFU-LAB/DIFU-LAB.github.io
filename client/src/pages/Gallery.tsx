@@ -1,3 +1,5 @@
+import { ResponsiveImage } from "@/components/ResponsiveImage";
+import { useTranslation } from "react-i18next";
 import { useRef, useState } from "react";
 import { ArrowLeft, ArrowRight, ArrowUpRight, Expand, X } from "lucide-react";
 import { galleryCategories, galleryItems } from "@/lib/gallery";
@@ -12,7 +14,8 @@ import {
 } from "@/components/ui/dialog";
 
 export default function Gallery() {
-  const { t, language } = useLanguage();
+  const { t } = useTranslation();
+  const { language, c } = useLanguage();
   const [category, setCategory] = useState<string | null>(null);
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const triggerRef = useRef<HTMLButtonElement | null>(null);
@@ -62,7 +65,7 @@ export default function Gallery() {
               onClick={() => setCategory(value)}
               className={`px-4 py-2 text-sm transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#8B1A1A] ${category === value ? "bg-[#8B1A1A] text-white" : "bg-[#F1F3F5] text-[#1B2A4A] hover:bg-[#E2E8F0]"}`}
             >
-              {(language === "zh" && value ? galleryItems.find(item=>item.category===value)?.categoryZh || t(value) : t(value ?? "All photographs"))}
+              {(value ? c(galleryItems.find(item => item.category === value), "category") || value : t("All photographs"))}
             </button>
           ))}
         </div>
@@ -82,16 +85,16 @@ export default function Gallery() {
               <figure className="border-b border-[#E2E8F0] pb-6">
                 <button
                   type="button"
-                  aria-label={`${t("Enlarge")}: ${(language === "zh" && image.titleZh ? image.titleZh : t(image.title))}`}
+                  aria-label={`${t("Enlarge")}: ${(c(image, "title"))}`}
                   onClick={event => {
                     triggerRef.current = event.currentTarget;
                     setSelectedId(image.id);
                   }}
                   className="block relative w-full bg-[#F1F3F5] overflow-hidden group focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#8B1A1A]"
                 >
-                  <img
-                    src={image.image}
-                    alt={(language === "zh" && image.titleZh ? image.titleZh : t(image.title))}
+                  <ResponsiveImage
+                    src={image.image} sizes="(min-width: 1024px) 390px, (min-width: 768px) 46vw, calc(100vw - 48px)"
+                    alt={(c(image, "title"))}
                     width={image.width}
                     height={image.height}
                     loading="lazy"
@@ -108,16 +111,16 @@ export default function Gallery() {
                 <figcaption className="pt-4 space-y-2">
                   <div className="flex flex-wrap justify-between gap-2 text-[10px] tracking-[0.12em] uppercase">
                     <span className="text-[#8B1A1A] font-medium">
-                      {(language === "zh" && image.categoryZh ? image.categoryZh : t(image.category))}
+                      {(c(image, "category"))}
                     </span>
                     {image.dateLabel && (
                       <span className="text-[#64748B]">
-                        {t(image.dateLabel)}
+                        {c(image, "dateLabel")}
                       </span>
                     )}
                   </div>
                   <h2 className="text-xl leading-snug text-[#1B2A4A]">
-                    {(language === "zh" && image.titleZh ? image.titleZh : t(image.title))}
+                    {(c(image, "title"))}
                   </h2>
                   {image.sourceUrl && <a
                     href={image.sourceUrl}
@@ -166,9 +169,9 @@ export default function Gallery() {
               <X size={20} />
             </DialogClose>
             <div className="bg-[#101827]">
-              <img
-                src={selected.image}
-                alt={(language === "zh" && selected.titleZh ? selected.titleZh : t(selected.title))}
+              <ResponsiveImage
+                src={selected.image} original loading="eager"
+                alt={(c(selected, "title"))}
                 width={selected.width}
                 height={selected.height}
                 className="w-full h-auto max-h-[62dvh] object-contain"
@@ -177,8 +180,8 @@ export default function Gallery() {
             <div className="p-5 sm:p-7">
               <div className="flex flex-wrap justify-between items-center gap-3 mb-4 text-xs text-[#64748B]">
                 <span>
-                  {(language === "zh" && selected.categoryZh ? selected.categoryZh : t(selected.category))}
-                  {selected.dateLabel ? ` - ${t(selected.dateLabel)}` : ""}
+                  {(c(selected, "category"))}
+                  {selected.dateLabel ? ` - ${c(selected, "dateLabel")}` : ""}
                 </span>
                 <div className="flex items-center gap-4">
                   <button
@@ -203,10 +206,10 @@ export default function Gallery() {
                 </div>
               </div>
               <DialogTitle className="text-2xl font-normal leading-snug text-[#1B2A4A]">
-                {(language === "zh" && selected.titleZh ? selected.titleZh : t(selected.title))}
+                {(c(selected, "title"))}
               </DialogTitle>
               <DialogDescription className="text-sm text-[#4A5568] leading-relaxed mt-3">
-                {(language === "zh" && selected.descriptionZh ? selected.descriptionZh : t(selected.description))}
+                {(c(selected, "description"))}
               </DialogDescription>
               {selected.sourceUrl && <a
                 href={selected.sourceUrl}
@@ -214,7 +217,7 @@ export default function Gallery() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 text-xs text-[#8B1A1A] mt-4 hover:underline underline-offset-4"
               >
-                {t("View source")}: {selected.sourceLabel}
+                {t("View source")}: {c(selected, "sourceLabel")}
                 <ArrowUpRight size={13} />
               </a>}
             </div>

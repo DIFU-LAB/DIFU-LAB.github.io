@@ -2,7 +2,7 @@
   "id": 90003,
   "linkedinUrl": "https://sites.google.com/view/haidworkshops",
   "title": "Co-organising HAID: Human-AI Interaction for Dementia Care at NordiCHI 2024",
-  "excerpt": "Dr Di Fu co-organised the first HAID workshop at ACM NordiCHI 2024 in Uppsala, Sweden. The workshop focused on human-centred AI for people living with dementia and their caregivers, including deployment challenges and ethical considerations.",
+  "excerpt": "Dr Di Fu co-organised the first HAID workshop at ACM NordiCHI 2024 in Uppsala, Sweden. It focused on human-centred AI for people living with dementia and their caregivers, including deployment challenges and ethical considerations.",
   "content": null,
   "imageUrl": "/media/news/90003.webp",
   "publishedAt": "2024-10-13T12:00:00.000Z",
@@ -13,7 +13,12 @@
     "sourceName": "HAID workshop / ACM NordiCHI 2024",
     "sourceKind": "workshop",
     "dateBasis": "event",
-    "dateValue": "2024-10-13"
+    "dateValue": "2024-10-13",
+    "translations": {
+      "zh": {
+        "category": "演讲与活动"
+      }
+    }
   },
   "provenance": {
     "dateEvidence": "Official workshop homepage: Sunday Morning (09:00–13:00) 13th October 2024, Uppsala, Sweden. NordiCHI's official programme independently lists Sunday 13 October morning. This is an event date, not a LinkedIn posting date.",
@@ -24,6 +29,10 @@
       "https://www.nordichi2024.se/workshops/"
     ]
   },
-  "titleZh": "共同组织NordiCHI 2024的HAID专题：痴呆照护中的人机交互",
-  "excerptZh": "Di Fu 博士共同组织了在瑞典乌普萨拉举行的 ACM NordiCHI 2024 首届 HAID workshop。研讨会聚焦于面向痴呆患者及其照护者的以人为中心人工智能，包括部署挑战和伦理考量。"
+  "translations": {
+    "zh": {
+      "title": "共同组织NordiCHI 2024的HAID专题：痴呆照护中的人机交互",
+      "excerpt": "Di Fu 博士共同组织了在瑞典乌普萨拉举行的 ACM NordiCHI 2024 首届 HAID workshop。研讨会聚焦于面向痴呆患者及其照护者的以人为中心人工智能，包括部署挑战和伦理考量。"
+    }
+  }
 }

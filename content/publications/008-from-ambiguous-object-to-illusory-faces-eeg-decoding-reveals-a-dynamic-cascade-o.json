@@ -40,5 +40,10 @@
       "recordId": "10.1101/2025.09.10.675272"
     }
   ],
-  "notes": "Public bioRxiv preprint posted in 2025; journal review status follows the October 2026 CV."
+  "notes": "Public bioRxiv preprint posted in 2025; journal review status is based on the October 2026 CV.",
+  "translations": {
+    "zh": {
+      "notes": "2025年发布的公开bioRxiv预印本；期刊审稿状态依据2026年10月的简历。"
+    }
+  }
 }

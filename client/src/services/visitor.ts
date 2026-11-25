@@ -1,10 +1,63 @@
-import {useEffect,useState} from 'react';
-import {services,useConsent} from './consent';
-export interface VisitorSummary {visitors:number;visits:number;countries:number;topCountries:{countryCode:string;visitors:number}[];points:{latitude:number;longitude:number;visitors:number}[]}
-export function useVisitorSummary(){
- const {allowed}=useConsent();const [data,setData]=useState<VisitorSummary>();const [isError,setError]=useState(false);
- useEffect(()=>{setData(undefined);setError(false);if(!allowed.visitorMap)return;const controller=new AbortController();let active=true;
- const load=()=>fetch(services.visitorMap.endpoint.replace(/\/$/,'')+'/summary',{credentials:'omit',signal:controller.signal}).then(r=>{if(!r.ok)throw Error('summary');return r.json();}).then((v:VisitorSummary)=>{if(!Number.isFinite(v.visitors)||!Number.isFinite(v.countries)||!Array.isArray(v.points)||!Array.isArray(v.topCountries))throw Error('invalid summary');if(active){setData(v);setError(false);}}).catch(()=>{if(active)setError(true);});
- load();const timer=setInterval(load,60000);return()=>{active=false;controller.abort();clearInterval(timer);};},[allowed.visitorMap]);
- return {data:allowed.visitorMap?data:undefined,isLoading:allowed.visitorMap&&!data&&!isError,isError};
+import { useEffect, useState } from "react";
+import { services, useConsent } from "./consent";
+export interface VisitorSummary {
+  visits: number;
+  countries: number;
+  topCountries: { countryCode: string; visits: number }[];
+  points: { latitude: number; longitude: number; visits: number }[];
+}
+const interval = 5 * 60 * 1000;
+const count = (value: unknown): value is number => typeof value === 'number' && Number.isSafeInteger(value) && value >= 0;
+export function validSummary(value: unknown): value is VisitorSummary {
+  if (!value || typeof value !== 'object') return false;
+  const v = value as VisitorSummary;
+  return count(v.visits) && count(v.countries) && Array.isArray(v.topCountries) && v.topCountries.length <= 8 && v.topCountries.every(p => p && /^[A-Z]{2}$/.test(p.countryCode) && count(p.visits) && p.visits <= v.visits) && Array.isArray(v.points) && v.points.length <= 300 && v.points.every(p => p && Number.isFinite(p.latitude) && Math.abs(p.latitude) <= 90 && Number.isFinite(p.longitude) && Math.abs(p.longitude) <= 180 && count(p.visits) && p.visits <= v.visits);
+}
+const bucketMs = 30 * 60 * 1000;
+const sessionKey = 'seil-visitor-session-v2';
+let inMemory: { bucket: number; id: string; sent: boolean } | undefined;
+/** One request per consented browser per fixed half-hour bucket, across page navigation. */
+export async function recordVisit(signal: AbortSignal) {
+  if (signal.aborted || !services.visitorMap.endpoint) return;
+  const bucket = Math.floor(Date.now() / bucketMs);
+  let stored = inMemory;
+  try { const raw = localStorage.getItem(sessionKey); if (raw) stored = JSON.parse(raw); } catch { /* memory fallback */ }
+  if (!stored || stored.bucket !== bucket || typeof stored.id !== 'string') stored = { bucket, id: crypto.randomUUID(), sent: false };
+  if (stored.sent) return;
+  inMemory = stored;
+  try { localStorage.setItem(sessionKey, JSON.stringify(stored)); } catch { /* memory fallback */ }
+  try {
+    const response = await fetch(`${services.visitorMap.endpoint}/visit`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ visitorId: stored.id }), credentials: 'omit', referrerPolicy: 'no-referrer', signal });
+    if (!response.ok || signal.aborted) return;
+    stored.sent = true;
+    try { localStorage.setItem(sessionKey, JSON.stringify(stored)); } catch { /* memory fallback */ }
+  } catch { /* next navigation can retry the same ID, server deduplicates */ }
+}
+export function clearVisitorSession() { inMemory = undefined; }
+export function useVisitorSummary() {
+  const { allowed } = useConsent();
+  const [data, setData] = useState<VisitorSummary>();
+  const [isError, setError] = useState(false);
+  useEffect(() => {
+    setData(undefined); setError(false);
+    if (!allowed.visitorMap) return;
+    const controller = new AbortController(); let pending = false;
+    const load = async () => {
+      if (document.hidden || pending || controller.signal.aborted) return;
+      pending = true;
+      try {
+        const response = await fetch(`${services.visitorMap.endpoint}/summary`, { credentials: 'omit', referrerPolicy: 'no-referrer', signal: controller.signal });
+        if (!response.ok) throw Error('summary');
+        const value: unknown = await response.json();
+        if (!validSummary(value)) throw Error('invalid summary');
+        if (!controller.signal.aborted) { setData(value); setError(false); }
+      } catch { if (!controller.signal.aborted) setError(true); }
+      finally { pending = false; }
+    };
+    void load();
+    const timer = setInterval(load, interval);
+    document.addEventListener('visibilitychange', load);
+    return () => { controller.abort(); clearInterval(timer); document.removeEventListener('visibilitychange', load); };
+  }, [allowed.visitorMap]);
+  return { data: allowed.visitorMap ? data : undefined, isLoading: allowed.visitorMap && !data && !isError, isError };
 }

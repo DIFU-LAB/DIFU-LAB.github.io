@@ -17,7 +17,13 @@
     "treatment": "Natural, light portrait retouching; identity and documentary scene preserved",
     "date": "2026-11-02"
   },
-  "titleZh": "第二届InterAI研讨会开幕",
-  "descriptionZh": "Di Fu 介绍第二届 InterAI 研讨会“面向以人为中心的机器人技术的交互式 AI”；该研讨会与 ACM/IEEE HRI 2026 同期举行。",
-  "categoryZh": "演讲"
+  "translations": {
+    "zh": {
+      "title": "第二届InterAI研讨会开幕",
+      "category": "演讲",
+      "description": "Di Fu 介绍第二届 InterAI 研讨会“面向以人为中心的机器人技术的交互式 AI”；该研讨会与 ACM/IEEE HRI 2026 同期举行。",
+      "dateLabel": "2026 年 3 月",
+      "sourceLabel": "Di Fu 的 LinkedIn 主页"
+    }
+  }
 }

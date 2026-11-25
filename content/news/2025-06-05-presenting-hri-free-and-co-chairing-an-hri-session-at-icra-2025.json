@@ -2,7 +2,7 @@
   "id": 30009,
   "linkedinUrl": "https://www.linkedin.com/posts/di-fu-1307a86a_cognitiverobotics-embodiedcognition-developmentalrobotics-activity-7336399171882561536-8PdK",
   "title": "Presenting HRI-Free and Co-Chairing an HRI Session at ICRA 2025",
-  "excerpt": "At ICRA in Atlanta, Di Fu presented HRI-Free, co-authored with Fares Abawi, and co-chaired the Perception for Human-Robot Interaction session. The study supports scalable and reproducible evaluation of embodied social attention.",
+  "excerpt": "At ICRA in Atlanta, Di Fu presented HRI-Free, co-authored with Fares Abawi, and co-chaired the Perception for Human-Robot Interaction session. The study supports scalable, reproducible evaluation of embodied social attention.",
   "content": null,
   "imageUrl": "/media/gallery/7336399171882561536-0-original.webp",
   "publishedAt": "2025-06-05T14:31:06.000Z",
@@ -13,8 +13,17 @@
     "sourceName": "LinkedIn",
     "sourceKind": "linkedin",
     "dateBasis": "post",
-    "dateValue": "2025-06-05T14:31:06.241Z"
+    "dateValue": "2025-06-05T14:31:06.241Z",
+    "translations": {
+      "zh": {
+        "category": "研究"
+      }
+    }
   },
-  "titleZh": "在ICRA 2025介绍HRI-Free并共同主持一场HRI专题",
-  "excerptZh": "在亚特兰大举行的 ICRA 上，Di Fu 介绍了与 Fares Abawi 合著的 HRI-Free，并共同主持了 Perception for Human-Robot Interaction 分会。该研究支持对具身社会注意进行可扩展、可复现的评估。"
+  "translations": {
+    "zh": {
+      "title": "在ICRA 2025介绍HRI-Free并共同主持一场HRI专题",
+      "excerpt": "在亚特兰大举行的 ICRA 上，Di Fu 介绍了与 Fares Abawi 合著的 HRI-Free，并共同主持了 Perception for Human-Robot Interaction 分会。该研究支持对具身社会注意进行可扩展、可复现的评估。"
+    }
+  }
 }

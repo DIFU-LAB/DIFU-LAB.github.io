@@ -3,22 +3,42 @@
     {
       "start": 226,
       "time": "03:46",
-      "title": "Crossmodal social attention on iCub"
+      "title": "Crossmodal social attention on iCub",
+      "translations": {
+        "zh": {
+          "title": "iCub 上的跨模态社会注意"
+        }
+      }
     },
     {
       "start": 581,
       "time": "09:41",
-      "title": "Robot expressions and gaze in human-human-robot collaboration"
+      "title": "Robot expressions and gaze in human-human-robot collaboration",
+      "translations": {
+        "zh": {
+          "title": "人-人-机器人协作中的机器人表情与注视"
+        }
+      }
     },
     {
       "start": 867,
       "time": "14:27",
-      "title": "Robot personality and human-robot collaboration"
+      "title": "Robot personality and human-robot collaboration",
+      "translations": {
+        "zh": {
+          "title": "机器人人格与人机协作"
+        }
+      }
     },
     {
       "start": 1014,
       "time": "16:54",
-      "title": "HRI-Free: cognitive robotic simulation"
+      "title": "HRI-Free: cognitive robotic simulation",
+      "translations": {
+        "zh": {
+          "title": "HRI-Free：认知机器人仿真"
+        }
+      }
     }
   ],
   "demoSources": [

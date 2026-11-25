@@ -3,7 +3,7 @@
   "image": "/media/gallery/synsci-glasgow-keynote.webp",
   "title": "SynSci 2026 keynote in Glasgow",
   "category": "Talks",
-  "description": "Dr Di Fu delivered a keynote entitled “Embodied AI in Multimodal Human-Robot Social Interaction” at the SynSci-Synergy for Science 2026 satellite session in Glasgow on 13 July 2026. During her visit, she also met with colleagues and visited research laboratories in the School of Psychology & Neuroscience and the School of Computing Science at the University of Glasgow.",
+  "description": "Dr Di Fu delivered the keynote “Embodied AI in Multimodal Human-Robot Social Interaction” at the SynSci-Synergy for Science 2026 satellite session in Glasgow on 13 July 2026. During her visit, she met colleagues and visited research laboratories in the University of Glasgow’s School of Psychology & Neuroscience and School of Computing Science.",
   "date": "2026-07-13",
   "dateLabel": "13 July 2026",
   "sourceUrl": "https://www.surrey.ac.uk/people/di-fu",
@@ -17,7 +17,13 @@
     "treatment": "Natural, light portrait retouching; identity and documentary scene preserved",
     "date": "2026-11-02"
   },
-  "titleZh": "格拉斯哥 SynSci 2026 主旨演讲",
-  "descriptionZh": "2026 年 7 月 13 日，Di Fu 博士在格拉斯哥举行的 SynSci-Synergy for Science 2026 卫星会议上作题为“多模态人机社会交互中的具身 AI”的主题演讲。访问期间，她还与同事交流，并参观了格拉斯哥大学心理学与神经科学学院及计算机科学学院的研究实验室。",
-  "categoryZh": "演讲"
+  "translations": {
+    "zh": {
+      "title": "格拉斯哥 SynSci 2026 主旨演讲",
+      "category": "演讲",
+      "description": "2026 年 7 月 13 日，Di Fu 博士在格拉斯哥举行的 SynSci-Synergy for Science 2026 卫星会议上作题为“多模态人机社会交互中的具身 AI”的主题演讲。访问期间，她还与同事交流，并参观了格拉斯哥大学心理学与神经科学学院及计算机科学学院的研究实验室。",
+      "dateLabel": "2026年7月13日",
+      "sourceLabel": "萨里大学"
+    }
+  }
 }

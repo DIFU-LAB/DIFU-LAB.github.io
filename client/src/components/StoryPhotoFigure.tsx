@@ -1,3 +1,4 @@
+import { ResponsiveImage } from "@/components/ResponsiveImage";
 import React from "react";
 import { ScrollReveal } from "@/components/ScrollReveal";
 
@@ -39,8 +40,8 @@ export default function StoryPhotoFigure({
         duration={450}
         className="group overflow-hidden rounded-sm bg-[#F1F3F5]"
       >
-        <img
-          src={photo.src}
+        <ResponsiveImage
+          src={photo.src} sizes="(min-width: 1024px) 460px, 46vw"
           alt={photo.alt[language]}
           width={photo.width}
           height={photo.height}

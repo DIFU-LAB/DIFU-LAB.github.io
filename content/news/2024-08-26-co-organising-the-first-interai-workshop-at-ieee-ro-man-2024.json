@@ -2,7 +2,7 @@
   "id": 90004,
   "linkedinUrl": "https://sites.google.com/view/interaiworkshops/home",
   "title": "Co-organising the first InterAI workshop at IEEE RO-MAN 2024",
-  "excerpt": "Dr Di Fu co-organised the first InterAI: Interactive AI for Human-Centred Robotics workshop at IEEE RO-MAN 2024 in Pasadena, USA. The workshop explored interactive AI approaches to human-robot interaction and collaboration.",
+  "excerpt": "Dr Di Fu co-organised the first InterAI: Interactive AI for Human-Centred Robotics workshop at IEEE RO-MAN 2024 in Pasadena, USA. It explored interactive AI approaches to human-robot interaction and collaboration.",
   "content": null,
   "imageUrl": "/media/news/90004.webp",
   "publishedAt": "2024-08-26T12:00:00.000Z",
@@ -13,7 +13,13 @@
     "sourceName": "InterAI workshop / IEEE RO-MAN 2024",
     "sourceKind": "workshop",
     "dateBasis": "event",
-    "dateValue": "2024-08-26"
+    "dateValue": "2024-08-26",
+    "translations": {
+      "zh": {
+        "category": "演讲与活动",
+        "sourceName": "InterAI研讨会 / IEEE RO-MAN 2024"
+      }
+    }
   },
   "provenance": {
     "dateEvidence": "Official workshop homepage: 26 August 2024, Pasadena, CA, USA. Organiser and Surrey biography confirm Di Fu's co-organiser role. This settled event date takes precedence over the older CFP's tentative August 26 or 30 venue wording; June 30 was a submission deadline, not a posting date.",
@@ -24,6 +30,10 @@
       "https://easychair.org/cfp/InterAI2024"
     ]
   },
-  "titleZh": "共同组织 IEEE RO-MAN 2024 首届 InterAI 研讨会",
-  "excerptZh": "Di Fu 博士共同组织了在美国帕萨迪纳举行的 IEEE RO-MAN 2024 首届 InterAI: Interactive AI for Human-Centred Robotics workshop。研讨会探讨了用于人机交互与协作的交互式人工智能方法。"
+  "translations": {
+    "zh": {
+      "title": "共同组织 IEEE RO-MAN 2024 首届 InterAI 研讨会",
+      "excerpt": "Di Fu 博士共同组织了在美国帕萨迪纳举行的 IEEE RO-MAN 2024 首届 InterAI: Interactive AI for Human-Centred Robotics workshop。研讨会探讨了用于人机交互与协作的交互式人工智能方法。"
+    }
+  }
 }

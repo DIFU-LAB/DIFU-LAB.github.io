@@ -1,3 +1,5 @@
+import { lazy, Suspense } from "react";
+import { useTranslation } from "react-i18next";
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
@@ -10,12 +12,12 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
-import Research from "./pages/Research";
-import Team from "./pages/Team";
-import Publications from "./pages/Publications";
-import News from "./pages/News";
-import Gallery from "./pages/Gallery";
-import AboutDi from "./pages/AboutDi";
+const Research = lazy(() => import("./pages/Research"));
+const Team = lazy(() => import("./pages/Team"));
+const Publications = lazy(() => import("./pages/Publications"));
+const News = lazy(() => import("./pages/News"));
+const Gallery = lazy(() => import("./pages/Gallery"));
+const AboutDi = lazy(() => import("./pages/AboutDi"));
 import { LanguageProvider } from "./contexts/LanguageContext";
 function useCanonicalLocation() {
   const [location, navigate] = useBrowserLocation();
@@ -23,11 +25,13 @@ function useCanonicalLocation() {
 }
 
 function Router() {
+  const { t } = useTranslation();
   // make sure to consider if you need authentication for certain routes
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
       <main className="flex-1">
+        <Suspense fallback={<div role="status" className="pt-32 pb-20 text-center text-[#64748B]">{t("Loading…")}</div>}>
         <Switch>
           <Route path={"/"} component={Home} />
           <Route path={"/research"} component={Research} />
@@ -40,6 +44,7 @@ function Router() {
           {/* Final fallback route */}
           <Route component={NotFound} />
         </Switch>
+        </Suspense>
       </main>
       <Footer />
     </div>

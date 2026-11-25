@@ -2,7 +2,7 @@
   "id": 30006,
   "linkedinUrl": "https://www.linkedin.com/posts/di-fu-1307a86a_are-we-nearing-the-point-where-machines-don-activity-7354455346318303232-b19A",
   "title": "HRI-Free Research Featured in The Irish Times",
-  "excerpt": "The lab’s ICRA work on cognitive robotic simulation and social attention was featured in an Irish Times article discussing the future of AGI and human-AI interaction.",
+  "excerpt": "The Irish Times featured the lab’s ICRA work on cognitive robotic simulation and social attention in an article about the future of AGI and human-AI interaction.",
   "content": null,
   "imageUrl": "/media/news/30006.webp",
   "publishedAt": "2025-07-25T10:19:54.000Z",
@@ -13,8 +13,17 @@
     "sourceName": "LinkedIn",
     "sourceKind": "linkedin",
     "dateBasis": "post",
-    "dateValue": "2025-07-25T10:19:53.709Z"
+    "dateValue": "2025-07-25T10:19:53.709Z",
+    "translations": {
+      "zh": {
+        "category": "媒体报道"
+      }
+    }
   },
-  "titleZh": "HRI-Free 研究获《爱尔兰时报》报道",
-  "excerptZh": "《爱尔兰时报》在一篇探讨通用人工智能（AGI）与人机交互未来的文章中，介绍了实验室在ICRA发表的认知机器人仿真与社会注意研究。"
+  "translations": {
+    "zh": {
+      "title": "HRI-Free 研究获《爱尔兰时报》报道",
+      "excerpt": "《爱尔兰时报》在一篇探讨通用人工智能（AGI）与人机交互未来的文章中，介绍了实验室在ICRA发表的认知机器人仿真与社会注意研究。"
+    }
+  }
 }

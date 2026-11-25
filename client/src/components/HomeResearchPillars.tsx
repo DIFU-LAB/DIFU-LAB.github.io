@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { useLanguage } from "@/contexts/LanguageContext";
 import {
   ArrowRight,
@@ -21,7 +22,8 @@ const pillarIcons: Record<
 };
 
 export function HomeResearchPillars() {
-  const { t, language } = useLanguage();
+  const { t } = useTranslation();
+  const { language, c } = useLanguage();
 
   return (
     <section
@@ -69,10 +71,10 @@ export function HomeResearchPillars() {
                     </span>
                   </div>
                   <h3 className="text-2xl lg:text-3xl leading-tight text-[#1B2A4A] font-heading mb-4">
-                    <WordWrapText language={language} text={t(pillar.title)} />
+                    <WordWrapText language={language} text={c(pillar, "title")} />
                   </h3>
                   <p className="text-base leading-relaxed text-[#4A5568]">
-                    {t(pillar.homeSummary)}
+                    {c(pillar, "homeSummary")}
                   </p>
                 </li>
               );

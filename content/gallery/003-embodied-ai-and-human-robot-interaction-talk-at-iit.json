@@ -3,7 +3,7 @@
   "image": "/media/gallery/iit-embodied-ai-talk.webp",
   "title": "Embodied AI and Human-Robot Interaction talk at IIT",
   "category": "Talks",
-  "description": "Dr Di Fu delivered a talk about her research in Embodied AI and Human-Robot Interaction during her visit at the Italian Institute of Technology.",
+  "description": "Dr Di Fu presented her research on Embodied AI and Human-Robot Interaction during a visit to the Italian Institute of Technology.",
   "date": null,
   "dateLabel": null,
   "sourceUrl": "https://www.surrey.ac.uk/people/di-fu",
@@ -17,7 +17,12 @@
     "treatment": "Natural, light portrait retouching; identity and documentary scene preserved",
     "date": "2026-11-02"
   },
-  "titleZh": "在 IIT 关于具身 AI 与人机交互的报告",
-  "descriptionZh": "Di Fu 博士访问意大利理工学院期间，介绍了她在具身 AI 与人机交互方面的研究。",
-  "categoryZh": "演讲"
+  "translations": {
+    "zh": {
+      "title": "在 IIT 关于具身 AI 与人机交互的报告",
+      "category": "演讲",
+      "description": "Di Fu 博士访问意大利理工学院期间，介绍了她在具身 AI 与人机交互方面的研究。",
+      "sourceLabel": "萨里大学"
+    }
+  }
 }

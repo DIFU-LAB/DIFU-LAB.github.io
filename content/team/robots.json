@@ -11,29 +11,52 @@
       "width": 753,
       "height": 1000,
       "credit": "Misty Robotics",
-      "sourceUrl": "https://www.mistyrobotics.com/misty-ii"
+      "sourceUrl": "https://www.mistyrobotics.com/misty-ii",
+      "translations": {
+        "zh": {
+          "alt": "Misty 社交机器人，配有表情丰富的屏幕面部和履带式移动底座"
+        }
+      }
+    },
+    "translations": {
+      "zh": {
+        "type": "可编程社交机器人",
+        "description": "Misty 是一个可编程社交机器人平台，提供开发工具，可用于创建自定义行为及与人的互动。"
+      }
     }
   },
   {
     "id": "nao",
     "name": "NAO",
     "type": "Programmable humanoid robot",
-    "description": "NAO is a programmable humanoid robot that provides a hands-on platform for learning about robotics through programming and interaction.",
+    "description": "NAO is a programmable humanoid robot for hands-on learning about robotics through programming and interaction.",
     "detailsUrl": "https://robotsguide.com/robots/nao",
     "image": {
       "src": "/media/team/robots/nao.webp",
-      "alt": "NAO humanoid robot standing upright with one hand on its hip",
+      "alt": "NAO humanoid robot standing with one hand on its hip",
       "width": 452,
       "height": 675,
       "credit": "SoftBank Robotics, via IEEE Robots Guide",
-      "sourceUrl": "https://robotsguide.com/robots/nao"
+      "sourceUrl": "https://robotsguide.com/robots/nao",
+      "translations": {
+        "zh": {
+          "alt": "一台单手叉腰站立的NAO人形机器人",
+          "credit": "SoftBank Robotics，资料来源：IEEE Robots Guide"
+        }
+      }
+    },
+    "translations": {
+      "zh": {
+        "type": "可编程人形机器人",
+        "description": "NAO是一款可编程人形机器人，可通过编程和交互为机器人学习提供实践平台。"
+      }
     }
   },
   {
     "id": "pepper",
     "name": "Pepper",
     "type": "Social humanoid robot",
-    "description": "Pepper is a humanoid robot designed to interact with people through conversation and body language, sharing information and assisting visitors.",
+    "description": "Pepper is a humanoid robot designed to interact with people through conversation and body language, share information and assist visitors.",
     "detailsUrl": "https://us.softbankrobotics.com/pepper",
     "image": {
       "src": "/media/team/robots/pepper.webp",
@@ -41,7 +64,18 @@
       "width": 433,
       "height": 1000,
       "credit": "© SoftBank Robotics",
-      "sourceUrl": "https://us.softbankrobotics.com/pepper"
+      "sourceUrl": "https://us.softbankrobotics.com/pepper",
+      "translations": {
+        "zh": {
+          "alt": "人形机器人 Pepper，配有胸前平板电脑和轮式移动底座"
+        }
+      }
+    },
+    "translations": {
+      "zh": {
+        "type": "社交型人形机器人",
+        "description": "Pepper是一款人形机器人，旨在通过对话和肢体语言与人互动、分享信息并协助访客。"
+      }
     }
   },
   {
@@ -56,7 +90,19 @@
       "width": 608,
       "height": 600,
       "credit": "© Unitree Robotics (representative Go2 image)",
-      "sourceUrl": "https://shop.unitree.com/products/unitree-go2"
+      "sourceUrl": "https://shop.unitree.com/products/unitree-go2",
+      "translations": {
+        "zh": {
+          "alt": "Unitree 机器狗，代表性 Go2 产品图片，四条腿均清晰可见",
+          "credit": "© Unitree Robotics（Go2 代表性图片）"
+        }
+      }
+    },
+    "translations": {
+      "zh": {
+        "type": "四足机器人",
+        "description": "Unitree 的四足机器人为足式运动、导航及与物理环境互动提供具身平台。"
+      }
     }
   }
 ]

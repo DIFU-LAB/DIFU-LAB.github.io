@@ -13,8 +13,17 @@
     "sourceName": "LinkedIn",
     "sourceKind": "linkedin",
     "dateBasis": "post",
-    "dateValue": "2025-07-24T11:14:36.172Z"
+    "dateValue": "2025-07-24T11:14:36.172Z",
+    "translations": {
+      "zh": {
+        "category": "研究"
+      }
+    }
   },
-  "titleZh": "萨里大学媒体团队分享面孔幻觉研究",
-  "excerptZh": "Di Fu 分享了大学媒体对团队新发表的面孔空想研究的报道。该研究发表于 Perception / i-Perception。"
+  "translations": {
+    "zh": {
+      "title": "萨里大学媒体团队分享面孔幻觉研究",
+      "excerpt": "Di Fu 分享了大学媒体对团队新发表的面孔空想研究的报道。该研究发表于 Perception / i-Perception。"
+    }
+  }
 }

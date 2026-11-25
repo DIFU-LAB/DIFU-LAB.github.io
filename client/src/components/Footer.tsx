@@ -1,3 +1,5 @@
+import { ResponsiveImage } from "@/components/ResponsiveImage";
+import { useTranslation } from "react-i18next";
 import { useConsent } from "@/services/consent";
 import { useLanguage } from "@/contexts/LanguageContext";
 // ============================================================
@@ -5,23 +7,24 @@ import { useLanguage } from "@/contexts/LanguageContext";
 // Clean, structured, navy background
 // ============================================================
 import { Link } from "wouter";
-import { labInfo, navItems, researchAreas } from "@/lib/data";
+import { labInfo, navItems } from "@/lib/site";
+import { researchAreas } from "@/lib/research";
 import { Mail, MapPin } from "lucide-react";
 
 export default function Footer() {
-  const { t, language } = useLanguage();
+  const { t } = useTranslation();
+  const { language, c } = useLanguage();
   const consent = useConsent();
 
   const footerResearchItems = researchAreas
     .filter(area => area.id !== "social-attention")
     .map(area => ({
       id: area.id,
-      title:
-        area.id === "social-robotics" ? "Human-Robot Interaction" : area.title,
+      title: area.id === "social-robotics" ? t("Human-Robot Interaction") : c(area, "title"),
     }));
   footerResearchItems.splice(0, 0, {
     id: "human-social-cognition",
-    title: "Human Social Cognition",
+    title: t("Human Social Cognition"),
   });
 
   return (
@@ -31,8 +34,8 @@ export default function Footer() {
           {/* Lab Identity */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-3 mb-5">
-              <img
-                src={labInfo.logo}
+              <ResponsiveImage
+                src={labInfo.logo} sizes="72px"
                 alt={t("SEIL Lab Logo")}
                 className="h-14 w-auto brightness-200"
               />
@@ -41,7 +44,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-sm text-[#94A3B8] leading-relaxed mb-2">
-              {t(labInfo.fullName)}
+              {c(labInfo, "fullName")}
             </p>
             <div className="space-y-2 mb-6">
               <div className="flex items-start gap-2">
@@ -50,7 +53,7 @@ export default function Footer() {
                   className="text-[#94A3B8] mt-0.5 flex-shrink-0"
                 />
                 <span className="text-sm text-[#94A3B8] leading-relaxed">
-                  {t(labInfo.address)}
+                  {c(labInfo, "address")}
                 </span>
               </div>
               <div className="flex items-center gap-2">
@@ -91,7 +94,7 @@ export default function Footer() {
                 <div key={area.id} className="flex items-center gap-2">
                   <div className="w-1 h-1 bg-[#8B1A1A] rounded-full flex-shrink-0" />
                   <span className="text-sm text-[#94A3B8]">
-                    {t(area.title)}
+                    {area.title}
                   </span>
                 </div>
               ))}
@@ -104,10 +107,10 @@ export default function Footer() {
           <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
             <p className="text-sm text-[#64748B] text-center">
               © {new Date().getFullYear()} {t("SEIL Lab ·")}
-              {t(labInfo.university)} {t("· United Kingdom")}
+              {c(labInfo, "university")} {t("· United Kingdom")}
             </p>
-            <img
-              src={labInfo.universityLogo}
+            <ResponsiveImage
+              src={labInfo.universityLogo} sizes="160px"
               alt={t("University of Surrey")}
               width={500}
               height={118}
@@ -116,7 +119,7 @@ export default function Footer() {
               className="block w-[120px] h-auto shrink-0"
             />
           </div>
-          <button type="button" onClick={consent.open} className="text-sm text-[#94A3B8] hover:underline">{language === "zh" ? "Cookie 设置" : "Cookie settings"}</button>
+          <button type="button" onClick={consent.open} className="text-sm text-[#94A3B8] hover:underline">{t("Cookie settings")}</button>
           <p className="text-sm text-[#64748B]">
             {t("Est.")}
             {labInfo.founded}

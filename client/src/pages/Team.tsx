@@ -1,3 +1,5 @@
+import { ResponsiveImage } from "@/components/ResponsiveImage";
+import { useTranslation } from "react-i18next";
 import { diProfile, labInfo, teamGroups } from "@/lib/data";
 import { ArrowUpRight, Mail } from "lucide-react";
 import { Link } from "wouter";
@@ -8,7 +10,8 @@ import Collaborations from "@/components/Collaborations";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function Team() {
-  const { t, language } = useLanguage();
+  const { t } = useTranslation();
+  const { language, c } = useLanguage();
   const [failedPhotos, setFailedPhotos] = useState<Set<string>>(
     () => new Set()
   );
@@ -54,8 +57,8 @@ export default function Team() {
                 data-team-portrait
                 className="h-48 w-48 overflow-hidden rounded-sm bg-stone-50 group/portrait"
               >
-                <img
-                  src={diProfile.photo}
+                <ResponsiveImage
+                  src={diProfile.photo} loading="eager" sizes="192px"
                   alt="Dr Di Fu"
                   className="h-48 w-48 object-cover motion-safe:transition-transform motion-safe:duration-200 motion-safe:ease-[cubic-bezier(0.23,1,0.32,1)] motion-safe:group-hover/portrait:scale-[1.04]"
                   style={{ objectPosition: "50% 35%" }}
@@ -109,7 +112,7 @@ export default function Team() {
               href={`#${group.id}`}
               className="text-[#4A5568] hover:text-[#8B1A1A] underline underline-offset-4 decoration-[#CBD5E1]"
             >
-              {t(group.title)}
+              {c(group, "title")}
             </a>
           ))}
           <a
@@ -146,7 +149,7 @@ export default function Team() {
                     id={`${group.id}-heading`}
                     className="text-3xl lg:text-4xl text-[#1B2A4A]"
                   >
-                    {t(group.title)}
+                    {c(group, "title")}
                   </h2>
                   <span className="text-xs text-[#8B1A1A] border border-[#8B1A1A]/20 px-2 py-0.5 rounded-sm">
                     {group.members.length}
@@ -164,7 +167,7 @@ export default function Team() {
                   >
                     <article className="h-full p-6 lg:p-7 border border-[#E2E8F0] border-t-2 border-t-[#8B1A1A]/70 bg-white hover:shadow-sm transition-shadow duration-200">
                       <p className="text-xs text-[#8B1A1A] uppercase tracking-[0.08em] mb-3">
-                        {t(member.role ?? group.role)}
+                        {member.role ? c(member, "role") : c(group, "role")}
                       </p>
                       <h3 className="text-2xl text-[#1B2A4A] leading-tight mb-4">
                         {member.name}
@@ -174,8 +177,8 @@ export default function Team() {
                           data-team-portrait
                           className="mx-auto mb-4 h-48 w-48 overflow-hidden rounded-sm bg-stone-50 group/portrait"
                         >
-                          <img
-                            src={member.photo.src}
+                          <ResponsiveImage
+                            src={member.photo.src} sizes="192px"
                             width={member.photo.width}
                             height={member.photo.height}
                             alt={member.name}
@@ -196,14 +199,14 @@ export default function Team() {
                       )}
                       {member.background && (
                         <p className="text-sm font-medium text-[#4A5568] mb-2">
-                          {t(member.background)}
+                          {c(member, "background")}
                         </p>
                       )}
                       <p className="text-sm text-[#4A5568] leading-relaxed">
-                        {t(member.affiliation)}
+                        {c(member, "affiliation")}
                       </p>
                       <p className="text-sm text-[#64748B] leading-relaxed mt-1">
-                        {t(member.institution)}
+                        {c(member, "institution")}
                       </p>
                     </article>
                   </ScrollReveal>

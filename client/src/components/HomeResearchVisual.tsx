@@ -1,3 +1,5 @@
+import { ResponsiveImage } from "@/components/ResponsiveImage";
+import { useTranslation } from "react-i18next";
 import { useLanguage, type Language } from "@/contexts/LanguageContext";
 import { useEffect, useRef, useState, type ComponentType } from "react";
 import { AudioLines, Captions, Play } from "lucide-react";
@@ -81,7 +83,8 @@ function ChoiceGroup<T extends string>({
 }
 
 export function HomeResearchVisual() {
-  const { language, t } = useLanguage();
+  const { t } = useTranslation();
+  const { language } = useLanguage();
   const videoRef = useRef<HTMLVideoElement>(null);
   const [alternativesOpen,setAlternativesOpen]=useState(false);
   const externalAlternatives=getVideoSources({sources:labFilm.alternatives as VideoSource[]});
@@ -326,7 +329,7 @@ export function HomeResearchVisual() {
                   aria-label={`${t("Play video")}: ${t("SEIL lab film")}`}
                   className="group absolute inset-0 h-full w-full cursor-pointer focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-inset focus-visible:ring-[#8B1A1A]"
                 >
-                  <img
+                  <ResponsiveImage
                     src={labFilm.poster}
                     srcSet={labFilm.posterSrcSet}
                     sizes="(min-width: 1152px) 1088px, calc(100vw - 48px)"
@@ -380,7 +383,7 @@ export function HomeResearchVisual() {
             </figcaption>
           </figure>
           {externalAlternatives.length > 0 && <details className="mt-5 text-sm text-[#1B2A4A]" onToggle={e=>{const open=e.currentTarget.open;setAlternativesOpen(open);if(open)videoRef.current?.pause();}}>
-            <summary className="cursor-pointer text-[#8B1A1A]">{language === "zh" ? "其他视频来源" : "Alternative video sources"}</summary>
+            <summary className="cursor-pointer text-[#8B1A1A]">{t("Alternative video sources")}</summary>
             {alternativesOpen && <div className="mt-3"><ResearchVideo sources={externalAlternatives} title={t("SEIL lab film")} poster={{src:labFilm.poster,srcSet:labFilm.posterSrcSet,width:1920,height:1080}} showTitle={false}/></div>}
           </details>}
         </ScrollReveal>

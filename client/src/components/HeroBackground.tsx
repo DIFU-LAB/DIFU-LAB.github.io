@@ -1,3 +1,4 @@
+import { ResponsiveImage } from "@/components/ResponsiveImage";
 import React, { useEffect, useRef, useState } from "react";
 import { Pause, Play } from "lucide-react";
 
@@ -108,8 +109,8 @@ function HeroMedia({
         className="absolute inset-0"
         style={{ opacity: ready ? 0 : 1, transition }}
       >
-        <img
-          src={fallbackSrc}
+        <ResponsiveImage
+          src={fallbackSrc} sizes="100vw" loading="eager" fetchPriority="high"
           alt=""
           draggable={false}
           className={`h-full w-full object-cover${breathe ? " hero-breathe" : ""}`}

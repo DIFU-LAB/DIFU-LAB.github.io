@@ -11,7 +11,13 @@
   "originalImageUrl": "https://www.surrey.ac.uk/sites/default/files/2026-08/cam_group_photo_1200x675_min.jpeg",
   "width": 1485,
   "height": 675,
-  "titleZh": "剑桥跨学科会议合影",
-  "descriptionZh": "首届认知科学、计算建模与 AI 跨学科会议于2025年5月9日至10日在剑桥大学举行，由 Di Fu 组织并主持，共有120人参加。",
-  "categoryZh": "会议"
+  "translations": {
+    "zh": {
+      "title": "剑桥跨学科会议合影",
+      "category": "会议",
+      "description": "首届认知科学、计算建模与 AI 跨学科会议于2025年5月9日至10日在剑桥大学举行，由 Di Fu 组织并主持，共有120人参加。",
+      "dateLabel": "2025年5月9-10日",
+      "sourceLabel": "萨里大学"
+    }
+  }
 }

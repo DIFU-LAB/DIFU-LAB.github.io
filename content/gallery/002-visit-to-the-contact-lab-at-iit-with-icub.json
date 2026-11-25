@@ -3,7 +3,7 @@
   "image": "/media/gallery/iit-contact-lab-visit.webp",
   "title": "Visit to the CONTACT Lab at IIT with iCub",
   "category": "Lab visits",
-  "description": "Dr Di Fu visited the CONTACT Lab of Dr Alessandra Sciutti and Dr Francesco Rea at the Italian Institute of Technology (IIT) on 18 June 2026. Di has worked with IIT’s iCub humanoid robot for eight years and was also invited to serve as an external PhD dissertation reviewer at IIT this year. It was a wonderful opportunity to exchange ideas and reconnect with colleagues at IIT.",
+  "description": "Dr Di Fu visited the CONTACT Lab of Dr Alessandra Sciutti and Dr Francesco Rea at the Italian Institute of Technology (IIT) on 18 June 2026. She has worked with IIT’s iCub humanoid robot for eight years and was invited to serve as an external PhD dissertation reviewer at IIT that year. The visit provided an opportunity to exchange ideas and reconnect with colleagues.",
   "date": "2026-06-18",
   "dateLabel": "18 June 2026",
   "sourceUrl": "https://www.surrey.ac.uk/people/di-fu",
@@ -17,7 +17,13 @@
     "treatment": "Natural, light portrait retouching; identity and documentary scene preserved",
     "date": "2026-11-02"
   },
-  "titleZh": "与 iCub 一同访问 IIT 的 CONTACT 实验室",
-  "descriptionZh": "2026 年 6 月 18 日，Di Fu 博士访问了意大利理工学院（IIT）Alessandra Sciutti 博士和 Francesco Rea 博士的 CONTACT 实验室。她与 IIT 的 iCub 人形机器人合作已有八年，并于当年受邀担任 IIT 博士论文的外部评审。此次访问为交流想法、与同事重聚提供了机会。",
-  "categoryZh": "实验室来访"
+  "translations": {
+    "zh": {
+      "title": "与 iCub 一同访问 IIT 的 CONTACT 实验室",
+      "category": "实验室来访",
+      "description": "2026 年 6 月 18 日，Di Fu 博士访问了意大利理工学院（IIT）Alessandra Sciutti 博士和 Francesco Rea 博士的 CONTACT 实验室。她与 IIT 的 iCub 人形机器人合作已有八年，并于当年受邀担任 IIT 博士论文的外部评审。此次访问为交流想法、与同事重聚提供了机会。",
+      "dateLabel": "2026年6月18日",
+      "sourceLabel": "萨里大学"
+    }
+  }
 }

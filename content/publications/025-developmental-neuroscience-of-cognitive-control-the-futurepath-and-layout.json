@@ -46,5 +46,10 @@
       "recordId": "10.1360/SSV-2020-0248"
     }
   ],
-  "notes": "Chinese-language article."
+  "notes": "Chinese-language article.",
+  "translations": {
+    "zh": {
+      "notes": "中文文章。"
+    }
+  }
 }

@@ -29,5 +29,10 @@
       "recordId": "cv-poster-02"
     }
   ],
-  "notes": "Conference poster listed in the CV; not counted as a published paper. Year refers to the event."
+  "notes": "Conference poster listed in the CV; not counted as a published paper. Year refers to the event.",
+  "translations": {
+    "zh": {
+      "notes": "简历所列会议海报；不计作已发表论文。年份指会议举办年份。"
+    }
+  }
 }

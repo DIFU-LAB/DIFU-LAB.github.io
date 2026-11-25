@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import * as React from "react";
 import useEmblaCarousel, {
   type UseEmblaCarouselType,
@@ -49,6 +50,7 @@ function Carousel({
   children,
   ...props
 }: React.ComponentProps<"div"> & CarouselProps) {
+  const { t } = useTranslation();
   const [carouselRef, api] = useEmblaCarousel(
     {
       ...opts,
@@ -120,7 +122,7 @@ function Carousel({
         onKeyDownCapture={handleKeyDown}
         className={cn("relative", className)}
         role="region"
-        aria-roledescription="carousel"
+        aria-roledescription={t("carousel")}
         data-slot="carousel"
         {...props}
       >
@@ -152,12 +154,13 @@ function CarouselContent({ className, ...props }: React.ComponentProps<"div">) {
 }
 
 function CarouselItem({ className, ...props }: React.ComponentProps<"div">) {
+  const { t } = useTranslation();
   const { orientation } = useCarousel();
 
   return (
     <div
       role="group"
-      aria-roledescription="slide"
+      aria-roledescription={t("slide")}
       data-slot="carousel-item"
       className={cn(
         "min-w-0 shrink-0 grow-0 basis-full",
@@ -175,6 +178,7 @@ function CarouselPrevious({
   size = "icon",
   ...props
 }: React.ComponentProps<typeof Button>) {
+  const { t } = useTranslation();
   const { orientation, scrollPrev, canScrollPrev } = useCarousel();
 
   return (
@@ -194,7 +198,7 @@ function CarouselPrevious({
       {...props}
     >
       <ArrowLeft />
-      <span className="sr-only">Previous slide</span>
+      <span className="sr-only">{t("Previous slide")}</span>
     </Button>
   );
 }
@@ -205,6 +209,7 @@ function CarouselNext({
   size = "icon",
   ...props
 }: React.ComponentProps<typeof Button>) {
+  const { t } = useTranslation();
   const { orientation, scrollNext, canScrollNext } = useCarousel();
 
   return (
@@ -224,7 +229,7 @@ function CarouselNext({
       {...props}
     >
       <ArrowRight />
-      <span className="sr-only">Next slide</span>
+      <span className="sr-only">{t("Next slide")}</span>
     </Button>
   );
 }

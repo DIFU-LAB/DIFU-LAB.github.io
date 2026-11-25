@@ -1,3 +1,5 @@
+import { ResponsiveImage } from "@/components/ResponsiveImage";
+import { useTranslation } from "react-i18next";
 import { useConsent } from "@/services/consent";
 import { researchImagery } from "@/lib/researchImagery";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -49,7 +51,8 @@ export function ResearchVideo({
   /** Custom cover markup (live text + real photo), rendered instead of a poster image. */
   cover?: ReactNode;
 }) {
-  const { t, language } = useLanguage();
+  const { t } = useTranslation();
+  const { language } = useLanguage();
   const consent=useConsent();
   const alternatives = getVideoSources({sources, videoId});
   const zh = language === "zh";
@@ -61,6 +64,7 @@ export function ResearchVideo({
   const source = selection === null ? defaultSource : alternatives[selection] ?? defaultSource;
   const [loaded, setLoaded] = useState(autoLoad);
   const [fallback, setFallback] = useState(false);
+  const [localOnly, setLocalOnly] = useState(false);
   // Keep the chosen provider when another chapter is selected.
   useEffect(() => { if (playbackRequest > 0) setLoaded(true); }, [playbackRequest]);
   if (!source) return null;
@@ -69,13 +73,13 @@ export function ResearchVideo({
   const firstYoutube = alternatives.find((s): s is Extract<typeof s, {provider:"youtube"}> => s.provider === "youtube");
   const originalId = videoId ?? firstYoutube?.id;
   const localPoster = originalId === "bjiYEs1x-7E" ? researchImagery.icubAttention.src : originalId === "Jv8lMv8z85M" ? researchImagery.collaboration.src : researchImagery.humanAttention.src;
-  const youtubePoster = source.provider === "youtube" && permitted ? `https://i.ytimg.com/vi/${source.id}/${fallback ? "hqdefault" : "maxresdefault"}.jpg` : localPoster;
+  const youtubePoster = source.provider === "youtube" && permitted && !localOnly ? `https://i.ytimg.com/vi/${source.id}/${fallback ? "hqdefault" : "maxresdefault"}.jpg` : localPoster;
 
   return (
     <div>
     <div className="aspect-video w-full overflow-hidden rounded-sm bg-[#1B2A4A]">
       {loaded && source.provider === "local" ? (
-        <video key={`${sourceUrl(source, start)}:${playbackRequest}`} src={sourceUrl(source, start)} controls autoPlay playsInline poster={poster?.src} className="w-full h-full object-contain" aria-label={t(title)}>
+        <video key={`${sourceUrl(source, start)}:${playbackRequest}`} src={sourceUrl(source, start)} controls autoPlay playsInline poster={poster?.src} className="w-full h-full object-contain" aria-label={title}>
           {captionsEn && <track kind="captions" src={captionsEn} srcLang="en" label="English"/>}
           {captionsZh && <track kind="captions" src={captionsZh} srcLang="zh" label="中文"/>}
         </video>
@@ -83,7 +87,7 @@ export function ResearchVideo({
         <iframe
           key={`${embedUrl(source,start)}:${playbackRequest}`}
           src={embedUrl(source,start)}
-          title={t(title)}
+          title={title}
           className="w-full h-full border-0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
@@ -93,11 +97,11 @@ export function ResearchVideo({
         <button
           type="button"
           onClick={() => { if (!enabled) { window.open(sourceUrl(source,start), "_blank", "noopener,noreferrer"); return; } setSelection(alternatives.indexOf(source)); setLoaded(true); if (!permitted) consent.open(); }}
-          aria-label={`${t("Play video")}: ${t(title)}`}
+          aria-label={`${t("Play video")}: ${title}`}
           className="group relative w-full h-full cursor-pointer focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-inset focus-visible:ring-[#8B1A1A]"
         >
           {cover ?? (
-            <img
+            <ResponsiveImage
               src={poster?.src ?? youtubePoster}
               srcSet={poster?.srcSet}
               sizes={sizes}
@@ -106,7 +110,7 @@ export function ResearchVideo({
               alt=""
               loading="lazy"
               decoding="async"
-              onError={e => { if (!poster && !fallback && permitted && source.provider === "youtube") setFallback(true); else if (!poster && e.currentTarget.getAttribute("src") !== localPoster) e.currentTarget.src=localPoster; }}
+              onError={e => { if (!poster && !fallback && permitted && source.provider === "youtube") setFallback(true); else if (!poster && !localOnly) setLocalOnly(true); }}
               className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-[1.015]"
             />
           )}
@@ -136,20 +140,20 @@ export function ResearchVideo({
               </span>
             </span>
           )}
-          {!permitted && <span className="absolute top-3 right-3 bg-[#1B2A4A]/90 text-white text-xs px-2 py-1">{enabled ? (language === "zh" ? "需同意外部视频" : "Video consent required") : (zh ? `在 ${providerLabel(source.provider,zh)} 观看` : `Watch on ${providerLabel(source.provider,zh)}`)}</span>}
+          {!permitted && <span className="absolute top-3 right-3 bg-[#1B2A4A]/90 text-white text-xs px-2 py-1">{enabled ? (t("Video consent required")) : (t("Watch on {{provider}}", { provider: t(providerLabel(source.provider)) }))}</span>}
           {showTitle && (
             <span className="absolute bottom-4 left-5 right-5 text-left text-sm text-white leading-relaxed">
-              {t(title)}
+              {title}
             </span>
           )}
         </button>
       )}
     </div>
-    {alternatives.length > 1 && <div className="flex flex-wrap items-center gap-2 px-3 py-2 bg-white text-[#1B2A4A] border-b border-[#E2E8F0] text-xs" role="group" aria-label={zh ? "视频来源" : "Video source"}>
-      <span className="text-[#64748B]">{zh ? "来源" : "Source"}</span>
-      {alternatives.map((item,index) => <button key={index} type="button" aria-pressed={source === item} className={`px-2.5 py-1 border rounded-sm ${source === item ? "bg-[#1B2A4A] text-white" : "border-[#E2E8F0] hover:bg-[#EEF1F5]"}`} onClick={() => {setSelection(index);setLoaded(false);setFallback(false);}}>{providerLabel(item.provider,zh)}{!enabledSource(item) ? (zh ? "（外链）" : " (external)") : ""}</button>)}
+    {alternatives.length > 1 && <div className="flex flex-wrap items-center gap-2 px-3 py-2 bg-white text-[#1B2A4A] border-b border-[#E2E8F0] text-xs" role="group" aria-label={t("Video source")}>
+      <span className="text-[#64748B]">{t("Source")}</span>
+      {alternatives.map((item,index) => <button key={index} type="button" aria-pressed={source === item} className={`px-2.5 py-1 border rounded-sm ${source === item ? "bg-[#1B2A4A] text-white" : "border-[#E2E8F0] hover:bg-[#EEF1F5]"}`} onClick={() => {setSelection(index);setLoaded(false);setFallback(false);setLocalOnly(false);}}>{t(providerLabel(item.provider))}{!enabledSource(item) ? (t(" (external)")) : ""}</button>)}
     </div>}
-    {loaded && source.provider !== "local" && <div className="px-3 py-1 text-xs bg-white text-[#8B1A1A]"><a href={sourceUrl(source,start)} target="_blank" rel="noopener noreferrer" className="hover:underline">{zh ? `在 ${providerLabel(source.provider,zh)} 打开` : `Open on ${providerLabel(source.provider,zh)}`}</a></div>}
+    {loaded && source.provider !== "local" && <div className="px-3 py-1 text-xs bg-white text-[#8B1A1A]"><a href={sourceUrl(source,start)} target="_blank" rel="noopener noreferrer" className="hover:underline">{t("Open on {{provider}}", { provider: t(providerLabel(source.provider)) })}</a></div>}
     </div>
   );
 }

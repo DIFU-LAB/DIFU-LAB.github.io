@@ -1,4 +1,4 @@
-import { useLanguage } from "@/contexts/LanguageContext";
+import { useTranslation } from "react-i18next";
 import { useEffect, useRef, useState } from "react";
 import { ArrowUpRight, Pause, Play } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -30,7 +30,7 @@ export function ResearchLoopVideo({
   demoUrl: string;
   className?: string;
 }) {
-  const { t } = useLanguage();
+  const { t } = useTranslation();
   const videoRef = useRef<HTMLVideoElement>(null);
   const userPaused = useRef(false);
   const [playing, setPlaying] = useState(false);
@@ -77,7 +77,7 @@ export function ResearchLoopVideo({
           playsInline
           preload="metadata"
           poster={poster}
-          aria-label={t(title)}
+          aria-label={title}
           onPlay={() => setPlaying(true)}
           onPause={() => setPlaying(false)}
           className="block h-full w-full object-cover"
@@ -110,7 +110,7 @@ export function ResearchLoopVideo({
         </button>
       </div>
       <figcaption className="pt-3 text-xs text-[#64748B] leading-relaxed">
-        <p className="text-sm text-[#4A5568]">{t(caption)}</p>
+        <p className="text-sm text-[#4A5568]">{caption}</p>
         <div className="flex flex-wrap items-center gap-x-5 gap-y-2 mt-2">
           <a
             href={demoUrl}

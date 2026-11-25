@@ -1,3 +1,5 @@
+import { ResponsiveImage } from "@/components/ResponsiveImage";
+import { useTranslation } from "react-i18next";
 import { researchAreas, researchHighlights } from "@/lib/data";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { ScrollReveal } from "@/components/ScrollReveal";
@@ -59,7 +61,7 @@ const keynoteFeatherStyle = {
   maskComposite: "intersect",
 } as const;
 function KeynoteCover() {
-  const { t } = useLanguage();
+  const { t } = useTranslation();
   return (
     <span className="@container absolute inset-0 block overflow-hidden bg-[#1B2A4A] md:bg-[linear-gradient(100deg,#132039_0%,#1B2A4A_46%,#24395F_100%)] text-left">
       {/* Tablet and desktop: smaller photograph feathered into the navy gradient. */}
@@ -68,7 +70,7 @@ function KeynoteCover() {
         style={keynoteFeatherStyle}
         aria-hidden="true"
       >
-        <img
+        <ResponsiveImage
           src={`${keynoteCdn}/keynote-framed-1600-c7e19a42.webp`}
           srcSet={keynotePhoto.framed}
           sizes="(min-width: 1280px) 720px, 63vw"
@@ -81,7 +83,7 @@ function KeynoteCover() {
         />
       </span>
       {/* Phone: full-bleed 16:9 crop of the same photograph. */}
-      <img
+      <ResponsiveImage
         src={keynotePhoto.fallback}
         srcSet={keynotePhoto.wide}
         sizes="calc(100vw - 48px)"
@@ -137,7 +139,8 @@ const keynoteChapters = keynote.chapters;
 
 // IROS 2025 keynote: a full-width feature directly below the research framework.
 function KeynoteTalk() {
-  const { t } = useLanguage();
+  const { t } = useTranslation();
+  const { c } = useLanguage();
   const playerRef = useRef<HTMLDivElement>(null);
   const [chapter, setChapter] = useState<{ start: number; key: number }>({
     start: 0,
@@ -228,7 +231,7 @@ function KeynoteTalk() {
                     <button
                       type="button"
                       onClick={() => playChapter(item.start)}
-                      aria-label={`${t("Play from")} ${item.time}: ${t(item.title)}`}
+                      aria-label={`${t("Play from")} ${item.time}: ${c(item, "title")}`}
                       aria-current={active ? "true" : undefined}
                       className={cn(
                         "group flex w-full h-full flex-col items-start justify-start text-left border-t-2 pt-4 pb-3 transition-colors duration-200 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white",
@@ -247,7 +250,7 @@ function KeynoteTalk() {
                         {item.time}
                       </span>
                       <span className="mt-2 block text-base leading-snug text-white group-hover:underline underline-offset-4 decoration-white/40">
-                        {t(item.title)}
+                        {c(item, "title")}
                       </span>
                     </button>
                   </li>
@@ -262,7 +265,8 @@ function KeynoteTalk() {
 }
 
 export default function Research() {
-  const { t, language } = useLanguage();
+  const { t } = useTranslation();
+  const { language, c } = useLanguage();
   const zh = language === "zh";
 
   return (
@@ -282,18 +286,18 @@ export default function Research() {
                 </p>
               </div>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl text-[#1B2A4A] leading-[1.1]">
-                {t(researchFramework.title)}
+                {c(researchFramework, "title")}
               </h1>
               <p className="text-lg text-[#4A5568] leading-relaxed max-w-xl">
-                {t(researchFramework.introduction)}
+                {c(researchFramework, "introduction")}
               </p>
             </div>
           </ScrollReveal>
           <ScrollReveal direction="right" delay={80} duration={600}>
             <ResearchLoopVideo
               id={researchImagery.icubAttention.id}
-              title={researchImagery.icubAttention.title}
-              caption={researchImagery.icubAttention.caption}
+              title={c(researchImagery.icubAttention, "title")}
+              caption={c(researchImagery.icubAttention, "caption")}
               poster={researchImagery.icubAttention.src}
               paperUrl={researchImagery.icubAttention.paperUrl}
               demoUrl={sourceUrl(getVideoSources(researchHighlights.find(work=>work.id==="crossmodal-attention") ?? {})[0] ?? {provider:"local",src:icubDemoSources[0].src})}
@@ -346,10 +350,10 @@ export default function Research() {
                       id={`${pillar.id}-heading`}
                       className="mt-4 text-3xl lg:text-5xl text-[#1B2A4A] leading-tight"
                     >
-                      {t(pillar.title)}
+                      {c(pillar, "title")}
                     </h2>
                     <p className="mt-5 text-lg text-[#4A5568] leading-relaxed">
-                      {t(pillar.description)}
+                      {c(pillar, "description")}
                     </p>
                   </div>
                 </ScrollReveal>
@@ -367,7 +371,7 @@ export default function Research() {
                             id={`${area.id}-heading`}
                             className="text-2xl lg:text-3xl text-[#1B2A4A] leading-tight"
                           >
-                            {t(area.title)}
+                            {c(area, "title")}
                           </h3>
                           <p
                             className={cn(
@@ -375,10 +379,10 @@ export default function Research() {
                               !zh && "italic"
                             )}
                           >
-                            {t(area.question)}
+                            {c(area, "question")}
                           </p>
                           <p className="mt-4 text-base text-[#4A5568] leading-relaxed">
-                            {t(area.description)}
+                            {c(area, "description")}
                           </p>
                           <div className="mt-6 border-l-2 border-[#8B1A1A]/30 pl-4">
                             <p className="text-[11px] uppercase tracking-[0.15em] font-semibold text-[#64748B] mb-3">
@@ -396,7 +400,7 @@ export default function Research() {
                                     <span>
                                       {work.title}
                                       <span className="block text-xs text-[#64748B] mt-1">
-                                        {t(work.label)}
+                                        {c(work, "label")}
                                       </span>
                                     </span>
                                     <ArrowUpRight
@@ -455,7 +459,7 @@ export default function Research() {
               >
                 <article className="h-full flex flex-col border border-[#E2E8F0] bg-white rounded-sm overflow-hidden">
                   <FindingMedia
-                    title={work.title}
+                    title={c(work, "title")}
                     videoId={work.videoId}
                     sources={work.sources}
                     poster={work.poster}
@@ -467,10 +471,10 @@ export default function Research() {
                       {work.venue}
                     </p>
                     <h3 className="text-2xl lg:text-3xl text-[#1B2A4A] leading-tight mb-4">
-                      {t(work.title)}
+                      {c(work, "title")}
                     </h3>
                     <p className="text-sm text-[#4A5568] leading-relaxed mb-6">
-                      {t(work.description)}
+                      {c(work, "description")}
                     </p>
                     <div className="mt-auto pt-4 border-t border-[#E2E8F0] flex flex-wrap gap-x-6 gap-y-3 text-sm text-[#8B1A1A]">
                       <a
@@ -492,7 +496,7 @@ export default function Research() {
                           className="inline-flex items-center gap-1.5 hover:underline underline-offset-4"
                         >
                           <Play size={14} aria-hidden="true" />{" "}
-                          {t(work.videoLabel || "Watch video")}{getVideoSources(work).length > 1 ? ` · ${providerLabel(source.provider,language === "zh")}` : ""}
+                          {work.videoLabel ? c(work, "videoLabel") : t("Watch video")}{getVideoSources(work).length > 1 ? ` · ${t(providerLabel(source.provider))}` : ""}
                         </a>
                       ))}
                       {work.newsUrl && (

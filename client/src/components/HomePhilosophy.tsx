@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { WordWrapText } from "@/components/WordWrapText";
@@ -6,7 +7,8 @@ import { WordWrapText } from "@/components/WordWrapText";
 // Lab Name: a red eyebrow, the lead sentence as a large serif statement and
 // the supporting sentence in body grey.
 export function HomePhilosophy() {
-  const { t, language } = useLanguage();
+  const { t } = useTranslation();
+  const { language } = useLanguage();
 
   return (
     <section

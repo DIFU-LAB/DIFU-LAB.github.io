@@ -1,3 +1,4 @@
+import { recordVisit, clearVisitorSession } from "./visitor";
 import {useEffect} from "react";
 import {useLocation} from "wouter";
 import {loadVisitorCounter} from "./visitorCounter";
@@ -17,11 +18,10 @@ export function ExternalServices(){
     return ()=>script.remove();
   },[allowed.analytics]);
   useEffect(()=>{
-    if(!allowed.visitorMap)return;
-    const controller=new AbortController();
-    let visitorId:string;try{visitorId=localStorage.getItem('seil-visitor-id')||crypto.randomUUID();localStorage.setItem('seil-visitor-id',visitorId);}catch{return;}
-    fetch(services.visitorMap.endpoint.replace(/\/$/,'')+'/visit',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({visitorId}),credentials:'omit',signal:controller.signal}).catch(()=>{});
-    return ()=>controller.abort();
+    if (!allowed.visitorMap) { clearVisitorSession(); return; }
+    const controller = new AbortController();
+    const timer = window.setTimeout(() => { void recordVisit(controller.signal); }, 0);
+    return () => { window.clearTimeout(timer); controller.abort(); };
   },[allowed.visitorMap,path]);
   return null;
 }

@@ -53,5 +53,10 @@
       "recordId": "10.31234/osf.io/7cxf5_v2"
     }
   ],
-  "notes": "Public PsyArXiv preprint posted in 2025; journal review status follows the October 2026 CV."
+  "notes": "Public PsyArXiv preprint posted in 2025; journal review status is based on the October 2026 CV.",
+  "translations": {
+    "zh": {
+      "notes": "2025年发布的公开PsyArXiv预印本；期刊审稿状态依据2026年10月的简历。"
+    }
+  }
 }

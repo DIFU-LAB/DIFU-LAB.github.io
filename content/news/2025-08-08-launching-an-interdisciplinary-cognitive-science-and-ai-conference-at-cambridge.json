@@ -13,8 +13,17 @@
     "sourceName": "LinkedIn",
     "sourceKind": "linkedin",
     "dateBasis": "post",
-    "dateValue": "2025-08-08T02:14:04.103Z"
+    "dateValue": "2025-08-08T02:14:04.103Z",
+    "translations": {
+      "zh": {
+        "category": "演讲与活动"
+      }
+    }
   },
-  "titleZh": "在剑桥发起跨学科认知科学与人工智能会议",
-  "excerptZh": "作为组织主席，Di Fu 回顾了首届 Exploring Interdisciplinary Frontiers 会议。会议于 2025 年 5 月 9-10 日在剑桥大学塞尔文学院举行，吸引了来自 18 个国家的 120 多名参与者。"
+  "translations": {
+    "zh": {
+      "title": "在剑桥发起跨学科认知科学与人工智能会议",
+      "excerpt": "作为组织主席，Di Fu 回顾了首届 Exploring Interdisciplinary Frontiers 会议。会议于 2025 年 5 月 9-10 日在剑桥大学塞尔文学院举行，吸引了来自 18 个国家的 120 多名参与者。"
+    }
+  }
 }

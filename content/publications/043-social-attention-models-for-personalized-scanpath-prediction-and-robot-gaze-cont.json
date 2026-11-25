@@ -26,5 +26,10 @@
       "recordId": "cv-journal-05"
     }
   ],
-  "notes": "Revise and resubmit, as listed in the October 2026 CV. No public preprint link or publication year was established."
+  "notes": "Revise and resubmit, as listed in the October 2026 CV. No public preprint link or publication year was established.",
+  "translations": {
+    "zh": {
+      "notes": "根据2026年10月的简历，该稿件处于修改后重投阶段。未确认公开预印本链接或发表年份。"
+    }
+  }
 }

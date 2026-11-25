@@ -1,3 +1,5 @@
+import { ResponsiveImage } from "@/components/ResponsiveImage";
+import { useTranslation } from "react-i18next";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useState } from "react";
 import { ArrowUpRight } from "lucide-react";
@@ -5,7 +7,8 @@ import { ScrollReveal } from "@/components/ScrollReveal";
 import { roboticsPlatforms } from "@/lib/roboticsPlatforms";
 
 export default function RoboticsPlatforms() {
-  const { t, language } = useLanguage();
+  const { t } = useTranslation();
+  const { language, c } = useLanguage();
 
   const [failedImages, setFailedImages] = useState<Set<string>>(
     () => new Set()
@@ -53,7 +56,7 @@ export default function RoboticsPlatforms() {
                 {platform.name}
               </h3>
               <p className="text-xs text-[#8B1A1A] uppercase tracking-[0.08em] leading-relaxed min-h-10">
-                {t(platform.type)}
+                {c(platform, "type")}
               </p>
               <figure className="my-5">
                 <div
@@ -65,9 +68,9 @@ export default function RoboticsPlatforms() {
                       {platform.name} {t("product image unavailable.")}
                     </p>
                   ) : (
-                    <img
-                      src={platform.image.src}
-                      alt={t(platform.image.alt)}
+                    <ResponsiveImage
+                      src={platform.image.src} sizes="(min-width: 1024px) 360px, (min-width: 640px) 45vw, calc(100vw - 48px)"
+                      alt={c(platform.image, "alt")}
                       width={platform.image.width}
                       height={platform.image.height}
                       loading="lazy"
@@ -83,11 +86,11 @@ export default function RoboticsPlatforms() {
                 </div>
                 <figcaption className="mt-4 text-[11px] text-[#64748B] leading-relaxed">
                   {t("Image:")}
-                  {t(platform.image.credit)}
+                  {c(platform.image, "credit")}
                 </figcaption>
               </figure>
               <p className="text-sm text-[#4A5568] leading-relaxed mb-6">
-                {t(platform.description)}
+                {c(platform, "description")}
               </p>
               <div className="mt-auto pt-4 border-t border-[#E2E8F0] flex flex-wrap gap-x-5 gap-y-2 text-sm">
                 <a

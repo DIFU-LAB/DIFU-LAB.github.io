@@ -2,7 +2,10 @@
   "id": "unique-publication-id",
   "title": "Publication title",
   "authors": "First Author, Second Author",
-  "authorNames": ["First Author", "Second Author"],
+  "authorNames": [
+    "First Author",
+    "Second Author"
+  ],
   "authorsComplete": true,
   "year": 2026,
   "journal": "Journal or conference",
@@ -12,5 +15,8 @@
   "status": "published",
   "sourceUrl": "https://example.org/publication",
   "sourceRecordIds": [],
-  "versions": []
+  "versions": [],
+  "translations": {
+    "zh": {}
+  }
 }

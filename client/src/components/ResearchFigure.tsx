@@ -1,3 +1,5 @@
+import { ResponsiveImage } from "@/components/ResponsiveImage";
+import { useTranslation } from "react-i18next";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useState } from "react";
 import { ArrowUpRight, Expand } from "lucide-react";
@@ -20,7 +22,8 @@ export function ResearchFigure({
   className?: string;
   sizes?: string;
 }) {
-  const { t, language } = useLanguage();
+  const { t } = useTranslation();
+  const { language, c } = useLanguage();
 
   const [failed, setFailed] = useState(false);
   return (
@@ -29,7 +32,7 @@ export function ResearchFigure({
         <DialogTrigger asChild>
           <button
             type="button"
-            aria-label={`${t("View full-size")}: ${t(image.title)}`}
+            aria-label={`${t("View full-size")}: ${c(image, "title")}`}
             className="group block w-full text-left border border-[#E2E8F0] bg-white rounded-sm overflow-hidden cursor-zoom-in focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#8B1A1A]"
           >
             {failed ? (
@@ -43,11 +46,11 @@ export function ResearchFigure({
                 )}
               </div>
             ) : (
-              <img
+              <ResponsiveImage
                 src={image.src}
                 srcSet={image.srcSet}
                 sizes={sizes}
-                alt={t(image.alt)}
+                alt={c(image, "alt")}
                 width={image.width}
                 height={image.height}
                 loading="lazy"
@@ -67,11 +70,11 @@ export function ResearchFigure({
           aria-describedby={`research-image-description-${image.id}`}
         >
           <DialogTitle className="font-heading text-2xl leading-tight pr-8">
-            {t(image.title)}
+            {c(image, "title")}
           </DialogTitle>
-          <img
-            src={image.fullSrc}
-            alt={t(image.alt)}
+          <ResponsiveImage
+            src={image.fullSrc} original loading="eager"
+            alt={c(image, "alt")}
             width={image.width}
             height={image.height}
             className="block w-full h-auto max-h-[62svh] object-contain"
@@ -80,11 +83,11 @@ export function ResearchFigure({
             id={`research-image-description-${image.id}`}
             className="text-sm text-[#4A5568] leading-relaxed"
           >
-            {t(image.caption)}
+            {c(image, "caption")}
           </DialogDescription>
           {image.credit && (
             <p className="text-xs text-[#64748B] leading-relaxed">
-              {t(image.credit)}
+              {c(image, "credit")}
             </p>
           )}
           <a
@@ -99,10 +102,10 @@ export function ResearchFigure({
         </DialogContent>
       </Dialog>
       <figcaption className="pt-3 text-xs text-[#64748B] leading-relaxed">
-        <p className="text-sm text-[#4A5568]">{t(image.caption)}</p>
+        <p className="text-sm text-[#4A5568]">{c(image, "caption")}</p>
         <div className="flex flex-wrap items-start gap-x-4 gap-y-2 mt-2">
           {image.credit && (
-            <span className="flex-1 min-w-[180px]">{t(image.credit)}</span>
+            <span className="flex-1 min-w-[180px]">{c(image, "credit")}</span>
           )}
           <a
             href={image.paperUrl}

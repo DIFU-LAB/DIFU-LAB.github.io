@@ -119,3 +119,6 @@ client/public/media/fonts/Source-Sans-3-OFL.txt
 __pycache__/
 integrations/visitor-map/wrangler.toml
 .wrangler/
+
+# Build-time responsive image derivatives (source originals stay tracked)
+client/public/media/_responsive/

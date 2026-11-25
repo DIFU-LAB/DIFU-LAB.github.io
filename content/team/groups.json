@@ -13,6 +13,12 @@
           "width": 800,
           "height": 600,
           "position": "60% 50%"
+        },
+        "translations": {
+          "zh": {
+            "affiliation": "心理学院",
+            "institution": "萨里大学"
+          }
         }
       },
       {
@@ -24,6 +30,12 @@
           "width": 539,
           "height": 800,
           "position": "50% 35%"
+        },
+        "translations": {
+          "zh": {
+            "affiliation": "萨里以人为本人工智能研究院 (PAI)",
+            "institution": "萨里大学"
+          }
         }
       },
       {
@@ -35,6 +47,12 @@
           "width": 200,
           "height": 200,
           "position": "50% 35%"
+        },
+        "translations": {
+          "zh": {
+            "affiliation": "计算机科学与电子工程学院",
+            "institution": "萨里大学"
+          }
         }
       },
       {
@@ -46,6 +64,12 @@
           "width": 400,
           "height": 400,
           "position": "50% 35%"
+        },
+        "translations": {
+          "zh": {
+            "affiliation": "萨里以人为本人工智能研究院 (PAI)",
+            "institution": "萨里大学"
+          }
         }
       },
       {
@@ -58,9 +82,22 @@
           "width": 250,
           "height": 257,
           "position": "50% 35%"
+        },
+        "translations": {
+          "zh": {
+            "role": "访问博士生",
+            "affiliation": "媒体信息学课题组",
+            "institution": "慕尼黑大学"
+          }
         }
       }
-    ]
+    ],
+    "translations": {
+      "zh": {
+        "title": "博士生",
+        "role": "博士生"
+      }
+    }
   },
   {
     "id": "psychd-students",
@@ -76,6 +113,12 @@
           "width": 638,
           "height": 800,
           "position": "50% 35%"
+        },
+        "translations": {
+          "zh": {
+            "affiliation": "心理学院",
+            "institution": "萨里大学"
+          }
         }
       },
       {
@@ -87,9 +130,21 @@
           "width": 600,
           "height": 800,
           "position": "50% 70%"
+        },
+        "translations": {
+          "zh": {
+            "affiliation": "心理学院",
+            "institution": "萨里大学"
+          }
         }
       }
-    ]
+    ],
+    "translations": {
+      "zh": {
+        "title": "临床心理学博士生",
+        "role": "临床心理学博士生"
+      }
+    }
   },
   {
     "id": "research-assistants",
@@ -106,6 +161,13 @@
           "width": 800,
           "height": 712,
           "position": "50% 35%"
+        },
+        "translations": {
+          "zh": {
+            "background": "硕士生",
+            "affiliation": "心理学",
+            "institution": "根特大学"
+          }
         }
       },
       {
@@ -118,6 +180,13 @@
           "width": 600,
           "height": 800,
           "position": "50% 35%"
+        },
+        "translations": {
+          "zh": {
+            "background": "硕士生",
+            "affiliation": "心理学",
+            "institution": "萨里大学"
+          }
         }
       },
       {
@@ -130,6 +199,13 @@
           "width": 400,
           "height": 400,
           "position": "50% 35%"
+        },
+        "translations": {
+          "zh": {
+            "background": "本科三年级学生",
+            "affiliation": "心理学",
+            "institution": "萨里大学"
+          }
         }
       },
       {
@@ -142,6 +218,13 @@
           "width": 800,
           "height": 800,
           "position": "50% 35%"
+        },
+        "translations": {
+          "zh": {
+            "background": "本科二年级学生",
+            "affiliation": "心理学",
+            "institution": "萨里大学"
+          }
         }
       },
       {
@@ -154,8 +237,21 @@
           "width": 200,
           "height": 200,
           "position": "50% 50%"
+        },
+        "translations": {
+          "zh": {
+            "background": "本科二年级学生",
+            "affiliation": "心理学",
+            "institution": "萨里大学"
+          }
         }
       }
-    ]
+    ],
+    "translations": {
+      "zh": {
+        "title": "研究助理",
+        "role": "研究助理"
+      }
+    }
   }
 ]

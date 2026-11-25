@@ -1,3 +1,5 @@
+import { ResponsiveImage } from "@/components/ResponsiveImage";
+import { useTranslation } from "react-i18next";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { ArrowUpRight, Newspaper } from "lucide-react";
 import { getVideoSources, type VideoSource } from "@/lib/videoSources";
@@ -30,7 +32,8 @@ export function FindingMedia({
   newsUrl?: string;
   newsImage?: FindingNewsImage;
 }) {
-  const { t } = useLanguage();
+  const { t } = useTranslation();
+  const { c } = useLanguage();
 
   if (getVideoSources({sources,videoId}).length) {
     return (
@@ -47,16 +50,16 @@ export function FindingMedia({
         target="_blank"
         rel="noopener noreferrer"
         data-finding-media="news"
-        aria-label={`${t("Surrey news")}: ${t(title)}`}
+        aria-label={`${t("Surrey news")}: ${title}`}
         className="group relative block aspect-video w-full overflow-hidden rounded-sm bg-[#1B2A4A] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-inset focus-visible:ring-[#8B1A1A]"
       >
-        <img
+        <ResponsiveImage
           src={newsImage.src}
           srcSet={newsImage.srcSet}
           sizes="(min-width: 768px) 560px, calc(100vw - 48px)"
           width={newsImage.width}
           height={newsImage.height}
-          alt={t(newsImage.alt)}
+          alt={c(newsImage, "alt")}
           loading="lazy"
           decoding="async"
           className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-[1.015]"

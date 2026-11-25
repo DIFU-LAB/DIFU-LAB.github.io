@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import { ArrowUpRight } from "lucide-react";
 import { ScrollReveal } from "@/components/ScrollReveal";
@@ -21,7 +22,8 @@ function getStatus(work: Publication) {
 }
 
 function PublicationEntry({ work }: { work: Publication }) {
-  const { t, language } = useLanguage();
+  const { t } = useTranslation();
+  const { language, c } = useLanguage();
   const status = getStatus(work);
   const isPublished = status === "published";
   const paperUrl = getPublicationUrl(work);
@@ -56,7 +58,7 @@ function PublicationEntry({ work }: { work: Publication }) {
       lang={language === "zh" ? "zh-CN" : "en"}
     >
       <p className="text-[11px] font-medium uppercase tracking-[0.14em] text-[#8B1A1A] mb-3">
-        {t(typeLabel)}
+        {work.kindLabel ? c(work, "kindLabel") : t(typeLabel)}
         {typeLabel !== statusLabel && <> · {t(statusLabel)}</>}
       </p>
       <h3 className="text-xl lg:text-2xl leading-snug text-[#1B2A4A]" lang="en">
@@ -111,7 +113,7 @@ function PublicationEntry({ work }: { work: Publication }) {
       )}
       {work.notes && (
         <p className="text-xs text-[#64748B] mt-2 leading-relaxed">
-          {t(work.notes)}
+          {c(work, "notes")}
         </p>
       )}
       <div
@@ -138,7 +140,8 @@ function PublicationEntry({ work }: { work: Publication }) {
 }
 
 export default function Publications() {
-  const { t, language } = useLanguage();
+  const { t } = useTranslation();
+  const { language } = useLanguage();
   const [selectedYear, setSelectedYear] = useState<YearFilter>("all");
   const [selectedStatus, setSelectedStatus] = useState<StatusFilter>("all");
   const years = [...publicationYears].sort((a, b) => b - a);

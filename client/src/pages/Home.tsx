@@ -1,3 +1,5 @@
+import { ResponsiveImage } from "@/components/ResponsiveImage";
+import { useTranslation } from "react-i18next";
 // ============================================================
 // Home Page - Classic British Academic Style with Full-Screen Hero
 // Full-bleed hero image with text overlay for maximum visual impact
@@ -17,7 +19,8 @@ import { VisitorMap } from "@/components/VisitorMap";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 function NewsSection() {
-  const { t, language } = useLanguage();
+  const { t } = useTranslation();
+  const { language, c } = useLanguage();
   const newsItems = localNews;
 
   if (newsItems.length === 0) {
@@ -45,10 +48,10 @@ function NewsSection() {
             </span>
             <div className="flex-1">
               <h3 className="text-xl leading-snug text-[#1B2A4A] group-hover:text-[#8B1A1A] transition-colors font-heading">
-                {(language === "zh" && item.titleZh ? item.titleZh : t(item.title))}
+                {(c(item, "title"))}
               </h3>
               <p className="text-sm text-[#64748B] mt-1 leading-relaxed line-clamp-2">
-                {(language === "zh" && item.excerptZh ? item.excerptZh : t(item.excerpt ?? ""))}
+                {(c(item, "excerpt"))}
               </p>
             </div>
           </div>
@@ -59,7 +62,8 @@ function NewsSection() {
 }
 
 export default function Home() {
-  const { t, language } = useLanguage();
+  const { t } = useTranslation();
+  const { language } = useLanguage();
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -77,8 +81,8 @@ export default function Home() {
           aria-hidden="true"
           className="pointer-events-none absolute inset-0 overflow-hidden"
         >
-          <img
-            src={heroVideo.fallbackSrc}
+          <ResponsiveImage
+            src={heroVideo.fallbackSrc} sizes="100vw" loading="eager" fetchPriority="high"
             alt=""
             className="w-full h-full object-cover hero-breathe"
           />

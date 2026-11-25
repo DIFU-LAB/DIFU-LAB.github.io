@@ -44,5 +44,10 @@
       "recordId": "10.3724/SP.J.1042.2023.00240"
     }
   ],
-  "notes": "Chinese-language review. First released online in 2022; assigned to the 2023 journal issue."
+  "notes": "Chinese-language review. First released online in 2022; assigned to the 2023 journal issue.",
+  "translations": {
+    "zh": {
+      "notes": "中文综述。2022 年首次在线发表，编入 2023 年期刊卷期。"
+    }
+  }
 }

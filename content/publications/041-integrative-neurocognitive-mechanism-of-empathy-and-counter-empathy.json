@@ -45,5 +45,10 @@
       "recordId": "209710684"
     }
   ],
-  "notes": "Chinese-language article."
+  "notes": "Chinese-language article.",
+  "translations": {
+    "zh": {
+      "notes": "中文文章。"
+    }
+  }
 }

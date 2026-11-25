@@ -48,5 +48,10 @@
     }
   ],
   "notes": "",
-  "kindLabel": "Workshop abstract"
+  "kindLabel": "Workshop abstract",
+  "translations": {
+    "zh": {
+      "kindLabel": "工作坊摘要"
+    }
+  }
 }

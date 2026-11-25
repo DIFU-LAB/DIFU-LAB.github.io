@@ -22,6 +22,22 @@ jobs:
         with:
           node-version: '22'
           cache: pnpm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install Pillow==12.3.0
+      - uses: actions/cache@v4
+        with:
+          path: |
+            client/public/media/_responsive
+            .cache/responsive-media.json
+            client/public/media/fonts/latin.css
+            client/public/media/fonts/latin-*.woff2
+            client/public/media/fonts/EB-Garamond-OFL.txt
+            client/public/media/fonts/Source-Sans-3-OFL.txt
+          key: media-v1-${{ hashFiles('scripts/prepare-images.py', 'scripts/prepare-fonts.py', 'client/public/media/**/*.jpg', 'client/public/media/**/*.jpeg', 'client/public/media/**/*.png', 'client/public/media/**/*.webp', 'client/public/media/**/*.avif') }}
+          restore-keys: |
+            media-v1-
       - run: pnpm install --frozen-lockfile
       - run: pnpm validate
       - run: pnpm check
@@ -32,9 +48,12 @@ jobs:
       - name: Build static site
         env:
           PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          VITE_VISITOR_MAP_ENDPOINT: ${{ vars.VITE_VISITOR_MAP_ENDPOINT }}
         run: pnpm build
       - name: Verify static deployment
-        run: node scripts/check-build.mjs
+        run: |
+          node scripts/check-build.mjs
+          pnpm test
       - name: Upload Pages artifact
         if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3

@@ -2,7 +2,7 @@
   "id": 30001,
   "linkedinUrl": "https://www.linkedin.com/posts/di-fu-1307a86a_ai-psychology-activity-7421334491144736768-BJUs",
   "title": "New Interdisciplinary Principal Fellow Role at PAI",
-  "excerpt": "Di Fu shared her new role at the Surrey Institute for People-Centred AI (PAI), alongside her position in the School of Psychology, and reflected on the lab’s growth and arrival of Misty Robot.",
+  "excerpt": "Di Fu shared her new role at the Surrey Institute for People-Centred AI (PAI), alongside her position in the School of Psychology, and reflected on the lab’s growth and the arrival of Misty Robot.",
   "content": null,
   "imageUrl": "/media/news/30001.webp",
   "publishedAt": "2026-01-25T23:33:44.000Z",
@@ -13,8 +13,17 @@
     "sourceName": "LinkedIn",
     "sourceKind": "linkedin",
     "dateBasis": "post",
-    "dateValue": "2026-01-25T23:33:44.392Z"
+    "dateValue": "2026-01-25T23:33:44.392Z",
+    "translations": {
+      "zh": {
+        "category": "实验室动态"
+      }
+    }
   },
-  "titleZh": "PAI新增跨学科Principal Fellow职位",
-  "excerptZh": "Di Fu 分享了她在萨里大学以人为中心人工智能研究院（PAI）的新职务，以及她在心理学学院的职位，并回顾了实验室的发展和 Misty Robot 的到来。"
+  "translations": {
+    "zh": {
+      "title": "PAI新增跨学科Principal Fellow职位",
+      "excerpt": "Di Fu 分享了她在萨里大学以人为中心人工智能研究院（PAI）的新职务，以及她在心理学学院的职位，并回顾了实验室的发展和 Misty Robot 的到来。"
+    }
+  }
 }

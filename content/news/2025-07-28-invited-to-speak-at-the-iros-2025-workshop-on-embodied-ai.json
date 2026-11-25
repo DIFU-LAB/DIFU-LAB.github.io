@@ -13,8 +13,17 @@
     "sourceName": "LinkedIn",
     "sourceKind": "linkedin",
     "dateBasis": "post",
-    "dateValue": "2025-07-28T08:09:26.773Z"
+    "dateValue": "2025-07-28T08:09:26.773Z",
+    "translations": {
+      "zh": {
+        "category": "演讲与活动"
+      }
+    }
   },
-  "titleZh": "受邀在 IROS 2025 具身智能研讨会上演讲",
-  "excerptZh": "Di Fu 宣布受邀在 IROS 2025 的 Embodied AI and Robotics for Future Scientific Discovery workshop 上演讲。该活动定于 10 月 24 日在杭州举行。"
+  "translations": {
+    "zh": {
+      "title": "受邀在 IROS 2025 具身智能研讨会上演讲",
+      "excerpt": "Di Fu 宣布受邀在 IROS 2025 的 Embodied AI and Robotics for Future Scientific Discovery workshop 上演讲。该活动定于 10 月 24 日在杭州举行。"
+    }
+  }
 }

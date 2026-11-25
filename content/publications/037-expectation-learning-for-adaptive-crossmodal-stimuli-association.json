@@ -40,5 +40,10 @@
       "recordId": "10.48550/arXiv.1801.07654"
     }
   ],
-  "notes": "Abstract for the 2017 EUCog meeting; posted to arXiv in 2018."
+  "notes": "Abstract for the 2017 EUCog meeting; posted to arXiv in 2018.",
+  "translations": {
+    "zh": {
+      "notes": "2017 年 EUCog 会议摘要；2018 年发布于 arXiv。"
+    }
+  }
 }

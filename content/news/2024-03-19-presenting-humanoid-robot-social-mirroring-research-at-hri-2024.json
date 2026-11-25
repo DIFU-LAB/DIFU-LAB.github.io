@@ -2,7 +2,7 @@
   "id": 90005,
   "linkedinUrl": "https://www.inf.uni-hamburg.de/en/inst/ab/wtm/about/news/20240319wtmathri.html",
   "title": "Presenting humanoid-robot social mirroring research at HRI 2024",
-  "excerpt": "Dr Di Fu presented Human Impression of Humanoid Robots Mirroring Social Cues at ACM/IEEE HRI 2024 in Boulder, Colorado. The study compares how robot platforms and control methods influence people's perceptions of affective and movement mirroring.",
+  "excerpt": "Dr Di Fu presented Human Impression of Humanoid Robots Mirroring Social Cues at ACM/IEEE HRI 2024 in Boulder, Colorado. The study compares how robot platforms and control methods influence perceptions of affective and movement mirroring.",
   "content": null,
   "imageUrl": "/media/news/90005.webp",
   "publishedAt": "2024-03-19T12:00:00.000Z",
@@ -13,7 +13,13 @@
     "sourceName": "University of Hamburg - Knowledge Technology",
     "sourceKind": "university",
     "dateBasis": "publication",
-    "dateValue": "2024-03-19"
+    "dateValue": "2024-03-19",
+    "translations": {
+      "zh": {
+        "category": "演讲与活动",
+        "sourceName": "汉堡大学 - 知识技术"
+      }
+    }
   },
   "provenance": {
     "dateEvidence": "Hamburg news article displays 19 March 2024 and its NewsArticle JSON-LD gives datePublished 2024-03-19T00:00:00.000000+01:00. The 20 March footer is a modification date. Exact individual presentation day is not established, so the news publication date is shown, not an invented talk or LinkedIn date.",
@@ -22,6 +28,10 @@
       "https://www.surrey.ac.uk/people/di-fu"
     ]
   },
-  "titleZh": "在HRI 2024介绍人形机器人社会镜像研究",
-  "excerptZh": "Di Fu 博士在科罗拉多州博尔德举行的 ACM/IEEE HRI 2024 上介绍了 Human Impression of Humanoid Robots Mirroring Social Cues。该研究比较机器人平台和控制方法如何影响人们对情感及动作模仿的感知。"
+  "translations": {
+    "zh": {
+      "title": "在HRI 2024介绍人形机器人社会镜像研究",
+      "excerpt": "Di Fu 博士在科罗拉多州博尔德举行的 ACM/IEEE HRI 2024 上介绍了 Human Impression of Humanoid Robots Mirroring Social Cues。该研究比较机器人平台和控制方法如何影响人们对情感及动作模仿的感知。"
+    }
+  }
 }

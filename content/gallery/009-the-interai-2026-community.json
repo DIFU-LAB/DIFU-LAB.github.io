@@ -3,7 +3,7 @@
   "image": "/media/gallery/7439815001676304386-2.webp",
   "title": "The InterAI 2026 community",
   "category": "Conferences",
-  "description": "Workshop participants gathered at the second InterAI Workshop. This photograph shows the wider workshop community, not solely SEIL Lab members.",
+  "description": "Workshop participants at the second InterAI Workshop. The photograph shows the wider workshop community, not only SEIL Lab members.",
   "date": null,
   "dateLabel": "March 2026",
   "sourceUrl": "https://www.linkedin.com/posts/di-fu-1307a86a_hri-humancentredai-humancentredrobotics-activity-7439815001676304386-xcdK",
@@ -17,7 +17,13 @@
     "treatment": "Natural, light portrait retouching; identity and documentary scene preserved",
     "date": "2026-11-02"
   },
-  "titleZh": "InterAI 2026 社群",
-  "descriptionZh": "第二届 InterAI Workshop 的参与者合影。照片呈现的是更广泛的研讨会群体，并非只有 SEIL Lab 成员。",
-  "categoryZh": "会议"
+  "translations": {
+    "zh": {
+      "title": "InterAI 2026 社群",
+      "category": "会议",
+      "description": "第二届 InterAI Workshop 的参与者合影。照片呈现的是更广泛的研讨会群体，并非只有 SEIL Lab 成员。",
+      "dateLabel": "2026 年 3 月",
+      "sourceLabel": "Di Fu 的 LinkedIn 主页"
+    }
+  }
 }

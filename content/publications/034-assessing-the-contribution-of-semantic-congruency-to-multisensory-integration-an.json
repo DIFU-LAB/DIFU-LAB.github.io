@@ -48,5 +48,10 @@
       "recordId": "209961807"
     }
   ],
-  "notes": "Contribution to the IROS 2018 Crossmodal Learning workshop; available as an arXiv preprint."
+  "notes": "Contribution to the IROS 2018 Crossmodal Learning workshop; available as an arXiv preprint.",
+  "translations": {
+    "zh": {
+      "notes": "对 IROS 2018 Crossmodal Learning workshop 的贡献；以 arXiv 预印本形式提供。"
+    }
+  }
 }

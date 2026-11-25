@@ -27,8 +27,8 @@ export function getVideoSources(record: VideoRecord): PlayableSource[] {
   }
   return result;
 }
-export function providerLabel(provider: PlayableSource['provider'], zh: boolean) {
-  return provider === 'local' ? (zh ? '本站视频' : 'On-site video') : provider === 'bilibili' ? (zh ? '哔哩哔哩' : 'Bilibili') : 'YouTube';
+export function providerLabel(provider: PlayableSource['provider']) {
+  return provider === 'local' ? 'On-site video' : provider === 'bilibili' ? 'Bilibili' : 'YouTube';
 }
 export function sourceUrl(source: PlayableSource, start = 0) {
   const seconds = Math.max(0, Math.floor(start));

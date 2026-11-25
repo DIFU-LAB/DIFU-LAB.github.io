@@ -4,6 +4,14 @@
   "paiRole": "Interdisciplinary Principal Fellow, PAI",
   "officialUrl": "https://www.surrey.ac.uk/people/di-fu",
   "photo": "/media/team/di-fu.jpeg",
-  "bio": "Dr Di Fu is an Assistant Professor in the School of Psychology and an Interdisciplinary Principal Fellow at the Surrey Institute for People-Centred AI (PAI), University of Surrey. She directs the Social Interaction and Embodied Intelligence (SEIL) Lab. She investigates how social cues guide attention, how people integrate information across senses, and how they interact and cooperate with robots and AI systems. Her work connects cognitive experiments and computational modelling with studies of embodied robots, voice assistants and conversational agents, using artificial systems both to investigate human social mechanisms and to explore human-grounded AI.",
-  "background": "She received her PhD in Cognitive Neuroscience from the Institute of Psychology, Chinese Academy of Sciences, in 2020, and undertook a joint PhD programme at the University of Hamburg from 2017 to 2020. Before joining Surrey, she was a Postdoctoral Research Associate in Hamburg’s Department of Informatics, working on the Crossmodal Learning project from 2020 to 2023."
+  "bio": "Dr Di Fu is an Assistant Professor in Surrey's School of Psychology and an Interdisciplinary Principal Fellow at PAI. She directs SEIL Lab, linking social-cognitive experiments with computational modelling, human-robot interaction and human-AI research.",
+  "background": "She received her PhD in Cognitive Neuroscience from the Institute of Psychology, Chinese Academy of Sciences, in 2020, and undertook a joint PhD programme at the University of Hamburg from 2017 to 2020. Before joining Surrey, she was a Postdoctoral Research Associate in Hamburg's Department of Informatics, working on the Crossmodal Learning project from 2020 to 2023.",
+  "translations": {
+    "zh": {
+      "role": "助理教授兼实验室主任",
+      "paiRole": "PAI 跨学科首席研究员",
+      "bio": "Di Fu 博士任职于萨里大学心理学院，并担任以人为本人工智能研究院 (PAI) 的跨学科首席研究员。她领导 SEIL Lab，将社会认知实验与计算建模、人机交互及人与 AI 交互研究相结合。",
+      "background": "她于2020年获得中国科学院心理研究所认知神经科学博士学位，并于2017年至2020年参加汉堡大学联合博士项目。加入萨里大学前，她于2020年至2023年在汉堡大学信息学系担任博士后研究助理，参与 Crossmodal Learning 项目。"
+    }
+  }
 }

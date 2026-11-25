@@ -5,9 +5,6 @@ export type GalleryItem = {
   id: string;
   image: string;
   title: string;
-  titleZh?: string;
-  descriptionZh?: string;
-  categoryZh?: string;
   category: string;
   description: string;
   date: string | null;

@@ -1,7 +1,16 @@
 {
-  "overview": "SEIL Lab investigates how people attend to social information, integrate cues across senses, and interact and cooperate with humans and artificial agents. We connect cognitive experiments, neuroscience and computational modelling with human-robot and human-AI research. Across five complementary themes, artificial agents serve both as interaction partners and as experimental tools: helping us test accounts of human social behaviour and develop human-grounded embodied AI.",
-  "homeIntro": "Our research connects crossmodal social cue integration and the mechanisms of social cognition with human-robot cooperation, human-AI interaction and embodied AI.",
+  "overview": "We study social attention, crossmodal cue integration and interaction with people, robots and AI. Human experiments, computational models and embodied testing inform one another.",
+  "homeIntro": "Our research links crossmodal social cue integration and social cognition mechanisms with human-robot cooperation, human-AI interaction and embodied AI.",
   "approachTitle": "Human mechanisms, testable models and interactive agents",
-  "approach": "Human experiments help us identify which social cues guide behaviour and distinguish competing explanations. Computational models turn these accounts into testable predictions; implementing selected models on robots lets us examine them under embodied conditions. We also manipulate robot and conversational-agent behaviour to investigate how people respond during interaction. Findings feed back into our questions and models. Different projects enter this cycle at different points, linking fundamental work on human cognition with studies of cooperation and interaction with AI.",
-  "piResearch": "She investigates how social cues guide attention, how people integrate information across senses, and how they interact and cooperate with robots and AI systems. Her work connects cognitive experiments and computational modelling with studies of embodied robots, voice assistants and conversational agents, using artificial systems both to investigate human social mechanisms and to explore human-grounded AI."
+  "approach": "Human experiments constrain computational models. Robot and conversational-agent studies test their predictions and return evidence to refine them. Projects enter this feedback cycle at different points.",
+  "piResearch": "She studies social attention, multisensory integration and interaction with robots and AI. Her work links cognitive experiments with computational modelling, using artificial agents as both research tools and interaction partners.",
+  "translations": {
+    "zh": {
+      "overview": "我们研究社会注意、跨模态线索整合，以及人与机器人和 AI 的交互。人类实验、计算模型与具身测试相互启发。",
+      "homeIntro": "我们的研究将跨模态社会线索整合与社会认知机制，同人机合作、人机交互及具身智能联系起来。",
+      "approachTitle": "人类机制、可检验模型与交互智能体",
+      "approach": "人类实验为计算模型提供约束。机器人与对话智能体实验检验模型预测，并反馈证据。各项目可从闭环中的不同环节展开。",
+      "piResearch": "她研究社会注意、多感官整合及人与机器人和 AI 的交互，将认知实验与计算建模结合，并把人工智能体同时作为研究工具和交互伙伴。"
+    }
+  }
 }

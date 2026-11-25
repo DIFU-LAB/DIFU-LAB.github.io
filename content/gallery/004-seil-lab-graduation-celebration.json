@@ -17,7 +17,12 @@
     "treatment": "Natural, light portrait retouching; identity and documentary scene preserved",
     "date": "2026-11-02"
   },
-  "titleZh": "SEIL 实验室毕业庆祝活动",
-  "descriptionZh": "祝贺SEIL实验室的本科和硕士毕业生。大学个人简介向五名本科毕业生和两名硕士毕业生表示祝贺，其中Amelia和Hannah获得一等荣誉学位。",
-  "categoryZh": "团队活动"
+  "translations": {
+    "zh": {
+      "title": "SEIL 实验室毕业庆祝活动",
+      "category": "团队活动",
+      "description": "祝贺SEIL实验室的本科和硕士毕业生。大学个人简介向五名本科毕业生和两名硕士毕业生表示祝贺，其中Amelia和Hannah获得一等荣誉学位。",
+      "sourceLabel": "萨里大学"
+    }
+  }
 }
