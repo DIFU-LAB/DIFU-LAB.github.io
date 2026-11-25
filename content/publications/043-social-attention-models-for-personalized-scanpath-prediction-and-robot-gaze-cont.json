@@ -1,0 +1,30 @@
+{
+  "id": "cv-journal-05",
+  "title": "Social Attention Models for Personalized Scanpath Prediction and Robot Gaze Control",
+  "authors": "Fares Abawi, Di Fu, Stefan Wermter",
+  "authorNames": [
+    "Fares Abawi",
+    "Di Fu",
+    "Stefan Wermter"
+  ],
+  "authorsComplete": true,
+  "year": null,
+  "journal": "",
+  "doi": "",
+  "url": "",
+  "type": "journal",
+  "status": "under-review",
+  "sourceUrl": "",
+  "sourceRecordIds": [
+    "CV:cv-journal-05"
+  ],
+  "versions": [],
+  "sources": [
+    {
+      "name": "CV (October 2026)",
+      "url": "",
+      "recordId": "cv-journal-05"
+    }
+  ],
+  "notes": "Revise and resubmit, as listed in the October 2026 CV. No public preprint link or publication year was established."
+}

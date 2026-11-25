@@ -1,0 +1,44 @@
+{
+  "id": "10.1515/pjbr-2018-0026",
+  "title": "Deep reinforcement learning using compositional representations for performing instructions",
+  "authors": "Mohammad Ali Zamani, Sven Magg, Cornelius Weber, Di Fu, Stefan Wermter",
+  "authorNames": [
+    "Mohammad Ali Zamani",
+    "Sven Magg",
+    "Cornelius Weber",
+    "Di Fu",
+    "Stefan Wermter"
+  ],
+  "authorsComplete": true,
+  "year": 2018,
+  "journal": "Paladyn, Journal of Behavioral Robotics",
+  "doi": "10.1515/pjbr-2018-0026",
+  "url": "https://www2.informatik.uni-hamburg.de/wtm/publications/2018/ZMWFW18/pjbr-2018-0026.pdf",
+  "type": "journal",
+  "status": "published",
+  "sourceUrl": "https://www.degruyterbrill.com/document/doi/10.1515/pjbr-2018-0026/html",
+  "sourceRecordIds": [
+    "CV:cv-journal-17",
+    "Scholar:AUqLvaIAAAAJ:UeHWp8X0CEIC",
+    "Surrey:10.1515/pjbr-2018-0026"
+  ],
+  "versions": [],
+  "sources": [
+    {
+      "name": "CV (October 2026)",
+      "url": "",
+      "recordId": "cv-journal-17"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:UeHWp8X0CEIC",
+      "recordId": "AUqLvaIAAAAJ:UeHWp8X0CEIC"
+    },
+    {
+      "name": "Original source",
+      "url": "https://www.degruyterbrill.com/document/doi/10.1515/pjbr-2018-0026/html",
+      "recordId": "10.1515/pjbr-2018-0026"
+    }
+  ],
+  "notes": ""
+}

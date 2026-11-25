@@ -1,0 +1,82 @@
+{
+  "News": {
+    "en": "News",
+    "zh": "新闻"
+  },
+  "News & Events": {
+    "en": "News & Events",
+    "zh": "新闻与活动"
+  },
+  "Research, talks and lab life from Di Fu and the SEIL community.": {
+    "en": "Research, talks and lab life from Di Fu and the SEIL community.",
+    "zh": "Di Fu 与 SEIL 团队的研究进展、学术报告和实验室日常。"
+  },
+  "Follow Di on LinkedIn": {
+    "en": "Follow Di on LinkedIn",
+    "zh": "在 LinkedIn 关注 Di Fu"
+  },
+  "Filter news by year": {
+    "en": "Filter news by year",
+    "zh": "按年份筛选新闻"
+  },
+  "All years": {
+    "en": "All years",
+    "zh": "全部年份"
+  },
+  "Dates: LinkedIn posts use UK posting dates; university news uses publication dates; workshops use event dates.": {
+    "en": "Dates: LinkedIn posts use UK posting dates; university news uses publication dates; workshops use event dates.",
+    "zh": "日期说明：LinkedIn 帖子按英国时间标注发布日，大学新闻采用刊发日，研讨会采用活动日期。"
+  },
+  "Loading news": {
+    "en": "Loading news",
+    "zh": "正在加载新闻"
+  },
+  "News could not load. Try again or visit LinkedIn for updates.": {
+    "en": "News could not load. Try again or visit LinkedIn for updates.",
+    "zh": "新闻加载失败。请重试，或前往 LinkedIn 查看更新。"
+  },
+  "Try again": {
+    "en": "Try again",
+    "zh": "重试"
+  },
+  "No updates have been added yet.": {
+    "en": "No updates have been added yet.",
+    "zh": "暂时没有新闻。"
+  },
+  "Read university news": {
+    "en": "Read university news",
+    "zh": "阅读大学新闻"
+  },
+  "View workshop website": {
+    "en": "View workshop website",
+    "zh": "访问研讨会网站"
+  },
+  "Read original post": {
+    "en": "Read original post",
+    "zh": "阅读原帖"
+  },
+  "Posted": {
+    "en": "Posted",
+    "zh": "发布于"
+  },
+  "Published": {
+    "en": "Published",
+    "zh": "刊发于"
+  },
+  "Event date": {
+    "en": "Event date",
+    "zh": "活动日期"
+  },
+  "Original post by": {
+    "en": "Original post by",
+    "zh": "原帖作者："
+  },
+  "Source:": {
+    "en": "Source:",
+    "zh": "来源："
+  },
+  "Verified public LinkedIn posts and official university and workshop records. This is not the full LinkedIn history; older posts may require sign-in.": {
+    "en": "Verified public LinkedIn posts and official university and workshop records. This is not the full LinkedIn history; older posts may require sign-in.",
+    "zh": "收录经核实的公开 LinkedIn 帖子及大学、研讨会官方记录，不包含完整的 LinkedIn 历史动态；查看旧帖可能需要登录。"
+  }
+}

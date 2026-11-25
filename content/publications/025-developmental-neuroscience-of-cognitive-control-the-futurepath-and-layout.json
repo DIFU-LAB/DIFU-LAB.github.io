@@ -1,0 +1,50 @@
+{
+  "id": "10.1360/SSV-2020-0248",
+  "title": "Developmental neuroscience of cognitive control: the futurepath and layout",
+  "authors": "Yue Qi, Guochun Yang, Di Fu, Zhenghan Li, Xun Liu",
+  "authorNames": [
+    "Yue Qi",
+    "Guochun Yang",
+    "Di Fu",
+    "Zhenghan Li",
+    "Xun Liu"
+  ],
+  "authorsComplete": true,
+  "year": 2021,
+  "journal": "SCIENTIA SINICA Vitae",
+  "doi": "10.1360/SSV-2020-0248",
+  "url": "https://engine.scichina.com/doi/10.1360/SSV-2020-0248",
+  "type": "journal",
+  "status": "published",
+  "sourceUrl": "https://doi.org/10.1360/SSV-2020-0248",
+  "sourceRecordIds": [
+    "CV:cv-journal-11",
+    "Scholar:AUqLvaIAAAAJ:_FxGoFyzp5QC",
+    "Scholar:AUqLvaIAAAAJ:9ZlFYXVOiuMC",
+    "Surrey:10.1360/SSV-2020-0248"
+  ],
+  "versions": [],
+  "sources": [
+    {
+      "name": "CV (October 2026)",
+      "url": "",
+      "recordId": "cv-journal-11"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:_FxGoFyzp5QC",
+      "recordId": "AUqLvaIAAAAJ:_FxGoFyzp5QC"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:9ZlFYXVOiuMC",
+      "recordId": "AUqLvaIAAAAJ:9ZlFYXVOiuMC"
+    },
+    {
+      "name": "Original source",
+      "url": "https://doi.org/10.1360/SSV-2020-0248",
+      "recordId": "10.1360/SSV-2020-0248"
+    }
+  ],
+  "notes": "Chinese-language article."
+}

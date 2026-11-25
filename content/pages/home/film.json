@@ -1,0 +1,26 @@
+{
+  "duration": "2:58",
+  "video": {
+    "en": {
+      "hd": "/media/home/film/seil-lab-film-en-1080p-b3e7beed.mp4",
+      "sd": "/media/home/film/seil-lab-film-en-720p-b3e7beed.mp4"
+    },
+    "zh": {
+      "hd": "/media/home/film/seil-lab-film-zh-1080p-b3e7beed.mp4",
+      "sd": "/media/home/film/seil-lab-film-zh-720p-b3e7beed.mp4"
+    }
+  },
+  "captions": {
+    "en": {
+      "en": "/media/home/film/captions-en-voice-en-24bf88a1.vtt",
+      "zh": "/media/home/film/captions-en-voice-zh-24bf88a1.vtt"
+    },
+    "zh": {
+      "en": "/media/home/film/captions-zh-voice-en-24bf88a1.vtt",
+      "zh": "/media/home/film/captions-zh-voice-zh-24bf88a1.vtt"
+    }
+  },
+  "poster": "/media/home/film/film-poster-1600-ca2f4a0e.webp",
+  "posterSrcSet": "/media/home/film/film-poster-720-ca2f4a0e.webp 720w, /media/home/film/film-poster-1080-ca2f4a0e.webp 1080w, /media/home/film/film-poster-1600-ca2f4a0e.webp 1600w, /media/home/film/film-poster-1920-ca2f4a0e.webp 1920w",
+  "alternatives": []
+}

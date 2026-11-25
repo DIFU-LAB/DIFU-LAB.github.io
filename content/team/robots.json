@@ -1,0 +1,62 @@
+[
+  {
+    "id": "misty",
+    "name": "Misty",
+    "type": "Programmable social robot",
+    "description": "Misty is a programmable social robot platform with developer tools for creating custom behaviours and interactions with people.",
+    "detailsUrl": "https://www.mistyrobotics.com/misty-ii",
+    "image": {
+      "src": "/media/team/robots/misty.webp",
+      "alt": "Misty social robot with an expressive screen face and a tracked mobile base",
+      "width": 753,
+      "height": 1000,
+      "credit": "Misty Robotics",
+      "sourceUrl": "https://www.mistyrobotics.com/misty-ii"
+    }
+  },
+  {
+    "id": "nao",
+    "name": "NAO",
+    "type": "Programmable humanoid robot",
+    "description": "NAO is a programmable humanoid robot that provides a hands-on platform for learning about robotics through programming and interaction.",
+    "detailsUrl": "https://robotsguide.com/robots/nao",
+    "image": {
+      "src": "/media/team/robots/nao.webp",
+      "alt": "NAO humanoid robot standing upright with one hand on its hip",
+      "width": 452,
+      "height": 675,
+      "credit": "SoftBank Robotics, via IEEE Robots Guide",
+      "sourceUrl": "https://robotsguide.com/robots/nao"
+    }
+  },
+  {
+    "id": "pepper",
+    "name": "Pepper",
+    "type": "Social humanoid robot",
+    "description": "Pepper is a humanoid robot designed to interact with people through conversation and body language, sharing information and assisting visitors.",
+    "detailsUrl": "https://us.softbankrobotics.com/pepper",
+    "image": {
+      "src": "/media/team/robots/pepper.webp",
+      "alt": "Humanoid robot Pepper with a chest-mounted tablet and wheeled mobile base",
+      "width": 433,
+      "height": 1000,
+      "credit": "© SoftBank Robotics",
+      "sourceUrl": "https://us.softbankrobotics.com/pepper"
+    }
+  },
+  {
+    "id": "unitree-robot-dog",
+    "name": "Unitree Robot Dog",
+    "type": "Quadruped robot",
+    "description": "Unitree's four-legged robots provide an embodied platform for legged movement, navigation and interaction with the physical environment.",
+    "detailsUrl": "https://www.unitree.com/",
+    "image": {
+      "src": "/media/team/robots/unitree-robot-dog.webp",
+      "alt": "Unitree Robot Dog, shown in a representative Go2 product image with all four legs visible",
+      "width": 608,
+      "height": 600,
+      "credit": "© Unitree Robotics (representative Go2 image)",
+      "sourceUrl": "https://shop.unitree.com/products/unitree-go2"
+    }
+  }
+]

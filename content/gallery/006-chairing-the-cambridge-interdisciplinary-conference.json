@@ -1,0 +1,23 @@
+{
+  "id": "cambridge-conference-chair",
+  "image": "/media/gallery/cambridge-conference-chair.webp",
+  "title": "Chairing the Cambridge interdisciplinary conference",
+  "category": "Conferences",
+  "description": "The first Interdisciplinary Conference on Cognitive Science, Computational Modelling, and AI, organised and chaired by Di Fu at the University of Cambridge on 9-10 May 2025, brought together 120 attendees.",
+  "date": "2025-05-09/2025-05-10",
+  "dateLabel": "9-10 May 2025",
+  "sourceUrl": "https://www.surrey.ac.uk/people/di-fu",
+  "sourceLabel": "University of Surrey",
+  "originalImageUrl": "https://www.surrey.ac.uk/sites/default/files/2026-08/cam%20host.jpeg",
+  "width": 1280,
+  "height": 854,
+  "originalHostedImage": "/media/gallery/cambridge-conference-chair-original.webp",
+  "retouch": {
+    "subject": "Di Fu",
+    "treatment": "Natural, light portrait retouching; identity and documentary scene preserved",
+    "date": "2026-11-02"
+  },
+  "titleZh": "主持剑桥跨学科会议",
+  "descriptionZh": "首届认知科学、计算建模与 AI 跨学科会议于2025年5月9日至10日在剑桥大学举行，由 Di Fu 组织并主持，共有120人参加。",
+  "categoryZh": "会议"
+}

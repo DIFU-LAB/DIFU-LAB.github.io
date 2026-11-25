@@ -1,0 +1,146 @@
+{
+  "title": "Social Cue Integration in Crossmodal Human-Robot Interaction",
+  "inputs": {
+    "number": "01",
+    "title": "Social cues",
+    "items": [
+      {
+        "id": "gestures",
+        "label": "Gestures",
+        "icon": "hand",
+        "alt": "iCub's view of avatars gesturing around a virtual table",
+        "image": {
+          "src": "/media/home/framework/gestures-480-035000dd.webp",
+          "srcSet": "/media/home/framework/gestures-240-2c9ca89b.webp 240w, /media/home/framework/gestures-480-035000dd.webp 480w"
+        }
+      },
+      {
+        "id": "gaze",
+        "label": "Gaze",
+        "icon": "eye",
+        "alt": "iCub facing a screen of three avatars in the crossmodal attention study",
+        "image": {
+          "src": "/media/home/framework/gaze-480-196f81d5.webp",
+          "srcSet": "/media/home/framework/gaze-240-a77c5f04.webp 240w, /media/home/framework/gaze-480-196f81d5.webp 480w"
+        }
+      },
+      {
+        "id": "facial-expressions",
+        "label": "Facial expressions",
+        "icon": "smile",
+        "alt": "Two people sort shapes while iCub shows a facial expression",
+        "image": {
+          "src": "/media/home/framework/facial-expressions-480-b3c4df26.webp",
+          "srcSet": "/media/home/framework/facial-expressions-240-8f9c138b.webp 240w, /media/home/framework/facial-expressions-480-b3c4df26.webp 480w"
+        }
+      },
+      {
+        "id": "mirroring",
+        "label": "Mirroring",
+        "icon": "mirror",
+        "alt": "A participant facing Pepper with iCub beside them",
+        "image": {
+          "src": "/media/home/framework/mirroring-480-02017d4c.webp",
+          "srcSet": "/media/home/framework/mirroring-240-86a98820.webp 240w, /media/home/framework/mirroring-480-02017d4c.webp 480w"
+        }
+      },
+      {
+        "id": "personality",
+        "label": "Personality",
+        "icon": "personality",
+        "alt": "A participant playing a touch-table game with a NAO robot",
+        "image": {
+          "src": "/media/home/framework/personality-480-fbb5cd63.webp",
+          "srcSet": "/media/home/framework/personality-240-579e4188.webp 240w, /media/home/framework/personality-480-fbb5cd63.webp 480w"
+        }
+      }
+    ]
+  },
+  "methods": {
+    "number": "02",
+    "title": "Methods",
+    "items": [
+      {
+        "id": "behavioural-tasks",
+        "label": "Behavioural tasks",
+        "icon": "tasks",
+        "alt": "A participant with headphones doing an audiovisual attention task",
+        "image": {
+          "src": "/media/home/framework/behavioural-tasks-480-c8181805.webp",
+          "srcSet": "/media/home/framework/behavioural-tasks-240-a52b1c71.webp 240w, /media/home/framework/behavioural-tasks-480-c8181805.webp 480w"
+        }
+      },
+      {
+        "id": "eye-tracking",
+        "label": "Eye tracking",
+        "icon": "tracking",
+        "alt": "Eye-tracking glasses view of a human-robot collaboration task",
+        "image": {
+          "src": "/media/home/framework/eye-tracking-480-56ea9eb8.webp",
+          "srcSet": "/media/home/framework/eye-tracking-240-ec47c82f.webp 240w, /media/home/framework/eye-tracking-480-56ea9eb8.webp 480w"
+        }
+      },
+      {
+        "id": "modelling",
+        "label": "Deep learning modelling",
+        "icon": "model",
+        "alt": "Architecture of the multimodal scanpath prediction model",
+        "image": {
+          "src": "/media/home/framework/modelling-480-e11f2928.webp",
+          "srcSet": "/media/home/framework/modelling-240-fc60b0be.webp 240w, /media/home/framework/modelling-480-e11f2928.webp 480w"
+        }
+      },
+      {
+        "id": "datasets",
+        "label": "Datasets",
+        "icon": "data",
+        "alt": "Gaze heat map over a recorded human-robot interaction scene",
+        "image": {
+          "src": "/media/home/framework/datasets-480-ce8f9ad4.webp",
+          "srcSet": "/media/home/framework/datasets-240-d9a89f20.webp 240w, /media/home/framework/datasets-480-ce8f9ad4.webp 480w"
+        }
+      },
+      {
+        "id": "middleware",
+        "label": "Middleware",
+        "icon": "middleware",
+        "alt": "Distributed robot gaze pipeline linked by ROS 2, ZeroMQ and YARP",
+        "image": {
+          "src": "/media/home/framework/middleware-480-40df1dc0.webp",
+          "srcSet": "/media/home/framework/middleware-240-c6d0177e.webp 240w, /media/home/framework/middleware-480-40df1dc0.webp 480w"
+        }
+      }
+    ]
+  },
+  "core": {
+    "number": "03",
+    "title": "Crossmodal integration",
+    "description": "Combines social cues across modalities to infer social states and drive robot behaviour."
+  },
+  "outcomes": {
+    "number": "04",
+    "title": "Outcomes",
+    "items": [
+      {
+        "id": "human-like",
+        "title": "Human-like social behaviour",
+        "description": "Robots that understand and respond to rich social cues."
+      },
+      {
+        "id": "natural-hri",
+        "title": "Natural human-robot interaction",
+        "description": "Smoother, more intuitive interaction in real settings."
+      },
+      {
+        "id": "grounded-ai",
+        "title": "Psychologically grounded embodied AI",
+        "description": "Built on rigorous experiments and cognitive principles."
+      },
+      {
+        "id": "impact",
+        "title": "Broad impact",
+        "description": "Applications in healthcare, education and assistive robotics."
+      }
+    ]
+  }
+}

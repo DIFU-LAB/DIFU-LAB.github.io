@@ -1,0 +1,28 @@
+{
+  "youtube": {
+    "enabled": true
+  },
+  "visitorMap": {
+    "enabled": false,
+    "endpoint": "",
+    "showWhenDisabled": false
+  },
+  "analytics": {
+    "enabled": false,
+    "scriptUrl": "",
+    "websiteId": ""
+  },
+  "bilibili": {
+    "enabled": true
+  },
+  "visitorCounter": {
+    "enabled": true,
+    "namespace": "difulab.com",
+    "key": "seil-lab-opt-in-sessions-v1",
+    "hosts": [
+      "difulab.com",
+      "www.difulab.com",
+      "difu-lab.github.io"
+    ]
+  }
+}

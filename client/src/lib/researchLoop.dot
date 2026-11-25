@@ -1,0 +1,19 @@
+// Deterministic three-pillar closed feedback cycle. Render with neato -n2.
+// Node and cubic-spline positions are in points and keep labels off the paths.
+digraph SEILResearchLoop {
+  graph [layout=neato, splines=true, bgcolor="white", pad=0.45, margin=0, outputorder=edgesfirst,
+    label=<<FONT FACE="DejaVu Sans" POINT-SIZE="24" COLOR="#1B2A4A"><B>Cognition-Inspired Social Intelligence</B></FONT><BR/><FONT FACE="DejaVu Sans" POINT-SIZE="14" COLOR="#64748B">Human mechanisms, computational models and interactive systems</FONT>>,
+    labelloc=t, labeljust=c];
+  node [shape=box, style="rounded,filled", fillcolor="#F7F8FA", color="#D9DFE8", penwidth=1.2,
+    fixedsize=true, width=5.4, height=1.95, margin="0.12,0.16", fontname="DejaVu Sans"];
+  edge [color="#8B1A1A", penwidth=2.6, arrowsize=1.05, fontname="DejaVu Sans", fontsize=14, fontcolor="#8B1A1A"];
+
+  cognition [pos="200,450!", label=<<FONT POINT-SIZE="12" COLOR="#8B1A1A">01 · HUMAN MECHANISMS</FONT><BR/><BR/><FONT POINT-SIZE="18" COLOR="#1B2A4A"><B>Neurocognitive Mechanisms</B><BR/><B>of Social Cognition</B></FONT><BR/><BR/><FONT POINT-SIZE="14" COLOR="#4A5568">Social attention · Crossmodal integration<BR/>Cognitive control</FONT>>];
+  modelling [pos="850,450!", label=<<FONT POINT-SIZE="12" COLOR="#8B1A1A">02 · COMPUTATIONAL MODELS</FONT><BR/><BR/><FONT POINT-SIZE="18" COLOR="#1B2A4A"><B>Human-Inspired Computational</B><BR/><B>Modelling &amp; AI</B></FONT><BR/><BR/><FONT POINT-SIZE="14" COLOR="#4A5568">Attention models · Crossmodal learning<BR/>Cognition-inspired embodied AI</FONT>>];
+  interaction [pos="525,95!", label=<<FONT POINT-SIZE="12" COLOR="#8B1A1A">03 · INTERACTIVE EVALUATION</FONT><BR/><BR/><FONT POINT-SIZE="18" COLOR="#1B2A4A"><B>Robotic Simulation &amp;</B><BR/><B>Human-Agent Interaction</B></FONT><BR/><BR/><FONT POINT-SIZE="14" COLOR="#4A5568">Robotic simulation · Human-robot cooperation<BR/>Human-AI interaction</FONT>>];
+
+  cognition:e -> modelling:w [label="Empirical constraints", lp="525,474", pos="e,655.6,450 394.4,450 455,450 555,450 645.6,450"];
+  modelling:s -> interaction:e [label="Testable models\n& behaviours", lp="925,245", pos="e,719.4,95 850,379.8 850,245 840,95 729.4,95"];
+  interaction:w -> cognition:s [label="Evidence &\nnew hypotheses", lp="110,245", pos="e,200,379.8 330.6,95 230,95 200,220 200,369.8"];
+  reciprocal [shape=plaintext, style="", fixedsize=false, width=0, height=0, pos="525,275!", label=<<FONT FACE="DejaVu Sans" POINT-SIZE="15" COLOR="#64748B">A reciprocal<BR/>research framework</FONT>>];
+}

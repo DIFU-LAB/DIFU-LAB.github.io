@@ -1,0 +1,78 @@
+{
+  "id": "10.1007/s12369-023-00993-3",
+  "title": "A Trained Humanoid Robot can Perform Human-Like Crossmodal Social Attention and Conflict Resolution",
+  "authors": "Di Fu, Fares Abawi, Hugo Carneiro, Matthias Kerzel, Ziwei Chen, Erik Strahl, Xun Liu, Stefan Wermter",
+  "authorNames": [
+    "Di Fu",
+    "Fares Abawi",
+    "Hugo Carneiro",
+    "Matthias Kerzel",
+    "Ziwei Chen",
+    "Erik Strahl",
+    "Xun Liu",
+    "Stefan Wermter"
+  ],
+  "authorsComplete": true,
+  "year": 2023,
+  "journal": "International Journal of Social Robotics",
+  "doi": "10.1007/s12369-023-00993-3",
+  "url": "https://link.springer.com/article/10.1007/s12369-023-00993-3",
+  "type": "journal",
+  "status": "published",
+  "sourceUrl": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991114257002346",
+  "sourceRecordIds": [
+    "CV:cv-journal-09",
+    "Scholar:AUqLvaIAAAAJ:WF5omc3nYNoC",
+    "Scholar:arXiv:2111.01906",
+    "Surrey:alma991114257002346",
+    "Surrey:10.48550/arXiv.2111.01906",
+    "ORCID:209710677",
+    "ORCID:161707077"
+  ],
+  "versions": [
+    {
+      "doi": "10.48550/arXiv.2111.01906",
+      "url": "https://arxiv.org/abs/2111.01906",
+      "type": "preprint",
+      "year": 2021
+    }
+  ],
+  "sources": [
+    {
+      "name": "CV (October 2026)",
+      "url": "",
+      "recordId": "cv-journal-09"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:WF5omc3nYNoC",
+      "recordId": "AUqLvaIAAAAJ:WF5omc3nYNoC"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://arxiv.org/abs/2111.01906",
+      "recordId": "arXiv:2111.01906"
+    },
+    {
+      "name": "University record",
+      "url": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991114257002346",
+      "recordId": "alma991114257002346"
+    },
+    {
+      "name": "Original source",
+      "url": "https://arxiv.org/abs/2111.01906",
+      "recordId": "10.48550/arXiv.2111.01906"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "209710677"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "161707077"
+    }
+  ],
+  "notes": ""
+}

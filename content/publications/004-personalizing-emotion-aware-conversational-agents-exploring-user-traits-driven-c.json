@@ -1,0 +1,76 @@
+{
+  "id": "10.48550/arxiv.2511.06954",
+  "title": "Personalizing Emotion-Aware Conversational Agents? Exploring User Traits-Driven Conversational Strategies for Enhanced Interaction",
+  "authors": "Yuchong Zhang, Yong Ma, Di Fu, Stephanie Zubicueta Portales, Morten Fjeld, Danica Kragic",
+  "authorNames": [
+    "Yuchong Zhang",
+    "Yong Ma",
+    "Di Fu",
+    "Stephanie Zubicueta Portales",
+    "Morten Fjeld",
+    "Danica Kragic"
+  ],
+  "authorsComplete": true,
+  "year": 2026,
+  "journal": "International Journal of Human-Computer Interaction",
+  "doi": "10.1080/10447318.2026.2675404",
+  "url": "https://www.tandfonline.com/doi/full/10.1080/10447318.2026.2675404",
+  "type": "journal",
+  "status": "published",
+  "sourceUrl": "https://www.tandfonline.com/doi/full/10.1080/10447318.2026.2675404",
+  "sourceRecordIds": [
+    "CV:cv-journal-01",
+    "Scholar:AUqLvaIAAAAJ:HDshCWvjkbEC",
+    "Scholar:arXiv:2511.06954",
+    "Surrey:alma991114266202346",
+    "Surrey:10.1080/10447318.2026.2675404",
+    "ORCID:217062023",
+    "ORCID:209961806"
+  ],
+  "versions": [
+    {
+      "doi": "10.48550/arxiv.2511.06954",
+      "url": "https://arxiv.org/abs/2511.06954",
+      "type": "preprint",
+      "year": 2025
+    }
+  ],
+  "sources": [
+    {
+      "name": "CV (October 2026)",
+      "url": "",
+      "recordId": "cv-journal-01"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:HDshCWvjkbEC",
+      "recordId": "AUqLvaIAAAAJ:HDshCWvjkbEC"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://arxiv.org/abs/2511.06954",
+      "recordId": "arXiv:2511.06954"
+    },
+    {
+      "name": "University record",
+      "url": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991114266202346",
+      "recordId": "alma991114266202346"
+    },
+    {
+      "name": "Original source",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/10447318.2026.2675404",
+      "recordId": "10.1080/10447318.2026.2675404"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "217062023"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "209961806"
+    }
+  ],
+  "notes": "Published in 2026; the 2025 preprint is linked below."
+}

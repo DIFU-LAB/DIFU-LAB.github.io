@@ -1,0 +1,52 @@
+{
+  "id": "10.48550/arxiv.1810.06748",
+  "title": "Assessing the Contribution of Semantic Congruency to Multisensory Integration and Conflict Resolution",
+  "authors": "Di Fu, Pablo Barros, German I. Parisi, Haiyan Wu, Sven Magg, Xun Liu, Stefan Wermter",
+  "authorNames": [
+    "Di Fu",
+    "Pablo Barros",
+    "German I. Parisi",
+    "Haiyan Wu",
+    "Sven Magg",
+    "Xun Liu",
+    "Stefan Wermter"
+  ],
+  "authorsComplete": true,
+  "year": 2018,
+  "journal": "arXiv",
+  "doi": "10.48550/arxiv.1810.06748",
+  "url": "https://arxiv.org/abs/1810.06748",
+  "type": "preprint",
+  "status": "preprint",
+  "sourceUrl": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991115561502346",
+  "sourceRecordIds": [
+    "CV:cv-conference-10",
+    "Scholar:AUqLvaIAAAAJ:2osOgNQ5qMEC",
+    "Surrey:alma991115561502346",
+    "ORCID:209961807"
+  ],
+  "versions": [],
+  "sources": [
+    {
+      "name": "CV (October 2026)",
+      "url": "",
+      "recordId": "cv-conference-10"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:2osOgNQ5qMEC",
+      "recordId": "AUqLvaIAAAAJ:2osOgNQ5qMEC"
+    },
+    {
+      "name": "University record",
+      "url": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991115561502346",
+      "recordId": "alma991115561502346"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "209961807"
+    }
+  ],
+  "notes": "Contribution to the IROS 2018 Crossmodal Learning workshop; available as an arXiv preprint."
+}

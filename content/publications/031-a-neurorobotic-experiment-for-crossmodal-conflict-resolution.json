@@ -1,0 +1,46 @@
+{
+  "id": "cvpr-workshops-2019-crossmodal-conflict-resolution",
+  "title": "A Neurorobotic Experiment for Crossmodal Conflict Resolution",
+  "authors": "German Parisi, Pablo Barros, Di Fu, Sven Magg, Haiyan Wu, Xun Liu, Stefan Wermter",
+  "authorNames": [
+    "German Parisi",
+    "Pablo Barros",
+    "Di Fu",
+    "Sven Magg",
+    "Haiyan Wu",
+    "Xun Liu",
+    "Stefan Wermter"
+  ],
+  "authorsComplete": true,
+  "year": 2019,
+  "journal": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops",
+  "doi": "",
+  "url": "https://openaccess.thecvf.com/content_CVPRW_2019/html/Sight_and_Sound/German_Parisi_A_Neurorobotic_Experiment_for_Crossmodal_Conflict_Resolution_CVPRW_2019_paper.html",
+  "type": "workshop",
+  "status": "published",
+  "sourceUrl": "https://openaccess.thecvf.com/content_CVPRW_2019/html/Sight_and_Sound/German_Parisi_A_Neurorobotic_Experiment_for_Crossmodal_Conflict_Resolution_CVPRW_2019_paper.html",
+  "sourceRecordIds": [
+    "CV:cv-conference-09",
+    "Scholar:AUqLvaIAAAAJ:qjMakFHDy7sC",
+    "Surrey:Parisi_2019_CVPR_Workshops"
+  ],
+  "versions": [],
+  "sources": [
+    {
+      "name": "CV (October 2026)",
+      "url": "",
+      "recordId": "cv-conference-09"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:qjMakFHDy7sC",
+      "recordId": "AUqLvaIAAAAJ:qjMakFHDy7sC"
+    },
+    {
+      "name": "Original source",
+      "url": "https://openaccess.thecvf.com/content_CVPRW_2019/html/Sight_and_Sound/German_Parisi_A_Neurorobotic_Experiment_for_Crossmodal_Conflict_Resolution_CVPRW_2019_paper.html",
+      "recordId": "Parisi_2019_CVPR_Workshops"
+    }
+  ],
+  "notes": ""
+}

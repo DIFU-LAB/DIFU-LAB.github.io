@@ -1,0 +1,42 @@
+{
+  "id": "10.48550/arxiv.2405.02929",
+  "title": "Unified Dynamic Scanpath Predictors Outperform Individually Trained Neural Models",
+  "authors": "Fares Abawi, Di Fu, Stefan Wermter",
+  "authorNames": [
+    "Fares Abawi",
+    "Di Fu",
+    "Stefan Wermter"
+  ],
+  "authorsComplete": true,
+  "year": 2024,
+  "journal": "arXiv",
+  "doi": "10.48550/arxiv.2405.02929",
+  "url": "https://arxiv.org/abs/2405.02929",
+  "type": "preprint",
+  "status": "preprint",
+  "sourceUrl": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991114257702346",
+  "sourceRecordIds": [
+    "Scholar:AUqLvaIAAAAJ:Zph67rFs4hoC",
+    "Surrey:alma991114257702346",
+    "ORCID:209961809"
+  ],
+  "versions": [],
+  "sources": [
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:Zph67rFs4hoC",
+      "recordId": "AUqLvaIAAAAJ:Zph67rFs4hoC"
+    },
+    {
+      "name": "University record",
+      "url": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991114257702346",
+      "recordId": "alma991114257702346"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "209961809"
+    }
+  ],
+  "notes": ""
+}

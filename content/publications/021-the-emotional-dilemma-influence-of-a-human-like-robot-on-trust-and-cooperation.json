@@ -1,0 +1,68 @@
+{
+  "id": "10.1109/RO-MAN57019.2023.10309321",
+  "title": "The Emotional Dilemma: Influence of a Human-like Robot on Trust and Cooperation",
+  "authors": "Dennis Becker, Diana Rueda, Felix Beese, Brenda Scarleth Gutierrez Torres, Myriem Lafdili, Kyra Ahrens, Di Fu, Erik Strahl, Tom Weber, Stefan Wermter",
+  "authorNames": [
+    "Dennis Becker",
+    "Diana Rueda",
+    "Felix Beese",
+    "Brenda Scarleth Gutierrez Torres",
+    "Myriem Lafdili",
+    "Kyra Ahrens",
+    "Di Fu",
+    "Erik Strahl",
+    "Tom Weber",
+    "Stefan Wermter"
+  ],
+  "authorsComplete": true,
+  "year": 2023,
+  "journal": "2023 32nd IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)",
+  "doi": "10.1109/RO-MAN57019.2023.10309321",
+  "url": "https://ieeexplore.ieee.org/document/10309321/",
+  "type": "conference",
+  "status": "published",
+  "sourceUrl": "https://ieeexplore.ieee.org/document/10309321/",
+  "sourceRecordIds": [
+    "CV:cv-conference-07",
+    "Scholar:AUqLvaIAAAAJ:5nxA0vEk-isC",
+    "Scholar:arXiv:2307.02924",
+    "Surrey:10.1109/RO-MAN57019.2023.10309321",
+    "Surrey:10.48550/arXiv.2307.02924"
+  ],
+  "versions": [
+    {
+      "doi": "10.48550/arXiv.2307.02924",
+      "url": "https://arxiv.org/abs/2307.02924",
+      "type": "preprint",
+      "year": 2023
+    }
+  ],
+  "sources": [
+    {
+      "name": "CV (October 2026)",
+      "url": "",
+      "recordId": "cv-conference-07"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:5nxA0vEk-isC",
+      "recordId": "AUqLvaIAAAAJ:5nxA0vEk-isC"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://arxiv.org/abs/2307.02924",
+      "recordId": "arXiv:2307.02924"
+    },
+    {
+      "name": "Original source",
+      "url": "https://ieeexplore.ieee.org/document/10309321/",
+      "recordId": "10.1109/RO-MAN57019.2023.10309321"
+    },
+    {
+      "name": "Original source",
+      "url": "https://arxiv.org/abs/2307.02924",
+      "recordId": "10.48550/arXiv.2307.02924"
+    }
+  ],
+  "notes": ""
+}

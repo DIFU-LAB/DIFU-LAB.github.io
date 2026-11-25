@@ -1,0 +1,44 @@
+{
+  "id": "10.48550/arXiv.1801.07654",
+  "title": "Expectation Learning for Adaptive Crossmodal Stimuli Association",
+  "authors": "Pablo Barros, German I. Parisi, Di Fu, Xun Liu, Stefan Wermter",
+  "authorNames": [
+    "Pablo Barros",
+    "German I. Parisi",
+    "Di Fu",
+    "Xun Liu",
+    "Stefan Wermter"
+  ],
+  "authorsComplete": true,
+  "year": 2018,
+  "journal": "arXiv",
+  "doi": "10.48550/arXiv.1801.07654",
+  "url": "https://arxiv.org/abs/1801.07654",
+  "type": "preprint",
+  "status": "preprint",
+  "sourceUrl": "https://arxiv.org/abs/1801.07654",
+  "sourceRecordIds": [
+    "CV:cv-conference-13",
+    "Scholar:AUqLvaIAAAAJ:u-x6o8ySG0sC",
+    "Surrey:10.48550/arXiv.1801.07654"
+  ],
+  "versions": [],
+  "sources": [
+    {
+      "name": "CV (October 2026)",
+      "url": "",
+      "recordId": "cv-conference-13"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:u-x6o8ySG0sC",
+      "recordId": "AUqLvaIAAAAJ:u-x6o8ySG0sC"
+    },
+    {
+      "name": "Original source",
+      "url": "https://arxiv.org/abs/1801.07654",
+      "recordId": "10.48550/arXiv.1801.07654"
+    }
+  ],
+  "notes": "Abstract for the 2017 EUCog meeting; posted to arXiv in 2018."
+}

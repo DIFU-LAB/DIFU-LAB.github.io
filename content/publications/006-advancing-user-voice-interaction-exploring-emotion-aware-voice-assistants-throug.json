@@ -1,0 +1,82 @@
+{
+  "id": "10.1007/978-3-031-92977-9_19",
+  "title": "Advancing User-Voice Interaction: Exploring Emotion-Aware Voice Assistants Through a Role-Swapping Approach",
+  "authors": "Yong Ma, Yuchong Zhang, Di Fu, Stephanie Zubicueta Portales, Danica Kragic, Morten Fjeld",
+  "authorNames": [
+    "Yong Ma",
+    "Yuchong Zhang",
+    "Di Fu",
+    "Stephanie Zubicueta Portales",
+    "Danica Kragic",
+    "Morten Fjeld"
+  ],
+  "authorsComplete": true,
+  "year": 2025,
+  "journal": "Distributed, Ambient and Pervasive Interactions, HCII 2025, Lecture Notes in Computer Science 15802",
+  "doi": "10.1007/978-3-031-92977-9_19",
+  "url": "https://link.springer.com/chapter/10.1007/978-3-031-92977-9_19",
+  "type": "conference",
+  "status": "published",
+  "sourceUrl": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991115565402346",
+  "sourceRecordIds": [
+    "CV:cv-conference-03",
+    "Scholar:AUqLvaIAAAAJ:4DMP91E08xMC",
+    "Scholar:arXiv:2502.15367",
+    "Surrey:alma991115565402346",
+    "Surrey:alma991115570902346",
+    "ORCID:209961815",
+    "ORCID:185074570",
+    "ORCID:209710682"
+  ],
+  "versions": [
+    {
+      "doi": "10.48550/arxiv.2502.15367",
+      "url": "https://arxiv.org/abs/2502.15367",
+      "type": "preprint",
+      "year": 2025
+    }
+  ],
+  "sources": [
+    {
+      "name": "CV (October 2026)",
+      "url": "",
+      "recordId": "cv-conference-03"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:4DMP91E08xMC",
+      "recordId": "AUqLvaIAAAAJ:4DMP91E08xMC"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://arxiv.org/abs/2502.15367",
+      "recordId": "arXiv:2502.15367"
+    },
+    {
+      "name": "University record",
+      "url": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991115565402346",
+      "recordId": "alma991115565402346"
+    },
+    {
+      "name": "University record",
+      "url": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991115570902346",
+      "recordId": "alma991115570902346"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "209961815"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "185074570"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "209710682"
+    }
+  ],
+  "notes": ""
+}

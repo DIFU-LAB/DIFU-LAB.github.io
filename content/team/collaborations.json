@@ -1,0 +1,113 @@
+{
+  "groups": [
+    {
+      "id": "social-robotics-lab",
+      "name": "Social Robotics Lab",
+      "lead": "Prof Ginevra Castellano",
+      "institution": "Uppsala University",
+      "url": "https://www.uu.se/en/contact-and-organisation/staff?query=N14-947"
+    },
+    {
+      "id": "knowledge-technology-group",
+      "name": "Knowledge Technology Group",
+      "lead": "Prof Stefan Wermter",
+      "institution": "University of Hamburg",
+      "url": "https://www.inf.uni-hamburg.de/en/inst/ab/wtm/people/wermter.html"
+    },
+    {
+      "id": "tams-group",
+      "name": "TAMS Group",
+      "lead": "Prof Jianwei Zhang",
+      "institution": "University of Hamburg",
+      "url": "https://tams.informatik.uni-hamburg.de/people/zhang/"
+    },
+    {
+      "id": "carelab",
+      "name": "Carelab",
+      "lead": "Prof Xun Liu",
+      "institution": "Chinese Academy of Sciences",
+      "url": "https://psych.cas.cn/sourcedb/cn/expert/201007/t20100722_6369822.html"
+    },
+    {
+      "id": "contact-lab",
+      "name": "CONTACT Lab",
+      "lead": "Dr Alessandra Sciutti",
+      "institution": "Italian Institute of Technology",
+      "url": "https://www.iit.it/it/web/cognitive-architecture-for-collaborative-technologies/home"
+    },
+    {
+      "id": "human-machine-interaction-innovation-group",
+      "name": "Human-Machine Interaction & Innovation Group",
+      "lead": "Dr Maria Kyrarini",
+      "institution": "Santa Clara University",
+      "url": "https://www.scu.edu/engineering/faculty/kyrarini-maria/"
+    }
+  ],
+  "collaborators": [
+    {
+      "id": "steve-schneider",
+      "name": "Steve Schneider",
+      "title": "Professor of Secure Systems",
+      "specialism": "Cyber security, privacy, digital identity, and formal verification",
+      "department": "School of Computer Science and Electronic Engineering",
+      "institution": "University of Surrey",
+      "profileUrl": "https://www.surrey.ac.uk/people/steve-schneider"
+    },
+    {
+      "id": "roman-bauer",
+      "name": "Roman Bauer",
+      "title": "Senior Lecturer (Associate Professor)",
+      "specialism": "Computational modelling of biological dynamics, especially the brain",
+      "department": "School of Computer Science and Electronic Engineering",
+      "institution": "University of Surrey",
+      "profileUrl": "https://www.surrey.ac.uk/people/roman-bauer"
+    },
+    {
+      "id": "alireza-tamaddoni-nezhad",
+      "name": "Alireza Tamaddoni-Nezhad",
+      "title": "Reader (Associate Professor) in Machine Learning and Computational Intelligence",
+      "specialism": "Explainable AI, symbolic and logic-based machine learning",
+      "department": "School of Computer Science and Electronic Engineering",
+      "institution": "University of Surrey",
+      "profileUrl": "https://www.surrey.ac.uk/people/alireza-tamaddoni-nezhad"
+    },
+    {
+      "id": "tom-hall",
+      "name": "Tom Hall",
+      "title": "Senior Lecturer (Associate Professor) in Creative Music Technology",
+      "specialism": "Experimental music, computer music, sound art and music notation",
+      "department": "Music and Media",
+      "institution": "University of Surrey",
+      "profileUrl": "https://www.surrey.ac.uk/people/tom-hall"
+    },
+    {
+      "id": "diptesh-kanojia",
+      "name": "Diptesh Kanojia",
+      "title": "Senior Lecturer (Associate Professor) in People-Centred AI",
+      "specialism": "Natural language processing and machine learning",
+      "department": "School of Computer Science and Electronic Engineering",
+      "institution": "University of Surrey",
+      "profileUrl": "https://www.surrey.ac.uk/people/diptesh-kanojia"
+    },
+    {
+      "id": "peng-wang",
+      "name": "Peng Wang",
+      "title": "Lecturer (Assistant Professor) in Robotics",
+      "specialism": "Robotic perception, learning and collaboration through digital twinning and AI",
+      "department": "School of Computer Science and Electronic Engineering",
+      "researchCentre": "Centre for Vision, Speech and Signal Processing (CVSSP)",
+      "institution": "University of Surrey",
+      "profileUrl": "https://www.surrey.ac.uk/people/peng-wang-fhea"
+    },
+    {
+      "id": "simon-hadfield",
+      "name": "Simon Hadfield",
+      "title": "Professor of Robot Vision and Autonomous Systems",
+      "specialism": "Robot vision, autonomous systems, machine learning and 3D computer vision",
+      "department": "School of Computer Science and Electronic Engineering",
+      "researchCentre": "Centre for Vision, Speech and Signal Processing (CVSSP)",
+      "institution": "University of Surrey",
+      "profileUrl": "https://www.surrey.ac.uk/people/simon-hadfield"
+    }
+  ]
+}

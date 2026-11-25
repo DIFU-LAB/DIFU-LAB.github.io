@@ -1,0 +1,44 @@
+{
+  "id": "10.1101/2025.09.10.675272",
+  "title": "From ambiguous object to illusory faces: EEG decoding reveals a dynamic cascade of face pareidolia",
+  "authors": "Ziwei Chen, Mengxin Wen, Qinyi Li, Xun Liu, Di Fu",
+  "authorNames": [
+    "Ziwei Chen",
+    "Mengxin Wen",
+    "Qinyi Li",
+    "Xun Liu",
+    "Di Fu"
+  ],
+  "authorsComplete": true,
+  "year": 2025,
+  "journal": "bioRxiv",
+  "doi": "10.1101/2025.09.10.675272",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.09.10.675272v1",
+  "type": "preprint",
+  "status": "under-review",
+  "sourceUrl": "https://www.biorxiv.org/content/10.1101/2025.09.10.675272.abstract",
+  "sourceRecordIds": [
+    "CV:cv-journal-02",
+    "Scholar:AUqLvaIAAAAJ:QIV2ME_5wuYC",
+    "Surrey:10.1101/2025.09.10.675272"
+  ],
+  "versions": [],
+  "sources": [
+    {
+      "name": "CV (October 2026)",
+      "url": "",
+      "recordId": "cv-journal-02"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:QIV2ME_5wuYC",
+      "recordId": "AUqLvaIAAAAJ:QIV2ME_5wuYC"
+    },
+    {
+      "name": "Original source",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.09.10.675272.abstract",
+      "recordId": "10.1101/2025.09.10.675272"
+    }
+  ],
+  "notes": "Public bioRxiv preprint posted in 2025; journal review status follows the October 2026 CV."
+}

@@ -1,0 +1,63 @@
+[
+  {
+    "id": "crossmodal-attention",
+    "title": "Human-like crossmodal social attention",
+    "paperTitle": "A trained humanoid robot can perform human-like crossmodal social attention and conflict resolution",
+    "venue": "International Journal of Social Robotics · 2023",
+    "description": "A trained audio-visual saliency model enabled iCub to reproduce human-like attentional responses to gaze and sound cues, including differences between congruent and conflicting signals. Human performance remained superior overall.",
+    "paperUrl": "https://doi.org/10.1007/s12369-023-00993-3",
+    "videoLabel": "Watch demo",
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "bjiYEs1x-7E"
+      }
+    ]
+  },
+  {
+    "id": "social-mirroring",
+    "title": "How embodiment shapes social mirroring",
+    "paperTitle": "Human Impression of Humanoid Robots Mirroring Social Cues",
+    "venue": "ACM/IEEE HRI Companion · 2024",
+    "description": "Two experiments compared affective mirroring by iCub and Pepper and movement mirroring with different iCub control methods. iCub was perceived as more humanlike, while vision-based control produced better movement mirroring than IMU-based control.",
+    "paperUrl": "https://doi.org/10.1145/3610978.3640580",
+    "videoLabel": "Watch talk",
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Qn0xo4JyG9c"
+      }
+    ]
+  },
+  {
+    "id": "robot-cooperation",
+    "title": "Social cues in human-human-robot cooperation",
+    "paperTitle": "The Robot in the Room: Influence of Robot Facial Expressions and Gaze on Human-Human-Robot Collaboration",
+    "venue": "IEEE RO-MAN · 2023",
+    "description": "In a triadic collaboration task, positive robot facial expressions enhanced collaboration and perceived robot intelligence. Gaze directed towards the person giving instructions also increased perceived intelligence.",
+    "paperUrl": "https://doi.org/10.1109/RO-MAN57019.2023.10309334",
+    "videoLabel": "Watch talk",
+    "sources": [
+      {
+        "provider": "youtube",
+        "id": "Jv8lMv8z85M"
+      }
+    ]
+  },
+  {
+    "id": "hri-free",
+    "title": "HRI-Free: evaluating embodied social attention",
+    "paperTitle": "HRI-Free: Cognitive Robotic Simulation for Evaluating Embodied Social Attention Models",
+    "venue": "IEEE ICRA · 2025",
+    "description": "A cognitive robotic simulation approach evaluates attention models using iCub and human gaze datasets. It supports scalable, reproducible early-stage evaluation in physical environments, reducing the need for extensive human-participant studies at that stage.",
+    "paperUrl": "https://doi.org/10.1109/ICRA55743.2025.11127539",
+    "newsUrl": "https://www.surrey.ac.uk/news/robots-learning-without-us-new-study-cuts-humans-early-testing",
+    "newsImage": {
+      "src": "/media/team/DYzFOtkDJyeCwmZC.webp",
+      "srcSet": "/media/team/ipDBpiIedoPvpAId.webp 800w, /media/team/DYzFOtkDJyeCwmZC.webp 1200w",
+      "width": 1200,
+      "height": 675,
+      "alt": "iCub watching a screen of faces beside priority-map, simulation and physical head-eye movement panels"
+    }
+  }
+]

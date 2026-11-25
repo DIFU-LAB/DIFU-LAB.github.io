@@ -1,0 +1,39 @@
+{
+  "chapters": [
+    {
+      "start": 226,
+      "time": "03:46",
+      "title": "Crossmodal social attention on iCub"
+    },
+    {
+      "start": 581,
+      "time": "09:41",
+      "title": "Robot expressions and gaze in human-human-robot collaboration"
+    },
+    {
+      "start": 867,
+      "time": "14:27",
+      "title": "Robot personality and human-robot collaboration"
+    },
+    {
+      "start": 1014,
+      "time": "16:54",
+      "title": "HRI-Free: cognitive robotic simulation"
+    }
+  ],
+  "demoSources": [
+    {
+      "src": "/media/research/icub-attention-1080p.mp4",
+      "media": "(min-width: 768px)"
+    },
+    {
+      "src": "/media/research/icub-attention-720p.mp4"
+    }
+  ],
+  "sources": [
+    {
+      "provider": "youtube",
+      "id": "jpFk4xBFm9E"
+    }
+  ]
+}

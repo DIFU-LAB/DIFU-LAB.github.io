@@ -1,0 +1,74 @@
+{
+  "id": "10.1145/3610977.3637471",
+  "title": "Wrapyfi: A Python Wrapper for Integrating Robots, Sensors, and Applications across Multiple Middleware",
+  "authors": "Fares Abawi, Philipp Allgeuer, Di Fu, Stefan Wermter",
+  "authorNames": [
+    "Fares Abawi",
+    "Philipp Allgeuer",
+    "Di Fu",
+    "Stefan Wermter"
+  ],
+  "authorsComplete": true,
+  "year": 2024,
+  "journal": "Proceedings of the 2024 ACM/IEEE International Conference on Human-Robot Interaction",
+  "doi": "10.1145/3610977.3637471",
+  "url": "https://dl.acm.org/doi/10.1145/3610977.3637471",
+  "type": "conference",
+  "status": "published",
+  "sourceUrl": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991129764202346",
+  "sourceRecordIds": [
+    "CV:cv-conference-05",
+    "Scholar:AUqLvaIAAAAJ:8k81kl-MbHgC",
+    "Scholar:AUqLvaIAAAAJ:Se3iqnhoufwC",
+    "Surrey:alma991129764202346",
+    "Surrey:10.48550/arXiv.2302.09648",
+    "ORCID:216423900",
+    "ORCID:161707078"
+  ],
+  "versions": [
+    {
+      "doi": "10.48550/arXiv.2302.09648",
+      "url": "https://arxiv.org/abs/2302.09648",
+      "type": "preprint",
+      "year": 2023
+    }
+  ],
+  "sources": [
+    {
+      "name": "CV (October 2026)",
+      "url": "",
+      "recordId": "cv-conference-05"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:8k81kl-MbHgC",
+      "recordId": "AUqLvaIAAAAJ:8k81kl-MbHgC"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:Se3iqnhoufwC",
+      "recordId": "AUqLvaIAAAAJ:Se3iqnhoufwC"
+    },
+    {
+      "name": "University record",
+      "url": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991129764202346",
+      "recordId": "alma991129764202346"
+    },
+    {
+      "name": "Original source",
+      "url": "https://arxiv.org/abs/2302.09648",
+      "recordId": "10.48550/arXiv.2302.09648"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "216423900"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "161707078"
+    }
+  ],
+  "notes": ""
+}

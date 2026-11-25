@@ -1,0 +1,902 @@
+{
+  "10.1007/978-3-031-92977-9_19": {
+    "authors": [
+      {
+        "family": "Ma",
+        "given": "Yong"
+      },
+      {
+        "family": "Zhang",
+        "given": "Yuchong"
+      },
+      {
+        "family": "Fu",
+        "given": "Di"
+      },
+      {
+        "family": "Zubicueta Portales",
+        "given": "Stephanie"
+      },
+      {
+        "family": "Kragic",
+        "given": "Danica"
+      },
+      {
+        "family": "Fjeld",
+        "given": "Morten"
+      }
+    ],
+    "containerTitle": "Lecture Notes in Computer Science",
+    "doi": "10.1007/978-3-031-92977-9_19",
+    "pages": "303-320",
+    "sourceUrl": "https://api.crossref.org/works/10.1007%2F978-3-031-92977-9_19",
+    "title": "Advancing User-Voice Interaction: Exploring Emotion-Aware Voice Assistants Through a Role-Swapping Approach",
+    "year": 2025
+  },
+  "10.1007/s12369-020-00690-5": {
+    "authors": [
+      {
+        "family": "Andriella",
+        "given": "Antonio"
+      },
+      {
+        "family": "Siqueira",
+        "given": "Henrique"
+      },
+      {
+        "family": "Fu",
+        "given": "Di"
+      },
+      {
+        "family": "Magg",
+        "given": "Sven"
+      },
+      {
+        "family": "Barros",
+        "given": "Pablo"
+      },
+      {
+        "family": "Wermter",
+        "given": "Stefan"
+      },
+      {
+        "family": "Torras",
+        "given": "Carme"
+      },
+      {
+        "family": "Alenyà",
+        "given": "Guillem"
+      }
+    ],
+    "containerTitle": "International Journal of Social Robotics",
+    "doi": "10.1007/s12369-020-00690-5",
+    "number": "8",
+    "pages": "2081-2102",
+    "sourceUrl": "https://api.crossref.org/works/10.1007%2Fs12369-020-00690-5",
+    "title": "Do I Have a Personality? Endowing Care Robots with Context-Dependent Personality Traits",
+    "volume": "13",
+    "year": 2021
+  },
+  "10.1007/s12369-023-00993-3": {
+    "authors": [
+      {
+        "family": "Fu",
+        "given": "Di"
+      },
+      {
+        "family": "Abawi",
+        "given": "Fares"
+      },
+      {
+        "family": "Carneiro",
+        "given": "Hugo"
+      },
+      {
+        "family": "Kerzel",
+        "given": "Matthias"
+      },
+      {
+        "family": "Chen",
+        "given": "Ziwei"
+      },
+      {
+        "family": "Strahl",
+        "given": "Erik"
+      },
+      {
+        "family": "Liu",
+        "given": "Xun"
+      },
+      {
+        "family": "Wermter",
+        "given": "Stefan"
+      }
+    ],
+    "containerTitle": "International Journal of Social Robotics",
+    "doi": "10.1007/s12369-023-00993-3",
+    "number": "8",
+    "pages": "1325-1340",
+    "sourceUrl": "https://api.crossref.org/works/10.1007%2Fs12369-023-00993-3",
+    "title": "A Trained Humanoid Robot can Perform Human-Like Crossmodal Social Attention and Conflict Resolution",
+    "volume": "15",
+    "year": 2023
+  },
+  "10.1016/j.isci.2024.110570": {
+    "articleNumber": "110570",
+    "authors": [
+      {
+        "family": "Cao",
+        "given": "Siqi"
+      },
+      {
+        "family": "Fu",
+        "given": "Di"
+      },
+      {
+        "family": "Yang",
+        "given": "Xu"
+      },
+      {
+        "family": "Wermter",
+        "given": "Stefan"
+      },
+      {
+        "family": "Liu",
+        "given": "Xun"
+      },
+      {
+        "family": "Wu",
+        "given": "Haiyan"
+      }
+    ],
+    "containerTitle": "iScience",
+    "doi": "10.1016/j.isci.2024.110570",
+    "number": "8",
+    "pages": "110570",
+    "sourceUrl": "https://api.crossref.org/works/10.1016%2Fj.isci.2024.110570",
+    "title": "Pain recognition and pain empathy from a human-centered AI perspective",
+    "volume": "27",
+    "year": 2024
+  },
+  "10.1016/j.neuroimage.2024.120707": {
+    "articleNumber": "120707",
+    "authors": [
+      {
+        "family": "Li",
+        "given": "Qi"
+      },
+      {
+        "family": "Lai",
+        "given": "Xinyu"
+      },
+      {
+        "family": "Li",
+        "given": "Ting"
+      },
+      {
+        "family": "Madsen",
+        "given": "Kristoffer Hougaard"
+      },
+      {
+        "family": "Xiao",
+        "given": "Jing"
+      },
+      {
+        "family": "Hu",
+        "given": "Kesong"
+      },
+      {
+        "family": "Feng",
+        "given": "Chunliang"
+      },
+      {
+        "family": "Fu",
+        "given": "Di"
+      },
+      {
+        "family": "Liu",
+        "given": "Xun"
+      }
+    ],
+    "containerTitle": "NeuroImage",
+    "doi": "10.1016/j.neuroimage.2024.120707",
+    "pages": "120707",
+    "sourceUrl": "https://api.crossref.org/works/10.1016%2Fj.neuroimage.2024.120707",
+    "title": "Brain responses to self- and other- unfairness under resource distribution context: Meta-analysis of fMRI studies",
+    "volume": "297",
+    "year": 2024
+  },
+  "10.1109/ICRA55743.2025.11127539": {
+    "authors": [
+      {
+        "family": "Abawi",
+        "given": "Fares"
+      },
+      {
+        "family": "Fu",
+        "given": "Di"
+      }
+    ],
+    "containerTitle": "2025 IEEE International Conference on Robotics and Automation (ICRA)",
+    "doi": "10.1109/ICRA55743.2025.11127539",
+    "pages": "11249-11255",
+    "sourceUrl": "https://api.crossref.org/works/10.1109%2FICRA55743.2025.11127539",
+    "title": "HRI-Free: Cognitive Robotic Simulation for Evaluating Embodied Social Attention Models",
+    "year": 2025
+  },
+  "10.1109/IJCNN.2018.8489303": {
+    "authors": [
+      {
+        "family": "Barros",
+        "given": "Pablo"
+      },
+      {
+        "family": "Parisi",
+        "given": "German I."
+      },
+      {
+        "family": "Fu",
+        "given": "Di"
+      },
+      {
+        "family": "Liu",
+        "given": "Xun"
+      },
+      {
+        "family": "Wermter",
+        "given": "Stefan"
+      }
+    ],
+    "containerTitle": "2018 International Joint Conference on Neural Networks (IJCNN)",
+    "doi": "10.1109/IJCNN.2018.8489303",
+    "pages": "1-8",
+    "sourceUrl": "https://api.crossref.org/works/10.1109%2FIJCNN.2018.8489303",
+    "title": "Expectation Learning and Crossmodal Modulation with a Deep Adversarial Network",
+    "year": 2018
+  },
+  "10.1109/IROS.2018.8594036": {
+    "authors": [
+      {
+        "family": "Parisi",
+        "given": "German I."
+      },
+      {
+        "family": "Barros",
+        "given": "Pablo"
+      },
+      {
+        "family": "Fu",
+        "given": "Di"
+      },
+      {
+        "family": "Magg",
+        "given": "Sven"
+      },
+      {
+        "family": "Wu",
+        "given": "Haiyan"
+      },
+      {
+        "family": "Liu",
+        "given": "Xun"
+      },
+      {
+        "family": "Wermter",
+        "given": "Stefan"
+      }
+    ],
+    "containerTitle": "2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    "doi": "10.1109/IROS.2018.8594036",
+    "pages": "2330-2335",
+    "sourceUrl": "https://api.crossref.org/works/10.1109%2FIROS.2018.8594036",
+    "title": "A Neurorobotic Experiment for Crossmodal Conflict Resolution in Complex Environments",
+    "year": 2018
+  },
+  "10.1109/RO-MAN57019.2023.10309321": {
+    "authors": [
+      {
+        "family": "Becker",
+        "given": "Dennis"
+      },
+      {
+        "family": "Rueda",
+        "given": "Diana"
+      },
+      {
+        "family": "Beese",
+        "given": "Felix"
+      },
+      {
+        "family": "Torres",
+        "given": "Brenda Scarleth Gutierrez"
+      },
+      {
+        "family": "Lafdili",
+        "given": "Myriem"
+      },
+      {
+        "family": "Ahrens",
+        "given": "Kyra"
+      },
+      {
+        "family": "Fu",
+        "given": "Di"
+      },
+      {
+        "family": "Strahl",
+        "given": "Erik"
+      },
+      {
+        "family": "Weber",
+        "given": "Tom"
+      },
+      {
+        "family": "Wermter",
+        "given": "Stefan"
+      }
+    ],
+    "containerTitle": "2023 32nd IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)",
+    "doi": "10.1109/RO-MAN57019.2023.10309321",
+    "pages": "1689-1696",
+    "sourceUrl": "https://api.crossref.org/works/10.1109%2FRO-MAN57019.2023.10309321",
+    "title": "The Emotional Dilemma: Influence of a Human-like Robot on Trust and Cooperation",
+    "year": 2023
+  },
+  "10.1109/RO-MAN57019.2023.10309334": {
+    "authors": [
+      {
+        "family": "Fu",
+        "given": "Di"
+      },
+      {
+        "family": "Abawi",
+        "given": "Fares"
+      },
+      {
+        "family": "Wermter",
+        "given": "Stefan"
+      }
+    ],
+    "containerTitle": "2023 32nd IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)",
+    "doi": "10.1109/RO-MAN57019.2023.10309334",
+    "pages": "85-91",
+    "sourceUrl": "https://api.crossref.org/works/10.1109%2FRO-MAN57019.2023.10309334",
+    "title": "The Robot in the Room: Influence of Robot Facial Expressions and Gaze on Human-Human-Robot Collaboration",
+    "year": 2023
+  },
+  "10.1111/puar.13236": {
+    "authors": [
+      {
+        "family": "Dai",
+        "given": "Bibing"
+      },
+      {
+        "family": "Fu",
+        "given": "Di"
+      },
+      {
+        "family": "Meng",
+        "given": "Guangteng"
+      },
+      {
+        "family": "Liu",
+        "given": "Bingsheng"
+      },
+      {
+        "family": "Li",
+        "given": "Qi"
+      },
+      {
+        "family": "Liu",
+        "given": "Xun"
+      }
+    ],
+    "containerTitle": "Public Administration Review",
+    "doi": "10.1111/puar.13236",
+    "number": "5",
+    "pages": "797-804",
+    "sourceUrl": "https://api.crossref.org/works/10.1111%2Fpuar.13236",
+    "title": "The Effects of Governmental and Individual Predictors on COVID-19 Protective Behaviors in China: A Path Analysis Model",
+    "volume": "80",
+    "year": 2020
+  },
+  "10.1145/3610977.3637471": {
+    "authors": [
+      {
+        "family": "Abawi",
+        "given": "Fares"
+      },
+      {
+        "family": "Allgeuer",
+        "given": "Philipp"
+      },
+      {
+        "family": "Fu",
+        "given": "Di"
+      },
+      {
+        "family": "Wermter",
+        "given": "Stefan"
+      }
+    ],
+    "containerTitle": "Proceedings of the 2024 ACM/IEEE International Conference on Human-Robot Interaction",
+    "doi": "10.1145/3610977.3637471",
+    "pages": "860-864",
+    "sourceUrl": "https://api.crossref.org/works/10.1145%2F3610977.3637471",
+    "title": "Wrapyfi: A Python Wrapper for Integrating Robots, Sensors, and Applications across Multiple Middleware",
+    "year": 2024
+  },
+  "10.1145/3610978.3640580": {
+    "authors": [
+      {
+        "family": "Fu",
+        "given": "Di"
+      },
+      {
+        "family": "Abawi",
+        "given": "Fares"
+      },
+      {
+        "family": "Allgeuer",
+        "given": "Philipp"
+      },
+      {
+        "family": "Wermter",
+        "given": "Stefan"
+      }
+    ],
+    "containerTitle": "Companion of the 2024 ACM/IEEE International Conference on Human-Robot Interaction",
+    "doi": "10.1145/3610978.3640580",
+    "pages": "458-462",
+    "sourceUrl": "https://api.crossref.org/works/10.1145%2F3610978.3640580",
+    "title": "Human Impression of Humanoid Robots Mirroring Social Cues",
+    "year": 2024
+  },
+  "10.1145/3677045.3685469": {
+    "authors": [
+      {
+        "family": "Ma",
+        "given": "Yong"
+      },
+      {
+        "family": "Zhang",
+        "given": "Yuchong"
+      },
+      {
+        "family": "Fu",
+        "given": "Di"
+      },
+      {
+        "family": "Jahanshahikhabisi",
+        "given": "Mahya"
+      },
+      {
+        "family": "Matviienko",
+        "given": "Andrii"
+      },
+      {
+        "family": "Bachinski",
+        "given": "Miroslav"
+      },
+      {
+        "family": "Fjeld",
+        "given": "Morten"
+      },
+      {
+        "family": "Kragic",
+        "given": "Danica"
+      }
+    ],
+    "containerTitle": "Adjunct Proceedings of the 2024 Nordic Conference on Human-Computer Interaction",
+    "doi": "10.1145/3677045.3685469",
+    "pages": "1-4",
+    "sourceUrl": "https://api.crossref.org/works/10.1145%2F3677045.3685469",
+    "title": "HAID: Human-AI Interaction for Dementia Care",
+    "year": 2024
+  },
+  "10.1145/3706066": {
+    "authors": [
+      {
+        "family": "Becker",
+        "given": "Dennis"
+      },
+      {
+        "family": "Braach",
+        "given": "Lukas"
+      },
+      {
+        "family": "Clasmeier",
+        "given": "Lennart"
+      },
+      {
+        "family": "Kaufmann",
+        "given": "Teresa"
+      },
+      {
+        "family": "Ong",
+        "given": "Oskar"
+      },
+      {
+        "family": "Ahrens",
+        "given": "Kyra"
+      },
+      {
+        "family": "Gäde",
+        "given": "Connor"
+      },
+      {
+        "family": "Strahl",
+        "given": "Erik"
+      },
+      {
+        "family": "Fu",
+        "given": "Di"
+      },
+      {
+        "family": "Wermter",
+        "given": "Stefan"
+      }
+    ],
+    "containerTitle": "ACM Transactions on Human-Robot Interaction",
+    "doi": "10.1145/3706066",
+    "number": "2",
+    "pages": "1-25",
+    "sourceUrl": "https://api.crossref.org/works/10.1145%2F3706066",
+    "title": "Influence of Robots’ Voice Naturalness on Trust and Compliance",
+    "volume": "14",
+    "year": 2025
+  },
+  "10.1145/3757279.3788802": {
+    "authors": [
+      {
+        "family": "Ma",
+        "given": "Yong"
+      },
+      {
+        "family": "Zhang",
+        "given": "Yuchong"
+      },
+      {
+        "family": "Fu",
+        "given": "Di"
+      },
+      {
+        "family": "Portales",
+        "given": "Stephanie Zubicueta"
+      },
+      {
+        "family": "Fjeld",
+        "given": "Morten"
+      }
+    ],
+    "containerTitle": "Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction",
+    "doi": "10.1145/3757279.3788802",
+    "pages": "1268-1272",
+    "sourceUrl": "https://api.crossref.org/works/10.1145%2F3757279.3788802",
+    "title": "Neutral by Default? Replicating User Vocal Responses to Negative Affective Cues in Conversational Agents",
+    "year": 2026
+  },
+  "10.1145/3772363.3778696": {
+    "authors": [
+      {
+        "family": "Zhang",
+        "given": "Yuchong"
+      },
+      {
+        "family": "Fu",
+        "given": "Di"
+      },
+      {
+        "family": "Ma",
+        "given": "Yong"
+      },
+      {
+        "family": "Yadollahi",
+        "given": "Elmira"
+      },
+      {
+        "family": "Leite",
+        "given": "Iolanda"
+      },
+      {
+        "family": "Kragic",
+        "given": "Danica"
+      }
+    ],
+    "containerTitle": "Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems",
+    "doi": "10.1145/3772363.3778696",
+    "pages": "1-8",
+    "sourceUrl": "https://api.crossref.org/works/10.1145%2F3772363.3778696",
+    "title": "The 3rd InterAI Workshop: Interactive AI for Human-centered Robotics",
+    "year": 2026
+  },
+  "10.1145/3776734.3789490": {
+    "authors": [
+      {
+        "family": "Fu",
+        "given": "Di"
+      },
+      {
+        "family": "Zhang",
+        "given": "Yuchong"
+      },
+      {
+        "family": "Ma",
+        "given": "Yong"
+      },
+      {
+        "family": "Kyrarini",
+        "given": "Maria"
+      },
+      {
+        "family": "Chen",
+        "given": "Chaona"
+      },
+      {
+        "family": "Jirak",
+        "given": "Doreen"
+      },
+      {
+        "family": "Si",
+        "given": "Weiyong"
+      },
+      {
+        "family": "Kragic",
+        "given": "Danica"
+      }
+    ],
+    "containerTitle": "Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction",
+    "doi": "10.1145/3776734.3789490",
+    "pages": "1408-1410",
+    "sourceUrl": "https://api.crossref.org/works/10.1145%2F3776734.3789490",
+    "title": "InterAI: Interactive AI for Human-Centered Robotics",
+    "year": 2026
+  },
+  "10.1177/20416695251352129": {
+    "articleNumber": "20416695251352129",
+    "authors": [
+      {
+        "family": "Chen",
+        "given": "Ziwei"
+      },
+      {
+        "family": "Wen",
+        "given": "Mengxin"
+      },
+      {
+        "family": "Liu",
+        "given": "Xun"
+      },
+      {
+        "family": "Fu",
+        "given": "Di"
+      }
+    ],
+    "containerTitle": "i-Perception",
+    "doi": "10.1177/20416695251352129",
+    "number": "4",
+    "sourceUrl": "https://api.crossref.org/works/10.1177%2F20416695251352129",
+    "title": "How face-like objects and averted gaze faces orient our attention: The role of global configuration and local features",
+    "volume": "16",
+    "year": 2025
+  },
+  "10.1360/N972016-01108": {
+    "authors": [
+      {
+        "family": "FU",
+        "given": "Di"
+      },
+      {
+        "family": "QI",
+        "given": "YanYan"
+      },
+      {
+        "family": "WU",
+        "given": "HaiYan"
+      },
+      {
+        "family": "LIU",
+        "given": "Xun"
+      }
+    ],
+    "containerTitle": "Chinese Science Bulletin",
+    "doi": "10.1360/N972016-01108",
+    "number": "22",
+    "pages": "2500-2508",
+    "sourceUrl": "https://api.crossref.org/works/10.1360%2FN972016-01108",
+    "title": "Integrative neurocognitive mechanism of empathy and counter-empathy",
+    "volume": "62",
+    "year": 2017
+  },
+  "10.1360/SSV-2020-0248": {
+    "authors": [
+      {
+        "family": "QI",
+        "given": "Yue"
+      },
+      {
+        "family": "YANG",
+        "given": "GuoChun"
+      },
+      {
+        "family": "FU",
+        "given": "Di"
+      },
+      {
+        "family": "LI",
+        "given": "ZhengHan"
+      },
+      {
+        "family": "LIU",
+        "given": "Xun"
+      }
+    ],
+    "containerTitle": "SCIENTIA SINICA Vitae",
+    "doi": "10.1360/SSV-2020-0248",
+    "number": "6",
+    "pages": "634-646",
+    "sourceUrl": "https://api.crossref.org/works/10.1360%2FSSV-2020-0248",
+    "title": "Developmental neuroscience of cognitive control: the futurepath and layout",
+    "volume": "51",
+    "year": 2021
+  },
+  "10.1515/pjbr-2018-0026": {
+    "authors": [
+      {
+        "family": "Zamani",
+        "given": "Mohammad Ali"
+      },
+      {
+        "family": "Magg",
+        "given": "Sven"
+      },
+      {
+        "family": "Weber",
+        "given": "Cornelius"
+      },
+      {
+        "family": "Wermter",
+        "given": "Stefan"
+      },
+      {
+        "family": "Fu",
+        "given": "Di"
+      }
+    ],
+    "containerTitle": "Paladyn, Journal of Behavioral Robotics",
+    "doi": "10.1515/pjbr-2018-0026",
+    "number": "1",
+    "pages": "358-373",
+    "sourceUrl": "https://api.crossref.org/works/10.1515%2Fpjbr-2018-0026",
+    "title": "Deep reinforcement learning using compositional representations for performing instructions",
+    "volume": "9",
+    "year": 2018
+  },
+  "10.3389/fnint.2020.00010": {
+    "articleNumber": "10",
+    "authors": [
+      {
+        "family": "Fu",
+        "given": "Di"
+      },
+      {
+        "family": "Weber",
+        "given": "Cornelius"
+      },
+      {
+        "family": "Yang",
+        "given": "Guochun"
+      },
+      {
+        "family": "Kerzel",
+        "given": "Matthias"
+      },
+      {
+        "family": "Nan",
+        "given": "Weizhi"
+      },
+      {
+        "family": "Barros",
+        "given": "Pablo"
+      },
+      {
+        "family": "Wu",
+        "given": "Haiyan"
+      },
+      {
+        "family": "Liu",
+        "given": "Xun"
+      },
+      {
+        "family": "Wermter",
+        "given": "Stefan"
+      }
+    ],
+    "containerTitle": "Frontiers in Integrative Neuroscience",
+    "doi": "10.3389/fnint.2020.00010",
+    "sourceUrl": "https://api.crossref.org/works/10.3389%2Ffnint.2020.00010",
+    "title": "What Can Computational Models Learn From Human Selective Attention? A Review From an Audiovisual Unimodal and Crossmodal Perspective",
+    "volume": "14",
+    "year": 2020
+  },
+  "10.3389/fpsyg.2018.02679": {
+    "articleNumber": "2679",
+    "authors": [
+      {
+        "family": "Yang",
+        "given": "Zhong"
+      },
+      {
+        "family": "Fu",
+        "given": "Di"
+      },
+      {
+        "family": "Qi",
+        "given": "Yue"
+      },
+      {
+        "family": "Zheng",
+        "given": "Ya"
+      },
+      {
+        "family": "Li",
+        "given": "Qi"
+      },
+      {
+        "family": "Liu",
+        "given": "Xun"
+      }
+    ],
+    "containerTitle": "Frontiers in Psychology",
+    "doi": "10.3389/fpsyg.2018.02679",
+    "sourceUrl": "https://api.crossref.org/works/10.3389%2Ffpsyg.2018.02679",
+    "title": "Humor Affects Fairness Considerations in the Gain and Loss Contexts",
+    "volume": "9",
+    "year": 2019
+  },
+  "10.3724/SP.J.1042.2023.00240": {
+    "authors": [],
+    "containerTitle": "Advances in Psychological Science",
+    "doi": "10.3724/SP.J.1042.2023.00240",
+    "number": "2",
+    "pages": "240",
+    "sourceUrl": "https://api.crossref.org/works/10.3724%2FSP.J.1042.2023.00240",
+    "title": "Better to misidentify than to miss: A review of occurrence mechanisms and applications of face pareidolia",
+    "volume": "31",
+    "year": 2023
+  },
+  "10.48550/arxiv.2511.06954": {
+    "authors": [
+      {
+        "family": "Zhang",
+        "given": "Yuchong"
+      },
+      {
+        "family": "Ma",
+        "given": "Yong"
+      },
+      {
+        "family": "Fu",
+        "given": "Di"
+      },
+      {
+        "family": "Zubicueta Portales",
+        "given": "Stephanie"
+      },
+      {
+        "family": "Fjeld",
+        "given": "Morten"
+      },
+      {
+        "family": "Kragic",
+        "given": "Danica"
+      }
+    ],
+    "containerTitle": "International Journal of Human–Computer Interaction",
+    "doi": "10.1080/10447318.2026.2675404",
+    "pages": "1-38",
+    "sourceUrl": "https://api.crossref.org/works/10.1080%2F10447318.2026.2675404",
+    "title": "Personalizing Emotion-Aware Conversational Agents? Exploring User Traits-Driven Conversational Strategies for Enhanced Interaction",
+    "year": 2026
+  }
+}

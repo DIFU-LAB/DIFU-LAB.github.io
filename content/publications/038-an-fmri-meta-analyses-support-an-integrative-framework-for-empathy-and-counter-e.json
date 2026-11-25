@@ -1,0 +1,33 @@
+{
+  "id": "cv-poster-02",
+  "title": "An fMRI meta-analyses support an integrative framework for empathy and counter-empathy",
+  "authors": "Di Fu, Qi, Y., Wan, W., Ran, B., Wu, H., Liu, X.",
+  "authorNames": [
+    "Di Fu",
+    "Qi, Y.",
+    "Wan, W.",
+    "Ran, B.",
+    "Wu, H.",
+    "Liu, X."
+  ],
+  "authorsComplete": true,
+  "year": 2017,
+  "journal": "Organization for Human Brain Mapping (OHBM)",
+  "doi": "",
+  "url": "",
+  "type": "poster",
+  "status": "presented",
+  "sourceUrl": "",
+  "sourceRecordIds": [
+    "CV:cv-poster-02"
+  ],
+  "versions": [],
+  "sources": [
+    {
+      "name": "CV (October 2026)",
+      "url": "",
+      "recordId": "cv-poster-02"
+    }
+  ],
+  "notes": "Conference poster listed in the CV; not counted as a published paper. Year refers to the event."
+}

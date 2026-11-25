@@ -1,0 +1,39 @@
+{
+  "id": "10.48550/arXiv.2409.11150",
+  "title": "The 1st InterAI Workshop: Interactive AI for Human-centered Robotics",
+  "authors": "Yuchong Zhang, Elmira Yadollahi, Yong Ma, Di Fu, Iolanda Leite, Danica Kragic",
+  "authorNames": [
+    "Yuchong Zhang",
+    "Elmira Yadollahi",
+    "Yong Ma",
+    "Di Fu",
+    "Iolanda Leite",
+    "Danica Kragic"
+  ],
+  "authorsComplete": true,
+  "year": 2024,
+  "journal": "arXiv",
+  "doi": "10.48550/arXiv.2409.11150",
+  "url": "https://arxiv.org/abs/2409.11150",
+  "type": "preprint",
+  "status": "preprint",
+  "sourceUrl": "https://arxiv.org/abs/2409.11150",
+  "sourceRecordIds": [
+    "Scholar:AUqLvaIAAAAJ:qUcmZB5y_30C",
+    "Surrey:10.48550/arXiv.2409.11150"
+  ],
+  "versions": [],
+  "sources": [
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:qUcmZB5y_30C",
+      "recordId": "AUqLvaIAAAAJ:qUcmZB5y_30C"
+    },
+    {
+      "name": "Original source",
+      "url": "https://arxiv.org/abs/2409.11150",
+      "recordId": "10.48550/arXiv.2409.11150"
+    }
+  ],
+  "notes": ""
+}

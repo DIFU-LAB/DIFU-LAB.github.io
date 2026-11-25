@@ -1,0 +1,302 @@
+{
+  "No news yet.": {
+    "en": "No news yet.",
+    "zh": "暂无新闻。"
+  },
+  "University of Surrey, United Kingdom": {
+    "en": "University of Surrey, United Kingdom",
+    "zh": "英国萨里大学"
+  },
+  "Social Interaction": {
+    "en": "Social Interaction",
+    "zh": "社会交互"
+  },
+  "and": {
+    "en": "and",
+    "zh": "与"
+  },
+  "Lab name conjunction": {
+    "en": "and",
+    "zh": "与"
+  },
+  "Embodied Intelligence": {
+    "en": "Embodied Intelligence",
+    "zh": "具身智能"
+  },
+  "(SEIL) Lab": {
+    "en": "(SEIL) Lab",
+    "zh": "(SEIL) 实验室"
+  },
+  "We investigate how humans perceive and integrate multimodal social cues to understand the cognitive mechanisms underlying social interaction. Inspired by these mechanisms, we develop computational models and embodied robotic systems to advance artificial social intelligence. Through human-robot interaction studies, we explore how people interact with intelligent agents, establishing a bidirectional link between human social cognition and embodied artificial intelligence.": {
+    "en": "We investigate how humans perceive and integrate multimodal social cues to understand the cognitive mechanisms underlying social interaction. Inspired by these mechanisms, we develop computational models and embodied robotic systems to advance artificial social intelligence. Through human-robot interaction studies, we explore how people interact with intelligent agents, establishing a bidirectional link between human social cognition and embodied artificial intelligence.",
+    "zh": "我们研究人类如何感知与整合多模态社会线索，以理解社会交互背后的认知机制。受这些机制启发，我们构建计算模型与具身机器人系统，推动人工社会智能的发展。通过人机交互研究，我们探索人们如何与智能体交互，在人类社会认知与具身人工智能之间建立双向联系。"
+  },
+  "Explore Research": {
+    "en": "Explore Research",
+    "zh": "了解研究"
+  },
+  "Meet the Team": {
+    "en": "Meet the Team",
+    "zh": "认识团队"
+  },
+  "Scroll": {
+    "en": "Scroll",
+    "zh": "向下浏览"
+  },
+  "Research Areas": {
+    "en": "Research Areas",
+    "zh": "研究方向"
+  },
+  "Latest News": {
+    "en": "Latest News",
+    "zh": "最新新闻"
+  },
+  "View all news →": {
+    "en": "View all news →",
+    "zh": "查看全部新闻 →"
+  },
+  "Join the lab": {
+    "en": "Join the lab",
+    "zh": "加入实验室"
+  },
+  "We welcome researchers and students interested in social cognition, human-AI interaction and embodied AI. Contact us to discuss opportunities to work with SEIL Lab.": {
+    "en": "We welcome researchers and students interested in social cognition, human-AI interaction and embodied AI. Contact us to discuss opportunities to work with SEIL Lab.",
+    "zh": "欢迎关注社会认知、人机交互与具身智能的研究人员和学生联系我们，探讨加入 SEIL 实验室或开展合作的机会。"
+  },
+  "Contact Us": {
+    "en": "Contact Us",
+    "zh": "联系我们"
+  },
+  "Visitors around the world": {
+    "en": "Visitors around the world",
+    "zh": "世界各地的访客"
+  },
+  "Visitor map": {
+    "en": "Visitor map",
+    "zh": "访客地图"
+  },
+  "Visitors": {
+    "en": "Visitors",
+    "zh": "访客"
+  },
+  "Countries and regions": {
+    "en": "Countries and regions",
+    "zh": "国家和地区"
+  },
+  "Top locations": {
+    "en": "Top locations",
+    "zh": "主要来源"
+  },
+  "SEIL Lab, Guildford": {
+    "en": "SEIL Lab, Guildford",
+    "zh": "SEIL 实验室，吉尔福德"
+  },
+  "Locations are approximate. IP addresses are not stored.": {
+    "en": "Locations are approximate. IP addresses are not stored.",
+    "zh": "位置为大致估算，不保存原始 IP。"
+  },
+  "Social Cue Integration in Crossmodal Human-Robot Interaction": {
+    "en": "Social Cue Integration in Crossmodal Human-Robot Interaction",
+    "zh": "跨模态人机交互中的社会线索整合"
+  },
+  "Social cues": {
+    "en": "Social cues",
+    "zh": "社会线索"
+  },
+  "Methods": {
+    "en": "Methods",
+    "zh": "研究方法"
+  },
+  "Core mechanism": {
+    "en": "Core mechanism",
+    "zh": "核心机制"
+  },
+  "Outcomes": {
+    "en": "Outcomes",
+    "zh": "成果与影响"
+  },
+  "Crossmodal integration": {
+    "en": "Crossmodal integration",
+    "zh": "跨模态整合"
+  },
+  "Combines social cues across modalities to infer social states and drive robot behaviour.": {
+    "en": "Combines social cues across modalities to infer social states and drive robot behaviour.",
+    "zh": "整合跨模态社会线索，推断社会状态，驱动机器人行为。"
+  },
+  "Gestures": {
+    "en": "Gestures",
+    "zh": "手势"
+  },
+  "Gaze": {
+    "en": "Gaze",
+    "zh": "注视"
+  },
+  "Facial expressions": {
+    "en": "Facial expressions",
+    "zh": "面部表情"
+  },
+  "Mirroring": {
+    "en": "Mirroring",
+    "zh": "行为模仿"
+  },
+  "Personality": {
+    "en": "Personality",
+    "zh": "人格"
+  },
+  "Behavioural tasks": {
+    "en": "Behavioural tasks",
+    "zh": "行为任务"
+  },
+  "Eye tracking": {
+    "en": "Eye tracking",
+    "zh": "眼动追踪"
+  },
+  "Deep learning modelling": {
+    "en": "Deep learning modelling",
+    "zh": "深度学习​建模"
+  },
+  "Datasets": {
+    "en": "Datasets",
+    "zh": "数据集"
+  },
+  "Middleware": {
+    "en": "Middleware",
+    "zh": "中间件"
+  },
+  "Human-like social behaviour": {
+    "en": "Human-like social behaviour",
+    "zh": "类人社会行为"
+  },
+  "Robots that understand and respond to rich social cues.": {
+    "en": "Robots that understand and respond to rich social cues.",
+    "zh": "机器人能够理解并回应丰富的社会线索。"
+  },
+  "Natural human-robot interaction": {
+    "en": "Natural human-robot interaction",
+    "zh": "自然的人机交互"
+  },
+  "Smoother, more intuitive interaction in real settings.": {
+    "en": "Smoother, more intuitive interaction in real settings.",
+    "zh": "在真实场景中实现更流畅、更直观的交互。"
+  },
+  "Psychologically grounded embodied AI": {
+    "en": "Psychologically grounded embodied AI",
+    "zh": "以心理学为基础的具身智能"
+  },
+  "Built on rigorous experiments and cognitive principles.": {
+    "en": "Built on rigorous experiments and cognitive principles.",
+    "zh": "建立在严谨实验与认知原理之上。"
+  },
+  "Broad impact": {
+    "en": "Broad impact",
+    "zh": "广泛影响"
+  },
+  "Applications in healthcare, education and assistive robotics.": {
+    "en": "Applications in healthcare, education and assistive robotics.",
+    "zh": "应用于医疗、教育与辅助机器人领域。"
+  },
+  "iCub's view of avatars gesturing around a virtual table": {
+    "en": "iCub's view of avatars gesturing around a virtual table",
+    "zh": "iCub 视角下围坐虚拟桌旁做手势的虚拟人"
+  },
+  "iCub facing a screen of three avatars in the crossmodal attention study": {
+    "en": "iCub facing a screen of three avatars in the crossmodal attention study",
+    "zh": "跨模态注意研究中，iCub 面对屏幕上的三个虚拟人"
+  },
+  "Two people sort shapes while iCub shows a facial expression": {
+    "en": "Two people sort shapes while iCub shows a facial expression",
+    "zh": "两人进行形状分类任务，iCub 呈现面部表情"
+  },
+  "A participant facing Pepper with iCub beside them": {
+    "en": "A participant facing Pepper with iCub beside them",
+    "zh": "一名参与者面对 Pepper，iCub 在旁"
+  },
+  "A participant playing a touch-table game with a NAO robot": {
+    "en": "A participant playing a touch-table game with a NAO robot",
+    "zh": "一名参与者与 NAO 机器人进行触控桌游戏"
+  },
+  "A participant with headphones doing an audiovisual attention task": {
+    "en": "A participant with headphones doing an audiovisual attention task",
+    "zh": "一名戴耳机的参与者完成视听注意任务"
+  },
+  "Eye-tracking glasses view of a human-robot collaboration task": {
+    "en": "Eye-tracking glasses view of a human-robot collaboration task",
+    "zh": "眼动眼镜记录的人机协作任务画面"
+  },
+  "Architecture of the multimodal scanpath prediction model": {
+    "en": "Architecture of the multimodal scanpath prediction model",
+    "zh": "多模态扫描路径预测模型架构"
+  },
+  "Gaze heat map over a recorded human-robot interaction scene": {
+    "en": "Gaze heat map over a recorded human-robot interaction scene",
+    "zh": "人机交互录制场景上的注视热图"
+  },
+  "Distributed robot gaze pipeline linked by ROS 2, ZeroMQ and YARP": {
+    "en": "Distributed robot gaze pipeline linked by ROS 2, ZeroMQ and YARP",
+    "zh": "由 ROS 2、ZeroMQ 与 YARP 连接的分布式机器人注视流程"
+  },
+  "German": {
+    "en": "German",
+    "zh": "德语"
+  },
+  "Watch the lab film": {
+    "en": "Watch the lab film",
+    "zh": "观看实验室短片"
+  },
+  "SEIL lab film": {
+    "en": "SEIL lab film",
+    "zh": "SEIL 实验室短片"
+  },
+  "Lab Name": {
+    "en": "Lab Name",
+    "zh": "实验室名称"
+  },
+  "Rope": {
+    "en": "Rope",
+    "zh": "麻绳"
+  },
+  "English echo": {
+    "en": "English echo",
+    "zh": "英语谐音"
+  },
+  "To set sail": {
+    "en": "To set sail",
+    "zh": "扬帆起航"
+  },
+  "Connection · Resilience": {
+    "en": "Connection · Resilience",
+    "zh": "联结 · 韧性"
+  },
+  "Exploration · Discovery": {
+    "en": "Exploration · Discovery",
+    "zh": "探索 · 发现"
+  },
+  "The strength to connect. The freedom to explore.": {
+    "en": "The strength to connect. The freedom to explore.",
+    "zh": "联结的力量，探索的自由。"
+  },
+  "Narration": {
+    "en": "Narration",
+    "zh": "旁白"
+  },
+  "Subtitles": {
+    "en": "Subtitles",
+    "zh": "字幕"
+  },
+  "Off": {
+    "en": "Off",
+    "zh": "关闭"
+  },
+  "Our Philosophy": {
+    "en": "Our Philosophy",
+    "zh": "我们的理念"
+  },
+  "Interaction is not merely where intelligence is expressed, but where it emerges and evolves.": {
+    "en": "Interaction is not merely where intelligence is expressed, but where it emerges and evolves.",
+    "zh": "交互不仅是智能得以表达的场所，更是智能涌现与演化之处。"
+  },
+  "We bridge human cognition and embodied AI to understand how social intelligence takes shape through interaction.": {
+    "en": "We bridge human cognition and embodied AI to understand how social intelligence takes shape through interaction.",
+    "zh": "我们联结人类认知与具身人工智能，探究社会智能如何在交互中成形。"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "tianjin": {
+    "id": "tianjin",
+    "src": "/media/about-di/tianjin-a1d7f4071b36.webp",
+    "width": 900,
+    "height": 600,
+    "caption": {
+      "en": "Tianjin, China",
+      "zh": "天津，中国"
+    },
+    "alt": {
+      "en": "A city view of Tianjin",
+      "zh": "天津城市风景"
+    }
+  },
+  "hamburg": {
+    "id": "hamburg",
+    "src": "/media/about-di/Hamburg-b41a68003fb9.jpg",
+    "width": 754,
+    "height": 432,
+    "caption": {
+      "en": "Hamburg, Germany",
+      "zh": "汉堡，德国"
+    },
+    "alt": {
+      "en": "Hamburg waterfront architecture reflected in the water at dusk",
+      "zh": "汉堡城市建筑与水面倒影"
+    }
+  },
+  "surrey": {
+    "id": "surrey",
+    "src": "/media/about-di/universityofsurrey-40b1830547cc.webp",
+    "width": 1200,
+    "height": 675,
+    "caption": {
+      "en": "University of Surrey, Guildford, UK",
+      "zh": "萨里大学，英国吉尔福德"
+    },
+    "alt": {
+      "en": "University of Surrey campus buildings and trees reflected in the lake",
+      "zh": "萨里大学校园建筑与湖水倒影"
+    }
+  },
+  "yanqi": {
+    "id": "yanqi",
+    "src": "/media/about-di/yanqi-lake-user-original-0509c839035f.jpeg",
+    "width": 1024,
+    "height": 683,
+    "caption": {
+      "en": "Yanqi Lake, Beijing",
+      "zh": "北京，雁栖湖"
+    },
+    "alt": {
+      "en": "Yanqi Lake landscape with waterways and autumn trees",
+      "zh": "雁栖湖风景与水面"
+    }
+  },
+  "mcgurk": {
+    "id": "mcgurk",
+    "src": "/media/about-di/mcgurk-effect-user-lossless-0509c839035f.webp",
+    "width": 640,
+    "height": 480,
+    "caption": {
+      "en": "McGurk effect",
+      "zh": "McGurk 效应"
+    },
+    "alt": {
+      "en": "McGurk effect illustration combining auditory and visual speech signals",
+      "zh": "McGurk 效应的听觉与视觉语音整合示意"
+    }
+  }
+}

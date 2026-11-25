@@ -1,0 +1,54 @@
+{
+  "id": "10.1145/3776734.3789490",
+  "title": "InterAI: Interactive AI for Human-Centered Robotics",
+  "authors": "Di Fu, Yuchong Zhang, Yong Ma, Maria Kyrarini, Chaona Chen, Doreen Jirak, Weiyong Si, Danica Kragic",
+  "authorNames": [
+    "Di Fu",
+    "Yuchong Zhang",
+    "Yong Ma",
+    "Maria Kyrarini",
+    "Chaona Chen",
+    "Doreen Jirak",
+    "Weiyong Si",
+    "Danica Kragic"
+  ],
+  "authorsComplete": true,
+  "year": 2026,
+  "journal": "Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction",
+  "doi": "10.1145/3776734.3789490",
+  "url": "https://dl.acm.org/doi/10.1145/3776734.3789490",
+  "type": "workshop",
+  "status": "published",
+  "sourceUrl": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991126267802346",
+  "sourceRecordIds": [
+    "Scholar:AUqLvaIAAAAJ:hC7cP41nSMkC",
+    "Surrey:alma991126267802346",
+    "ORCID:208277337",
+    "ORCID:214704299"
+  ],
+  "versions": [],
+  "sources": [
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:hC7cP41nSMkC",
+      "recordId": "AUqLvaIAAAAJ:hC7cP41nSMkC"
+    },
+    {
+      "name": "University record",
+      "url": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991126267802346",
+      "recordId": "alma991126267802346"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "208277337"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "214704299"
+    }
+  ],
+  "notes": "",
+  "kindLabel": "Workshop abstract"
+}

@@ -1,0 +1,27 @@
+{
+  "id": 90006,
+  "linkedinUrl": "https://www.inf.uni-hamburg.de/en/inst/ab/wtm/about/news/20240120wrapfyi.html",
+  "title": "Wrapyfi and human-participant research accepted at HRI 2024",
+  "excerpt": "The University of Hamburg's Knowledge Technology group announced the acceptance of its human-participant study and Wrapyfi framework contribution at HRI 2024. Co-authored by Dr Di Fu, Wrapyfi integrates robots, sensors and applications across multiple middleware frameworks.",
+  "content": null,
+  "imageUrl": null,
+  "publishedAt": "2024-01-20T12:00:00.000Z",
+  "source": {
+    "category": "Research",
+    "sourceAuthor": "University of Hamburg - Knowledge Technology",
+    "sourceUrl": "https://www.inf.uni-hamburg.de/en/inst/ab/wtm/about/news/20240120wrapfyi.html",
+    "sourceName": "University of Hamburg - Knowledge Technology",
+    "sourceKind": "university",
+    "dateBasis": "publication",
+    "dateValue": "2024-01-20"
+  },
+  "provenance": {
+    "dateEvidence": "Hamburg news article displays 20 January 2024 and its NewsArticle JSON-LD gives datePublished 2024-01-20T00:00:00.000000+01:00. The 12 February footer is a modification date. No original LinkedIn acceptance-post date was verified.",
+    "originalImageUrl": "https://www.inf.uni-hamburg.de/36986183/wrapfyicover2-ea38bc4764181385c686cbb0162cae81c45dd8bf.jpg",
+    "supportingSources": [
+      "https://www.surrey.ac.uk/people/di-fu"
+    ]
+  },
+  "titleZh": "Wrapyfi 与涉及人类参与者的研究获 HRI 2024 接收",
+  "excerptZh": "汉堡大学知识技术组宣布，其涉及人类参与者的研究及Wrapyfi框架贡献已被HRI 2024接收。Wrapyfi由Di Fu博士合著，可通过多种中间件框架连接机器人、传感器和应用程序。"
+}

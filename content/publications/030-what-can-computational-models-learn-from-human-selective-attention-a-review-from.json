@@ -1,0 +1,98 @@
+{
+  "id": "10.3389/fnint.2020.00010",
+  "title": "What Can Computational Models Learn From Human Selective Attention? A Review From an Audiovisual Unimodal and Crossmodal Perspective",
+  "authors": "Di Fu, Cornelius Weber, Guochun Yang, Matthias Kerzel, Weizhi Nan, Pablo Barros, Haiyan Wu, Xun Liu, Stefan Wermter",
+  "authorNames": [
+    "Di Fu",
+    "Cornelius Weber",
+    "Guochun Yang",
+    "Matthias Kerzel",
+    "Weizhi Nan",
+    "Pablo Barros",
+    "Haiyan Wu",
+    "Xun Liu",
+    "Stefan Wermter"
+  ],
+  "authorsComplete": true,
+  "year": 2020,
+  "journal": "Frontiers in Integrative Neuroscience",
+  "doi": "10.3389/fnint.2020.00010",
+  "url": "https://www.frontiersin.org/journals/integrative-neuroscience/articles/10.3389/fnint.2020.00010/full",
+  "type": "journal",
+  "status": "published",
+  "sourceUrl": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991115566702346",
+  "sourceRecordIds": [
+    "CV:cv-journal-13",
+    "Scholar:AUqLvaIAAAAJ:IjCSPb-OGe4C",
+    "Scholar:arXiv:1909.05654",
+    "Surrey:alma991115566702346",
+    "Surrey:alma991129764702346",
+    "ORCID:209961812",
+    "ORCID:161707073",
+    "ORCID:161707074"
+  ],
+  "versions": [
+    {
+      "doi": "10.31234/osf.io/s3u9j",
+      "url": "https://osf.io/preprints/psyarxiv/s3u9j_v1/",
+      "type": "preprint",
+      "year": 2019,
+      "withdrawn": true
+    },
+    {
+      "doi": "10.31234/osf.io/sx3uc",
+      "url": "https://osf.io/preprints/psyarxiv/sx3uc",
+      "type": "preprint",
+      "year": 2019
+    },
+    {
+      "doi": "10.48550/arxiv.1909.05654",
+      "url": "https://arxiv.org/abs/1909.05654",
+      "type": "preprint",
+      "year": 2019
+    }
+  ],
+  "sources": [
+    {
+      "name": "CV (October 2026)",
+      "url": "",
+      "recordId": "cv-journal-13"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:IjCSPb-OGe4C",
+      "recordId": "AUqLvaIAAAAJ:IjCSPb-OGe4C"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://arxiv.org/abs/1909.05654",
+      "recordId": "arXiv:1909.05654"
+    },
+    {
+      "name": "University record",
+      "url": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991115566702346",
+      "recordId": "alma991115566702346"
+    },
+    {
+      "name": "University record",
+      "url": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991129764702346",
+      "recordId": "alma991129764702346"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "209961812"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "161707073"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "161707074"
+    }
+  ],
+  "notes": ""
+}

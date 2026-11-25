@@ -1,0 +1,50 @@
+{
+  "Gallery": {
+    "en": "Gallery",
+    "zh": "影像集"
+  },
+  "Life & Events": {
+    "en": "Life & Events",
+    "zh": "生活与活动"
+  },
+  "Talks, collaborations, conferences, and celebrations from our research community.": {
+    "en": "Talks, collaborations, conferences, and celebrations from our research community.",
+    "zh": "记录科研团队的讲座、合作、会议与庆祝时刻。"
+  },
+  "Filter gallery by category": {
+    "en": "Filter gallery by category",
+    "zh": "按类别筛选照片"
+  },
+  "All photographs": {
+    "en": "All photographs",
+    "zh": "全部照片"
+  },
+  "Enlarge": {
+    "en": "Enlarge",
+    "zh": "放大"
+  },
+  "Photos from Di Fu's official University of Surrey profile and public LinkedIn posts. Original framing retained; dates appear only when supported by the source or event context.": {
+    "en": "Photos from Di Fu's official University of Surrey profile and public LinkedIn posts. Original framing retained; dates appear only when supported by the source or event context.",
+    "zh": "照片来自 Di Fu 的萨里大学官方个人主页及公开的 LinkedIn 帖子，保留原始构图。仅在来源提供日期或活动背景时标注日期。"
+  },
+  "Some Di Fu portraits are lightly retouched. Source links show the originals.": {
+    "en": "Some Di Fu portraits are lightly retouched. Source links show the originals.",
+    "zh": "部分 Di Fu 肖像经过轻微修饰，来源链接指向原始照片。"
+  },
+  "Close photograph": {
+    "en": "Close photograph",
+    "zh": "关闭照片"
+  },
+  "Previous photograph": {
+    "en": "Previous photograph",
+    "zh": "上一张照片"
+  },
+  "Next photograph": {
+    "en": "Next photograph",
+    "zh": "下一张照片"
+  },
+  "View source": {
+    "en": "View source",
+    "zh": "查看来源"
+  }
+}

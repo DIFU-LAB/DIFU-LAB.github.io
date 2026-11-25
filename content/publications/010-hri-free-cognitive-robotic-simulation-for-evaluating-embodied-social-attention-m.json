@@ -1,0 +1,60 @@
+{
+  "id": "10.1109/ICRA55743.2025.11127539",
+  "title": "HRI-Free: Cognitive Robotic Simulation for Evaluating Embodied Social Attention Models",
+  "authors": "Fares Abawi, Di Fu",
+  "authorNames": [
+    "Fares Abawi",
+    "Di Fu"
+  ],
+  "authorsComplete": true,
+  "year": 2025,
+  "journal": "2025 IEEE International Conference on Robotics and Automation (ICRA)",
+  "doi": "10.1109/ICRA55743.2025.11127539",
+  "url": "https://ieeexplore.ieee.org/document/11127539/",
+  "type": "conference",
+  "status": "published",
+  "sourceUrl": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991114267302346",
+  "sourceRecordIds": [
+    "CV:cv-conference-02",
+    "Scholar:AUqLvaIAAAAJ:Wp0gIr-vW9MC",
+    "Scholar:author-manuscript:hrifree_paper.pdf",
+    "Surrey:alma991114267302346",
+    "ORCID:209710679"
+  ],
+  "versions": [
+    {
+      "doi": "",
+      "url": "https://fares.abawi.me/assets/pdf/hrifree_paper.pdf",
+      "type": "preprint",
+      "year": null
+    }
+  ],
+  "sources": [
+    {
+      "name": "CV (October 2026)",
+      "url": "",
+      "recordId": "cv-conference-02"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:Wp0gIr-vW9MC",
+      "recordId": "AUqLvaIAAAAJ:Wp0gIr-vW9MC"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://fares.abawi.me/assets/pdf/hrifree_paper.pdf",
+      "recordId": "author-manuscript:hrifree_paper.pdf"
+    },
+    {
+      "name": "University record",
+      "url": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991114267302346",
+      "recordId": "alma991114267302346"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "209710679"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,71 @@
+{
+  "id": "10.1109/IROS.2018.8594036",
+  "title": "A Neurorobotic Experiment for Crossmodal Conflict Resolution in Complex Environments",
+  "authors": "German I. Parisi, Pablo Barros, Di Fu, Sven Magg, Haiyan Wu, Xun Liu, Stefan Wermter",
+  "authorNames": [
+    "German I. Parisi",
+    "Pablo Barros",
+    "Di Fu",
+    "Sven Magg",
+    "Haiyan Wu",
+    "Xun Liu",
+    "Stefan Wermter"
+  ],
+  "authorsComplete": true,
+  "year": 2018,
+  "journal": "2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+  "doi": "10.1109/IROS.2018.8594036",
+  "url": "https://ieeexplore.ieee.org/document/8594036/",
+  "type": "conference",
+  "status": "published",
+  "sourceUrl": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991115567102346",
+  "sourceRecordIds": [
+    "CV:cv-conference-11",
+    "Scholar:AUqLvaIAAAAJ:d1gkVwhDpl0C",
+    "Scholar:arXiv:1802.10408",
+    "Surrey:alma991115567102346",
+    "Surrey:10.48550/arXiv.1802.10408",
+    "ORCID:209961813"
+  ],
+  "versions": [
+    {
+      "doi": "10.48550/arXiv.1802.10408",
+      "url": "https://arxiv.org/abs/1802.10408",
+      "type": "preprint",
+      "year": 2018
+    }
+  ],
+  "sources": [
+    {
+      "name": "CV (October 2026)",
+      "url": "",
+      "recordId": "cv-conference-11"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:d1gkVwhDpl0C",
+      "recordId": "AUqLvaIAAAAJ:d1gkVwhDpl0C"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://arxiv.org/abs/1802.10408",
+      "recordId": "arXiv:1802.10408"
+    },
+    {
+      "name": "University record",
+      "url": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991115567102346",
+      "recordId": "alma991115567102346"
+    },
+    {
+      "name": "Original source",
+      "url": "https://arxiv.org/abs/1802.10408",
+      "recordId": "10.48550/arXiv.1802.10408"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "209961813"
+    }
+  ],
+  "notes": ""
+}

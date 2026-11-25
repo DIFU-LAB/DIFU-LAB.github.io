@@ -1,0 +1,166 @@
+{
+  "Research": {
+    "en": "Research",
+    "zh": "研究"
+  },
+  "Research Directions": {
+    "en": "Research Directions",
+    "zh": "研究方向"
+  },
+  "Research sections": {
+    "en": "Research sections",
+    "zh": "研究页面导航"
+  },
+  "Research framework": {
+    "en": "Research framework",
+    "zh": "研究框架"
+  },
+  "Our research": {
+    "en": "Our research",
+    "zh": "研究方向"
+  },
+  "Selected contributions": {
+    "en": "Selected contributions",
+    "zh": "代表性成果"
+  },
+  "Demos & talks": {
+    "en": "Demos & talks",
+    "zh": "演示与报告"
+  },
+  "Research in focus": {
+    "en": "Research in focus",
+    "zh": "研究聚焦"
+  },
+  "From human attention to embodied interaction": {
+    "en": "From human attention to embodied interaction",
+    "zh": "从人类注意到具身交互"
+  },
+  "Related work": {
+    "en": "Related work",
+    "zh": "相关研究"
+  },
+  "Research in practice": {
+    "en": "Research in practice",
+    "zh": "实证研究与模型验证"
+  },
+  "Read paper": {
+    "en": "Read paper",
+    "zh": "阅读论文"
+  },
+  "Watch video": {
+    "en": "Watch video",
+    "zh": "观看视频"
+  },
+  "Surrey news": {
+    "en": "Surrey news",
+    "zh": "萨里大学新闻"
+  },
+  "Read news story": {
+    "en": "Read news story",
+    "zh": "阅读新闻"
+  },
+  "iCub watching a screen of faces beside priority-map, simulation and physical head-eye movement panels": {
+    "en": "iCub watching a screen of faces beside priority-map, simulation and physical head-eye movement panels",
+    "zh": "iCub 注视屏幕中的人脸，旁为优先图、仿真投射与实体头眼运动画面"
+  },
+  "Examining social cues": {
+    "en": "Examining social cues",
+    "zh": "检验社会线索的作用"
+  },
+  "Task performance and perceived intelligence": {
+    "en": "Task performance and perceived intelligence",
+    "zh": "任务表现与感知智能"
+  },
+  "Initial social cues can affect task performance and perceived intelligence differently. These results distinguish the two outcomes; they do not imply that all cues improve collaboration.": {
+    "en": "Initial social cues can affect task performance and perceived intelligence differently. These results distinguish the two outcomes; they do not imply that all cues improve collaboration.",
+    "zh": "初始社会线索对任务表现和感知智能的影响可能不同。以下结果区分了这两类指标，并不意味着所有线索都能改善协作。"
+  },
+  "IROS 2025 Workshop Keynote": {
+    "en": "IROS 2025 Workshop Keynote",
+    "zh": "IROS 2025 研讨会主旨报告"
+  },
+  "Dr Di Fu's keynote at the IEEE IROS 2025 workshop on Embodied AI and Robotics for Future Scientific Discovery in Hangzhou.": {
+    "en": "Dr Di Fu's keynote at the IEEE IROS 2025 workshop on Embodied AI and Robotics for Future Scientific Discovery in Hangzhou.",
+    "zh": "Di Fu 博士在杭州举行的 IEEE IROS 2025“面向未来科学发现的具身智能与机器人”研讨会上作主旨报告。"
+  },
+  "Visit our YouTube channel": {
+    "en": "Visit our YouTube channel",
+    "zh": "访问我们的 YouTube 频道"
+  },
+  "IEEE IROS 2025 Hangzhou workshop keynote by Dr Di Fu": {
+    "en": "IEEE IROS 2025 Hangzhou workshop keynote by Dr Di Fu",
+    "zh": "Di Fu 博士在杭州 IEEE IROS 2025 研讨会上的主旨报告"
+  },
+  "Collaborate with us": {
+    "en": "Collaborate with us",
+    "zh": "与我们合作"
+  },
+  "We bring together psychology, cognitive neuroscience, AI and robotics, collaborating across Europe, the United States, China and Japan. We welcome enquiries about joint research and funding applications.": {
+    "en": "We bring together psychology, cognitive neuroscience, AI and robotics, collaborating across Europe, the United States, China and Japan. We welcome enquiries about joint research and funding applications.",
+    "zh": "我们结合心理学、认知神经科学、人工智能与机器人研究，与欧洲、美国、中国和日本的研究者合作。欢迎联系我们，探讨联合研究与科研资助申请。"
+  },
+  "Sources:": {
+    "en": "Sources:",
+    "zh": "资料来源："
+  },
+  "Di Fu's Surrey profile": {
+    "en": "Di Fu's Surrey profile",
+    "zh": "Di Fu 的萨里大学个人主页"
+  },
+  "and linked papers.": {
+    "en": "and linked papers.",
+    "zh": "及所引论文。"
+  },
+  "Key papers": {
+    "en": "Key papers",
+    "zh": "代表论文"
+  },
+  "Key findings": {
+    "en": "Key findings",
+    "zh": "主要发现"
+  },
+  "back to 01": {
+    "en": "back to 01",
+    "zh": "回到 01"
+  },
+  "Three research stages form a reciprocal loop.": {
+    "en": "Three research stages form a reciprocal loop.",
+    "zh": "三个研究阶段构成相互促进的闭环。"
+  },
+  "Keynote": {
+    "en": "Keynote",
+    "zh": "主旨报告"
+  },
+  "Chapters": {
+    "en": "Chapters",
+    "zh": "章节"
+  },
+  "Play from": {
+    "en": "Play from",
+    "zh": "从此处播放"
+  },
+  "Robot expressions and gaze in human-human-robot collaboration": {
+    "en": "Robot expressions and gaze in human-human-robot collaboration",
+    "zh": "人-人-机器人协作中的机器人表情与注视"
+  },
+  "Robot personality and human-robot collaboration": {
+    "en": "Robot personality and human-robot collaboration",
+    "zh": "机器人人格与人机协作"
+  },
+  "HRI-Free: cognitive robotic simulation": {
+    "en": "HRI-Free: cognitive robotic simulation",
+    "zh": "HRI-Free：认知机器人仿真"
+  },
+  "IEEE IROS 2025 · Hangzhou": {
+    "en": "IEEE IROS 2025 · Hangzhou",
+    "zh": "IEEE IROS 2025 · 杭州"
+  },
+  "Workshop Keynote": {
+    "en": "Workshop Keynote",
+    "zh": "研讨会主旨报告"
+  },
+  "Di Fu, Ph.D. · University of Surrey": {
+    "en": "Di Fu, Ph.D. · University of Surrey",
+    "zh": "Di Fu 博士 · 萨里大学"
+  }
+}

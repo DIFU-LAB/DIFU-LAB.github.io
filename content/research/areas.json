@@ -1,0 +1,182 @@
+[
+  {
+    "id": "crossmodal-social-cues",
+    "number": "01",
+    "title": "Crossmodal Social Cue Integration",
+    "summary": "How do people combine gaze, facial expression, gesture and voice, especially when social cues across the senses agree or conflict?",
+    "question": "How do social cues across the senses combine to shape what we perceive and how we respond?",
+    "description": "Social signals rarely arrive through a single sense. We study when gaze, facial expression, gesture and voice are integrated and when they compete, varying their spatial and semantic congruence in behavioural experiments that inform computational models of multisensory attention.",
+    "tags": [
+      "Audiovisual integration",
+      "Social cue congruence",
+      "Spatial and semantic alignment",
+      "Conflict resolution"
+    ],
+    "evidence": [
+      {
+        "title": "A trained humanoid robot can perform human-like crossmodal social attention and conflict resolution",
+        "label": "IJSR · 2023",
+        "url": "https://doi.org/10.1007/s12369-023-00993-3"
+      },
+      {
+        "title": "What computational models can learn from human selective attention",
+        "label": "Review · 2020",
+        "url": "https://doi.org/10.3389/fnint.2020.00010"
+      },
+      {
+        "title": "A neurorobotic experiment for crossmodal conflict resolution",
+        "label": "IEEE/RSJ IROS · 2018",
+        "url": "https://doi.org/10.1109/IROS.2018.8594036"
+      }
+    ]
+  },
+  {
+    "id": "social-robotics",
+    "number": "02",
+    "title": "Human-Robot Interaction & Cooperation",
+    "summary": "How do a robot’s social cues and embodiment shape interaction, shared tasks and cooperation between people and robots?",
+    "question": "How do a robot’s social cues shape cooperation, trust and people’s judgements of the robot?",
+    "description": "We manipulate robot gaze, facial expression, voice, mirroring and personality in dyadic and multi-party tasks, measuring cooperation, compliance, trust and perceived intelligence. Cognitive robotic simulation lets us evaluate robot behaviour before studies with people.",
+    "tags": [
+      "Human-robot cooperation",
+      "Triadic interaction",
+      "Social mirroring",
+      "Trust and compliance"
+    ],
+    "evidence": [
+      {
+        "title": "HRI-Free: Cognitive robotic simulation for evaluating embodied social attention models",
+        "label": "IEEE ICRA · 2025",
+        "url": "https://doi.org/10.1109/ICRA55743.2025.11127539"
+      },
+      {
+        "title": "Influence of robots' voice naturalness on trust and compliance",
+        "label": "ACM THRI · 2025",
+        "url": "https://doi.org/10.1145/3706066"
+      },
+      {
+        "title": "The Robot in the Room: robot facial expressions and gaze in human-human-robot collaboration",
+        "label": "IEEE RO-MAN · 2023",
+        "url": "https://doi.org/10.1109/RO-MAN57019.2023.10309334"
+      },
+      {
+        "title": "The Emotional Dilemma: a human-like robot, trust and cooperation",
+        "label": "IEEE RO-MAN · 2023",
+        "url": "https://doi.org/10.1109/RO-MAN57019.2023.10309321"
+      }
+    ]
+  },
+  {
+    "id": "human-ai-interaction",
+    "number": "03",
+    "title": "Human-AI Interaction",
+    "summary": "How do people experience and respond to AI, and how should emotional context and individual differences inform its behaviour?",
+    "question": "What makes interaction with AI appropriate to the person, the emotional context and the purpose of the interaction?",
+    "description": "Beyond robots, we study voice assistants, conversational agents and LLM chatbots: how people respond to affective cues, how human strategies and user traits can inform emotion-aware, personalised design, and what AI-mediated social connection means for wellbeing.",
+    "tags": [
+      "Conversational agents",
+      "Emotion-aware interaction",
+      "Personalisation",
+      "Human experience and wellbeing"
+    ],
+    "evidence": [
+      {
+        "title": "Personalizing emotion-aware conversational agents? User traits-driven conversational strategies",
+        "label": "IJHCI · 2026",
+        "url": "https://doi.org/10.1080/10447318.2026.2675404"
+      },
+      {
+        "title": "Emotion-aware voice assistants through a role-swapping approach",
+        "label": "HCII · 2025",
+        "url": "https://doi.org/10.1007/978-3-031-92977-9_19"
+      },
+      {
+        "title": "Neutral by Default? Vocal responses to negative affective cues",
+        "label": "ACM/IEEE HRI · 2026",
+        "url": "https://doi.org/10.1145/3757279.3788802"
+      }
+    ]
+  },
+  {
+    "id": "social-attention",
+    "number": "04",
+    "title": "Mechanisms of Social Cognition",
+    "summary": "What makes a face, a gaze direction or a face-like object capture and guide attention-and which mechanisms explain that effect?",
+    "question": "Which cognitive and neural mechanisms allow us to detect, attend to and evaluate social information?",
+    "description": "We examine how faces, face-like patterns and gaze capture and orient attention, how cognitive control resolves conflict, and how fairness and empathy shape social evaluation, combining behavioural experiments, EEG and neuroimaging.",
+    "tags": [
+      "Gaze cueing",
+      "Attentional orienting",
+      "Perceptual configuration",
+      "Social relevance"
+    ],
+    "evidence": [
+      {
+        "title": "How face-like objects and averted-gaze faces orient our attention",
+        "label": "i-Perception · 2025",
+        "url": "https://doi.org/10.1177/20416695251352129"
+      },
+      {
+        "title": "Brain responses to self- and other- unfairness under resource distribution context: Meta-analysis of fMRI studies",
+        "label": "NeuroImage · 2024",
+        "url": "https://doi.org/10.1016/j.neuroimage.2024.120707"
+      },
+      {
+        "title": "Pain recognition and pain empathy from a human-centered AI perspective",
+        "label": "iScience · 2024",
+        "url": "https://doi.org/10.1016/j.isci.2024.110570"
+      },
+      {
+        "title": "From ambiguous object to illusory faces: EEG decoding reveals a dynamic cascade of face pareidolia",
+        "label": "Under review · 2025",
+        "url": "https://doi.org/10.1101/2025.09.10.675272"
+      }
+    ]
+  },
+  {
+    "id": "embodied-ai",
+    "number": "05",
+    "title": "Embodied AI",
+    "summary": "How can models grounded in human behaviour become embodied systems whose perception and action can be tested in physical interaction?",
+    "question": "How can models grounded in human cognition give artificial agents human-like perception and social behaviour?",
+    "description": "We build models of attention, scanpaths and crossmodal learning from human data and examine human-centred affective AI, such as pain recognition. Attention models drive robot gaze and are evaluated on humanoid robots and in cognitive robotic simulation.",
+    "tags": [
+      "Human-grounded modelling",
+      "Robot perception and action",
+      "Scanpath prediction",
+      "Embodied evaluation"
+    ],
+    "evidence": [
+      {
+        "title": "HRI-Free: Cognitive robotic simulation for evaluating embodied social attention models",
+        "label": "IEEE ICRA · 2025",
+        "url": "https://doi.org/10.1109/ICRA55743.2025.11127539"
+      },
+      {
+        "title": "Pain recognition and pain empathy from a human-centered AI perspective",
+        "label": "iScience · 2024",
+        "url": "https://doi.org/10.1016/j.isci.2024.110570"
+      },
+      {
+        "title": "Unified dynamic scanpath predictors outperform individually trained models",
+        "label": "Preprint",
+        "url": "https://arxiv.org/abs/2405.02929"
+      },
+      {
+        "title": "A trained humanoid robot can perform human-like crossmodal social attention and conflict resolution",
+        "label": "IJSR · 2023",
+        "url": "https://doi.org/10.1007/s12369-023-00993-3"
+      },
+      {
+        "title": "A neurorobotic experiment for crossmodal conflict resolution",
+        "label": "IEEE/RSJ IROS · 2018",
+        "url": "https://doi.org/10.1109/IROS.2018.8594036"
+      },
+      {
+        "title": "Expectation learning and crossmodal modulation with a deep adversarial network",
+        "label": "IJCNN · 2018",
+        "url": "https://doi.org/10.1109/IJCNN.2018.8489303"
+      }
+    ]
+  }
+]

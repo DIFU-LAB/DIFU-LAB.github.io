@@ -1,0 +1,148 @@
+{
+  "en": {
+    "title": "My Story: A Journey of Curiosity, Freedom, and Science",
+    "introduction": [
+      "I was born in the 1990s in Tianjin, a beautiful harbour city in northern China. I grew up in an academic family. My father studies plant genetics, while my mother studies finance and economics. Their research interests could hardly be more different, but both have shaped the way I see the world.",
+      "As a child, I loved board games, card games, and playing the accordion. Becoming a scientist was never really part of my plan. That changed when I was four. One day, my father brought a microscope home and showed my mother and me how to observe aphids. Under the microscope, these tiny insects looked like beautiful, shimmering pieces of jade. I was fascinated. That was probably the first moment I fell in love with exploring nature.",
+      "My parents never pressured me to achieve anything extraordinary. My father would often say, \"Di, do whatever you want.\" My mother would say, \"Di, be brave!\" Their encouragement gave me the freedom and courage to follow my own path. Yet they never gave a cursory answer to any of my questions and always reminded me of the value of intellectual curiosity."
+    ],
+    "sections": [
+      {
+        "id": "mathematics",
+        "title": "A Childhood Fascination with Mathematics",
+        "paragraphs": [
+          "In primary school, I became obsessed with mathematics and dreamed of becoming a mathematician. I still remember the wonderful feeling of solving a difficult puzzle, almost like a wave of warmth passing through my entire body.",
+          "I collected stories about female mathematicians from newspapers and magazines. Fortunately, I was admitted to a primary school in Tianjin that specialised in nurturing mathematical talent. There, I met wonderful teachers who encouraged independent exploration and classmates who shared my enthusiasm for solving challenging problems.",
+          "I later spent six years at Yaohua High School in Tianjin. With its distinctive international heritage, Yaohua exposed me to different cultures and ways of thinking. I was fortunate to learn from teachers from the UK, the US, and Canada, who encouraged us to explore our interests beyond the classroom. Alongside mathematics, I became increasingly interested in biology, psychology, and computer science. I spent countless hours reading about the human brain and experimenting with computers.",
+          "I didn't realise it then, but these interests would eventually converge on a single question: **How does intelligence emerge?**"
+        ]
+      },
+      {
+        "id": "turning-point",
+        "title": "An Unexpected Turning Point",
+        "paragraphs": [
+          "After high school, I originally planned to study in the United States. However, family circumstances changed those plans, and I didn't perform as well as I had hoped in China's university entrance examination, the Gaokao. Instead of attending my dream university, I ended up at Beijing Sport University.",
+          "I was deeply disappointed at the time. Looking back, however, it turned out to be one of the luckiest twists in my life.",
+          "At Beijing Sport University, I was surrounded by extraordinary athletes, including members of China's national sports teams. These were people of remarkable talent, discipline, and, above all, resilience.",
+          "My undergraduate supervisor, Professor Liwei Zhang, was a former Chinese national table tennis player who later earned two doctoral degrees. He remains one of the most determined people I have ever met. Inspired by him, I had the privilege of working with China's national rhythmic gymnastics team during my undergraduate years. Years later, seeing some of those young athletes become Olympic champions at Paris 2024 was an incredibly proud moment.",
+          "Meanwhile, my studies in Kinesiology introduced me to human physiology and medical science. Unexpectedly, this training would later provide a valuable foundation for my research in robotics and embodied intelligence. I also came away with a small achievement of a different kind: during my undergraduate years, I earned a first-dan black belt in taekwondo.",
+          "After completing my undergraduate degree, I was fortunate to receive a offer for direct admission to a PhD programme at the Institute of Psychology, Chinese Academy of Sciences, without having to complete a master's degree.",
+          "My PhD supervisor, Professor Xun Liu, had previously held an academic position at Icahn School of Medicine at Mount Sinai, New York. He was rigorous about scientific questions and methodology, but also gave me considerable freedom to explore my own ideas. My early research focused on the neural mechanisms of cognitive control and attention, primarily using functional magnetic resonance imaging (fMRI).",
+          "In 2015, during my first year of graduate studies at the beautiful Yanqi Lake campus, I kept hearing students from other disciplines talking about something called **pattern recognition**. Soon, another term caught my attention: **artificial intelligence**.",
+          "I decided to attend courses on both subjects and became so fascinated that I seriously considered leaving my PhD programme to pursue a master's degree in computer science in the US. My family and friends thought I had gone mad. I eventually decided to stay, but the fascination never went away.",
+          "As it turned out, an unexpected opportunity was just around the corner."
+        ]
+      },
+      {
+        "id": "machine-intelligence",
+        "title": "From Human Intelligence to Machine Intelligence",
+        "paragraphs": [
+          "Around that time, a major interdisciplinary project called Crossmodal Learning brought together 17 research groups across psychology, neuroscience, and computer science, involving institutions including the Chinese Academy of Sciences, Tsinghua University, Peking University, and the University of Hamburg.",
+          "Through this project, I joined Professor Stefan Wermter's research group in the Department of Informatics at the University of Hamburg.",
+          "There, I began learning how to translate human attentional mechanisms into computational models and simulate them in robots. I immersed myself in deep learning, artificial neural networks, and robotics.",
+          "**For the first time, I realised that I didn't have to choose between psychology and computer science. They were simply different ways of approaching the same fascinating questions.**",
+          "My introduction to human-robot interaction (HRI) came almost by accident. A visiting PhD student from Spain invited me to collaborate on an HRI experiment. I remember thinking, \"This is it!\" Here was a field that brought together everything I loved: cognitive psychology, neuroscience, artificial intelligence, and robotics.",
+          "After completing my PhD, I stayed in Professor Wermter's group as a postdoctoral researcher, focusing on HRI. Although the COVID-19 pandemic made experimental research particularly challenging, it also gave me time to reflect more deeply on the scientific questions I wanted to pursue and gradually develop my own research direction.",
+          "In late 2023, I was fortunate to receive a joint appointment offer from the School of Psychology and the Surrey Institute for People-centred AI at the University of Surrey. I moved to the UK in 2024 and started building my own research lab.",
+          "What began as a one-person lab has gradually grown into a lively group of curious and enthusiastic researchers. My days are often filled with experiments, meetings, travelling, writing papers, reviewing manuscripts, and giving talks. Life is busy, but deeply fulfilling. I remain grateful for the opportunities that brought me here, including the setbacks that eventually opened unexpected doors."
+        ]
+      },
+      {
+        "id": "coincidence",
+        "title": "A Curious Coincidence",
+        "paragraphs": [
+          "There is one more story I particularly love. In the very first lecture of my first undergraduate psychology course, our professor showed us a BBC video demonstrating the famous McGurk effect: an extraordinary illusion in which conflicting visual and auditory speech cues can change what we believe we hear.",
+          "I remember being completely amazed. I thought, \"How fascinating! I want to study something like this one day.\"",
+          "Years later, much of my PhD and postdoctoral research centred on crossmodal information processing and multisensory perception.",
+          "When I joined the University of Surrey, I discovered something remarkable: the McGurk effect had originally been discovered right here, by Harry McGurk and John MacDonald, whose landmark paper was published in Nature in 1976.",
+          "Somehow, my journey had brought me to the very place where one of the discoveries that first inspired me had been made.",
+          "Life has a funny way of coming full circle."
+        ]
+      },
+      {
+        "id": "curiosity-and-freedom",
+        "title": "Stay Curious, Stay Free",
+        "paragraphs": [
+          "My father often jokes that I have always been too free-spirited and restless to become a scientist. Even today, he finds it remarkable that I can spend so much time sitting quietly and doing research.",
+          "Although we rarely discuss our respective research fields, he has profoundly influenced me. Even now, he sometimes gets up at 4:30 in the morning to run experiments. I have always admired his extraordinary dedication. Together with my academic mentors, he remains one of my greatest role models.",
+          "I have never been particularly fond of examinations. Spending enormous amounts of time trying to achieve a perfect score has never appealed to me. I would much rather explore questions that don't yet have an answer. Interestingly, I haven't had to sit another major examination since the Gaokao when I was eighteen.",
+          "For me, the joy of science is not simply about publishing papers or receiving recognition. It is about discovering something fascinating and being determined to understand it.",
+          "Looking back, my journey might seem like a series of coincidences. Yet the curiosity that drives me has remained remarkably consistent. **Even in high school, when I couldn't decide whether to study psychology or computer science, I knew that what fascinated me most was intelligence, whether biological or artificial.**",
+          "**Today, I can happily say that I study both.**",
+          "One of the greatest pleasures of running my own lab is working with a group of brilliant, curious students. They often come to me with an idea and say, \"Di, this is what I really want to work on!\"",
+          "Whenever I see their faces light up as they describe a research question they are passionate about, I recognise something of my younger self, spending endless hours in the laboratory simply because I wanted to understand how things worked.",
+          "I have always believed that science requires a little luck, but what matters far more is curiosity, passion, and the determination to keep going.",
+          "Not because you have to, but because you genuinely want to find out."
+        ]
+      }
+    ]
+  },
+  "zh": {
+    "title": "我的故事：一段关于好奇心、自由与科学的旅程",
+    "introduction": [
+      "我出生于20世纪90年代的天津，一座美丽的中国北方港口城市。我的父母都是学者，父亲研究植物遗传学，母亲研究财经。尽管他们的研究领域相去甚远，但都以各自的方式影响了我。",
+      "小时候，我喜欢下棋、玩纸牌、拉手风琴，从没认真想过自己将来会成为科学家。直到四岁那年，父亲有一天带来一台显微镜回家，示范我和母亲观察蚜虫。在显微镜下，那些不起眼的小虫子竟然像一颗颗晶莹剔透的翡翠。那一刻，我第一次感受到自然世界的奇妙，也由此爱上了探索未知。",
+      "父母从未要求我必须取得什么成就。父亲常对我说：“迪，做你想做的事。”母亲则总说：“迪，要勇敢！”他们给予我的自由和勇气，成为我人生中最珍贵的礼物。印象中他们从来没有所谓地“鸡娃“，却永远认真对待我的每一次提问，告诉我求知欲的可贵。"
+    ],
+    "sections": [
+      {
+        "id": "mathematics",
+        "title": "从数学开始的好奇心",
+        "paragraphs": [
+          "上小学后，我迷上了数学，一度梦想成为数学家。我至今记得解开一道难题时的兴奋，仿佛一股暖流穿过全身。我收集报纸和杂志上女性数学家的故事，也很幸运地进入了天津一所数学特色小学。在那里，我遇到了鼓励自由探索的老师，以及一群同样热爱数学、喜欢挑战难题的朋友。",
+          "后来，我进入天津耀华中学，度过了六年的中学时光。耀华独特的国际化教育背景，以及来自不同国家的老师，让我很早便接触到多元的文化与思维方式。除了数学，我逐渐对生物学、心理学和计算机科学产生了浓厚的兴趣。我花了很多时间阅读关于人脑的书籍，也喜欢在电脑上琢磨各种问题。",
+          "当时的我还不知道，这些看似不同的兴趣，最终会汇聚到同一个科学问题上：**智能究竟是如何产生的？**"
+        ]
+      },
+      {
+        "id": "turning-point",
+        "title": "一段意料之外的旅程",
+        "paragraphs": [
+          "高中毕业时，我原本计划去美国读大学，但由于家庭原因未能成行。随后的高考也不如预期，我没能进入梦想中的大学，而是意外地来到了北京体育大学。",
+          "当时我非常失落。多年以后回头看，这却是我人生中最幸运的转折之一。",
+          "在北京体育大学，我结识了许多中国国家队的顶尖运动员。他们让我真正理解了什么是天赋、勤奋，以及更重要的——意志力。",
+          "我的本科导师张力为教授曾是中国国家乒乓球队运动员，后来又获得了两个博士学位。他是我见过意志力最强的人之一。在他的影响下，我曾有幸到中国艺术体操国家队实习。多年后，看到其中一些年轻运动员站上2024年巴黎奥运会的最高领奖台，我由衷地为她们感到骄傲。",
+          "与此同时，在运动人体科学学院的学习也让我接触了运动医学和人体科学。这些知识后来意外地成为我研究机器人与人类行为的重要基础。",
+          "此外，我还有一个小收获：本科期间，我拿到了跆拳道黑带一段。",
+          "本科毕业时，我有幸通过推荐免试进入中国科学院心理研究所，直接攻读博士学位。我的导师刘勋研究员曾在纽约西奈山医学中心任教。他对科学问题和研究方法要求严谨，却也给予我充分的自由去探索真正感兴趣的方向。博士期间我主要运用功能性磁共振成像（fMRI）研究人类认知控制与注意的神经机制。",
+          "2015年，在中国科学院雁栖湖校区上研究生课程时，我经常听到来自其他专业的同学讨论一个词：**模式识别（Pattern Recognition）**。不久之后，另一个词开始不断出现：**人工智能（Artificial Intelligence）**。出于好奇，我选修了相关课程，然后突然萌生了一个大胆的念头：退学，去美国重新读计算机科学。家人和朋友听完都觉得我疯了。最终，我没有退学，但也没有放弃这份兴趣。",
+          "幸运的是，一个新的机会很快出现了。"
+        ]
+      },
+      {
+        "id": "machine-intelligence",
+        "title": "从人类智能到机器智能",
+        "paragraphs": [
+          "2016年，中国科学院、清华大学、北京大学与德国汉堡大学等机构共同组织了一项名为 Crossmodal Learning 的跨学科研究项目，汇集了心理学、神经科学和计算机科学等领域的17个研究团队。",
+          "正是这个项目，让我来到汉堡大学 Stefan Wermter 教授的实验室，开始学习如何将人类的注意机制转化为计算模型，并在机器人上进行仿真。Wermter教授非常有耐心，每当我在科研过程中有所自我怀疑的时候，他总是对我说“迪，你可以的！“我们经常在午饭时间讨论心理学和计算机对一些概念和理论理解的不同，极大地启发了我的跨学科研究思路。",
+          "那几年我深度接触了深度学习和机器人学，逐渐发现，**自己不必在心理学和计算机科学之间做出选择。相反，它们可以帮助我们从不同角度理解同一个问题。**",
+          "真正让我走进人机交互（Human-Robot Interaction, HRI）领域的，是一次偶然的合作。一位来自西班牙的博士生邀请我参与一项人机交互实验。那时我突然意识到：这不正是我一直在寻找的研究领域吗？认知心理学、神经科学、人工智能和机器人，终于可以在这里相遇。",
+          "博士毕业后，我选择继续留在 Wermter 教授的实验室从事博士后研究，专注于人机交互。虽然新冠疫情给实验研究带来了许多困难，但也让我有更多时间思考自己真正想回答的科学问题，并逐渐建立独立的研究方向。",
+          "2023年底，我收到了英国萨里大学心理学院与人工智能研究中心的联合聘任教职offer。2024年，我搬到英国，开始建立自己的实验室。从最初只有我一个人，到今天拥有一群充满好奇心的学生和研究伙伴，实验室渐渐热闹了起来。虽然日常生活常常被实验、会议、出差、论文和各种科研事务填满，但我很享受这样的生活，也感激一路走来的每一次机遇，包括那些曾经让我失落的转折。"
+        ]
+      },
+      {
+        "id": "coincidence",
+        "title": "一个奇妙的巧合",
+        "paragraphs": [
+          "还有一个故事，我一直觉得很有意思。本科第一门专业课的第一节课上，老师播放了一段 BBC 视频，介绍著名的 McGurk effect：当我们看到的嘴唇动作与听到的语音不一致时，大脑可能会产生一种全新的听觉感知。",
+          "我当时心想：这也太有趣了！我要成为一名实验心理学家，我要研究认知！",
+          "多年后，我的博士和博士后研究都与跨模态信息加工密切相关。而当我来到萨里大学任教时，才发现这一经典现象竟然是 Harry McGurk 和 John MacDonald 于1976年在萨里大学开展研究时发现的，并发表在 Nature 上。",
+          "兜兜转转，我竟然来到了这个最初启发我走上科研道路的发现诞生的地方。有时候，人生真的很奇妙。"
+        ]
+      },
+      {
+        "id": "curiosity-and-freedom",
+        "title": "保持好奇，保持自由",
+        "paragraphs": [
+          "父亲经常说我天性散漫、热爱自由，至今仍觉得我能安安静静坐下来做科研是一件不可思议的事。",
+          "虽然我们很少讨论彼此的专业，但他始终是我最重要的榜样之一。直到今天，他仍然会为了实验在凌晨四点半起床。我非常佩服他的专注与坚持，而他和我的几位导师，也让我逐渐理解了什么是真正的科学精神。",
+          "我从来不是一个喜欢考试的人。相比追求满分，我更喜欢花时间琢磨那些没有标准答案的问题。对我而言，科研的乐趣也不仅仅在于发表论文或获得荣誉，而在于发现一个有趣的问题，然后想尽办法找到答案。",
+          "有趣的是，从18岁参加高考以后，我再也没有经历过任何大型考试。回头看，我的职业道路似乎充满偶然，但内心深处，那份兴趣从未改变：**我始终想理解智能，无论是人类的，还是机器的。**",
+          "如今，我很幸运能与一群充满热情的学生一起工作。他们找到我时，常常兴奋地说：“Di，我就是想做这个！我想知道答案！” 每当看到他们谈起自己想研究的问题时眼睛发亮，我都会想起那些年整天泡在实验室里的自己。",
+          "我始终相信，科研固然需要一点运气，但真正让人走得长远的，是好奇心、热爱，以及一种坚定的意志：因为就是想知道答案，所以愿意一直探索下去。"
+        ]
+      }
+    ]
+  }
+}

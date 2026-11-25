@@ -1,0 +1,53 @@
+{
+  "id": "10.1007/s12369-020-00690-5",
+  "title": "Do I Have a Personality? Endowing Care Robots with Context-Dependent Personality Traits",
+  "authors": "Antonio Andriella, Henrique Siqueira, Di Fu, Sven Magg, Pablo Barros, Stefan Wermter, Carme Torras, Guillem Alenyà",
+  "authorNames": [
+    "Antonio Andriella",
+    "Henrique Siqueira",
+    "Di Fu",
+    "Sven Magg",
+    "Pablo Barros",
+    "Stefan Wermter",
+    "Carme Torras",
+    "Guillem Alenyà"
+  ],
+  "authorsComplete": true,
+  "year": 2020,
+  "journal": "International Journal of Social Robotics",
+  "doi": "10.1007/s12369-020-00690-5",
+  "url": "https://link.springer.com/article/10.1007/s12369-020-00690-5",
+  "type": "journal",
+  "status": "published",
+  "sourceUrl": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991114255002346",
+  "sourceRecordIds": [
+    "CV:cv-journal-14",
+    "Scholar:AUqLvaIAAAAJ:W7OEmFMy1HYC",
+    "Surrey:alma991114255002346",
+    "ORCID:209961814"
+  ],
+  "versions": [],
+  "sources": [
+    {
+      "name": "CV (October 2026)",
+      "url": "",
+      "recordId": "cv-journal-14"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:W7OEmFMy1HYC",
+      "recordId": "AUqLvaIAAAAJ:W7OEmFMy1HYC"
+    },
+    {
+      "name": "University record",
+      "url": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991114255002346",
+      "recordId": "alma991114255002346"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "209961814"
+    }
+  ],
+  "notes": "First published online in 2020; assigned to the 2021 journal issue."
+}

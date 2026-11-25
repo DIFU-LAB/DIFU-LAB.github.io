@@ -1,0 +1,9 @@
+name = "seil-visitor-map"
+main = "worker.mjs"
+compatibility_date = "2026-01-01"
+[vars]
+ALLOWED_ORIGINS = "https://difulab.com"
+[[d1_databases]]
+binding = "DB"
+database_name = "seil-visitors"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"

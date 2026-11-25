@@ -1,0 +1,137 @@
+WEBVTT
+
+1
+00:00:02.690 --> 00:00:07.450
+A glance. A voice. A change of expression.
+
+2
+00:00:07.650 --> 00:00:12.960
+In every conversation, the brain weaves these signals together in a fraction of a second.
+
+3
+00:00:14.060 --> 00:00:18.430
+Can an embodied machine learn to do the same?
+
+4
+00:00:18.460 --> 00:00:20.780
+At the SEIL Lab, University of Surrey,
+
+5
+00:00:20.820 --> 00:00:25.700
+we connect human social cognition with embodied artificial intelligence.
+
+6
+00:00:27.520 --> 00:00:29.930
+It begins with people.
+
+7
+00:00:29.960 --> 00:00:35.370
+With behavioural experiments, eye tracking, EEG and neuroimaging,
+
+8
+00:00:35.410 --> 00:00:42.440
+we study how gaze, faces, gestures and voices are integrated, and when they compete.
+
+9
+00:00:42.470 --> 00:00:47.570
+Here, a participant locates a voice while an avatar shifts its gaze.
+
+10
+00:00:47.610 --> 00:00:54.000
+When the two disagree, performance drops: a measurable trace of crossmodal conflict.
+
+11
+00:00:54.030 --> 00:01:00.270
+We also map how the brain responds to unfairness, whether it affects us or others.
+
+12
+00:01:00.300 --> 00:01:03.670
+These mechanisms become computational models.
+
+13
+00:01:03.700 --> 00:01:06.620
+Combining human eye movements with binaural sound localisation,
+
+14
+00:01:06.660 --> 00:01:11.010
+our deep learning models predict where attention will go.
+
+15
+00:01:11.820 --> 00:01:19.170
+Scanpath models turn sound and video into gaze shifts a robot can actually perform.
+
+16
+00:01:19.200 --> 00:01:21.910
+Then, we give the models a body.
+
+17
+00:01:21.940 --> 00:01:25.050
+Facing the same task as our participants,
+
+18
+00:01:25.090 --> 00:01:29.690
+the humanoid robot iCub showed a human-like pattern of crossmodal conflict,
+
+19
+00:01:29.730 --> 00:01:32.950
+though people still performed better.
+
+20
+00:01:33.370 --> 00:01:38.510
+With HRI-Free, iCub watches recorded social scenes,
+
+21
+00:01:38.550 --> 00:01:42.560
+and its gaze is scored against human attention maps in simulation,
+
+22
+00:01:42.600 --> 00:01:45.760
+making evaluation scalable and reproducible.
+
+23
+00:01:46.590 --> 00:01:49.750
+Finally, robots meet people.
+
+24
+00:01:49.780 --> 00:01:55.060
+In a shape-sorting game, two people worked together while iCub gave instructions.
+
+25
+00:01:55.100 --> 00:02:02.300
+Its happy face helped teams finish faster, and its gaze changed how intelligent it seemed.
+
+26
+00:02:03.140 --> 00:02:07.060
+When robots mirror our head movements and expressions,
+
+27
+00:02:07.100 --> 00:02:13.790
+the way they sense and express changes how responsive and human-like they seem.
+
+28
+00:02:13.950 --> 00:02:16.770
+Each step feeds the next:
+
+29
+00:02:16.810 --> 00:02:22.340
+human evidence constrains models, robots make them testable,
+
+30
+00:02:22.380 --> 00:02:26.820
+and people's responses raise new questions about the mind.
+
+31
+00:02:26.850 --> 00:02:34.380
+Led by Dr Di Fu, across the School of Psychology and the Surrey Institute for People-Centred AI,
+
+32
+00:02:34.420 --> 00:02:39.680
+our team brings together psychology, neuroscience, computer science and robotics.
+
+33
+00:02:41.660 --> 00:02:45.170
+Seil means rope in German.
+
+34
+00:02:45.210 --> 00:02:48.870
+In English, it sounds like sail.

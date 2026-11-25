@@ -1,0 +1,67 @@
+{
+  "id": "10.1145/3706066",
+  "title": "Influence of Robots’ Voice Naturalness on Trust and Compliance",
+  "authors": "Dennis Becker, Lukas Braach, Lennart Clasmeier, Teresa Kaufmann, Oskar Ong, Kyra Ahrens, Connor Gäde, Erik Strahl, Di Fu, Stefan Wermter",
+  "authorNames": [
+    "Dennis Becker",
+    "Lukas Braach",
+    "Lennart Clasmeier",
+    "Teresa Kaufmann",
+    "Oskar Ong",
+    "Kyra Ahrens",
+    "Connor Gäde",
+    "Erik Strahl",
+    "Di Fu",
+    "Stefan Wermter"
+  ],
+  "authorsComplete": true,
+  "year": 2025,
+  "journal": "ACM Transactions on Human-Robot Interaction",
+  "doi": "10.1145/3706066",
+  "url": "https://dl.acm.org/doi/10.1145/3706066",
+  "type": "journal",
+  "status": "published",
+  "sourceUrl": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991115568402346",
+  "sourceRecordIds": [
+    "CV:cv-journal-06",
+    "Scholar:AUqLvaIAAAAJ:aqlVkmm33-oC",
+    "Scholar:AUqLvaIAAAAJ:M3ejUd6NZC8C",
+    "Surrey:alma991115568402346",
+    "ORCID:172707326",
+    "ORCID:209710678"
+  ],
+  "versions": [],
+  "sources": [
+    {
+      "name": "CV (October 2026)",
+      "url": "",
+      "recordId": "cv-journal-06"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:aqlVkmm33-oC",
+      "recordId": "AUqLvaIAAAAJ:aqlVkmm33-oC"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:M3ejUd6NZC8C",
+      "recordId": "AUqLvaIAAAAJ:M3ejUd6NZC8C"
+    },
+    {
+      "name": "University record",
+      "url": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991115568402346",
+      "recordId": "alma991115568402346"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "172707326"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "209710678"
+    }
+  ],
+  "notes": ""
+}

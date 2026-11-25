@@ -1,0 +1,161 @@
+[
+  {
+    "id": "phd-students",
+    "title": "PhD Students",
+    "role": "PhD Student",
+    "members": [
+      {
+        "name": "Binbin He",
+        "affiliation": "School of Psychology",
+        "institution": "University of Surrey",
+        "photo": {
+          "src": "/media/team/binbin-he.webp",
+          "width": 800,
+          "height": 600,
+          "position": "60% 50%"
+        }
+      },
+      {
+        "name": "Riadh Bouassab",
+        "affiliation": "Surrey Institute for People-Centred AI (PAI)",
+        "institution": "University of Surrey",
+        "photo": {
+          "src": "/media/team/riadh-bouassab.webp",
+          "width": 539,
+          "height": 800,
+          "position": "50% 35%"
+        }
+      },
+      {
+        "name": "Richard Lush",
+        "affiliation": "School of Computer Science and Electronic Engineering",
+        "institution": "University of Surrey",
+        "photo": {
+          "src": "/media/team/richard-lush.webp",
+          "width": 200,
+          "height": 200,
+          "position": "50% 35%"
+        }
+      },
+      {
+        "name": "Paddy Lewis",
+        "affiliation": "Surrey Institute for People-Centred AI (PAI)",
+        "institution": "University of Surrey",
+        "photo": {
+          "src": "/media/team/paddy-lewis.webp",
+          "width": 400,
+          "height": 400,
+          "position": "50% 35%"
+        }
+      },
+      {
+        "name": "Xuedong Zhang",
+        "role": "Visiting PhD Student",
+        "affiliation": "Media Informatics Group",
+        "institution": "LMU Munich",
+        "photo": {
+          "src": "/media/team/xuedong-zhang.webp",
+          "width": 250,
+          "height": 257,
+          "position": "50% 35%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "psychd-students",
+    "title": "PsychD Students",
+    "role": "PsychD Student",
+    "members": [
+      {
+        "name": "Romina Ciufo-Farman",
+        "affiliation": "School of Psychology",
+        "institution": "University of Surrey",
+        "photo": {
+          "src": "/media/team/romina-ciufo-farman.webp",
+          "width": 638,
+          "height": 800,
+          "position": "50% 35%"
+        }
+      },
+      {
+        "name": "Jack Wilson",
+        "affiliation": "School of Psychology",
+        "institution": "University of Surrey",
+        "photo": {
+          "src": "/media/team/jack-wilson.webp",
+          "width": 600,
+          "height": 800,
+          "position": "50% 70%"
+        }
+      }
+    ]
+  },
+  {
+    "id": "research-assistants",
+    "title": "Research Assistants",
+    "role": "Research Assistant",
+    "members": [
+      {
+        "name": "Adam Van Haver",
+        "background": "MSc student",
+        "affiliation": "Psychology",
+        "institution": "Ghent University",
+        "photo": {
+          "src": "/media/team/adam-van-haver.webp",
+          "width": 800,
+          "height": 712,
+          "position": "50% 35%"
+        }
+      },
+      {
+        "name": "Caleb Phillips",
+        "background": "MSc student",
+        "affiliation": "Psychology",
+        "institution": "University of Surrey",
+        "photo": {
+          "src": "/media/team/caleb-phillips.webp",
+          "width": 600,
+          "height": 800,
+          "position": "50% 35%"
+        }
+      },
+      {
+        "name": "Paolo Sumaray",
+        "background": "Year 3 BSc student",
+        "affiliation": "Psychology",
+        "institution": "University of Surrey",
+        "photo": {
+          "src": "/media/team/paolo-sumaray.webp",
+          "width": 400,
+          "height": 400,
+          "position": "50% 35%"
+        }
+      },
+      {
+        "name": "Spencer Gaunt",
+        "background": "Year 2 BSc student",
+        "affiliation": "Psychology",
+        "institution": "University of Surrey",
+        "photo": {
+          "src": "/media/team/spencer-gaunt.webp",
+          "width": 800,
+          "height": 800,
+          "position": "50% 35%"
+        }
+      },
+      {
+        "name": "William Sherwood",
+        "background": "Year 2 BSc student",
+        "affiliation": "Psychology",
+        "institution": "University of Surrey",
+        "photo": {
+          "src": "/media/team/william-sherwood.webp",
+          "width": 200,
+          "height": 200,
+          "position": "50% 50%"
+        }
+      }
+    ]
+  }
+]

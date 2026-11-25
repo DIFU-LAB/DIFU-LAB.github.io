@@ -1,0 +1,1330 @@
+{
+  "13 July 2026": {
+    "en": "13 July 2026",
+    "zh": "2026年7月13日"
+  },
+  "18 June 2026": {
+    "en": "18 June 2026",
+    "zh": "2026年6月18日"
+  },
+  "9-10 May 2025": {
+    "en": "9-10 May 2025",
+    "zh": "2025年5月9-10日"
+  },
+  "A cognitive robotic simulation approach evaluates attention models using iCub and human gaze datasets. It supports scalable, reproducible early-stage evaluation in physical environments, reducing the need for extensive human-participant studies at that stage.": {
+    "en": "A cognitive robotic simulation approach evaluates attention models using iCub and human gaze datasets. It supports scalable, reproducible early-stage evaluation in physical environments, reducing the need for extensive human-participant studies at that stage.",
+    "zh": "一种认知机器人仿真方法使用iCub和人类注视数据集评估注意模型。该方法支持在物理环境中开展可扩展、可复现的早期评估，减少这一阶段对大规模人类参与者研究的需求。"
+  },
+  "A human audiovisual task manipulates the agreement between gaze cues and sound location to study attentional orienting across the senses.": {
+    "en": "An audiovisual task tests how gaze and sound location jointly orient human attention.",
+    "zh": "视听实验检验注视与声音位置如何共同引导人类注意。"
+  },
+  "A participant wearing headphones faces three avatars on a screen in an audiovisual attention experiment.": {
+    "en": "A participant wearing headphones faces three screen-based avatars during an audiovisual attention experiment.",
+    "zh": "一名戴着耳机的参与者面向屏幕上的三个虚拟形象，参加一项视听注意实验。"
+  },
+  "A trained audio-visual saliency model enabled iCub to reproduce human-like attentional responses to gaze and sound cues, including differences between congruent and conflicting signals. Human performance remained superior overall.": {
+    "en": "A trained audiovisual saliency model enabled iCub to reproduce human-like attentional responses to gaze and sound cues, including differences between congruent and conflicting signals. Human performance remained superior overall.",
+    "zh": "经过训练的视听显著性模型使iCub能够再现类似人类的注视和声音线索注意反应，包括对一致与冲突信号的不同反应。总体而言，人类表现仍然更优。"
+  },
+  "ACM/IEEE HRI · 2026": {
+    "en": "ACM/IEEE HRI · 2026",
+    "zh": "ACM/IEEE HRI · 2026"
+  },
+  "About Di": {
+    "en": "About Di",
+    "zh": "关于Di"
+  },
+  "Affiliation": {
+    "en": "Affiliation",
+    "zh": "所属机构"
+  },
+  "Assistant Professor": {
+    "en": "Assistant Professor",
+    "zh": "助理教授"
+  },
+  "Assistant Professor & Lab Director": {
+    "en": "Assistant Professor & Lab Director",
+    "zh": "助理教授兼实验室主任"
+  },
+  "Attentional orienting": {
+    "en": "Attentional orienting",
+    "zh": "注意定向"
+  },
+  "Audiovisual integration": {
+    "en": "Audiovisual integration",
+    "zh": "视听整合"
+  },
+  "Back to Home": {
+    "en": "Back to Home",
+    "zh": "返回首页"
+  },
+  "Beyza Receives the MSc Psychology Research Excellence Prize": {
+    "en": "Beyza Receives the MSc Psychology Research Excellence Prize",
+    "zh": "Beyza荣获心理学硕士研究卓越奖"
+  },
+  "CO-HABIT Workshop at IEEE RO-MAN: Final Call for Papers": {
+    "en": "CO-HABIT Workshop at IEEE RO-MAN: Final Call for Papers",
+    "zh": "IEEE RO-MAN上的CO-HABIT研讨会：论文征集最后通知"
+  },
+  "Cambridge interdisciplinary conference group photograph": {
+    "en": "Cambridge interdisciplinary conference group photograph",
+    "zh": "剑桥跨学科会议合影"
+  },
+  "Celebrating SEIL Lab’s graduating BSc and MSc students. The university profile congratulates five BSc and two MSc graduates, including Amelia and Hannah, who achieved First-Class Honours.": {
+    "en": "Celebrating SEIL Lab’s graduating BSc and MSc students. The university profile congratulates five BSc and two MSc graduates, including Amelia and Hannah, who achieved First-Class Honours.",
+    "zh": "祝贺SEIL实验室的本科和硕士毕业生。大学个人简介向五名本科毕业生和两名硕士毕业生表示祝贺，其中Amelia和Hannah获得一等荣誉学位。"
+  },
+  "Centre for Vision, Speech and Signal Processing (CVSSP)": {
+    "en": "Centre for Vision, Speech and Signal Processing (CVSSP)",
+    "zh": "视觉、语音与信号处理中心（CVSSP）"
+  },
+  "Chairing the Cambridge interdisciplinary conference": {
+    "en": "Chairing the Cambridge interdisciplinary conference",
+    "zh": "主持剑桥跨学科会议"
+  },
+  "Chinese Academy of Sciences": {
+    "en": "Chinese Academy of Sciences",
+    "zh": "中国科学院"
+  },
+  "Co-organising HAID: Human-AI Interaction for Dementia Care at NordiCHI 2024": {
+    "en": "Co-organising HAID: Human-AI Interaction for Dementia Care at NordiCHI 2024",
+    "zh": "共同组织NordiCHI 2024的HAID专题：痴呆照护中的人机交互"
+  },
+  "Co-organising the first InterAI workshop at IEEE RO-MAN 2024": {
+    "en": "Co-organising the first InterAI workshop at IEEE RO-MAN 2024",
+    "zh": "共同组织 IEEE RO-MAN 2024 首届 InterAI 研讨会"
+  },
+  "Cognition-Inspired Social Intelligence": {
+    "en": "Cognition-Inspired Social Intelligence",
+    "zh": "认知启发的社会智能"
+  },
+  "Collaborators across the University of Surrey.": {
+    "en": "Collaborators across the University of Surrey.",
+    "zh": "萨里大学的合作者。"
+  },
+  "Complete HRI-Free figure with panels A, B and C showing iCub sensing, social cue and gaze-history inputs, priority-map prediction and physical versus simulated views.": {
+    "en": "HRI-Free figure: panels A-C show iCub sensing, social-cue and gaze-history inputs, priority-map predictions, and physical and simulated views.",
+    "zh": "HRI-Free 图示：A-C 面板展示 iCub 的感知输入、社会线索与注视历史输入、优先级图预测，以及实体与模拟视图。"
+  },
+  "Complete computational modelling slide showing social cue representations, directed attention, sequential integration and binaural audiovisual sound localisation.": {
+    "en": "Computational modelling slide showing social-cue representations, directed attention, sequential integration and binaural audiovisual sound localisation.",
+    "zh": "计算建模幻灯片，展示社会线索表征、定向注意、序贯整合，以及双耳视听声音定位。"
+  },
+  "Computational modelling of audiovisual attention": {
+    "en": "Computational modelling of audiovisual attention",
+    "zh": "视听注意的计算建模"
+  },
+  "Computational modelling of biological dynamics, especially the brain": {
+    "en": "Computational modelling of biological dynamics, especially the brain",
+    "zh": "生物动力学的计算建模，尤其是大脑"
+  },
+  "Conferences": {
+    "en": "Conferences",
+    "zh": "会议"
+  },
+  "Conflict resolution": {
+    "en": "Conflict resolution",
+    "zh": "冲突解决"
+  },
+  "Connecting at SynSci 2026": {
+    "en": "Connecting at SynSci 2026",
+    "zh": "在 SynSci 2026 交流"
+  },
+  "Connecting human mechanisms, computational models and interactive systems": {
+    "en": "Human cognition, computational models and interaction",
+    "zh": "人类认知、计算模型与交互实验"
+  },
+  "Conversational agents": {
+    "en": "Conversational agents",
+    "zh": "对话智能体"
+  },
+  "Crossmodal Social Cue Integration": {
+    "en": "Crossmodal Social Cue Integration",
+    "zh": "跨模态社会线索整合"
+  },
+  "Crossmodal social attention on iCub": {
+    "en": "Crossmodal social attention on iCub",
+    "zh": "iCub 上的跨模态社会注意"
+  },
+  "Cyber security, privacy, digital identity, and formal verification": {
+    "en": "Cyber security, privacy, digital identity, and formal verification",
+    "zh": "网络安全、隐私、数字身份与形式化验证"
+  },
+  "Di Fu at ICRA 2025 in Atlanta, where she presented HRI-Free and co-chaired the Perception for Human-Robot Interaction session.": {
+    "en": "Di Fu at ICRA 2025 in Atlanta, where she presented HRI-Free and co-chaired the Perception for Human-Robot Interaction session.",
+    "zh": "Di Fu 在亚特兰大参加 ICRA 2025，介绍 HRI-Free，并共同主持“人机交互感知”专题。"
+  },
+  "Di Fu introducing the second InterAI Workshop on Interactive AI for Human-Centred Robotics, held alongside ACM/IEEE HRI 2026.": {
+    "en": "Di Fu introducing the second InterAI Workshop on Interactive AI for Human-Centred Robotics, held alongside ACM/IEEE HRI 2026.",
+    "zh": "Di Fu 介绍第二届 InterAI 研讨会“面向以人为中心的机器人技术的交互式 AI”；该研讨会与 ACM/IEEE HRI 2026 同期举行。"
+  },
+  "Di Fu on LinkedIn": {
+    "en": "Di Fu on LinkedIn",
+    "zh": "Di Fu 的 LinkedIn 主页"
+  },
+  "Download diagram": {
+    "en": "Download diagram",
+    "zh": "下载示意图"
+  },
+  "Dr Di Fu delivered a keynote entitled “Embodied AI in Multimodal Human-Robot Social Interaction” at the SynSci-Synergy for Science 2026 satellite session in Glasgow on 13 July 2026. During her visit, she also met with colleagues and visited research laboratories in the School of Psychology & Neuroscience and the School of Computing Science at the University of Glasgow.": {
+    "en": "Dr Di Fu delivered the keynote “Embodied AI in Multimodal Human-Robot Social Interaction” at the SynSci-Synergy for Science 2026 satellite session in Glasgow on 13 July 2026. During her visit, she met colleagues and visited research laboratories in the University of Glasgow’s School of Psychology & Neuroscience and School of Computing Science.",
+    "zh": "2026 年 7 月 13 日，Di Fu 博士在格拉斯哥举行的 SynSci-Synergy for Science 2026 卫星会议上作题为“多模态人机社会交互中的具身 AI”的主题演讲。访问期间，她还与同事交流，并参观了格拉斯哥大学心理学与神经科学学院及计算机科学学院的研究实验室。"
+  },
+  "Dr Di Fu delivered a talk about her research in Embodied AI and Human-Robot Interaction during her visit at the Italian Institute of Technology.": {
+    "en": "Dr Di Fu presented her research on Embodied AI and Human-Robot Interaction during a visit to the Italian Institute of Technology.",
+    "zh": "Di Fu 博士访问意大利理工学院期间，介绍了她在具身 AI 与人机交互方面的研究。"
+  },
+  "Dr Di Fu is an Assistant Professor in the School of Psychology and an Interdisciplinary Principal Fellow at the Surrey Institute for People-Centred AI (PAI), University of Surrey. She directs the Social Interaction and Embodied Intelligence (SEIL) Lab. She investigates how social cues guide attention, how people integrate information across senses, and how they interact and cooperate with robots and AI systems. Her work connects cognitive experiments and computational modelling with studies of embodied robots, voice assistants and conversational agents, using artificial systems both to investigate human social mechanisms and to explore human-grounded AI.": {
+    "en": "Dr Di Fu is an Assistant Professor in Surrey's School of Psychology and an Interdisciplinary Principal Fellow at PAI. She directs SEIL Lab, linking social-cognitive experiments with computational modelling, human-robot interaction and human-AI research.",
+    "zh": "Di Fu 博士任职于萨里大学心理学院，并担任以人为本人工智能研究院 (PAI) 的跨学科首席研究员。她领导 SEIL Lab，将社会认知实验与计算建模、人机交互及人与 AI 交互研究相结合。"
+  },
+  "Dr Di Fu visited the CONTACT Lab of Dr Alessandra Sciutti and Dr Francesco Rea at the Italian Institute of Technology (IIT) on 18 June 2026. Di has worked with IIT’s iCub humanoid robot for eight years and was also invited to serve as an external PhD dissertation reviewer at IIT this year. It was a wonderful opportunity to exchange ideas and reconnect with colleagues at IIT.": {
+    "en": "Dr Di Fu visited the CONTACT Lab of Dr Alessandra Sciutti and Dr Francesco Rea at the Italian Institute of Technology (IIT) on 18 June 2026. She has worked with IIT’s iCub humanoid robot for eight years and was invited to serve as an external PhD dissertation reviewer at IIT that year. The visit provided an opportunity to exchange ideas and reconnect with colleagues.",
+    "zh": "2026 年 6 月 18 日，Di Fu 博士访问了意大利理工学院（IIT）Alessandra Sciutti 博士和 Francesco Rea 博士的 CONTACT 实验室。她与 IIT 的 iCub 人形机器人合作已有八年，并于当年受邀担任 IIT 博士论文的外部评审。此次访问为交流想法、与同事重聚提供了机会。"
+  },
+  "Embodied AI": {
+    "en": "Embodied AI",
+    "zh": "具身智能"
+  },
+  "Embodied AI and Human-Robot Interaction talk at IIT": {
+    "en": "Embodied AI and Human-Robot Interaction talk at IIT",
+    "zh": "在 IIT 关于具身 AI 与人机交互的报告"
+  },
+  "Embodied evaluation": {
+    "en": "Embodied evaluation",
+    "zh": "具身评估"
+  },
+  "Embodied social-attention evaluation": {
+    "en": "Embodied social-attention evaluation",
+    "zh": "具身社会注意评估"
+  },
+  "Emotion-aware interaction": {
+    "en": "Emotion-aware interaction",
+    "zh": "情绪感知交互"
+  },
+  "Emotion-aware voice assistants through role swapping": {
+    "en": "Emotion-aware voice assistants through role swapping",
+    "zh": "通过角色互换实现情绪感知语音助手"
+  },
+  "Est.": {
+    "en": "Est.",
+    "zh": "约"
+  },
+  "Evaluate model-driven behaviour through cognitive robotic simulation and studies of human-robot cooperation and human-AI interaction. Examine how social cues, emotional context and individual differences shape behaviour and experience, generating evidence to refine models and cognitive hypotheses.": {
+    "en": "Models drive robot behaviour in simulation and live studies, where we measure how people perceive, trust and cooperate with robots and AI.",
+    "zh": "模型在仿真和真人实验中驱动机器人行为，我们据此测量人们如何感知、信任机器人与人工智能，并与之合作。"
+  },
+  "Event date": {
+    "en": "Event date",
+    "zh": "活动日期"
+  },
+  "Experimental music, computer music, sound art and music notation": {
+    "en": "Experimental music, computer music, sound art and music notation",
+    "zh": "实验音乐、计算机音乐、声音艺术与音乐记谱"
+  },
+  "Experimental photograph provided by Di Fu; Fu et al., IEEE RO-MAN, 2023.": {
+    "en": "Experimental photograph provided by Di Fu; Fu et al., IEEE RO-MAN, 2023.",
+    "zh": "实验照片由 Di Fu 提供；Fu 等，IEEE RO-MAN，2023。"
+  },
+  "Explainable AI, symbolic and logic-based machine learning": {
+    "en": "Explainable AI, symbolic and logic-based machine learning",
+    "zh": "可解释人工智能、符号与逻辑机器学习"
+  },
+  "Explore our research": {
+    "en": "Explore our research",
+    "zh": "探索我们的研究"
+  },
+  "Explore our research framework": {
+    "en": "Explore our research framework",
+    "zh": "探索我们的研究框架"
+  },
+  "Face Pareidolia Research Shared by Surrey’s Media Team": {
+    "en": "Face Pareidolia Research Shared by Surrey’s Media Team",
+    "zh": "萨里大学媒体团队分享面孔幻觉研究"
+  },
+  "Full-slide rendering from Di Fu's IIT keynote, slide 8; Fu et al., International Journal of Social Robotics, 2023.": {
+    "en": "Full-slide rendering from Di Fu's IIT keynote, slide 8; Fu et al., International Journal of Social Robotics, 2023.",
+    "zh": "Di Fu 在 IIT 主旨演讲第 8 页幻灯片的完整呈现；Fu 等，《International Journal of Social Robotics》，2023。"
+  },
+  "Gallery": {
+    "en": "Gallery",
+    "zh": "图库"
+  },
+  "Gaze cueing": {
+    "en": "Gaze cueing",
+    "zh": "注视线索"
+  },
+  "Ghent University": {
+    "en": "Ghent University",
+    "zh": "根特大学"
+  },
+  "Group events": {
+    "en": "Group events",
+    "zh": "团队活动"
+  },
+  "HCII · 2025": {
+    "en": "HCII · 2025",
+    "zh": "HCII · 2025"
+  },
+  "HIT research presentation, slide 12": {
+    "en": "HIT research presentation, slide 12",
+    "zh": "HIT 研究报告，第 12 页幻灯片"
+  },
+  "HRI Companion · 2024": {
+    "en": "HRI Companion · 2024",
+    "zh": "HRI Companion · 2024"
+  },
+  "HRI-Free": {
+    "en": "HRI-Free",
+    "zh": "HRI-Free"
+  },
+  "HRI-Free Research Featured in The Irish Times": {
+    "en": "HRI-Free Research Featured in The Irish Times",
+    "zh": "HRI-Free 研究获《爱尔兰时报》报道"
+  },
+  "HRI-Free: evaluating embodied social attention": {
+    "en": "HRI-Free: evaluating embodied social attention",
+    "zh": "HRI-Free：评估具身社会注意"
+  },
+  "HRI-Free: physical and simulated evaluation": {
+    "en": "HRI-Free: physical and simulated evaluation",
+    "zh": "HRI-Free：物理与模拟评估"
+  },
+  "Home": {
+    "en": "Home",
+    "zh": "首页"
+  },
+  "How can models grounded in human behaviour become embodied systems whose perception and action can be tested in physical interaction?": {
+    "en": "How can models grounded in human behaviour become embodied systems whose perception and action can be tested in physical interaction?",
+    "zh": "如何将以人类行为为基础的模型转化为具身系统，并在物理交互中检验其感知与行动？"
+  },
+  "How do a robot’s social cues and embodiment shape interaction, shared tasks and cooperation between people and robots?": {
+    "en": "How do a robot’s social cues and embodiment shape interaction, shared tasks and cooperation between people and robots?",
+    "zh": "机器人的社会线索与具身性如何影响人机交互、共同任务以及人与机器人之间的合作？"
+  },
+  "How do people combine gaze, facial expression, gesture and voice, especially when social cues across the senses agree or conflict?": {
+    "en": "How do people combine gaze, facial expression, gesture and voice, especially when social cues across the senses agree or conflict?",
+    "zh": "人们如何整合注视、面部表情、手势和语音，尤其是在不同感官通道的社会线索一致或冲突时？"
+  },
+  "How do people experience and respond to AI, and how should emotional context and individual differences inform its behaviour?": {
+    "en": "How do people experience and respond to AI, and how should emotional context and individual differences inform its behaviour?",
+    "zh": "人们如何体验人工智能并对其作出反应？情绪情境和个体差异应如何影响人工智能的行为？"
+  },
+  "How do social cues across the senses combine to shape what we perceive and how we respond?": {
+    "en": "How do social cues across the senses combine to shape what we perceive and how we respond?",
+    "zh": "跨感官的社会线索如何整合并影响我们的感知与反应？"
+  },
+  "How embodiment shapes social mirroring": {
+    "en": "How embodiment shapes social mirroring",
+    "zh": "具身性如何影响社会模仿"
+  },
+  "How face-like objects and averted gaze faces orient our attention": {
+    "en": "How face-like objects and averted gaze faces orient our attention",
+    "zh": "类面孔物体与转开视线的面孔如何引导注意"
+  },
+  "Human Impression of Humanoid Robots Mirroring Social Cues": {
+    "en": "Human Impression of Humanoid Robots Mirroring Social Cues",
+    "zh": "人们对模仿社会线索的人形机器人的印象"
+  },
+  "Human audiovisual attention experiment": {
+    "en": "Human audiovisual attention experiment",
+    "zh": "人类视听注意实验"
+  },
+  "Human evidence, computational models and interactive evaluation form a reciprocal research cycle, advancing our understanding of social cognition and cognition-inspired AI.": {
+    "en": "Human experiments, computational models and interaction studies form a feedback loop between cognitive science and AI.",
+    "zh": "人类实验、计算建模与交互评估构成反馈闭环，连接认知科学与人工智能研究。"
+  },
+  "Human experience and wellbeing": {
+    "en": "Human experience and wellbeing",
+    "zh": "人类体验与福祉"
+  },
+  "Human experiments help us identify which social cues guide behaviour and distinguish competing explanations. Computational models turn these accounts into testable predictions; implementing selected models on robots lets us examine them under embodied conditions. We also manipulate robot and conversational-agent behaviour to investigate how people respond during interaction. Findings feed back into our questions and models. Different projects enter this cycle at different points, linking fundamental work on human cognition with studies of cooperation and interaction with AI.": {
+    "en": "Human experiments constrain computational models. Robot and conversational-agent studies test their predictions and return evidence to refine them. Projects enter this feedback cycle at different points.",
+    "zh": "人类实验为计算模型提供约束。机器人与对话智能体实验检验模型预测，并反馈证据。各项目可从闭环中的不同环节展开。"
+  },
+  "Human mechanisms, testable models and interactive agents": {
+    "en": "Human mechanisms, testable models and interactive agents",
+    "zh": "人类机制、可检验模型与交互智能体"
+  },
+  "Human-AI Interaction": {
+    "en": "Human-AI Interaction",
+    "zh": "人与人工智能交互"
+  },
+  "Human-Inspired Computational Modelling & AI": {
+    "en": "Human-Inspired Computational Modelling & AI",
+    "zh": "人类启发的计算建模与 AI"
+  },
+  "Human-Robot Interaction & Cooperation": {
+    "en": "Human-Robot Interaction & Cooperation",
+    "zh": "人机交互与合作"
+  },
+  "Human-grounded modelling": {
+    "en": "Human-grounded modelling",
+    "zh": "以人类为基础的建模"
+  },
+  "Human-human-robot cooperation": {
+    "en": "Human-human-robot cooperation",
+    "zh": "人与人-机器人合作"
+  },
+  "Human-like crossmodal social attention": {
+    "en": "Human-like crossmodal social attention",
+    "zh": "类人跨模态社会注意"
+  },
+  "Human-robot cooperation": {
+    "en": "Human-robot cooperation",
+    "zh": "人机协作"
+  },
+  "Humanoid robot Pepper with a chest-mounted tablet and wheeled mobile base": {
+    "en": "Humanoid robot Pepper with a chest-mounted tablet and wheeled mobile base",
+    "zh": "人形机器人 Pepper，配有胸前平板电脑和轮式移动底座"
+  },
+  "ICRA 2025 in Atlanta": {
+    "en": "ICRA 2025 in Atlanta",
+    "zh": "亚特兰大的 ICRA 2025"
+  },
+  "IEEE ICRA · 2025": {
+    "en": "IEEE ICRA · 2025",
+    "zh": "IEEE ICRA · 2025"
+  },
+  "IEEE RO-MAN · 2023": {
+    "en": "IEEE RO-MAN · 2023",
+    "zh": "IEEE RO-MAN · 2023"
+  },
+  "IIT keynote, slide 8": {
+    "en": "IIT keynote, slide 8",
+    "zh": "IIT 主题演讲，第 8 页"
+  },
+  "IIT keynote, slides 7 and 21": {
+    "en": "IIT keynote, slides 7 and 21",
+    "zh": "IIT 主题演讲，第 7 页和第 21 页"
+  },
+  "IIT keynote, slides 9 and 21": {
+    "en": "IIT keynote, slides 9 and 21",
+    "zh": "IIT 主题演讲，第 9 页和第 21 页"
+  },
+  "Identify how social information is perceived and integrated, how attention and cognitive control guide responses, and how affective and social evaluations shape behaviour. Behavioural experiments and cognitive neuroscience provide empirical constraints for modelling.": {
+    "en": "Behavioural and neural experiments reveal how people select and integrate social cues.",
+    "zh": "通过行为与神经实验，探究人类如何选择并整合社会线索。"
+  },
+  "Image source": {
+    "en": "Image source",
+    "zh": "图片来源"
+  },
+  "Image:": {
+    "en": "Image:",
+    "zh": "图片："
+  },
+  "In a triadic collaboration task, positive robot facial expressions enhanced collaboration and perceived robot intelligence. Gaze directed towards the person giving instructions also increased perceived intelligence.": {
+    "en": "In a triadic collaboration task, positive robot facial expressions enhanced collaboration and perceived robot intelligence. Gaze directed towards the person giving instructions also increased perceived intelligence.",
+    "zh": "在三方协作任务中，机器人的积极面部表情提升了协作表现和感知到的机器人智能水平。机器人注视发出指令的人，也提高了感知到的智能水平。"
+  },
+  "In the Media": {
+    "en": "In the Media",
+    "zh": "媒体报道"
+  },
+  "Inside our research": {
+    "en": "Inside our research",
+    "zh": "走进我们的研究"
+  },
+  "Interdisciplinary Principal Fellow, PAI": {
+    "en": "Interdisciplinary Principal Fellow, PAI",
+    "zh": "PAI 跨学科首席研究员"
+  },
+  "International Collaborators": {
+    "en": "International Collaborators",
+    "zh": "国际合作者"
+  },
+  "Investigate how social attention, crossmodal integration and cognitive control shape human social behaviour.": {
+    "en": "Investigate how social attention, crossmodal integration and cognitive control shape human social behaviour.",
+    "zh": "探究社会注意、跨模态整合和认知控制如何塑造人类社会行为。"
+  },
+  "Invitation to Take Part in Beyza’s Game Research Study": {
+    "en": "Invitation to Take Part in Beyza’s Game Research Study",
+    "zh": "邀请参与 Beyza 的游戏研究"
+  },
+  "Invited to Speak at the IROS 2025 Workshop on Embodied AI": {
+    "en": "Invited to Speak at the IROS 2025 Workshop on Embodied AI",
+    "zh": "受邀在 IROS 2025 具身智能研讨会上演讲"
+  },
+  "Italian Institute of Technology": {
+    "en": "Italian Institute of Technology",
+    "zh": "意大利理工学院"
+  },
+  "Journal article · 2023": {
+    "en": "Journal article · 2023",
+    "zh": "期刊论文 · 2023"
+  },
+  "July 2026": {
+    "en": "July 2026",
+    "zh": "2026 年 7 月"
+  },
+  "Keynote at SynSci - Synergy for Science 2026": {
+    "en": "Keynote at SynSci - Synergy for Science 2026",
+    "zh": "在 SynSci - Synergy for Science 2026 上作主题演讲"
+  },
+  "LMU Munich": {
+    "en": "LMU Munich",
+    "zh": "慕尼黑大学"
+  },
+  "Lab News": {
+    "en": "Lab News",
+    "zh": "实验室动态"
+  },
+  "Lab visits": {
+    "en": "Lab visits",
+    "zh": "实验室来访"
+  },
+  "Launching an Interdisciplinary Cognitive Science and AI Conference at Cambridge": {
+    "en": "Launching an Interdisciplinary Cognitive Science and AI Conference at Cambridge",
+    "zh": "在剑桥发起跨学科认知科学与人工智能会议"
+  },
+  "Lecturer (Assistant Professor) in Robotics": {
+    "en": "Lecturer (Assistant Professor) in Robotics",
+    "zh": "机器人学讲师（助理教授）"
+  },
+  "MSc student": {
+    "en": "MSc student",
+    "zh": "硕士生"
+  },
+  "March 2026": {
+    "en": "March 2026",
+    "zh": "2026 年 3 月"
+  },
+  "Meet our robotics platforms for exploring human-robot interaction and embodied intelligence.": {
+    "en": "Meet our robotics platforms for exploring human-robot interaction and embodied intelligence.",
+    "zh": "了解我们的机器人平台，探索人机交互与具身智能。"
+  },
+  "Meeting fellow researchers at the SynSci - Synergy for Science 2026 satellite session in Glasgow.": {
+    "en": "Meeting fellow researchers at the SynSci - Synergy for Science 2026 satellite session in Glasgow.",
+    "zh": "在格拉斯哥举行的 SynSci - Synergy for Science 2026 卫星会议上与同行研究人员交流。"
+  },
+  "Misty Robotics": {
+    "en": "Misty Robotics",
+    "zh": "Misty Robotics"
+  },
+  "Misty is a programmable social robot platform with developer tools for creating custom behaviours and interactions with people.": {
+    "en": "Misty is a programmable social robot platform with developer tools for creating custom behaviours and interactions with people.",
+    "zh": "Misty 是一个可编程社交机器人平台，提供开发工具，可用于创建自定义行为及与人的互动。"
+  },
+  "Misty social robot with an expressive screen face and a tracked mobile base": {
+    "en": "Misty social robot with an expressive screen face and a tracked mobile base",
+    "zh": "Misty 社交机器人，配有表情丰富的屏幕面部和履带式移动底座"
+  },
+  "Music and Media": {
+    "en": "Music and Media",
+    "zh": "音乐与媒体"
+  },
+  "NAO humanoid robot standing upright with one hand on its hip": {
+    "en": "NAO humanoid robot standing with one hand on its hip",
+    "zh": "一台单手叉腰站立的NAO人形机器人"
+  },
+  "NAO is a programmable humanoid robot that provides a hands-on platform for learning about robotics through programming and interaction.": {
+    "en": "NAO is a programmable humanoid robot for hands-on learning about robotics through programming and interaction.",
+    "zh": "NAO是一款可编程人形机器人，可通过编程和交互为机器人学习提供实践平台。"
+  },
+  "Natural language processing and machine learning": {
+    "en": "Natural language processing and machine learning",
+    "zh": "自然语言处理与机器学习"
+  },
+  "Navigation": {
+    "en": "Navigation",
+    "zh": "导航"
+  },
+  "Neurocognitive Mechanisms of Social Cognition": {
+    "en": "Neurocognitive Mechanisms of Social Cognition",
+    "zh": "社会认知的心理与神经机制"
+  },
+  "Neutral by Default?": {
+    "en": "Neutral by Default?",
+    "zh": "默认中立？"
+  },
+  "New Interdisciplinary Principal Fellow Role at PAI": {
+    "en": "New Interdisciplinary Principal Fellow Role at PAI",
+    "zh": "PAI新增跨学科Principal Fellow职位"
+  },
+  "News": {
+    "en": "News",
+    "zh": "新闻"
+  },
+  "Open high-resolution image": {
+    "en": "Open high-resolution image",
+    "zh": "打开高分辨率图像"
+  },
+  "Opening the second InterAI Workshop": {
+    "en": "Opening the second InterAI Workshop",
+    "zh": "第二届InterAI研讨会开幕"
+  },
+  "Opportunities": {
+    "en": "Opportunities",
+    "zh": "机会"
+  },
+  "PI: Di Fu, Ph.D.": {
+    "en": "PI: Di Fu, Ph.D.",
+    "zh": "首席研究员：Di Fu，博士"
+  },
+  "Page Not Found": {
+    "en": "Page Not Found",
+    "zh": "未找到页面"
+  },
+  "Pepper is a humanoid robot designed to interact with people through conversation and body language, sharing information and assisting visitors.": {
+    "en": "Pepper is a humanoid robot designed to interact with people through conversation and body language, share information and assist visitors.",
+    "zh": "Pepper是一款人形机器人，旨在通过对话和肢体语言与人互动、分享信息并协助访客。"
+  },
+  "Perceptual configuration": {
+    "en": "Perceptual configuration",
+    "zh": "知觉构型"
+  },
+  "Personalisation": {
+    "en": "Personalisation",
+    "zh": "个性化"
+  },
+  "PhD Student": {
+    "en": "PhD Student",
+    "zh": "博士生"
+  },
+  "PhD Students": {
+    "en": "PhD Students",
+    "zh": "博士生"
+  },
+  "Physical iCub facing prerecorded multi-person video beside priority-map, simulation-projection and head-eye-movement panels.": {
+    "en": "Physical iCub facing prerecorded multi-person video, beside panels showing a priority map, simulation projection and head-eye movements.",
+    "zh": "实体iCub面向多人预录视频，旁侧面板展示优先级图、仿真投影及头眼运动。"
+  },
+  "Platform details": {
+    "en": "Platform details",
+    "zh": "平台详情"
+  },
+  "Preprint": {
+    "en": "Preprint",
+    "zh": "预印本"
+  },
+  "Presenting HRI-Free and Co-Chairing an HRI Session at ICRA 2025": {
+    "en": "Presenting HRI-Free and Co-Chairing an HRI Session at ICRA 2025",
+    "zh": "在ICRA 2025介绍HRI-Free并共同主持一场HRI专题"
+  },
+  "Presenting humanoid-robot social mirroring research at HRI 2024": {
+    "en": "Presenting humanoid-robot social mirroring research at HRI 2024",
+    "zh": "在HRI 2024介绍人形机器人社会镜像研究"
+  },
+  "Professor of Robot Vision and Autonomous Systems": {
+    "en": "Professor of Robot Vision and Autonomous Systems",
+    "zh": "机器人视觉与自主系统教授"
+  },
+  "Professor of Secure Systems": {
+    "en": "Professor of Secure Systems",
+    "zh": "安全系统教授"
+  },
+  "Programmable humanoid robot": {
+    "en": "Programmable humanoid robot",
+    "zh": "可编程人形机器人"
+  },
+  "Programmable social robot": {
+    "en": "Programmable social robot",
+    "zh": "可编程社交机器人"
+  },
+  "PsychD Student": {
+    "en": "PsychD Student",
+    "zh": "PsychD学生"
+  },
+  "PsychD Students": {
+    "en": "PsychD Students",
+    "zh": "PsychD学生"
+  },
+  "Publications": {
+    "en": "Publications",
+    "zh": "出版物"
+  },
+  "Quadruped robot": {
+    "en": "Quadruped robot",
+    "zh": "四足机器人"
+  },
+  "Reader (Associate Professor) in Machine Learning and Computational Intelligence": {
+    "en": "Reader (Associate Professor) in Machine Learning and Computational Intelligence",
+    "zh": "机器学习与计算智能Reader（副教授）"
+  },
+  "Related paper": {
+    "en": "Related paper",
+    "zh": "相关文章"
+  },
+  "Representative product images, not photographs taken at SEIL Lab. Pepper is a trademark of SoftBank Robotics.": {
+    "en": "Representative product images, not photographs taken at SEIL Lab. Pepper is a trademark of SoftBank Robotics.",
+    "zh": "产品示意图，并非SEIL Lab拍摄的照片。Pepper是SoftBank Robotics的商标。"
+  },
+  "Research": {
+    "en": "Research",
+    "zh": "研究"
+  },
+  "Research Assistant": {
+    "en": "Research Assistant",
+    "zh": "研究助理"
+  },
+  "Research Assistants": {
+    "en": "Research Assistants",
+    "zh": "研究助理"
+  },
+  "Research Focus": {
+    "en": "Research Focus",
+    "zh": "研究重点"
+  },
+  "Research expertise": {
+    "en": "Research expertise",
+    "zh": "研究专长"
+  },
+  "Research framework": {
+    "en": "Research framework",
+    "zh": "研究框架"
+  },
+  "Research image from Di Fu's University of Surrey profile; HRI-Free, IEEE ICRA, 2025.": {
+    "en": "Research image from Di Fu's University of Surrey profile; HRI-Free, IEEE ICRA, 2025.",
+    "zh": "研究图片来源：Di Fu 的萨里大学个人主页；HRI-Free，IEEE ICRA，2025。"
+  },
+  "Research image unavailable. The study description and paper remain available below.": {
+    "en": "Research image unavailable. The study description and paper remain available below.",
+    "zh": "研究图片暂不可用。下方仍提供研究说明和论文。"
+  },
+  "Research video cover provided by Di Fu; Fu et al., International Journal of Social Robotics, 2023.": {
+    "en": "Research video cover provided by Di Fu; Fu et al., International Journal of Social Robotics, 2023.",
+    "zh": "研究视频封面由 Di Fu 提供；Fu 等，《International Journal of Social Robotics》，2023。"
+  },
+  "Review · 2020": {
+    "en": "Review · 2020",
+    "zh": "综述 · 2020"
+  },
+  "Robot perception and action": {
+    "en": "Robot perception and action",
+    "zh": "机器人感知与行动"
+  },
+  "Robot vision, autonomous systems, machine learning and 3D computer vision": {
+    "en": "Robot vision, autonomous systems, machine learning and 3D computer vision",
+    "zh": "机器人视觉、自主系统、机器学习与三维计算机视觉"
+  },
+  "Robotic Simulation & Human-Agent Interaction": {
+    "en": "Robotic Simulation & Human-Agent Interaction",
+    "zh": "机器人仿真与人-智能体交互"
+  },
+  "Robotic perception, learning and collaboration through digital twinning and AI": {
+    "en": "Robotic perception, learning and collaboration through digital twinning and AI",
+    "zh": "通过数字孪生与人工智能开展机器人感知、学习与协作"
+  },
+  "Robotics Platforms": {
+    "en": "Robotics Platforms",
+    "zh": "机器人平台"
+  },
+  "Robots act as experimental platforms and interaction partners; human-AI studies also include conversational systems without a physical body.": {
+    "en": "Robots serve as experimental platforms and interaction partners. Human-AI studies also include conversational systems without physical bodies.",
+    "zh": "机器人既是实验平台，也是交互伙伴。人与人工智能的研究还包括没有实体的对话系统。"
+  },
+  "SEIL Lab": {
+    "en": "SEIL Lab",
+    "zh": "SEIL 实验室"
+  },
+  "SEIL Lab Logo": {
+    "en": "SEIL Lab Logo",
+    "zh": "SEIL 实验室标志"
+  },
+  "SEIL Lab graduation celebration": {
+    "en": "SEIL Lab graduation celebration",
+    "zh": "SEIL 实验室毕业庆祝活动"
+  },
+  "SEIL Lab graduation celebration - reception": {
+    "en": "SEIL Lab graduation celebration - reception",
+    "zh": "SEIL 实验室毕业庆祝活动 - 招待会"
+  },
+  "SEIL Lab investigates how people attend to social information, integrate cues across senses, and interact and cooperate with humans and artificial agents. We connect cognitive experiments, neuroscience and computational modelling with human-robot and human-AI research. Across five complementary themes, artificial agents serve both as interaction partners and as experimental tools: helping us test accounts of human social behaviour and develop human-grounded embodied AI.": {
+    "en": "We study social attention, crossmodal cue integration and interaction with people, robots and AI. Human experiments, computational models and embodied testing inform one another.",
+    "zh": "我们研究社会注意、跨模态线索整合，以及人与机器人和 AI 的交互。人类实验、计算模型与具身测试相互启发。"
+  },
+  "SEIL Lab ·": {
+    "en": "SEIL Lab ·",
+    "zh": "SEIL 实验室 ·"
+  },
+  "Santa Clara University": {
+    "en": "Santa Clara University",
+    "zh": "圣克拉拉大学"
+  },
+  "Scanpath prediction": {
+    "en": "Scanpath prediction",
+    "zh": "注视路径预测"
+  },
+  "School of Computer Science and Electronic Engineering": {
+    "en": "School of Computer Science and Electronic Engineering",
+    "zh": "计算机科学与电子工程学院"
+  },
+  "School of Psychology & Surrey Institute for People-Centred AI (PAI)": {
+    "en": "School of Psychology & Surrey Institute for People-Centred AI (PAI)",
+    "zh": "心理学系与萨里大学以人为中心的人工智能研究所（PAI）"
+  },
+  "School of Psychology & Surrey Institute for People-Centred AI (PAI), University of Surrey, Guildford, UK": {
+    "en": "Guildford, UK",
+    "zh": "英国萨里郡吉尔福德，萨里大学"
+  },
+  "Second InterAI Workshop: Human-Centred Embodiment at HRI 2026": {
+    "en": "Second InterAI Workshop: Human-Centred Embodiment at HRI 2026",
+    "zh": "HRI 2026 第二届 InterAI 研讨会：以人为中心的具身化"
+  },
+  "Semantic congruency in multisensory integration": {
+    "en": "Semantic congruency in multisensory integration",
+    "zh": "多感官整合中的语义一致性"
+  },
+  "Senior Lecturer (Associate Professor)": {
+    "en": "Senior Lecturer (Associate Professor)",
+    "zh": "高级讲师（副教授）"
+  },
+  "Senior Lecturer (Associate Professor) in Creative Music Technology": {
+    "en": "Senior Lecturer (Associate Professor) in Creative Music Technology",
+    "zh": "创意音乐技术高级讲师（副教授）"
+  },
+  "Senior Lecturer (Associate Professor) in People-Centred AI": {
+    "en": "Senior Lecturer (Associate Professor) in People-Centred AI",
+    "zh": "以人为中心的人工智能高级讲师（副教授）"
+  },
+  "She investigates how social cues guide attention, how people integrate information across senses, and how they interact and cooperate with robots and AI systems. Her work connects cognitive experiments and computational modelling with studies of embodied robots, voice assistants and conversational agents, using artificial systems both to investigate human social mechanisms and to explore human-grounded AI.": {
+    "en": "She studies social attention, multisensory integration and interaction with robots and AI. Her work links cognitive experiments with computational modelling, using artificial agents as both research tools and interaction partners.",
+    "zh": "她研究社会注意、多感官整合及人与机器人和 AI 的交互，将认知实验与计算建模结合，并把人工智能体同时作为研究工具和交互伙伴。"
+  },
+  "She received her PhD in Cognitive Neuroscience from the Institute of Psychology, Chinese Academy of Sciences, in 2020, and undertook a joint PhD programme at the University of Hamburg from 2017 to 2020. Before joining Surrey, she was a Postdoctoral Research Associate in Hamburg’s Department of Informatics, working on the Crossmodal Learning project from 2020 to 2023.": {
+    "en": "She received her PhD in Cognitive Neuroscience from the Institute of Psychology, Chinese Academy of Sciences, in 2020, and undertook a joint PhD programme at the University of Hamburg from 2017 to 2020. Before joining Surrey, she was a Postdoctoral Research Associate in Hamburg's Department of Informatics, working on the Crossmodal Learning project from 2020 to 2023.",
+    "zh": "她于2020年获得中国科学院心理研究所认知神经科学博士学位，并于2017年至2020年参加汉堡大学联合博士项目。加入萨里大学前，她于2020年至2023年在汉堡大学信息学系担任博士后研究助理，参与 Crossmodal Learning 项目。"
+  },
+  "Social Interaction and Embodied Intelligence Lab": {
+    "en": "Social Interaction and Embodied Intelligence Lab",
+    "zh": "社会交互与具身智能实验室"
+  },
+  "Social cue congruence": {
+    "en": "Social cue congruence",
+    "zh": "社会线索一致性"
+  },
+  "Social cue representations and temporal integration predict attention, while binaural audiovisual modelling connects audio and video inputs to fixation-density predictions. The complete keynote figure is retained, including its original labels.": {
+    "en": "Human behavioural results inform the crossmodal attention model and its iCub implementation.",
+    "zh": "人类行为结果启发跨模态注意模型及其在 iCub 上的实现。"
+  },
+  "Social cues in human-human-robot cooperation": {
+    "en": "Social cues in human-human-robot cooperation",
+    "zh": "人际-机器人协作中的社会线索"
+  },
+  "Social humanoid robot": {
+    "en": "Social humanoid robot",
+    "zh": "社交型人形机器人"
+  },
+  "Social intelligence, studied in real interaction.": {
+    "en": "Social intelligence in real interaction.",
+    "zh": "真实互动中的社会智能。"
+  },
+  "Social mirroring": {
+    "en": "Social mirroring",
+    "zh": "社会模仿"
+  },
+  "Social relevance": {
+    "en": "Social relevance",
+    "zh": "社会相关性"
+  },
+  "Social-attention predictions connect to simulated views and physical iCub head and eye movements while the robot observes prerecorded social video.": {
+    "en": "Social-attention predictions connect to simulated views and physical iCub head and eye movements as the robot observes prerecorded social video.",
+    "zh": "社会注意预测与模拟视角及实体 iCub 的头部和眼动相对应；机器人观察的是预录社会视频。"
+  },
+  "SoftBank Robotics, via IEEE Robots Guide": {
+    "en": "SoftBank Robotics, via IEEE Robots Guide",
+    "zh": "SoftBank Robotics，资料来源：IEEE Robots Guide"
+  },
+  "Spatial and semantic alignment": {
+    "en": "Spatial and semantic alignment",
+    "zh": "空间与语义一致性"
+  },
+  "Surrey Collaborators": {
+    "en": "Surrey Collaborators",
+    "zh": "萨里大学合作者"
+  },
+  "Surrey official profile, 21 May 2025": {
+    "en": "Surrey official profile, 21 May 2025",
+    "zh": "萨里大学官方个人简介，2025年5月21日"
+  },
+  "SynSci 2026 keynote in Glasgow": {
+    "en": "SynSci 2026 keynote in Glasgow",
+    "zh": "格拉斯哥 SynSci 2026 主旨演讲"
+  },
+  "Talks": {
+    "en": "Talks",
+    "zh": "演讲"
+  },
+  "Talks & Events": {
+    "en": "Talks & Events",
+    "zh": "演讲与活动"
+  },
+  "Team": {
+    "en": "Team",
+    "zh": "团队"
+  },
+  "Test models through robotic simulation and human-robot or human-AI interaction, using new evidence to refine models and cognitive hypotheses.": {
+    "en": "Test models through robotic simulation and human-robot or human-AI interaction, using new evidence to refine models and cognitive hypotheses.",
+    "zh": "通过机器人模拟以及人机或人与 AI 互动检验模型，并利用新证据完善模型和认知假设。"
+  },
+  "The InterAI 2026 community": {
+    "en": "The InterAI 2026 community",
+    "zh": "InterAI 2026 社群"
+  },
+  "The Robot in the Room": {
+    "en": "The Robot in the Room",
+    "zh": "房间里的机器人"
+  },
+  "The first Interdisciplinary Conference on Cognitive Science, Computational Modelling, and AI, organised and chaired by Di Fu at the University of Cambridge on 9-10 May 2025, brought together 120 attendees.": {
+    "en": "The first Interdisciplinary Conference on Cognitive Science, Computational Modelling, and AI, organised and chaired by Di Fu at the University of Cambridge on 9-10 May 2025, brought together 120 attendees.",
+    "zh": "首届认知科学、计算建模与 AI 跨学科会议于2025年5月9日至10日在剑桥大学举行，由 Di Fu 组织并主持，共有120人参加。"
+  },
+  "The page you are looking for does not exist. Please return to the home page or explore other sections of the site.": {
+    "en": "The page you are looking for does not exist. Please return to the home page or explore other sections of the site.",
+    "zh": "您要查找的页面不存在。请返回首页或浏览网站的其他版块。"
+  },
+  "Three core research pillars": {
+    "en": "Three core research pillars",
+    "zh": "三大核心研究支柱"
+  },
+  "Three mutually reinforcing research pillars form a closed loop.": {
+    "en": "Three mutually reinforcing research pillars form a closed loop.",
+    "zh": "三大相互促进的研究支柱构成一个闭环。"
+  },
+  "Toggle menu": {
+    "en": "Toggle menu",
+    "zh": "切换菜单"
+  },
+  "Translate human mechanisms and behavioural evidence into computational models and learning systems for cognition-inspired AI.": {
+    "en": "Translate human mechanisms and behavioural evidence into computational models and learning systems for cognition-inspired AI.",
+    "zh": "将人类机制和行为证据转化为计算模型与学习系统，推动认知启发的 AI。"
+  },
+  "Translate selected human mechanisms and behavioural evidence into computational models and learning systems. Attention modelling, scanpath prediction and crossmodal learning generate testable predictions and inform cognition-inspired embodied AI.": {
+    "en": "Human data constrain computational models, which turn cognitive accounts into testable predictions and robot behaviour.",
+    "zh": "人类数据约束计算模型，把认知理论转化为可检验的预测和机器人行为。"
+  },
+  "Triadic interaction": {
+    "en": "Triadic interaction",
+    "zh": "三方互动"
+  },
+  "Trust and compliance": {
+    "en": "Trust and compliance",
+    "zh": "信任与服从"
+  },
+  "Two experiments compared affective mirroring by iCub and Pepper and movement mirroring with different iCub control methods. iCub was perceived as more humanlike, while vision-based control produced better movement mirroring than IMU-based control.": {
+    "en": "Two experiments compared affective mirroring by iCub and Pepper, and movement mirroring with different iCub control methods. iCub was perceived as more humanlike, while vision-based control produced better movement mirroring than IMU-based control.",
+    "zh": "两项实验比较了 iCub 和 Pepper 的情感模仿，以及采用不同控制方法的 iCub 动作模仿。iCub 被认为更像人；与基于 IMU 的控制相比，基于视觉的控制带来了更好的动作模仿效果。"
+  },
+  "Two participants and iCub in a shared shape-sorting task, used to investigate how robot gaze and facial expressions shape cooperation and perceptions of intelligence.": {
+    "en": "Two participants and iCub in a cooperation experiment testing how robot social cues affect human-human coordination.",
+    "zh": "两名参与者与 iCub 开展协作实验，检验机器人社会线索如何影响人与人的协调。"
+  },
+  "Two people and iCub around a tabletop shape-sorting task with an occluder and response buttons.": {
+    "en": "Two people and iCub around a tabletop shape-sorting task with an occluder and response buttons.",
+    "zh": "两人和 iCub 围坐在桌边进行图形分类任务，桌上设有遮挡板和响应按钮。"
+  },
+  "Unified Dynamic Scanpath Predictors": {
+    "en": "Unified Dynamic Scanpath Predictors",
+    "zh": "统一动态扫描路径预测器"
+  },
+  "Unitree Robot Dog, shown in a representative Go2 product image with all four legs visible": {
+    "en": "Unitree Robot Dog, shown in a representative Go2 product image with all four legs visible",
+    "zh": "Unitree 机器狗，代表性 Go2 产品图片，四条腿均清晰可见"
+  },
+  "Unitree's four-legged robots provide an embodied platform for legged movement, navigation and interaction with the physical environment.": {
+    "en": "Unitree's four-legged robots provide an embodied platform for legged movement, navigation and interaction with the physical environment.",
+    "zh": "Unitree 的四足机器人为足式运动、导航及与物理环境互动提供具身平台。"
+  },
+  "University of Hamburg": {
+    "en": "University of Hamburg",
+    "zh": "汉堡大学"
+  },
+  "University of Surrey": {
+    "en": "University of Surrey",
+    "zh": "萨里大学"
+  },
+  "Uppsala University": {
+    "en": "Uppsala University",
+    "zh": "乌普萨拉大学"
+  },
+  "Vector version": {
+    "en": "Vector version",
+    "zh": "矢量版本"
+  },
+  "View full image": {
+    "en": "View full image",
+    "zh": "查看完整图片"
+  },
+  "Visit to the CONTACT Lab at IIT with iCub": {
+    "en": "Visit to the CONTACT Lab at IIT with iCub",
+    "zh": "与 iCub 一同访问 IIT 的 CONTACT 实验室"
+  },
+  "Visiting PhD Student": {
+    "en": "Visiting PhD Student",
+    "zh": "访问博士生"
+  },
+  "Watch demo": {
+    "en": "Watch demo",
+    "zh": "观看演示"
+  },
+  "Watch talk": {
+    "en": "Watch talk",
+    "zh": "观看演讲"
+  },
+  "We investigate the neurocognitive mechanisms of human social behaviour, formalise selected mechanisms as computational models, and evaluate them through robotic simulation and interaction studies. Evidence from these studies refines both the models and our understanding of human cognition. Robots serve as interaction partners and experimental platforms; our interaction research also includes conversational AI without a physical body.": {
+    "en": "We investigate the cognitive mechanisms underlying human social perception and multimodal cue integration, develop computational models of these mechanisms, and translate them into socially intelligent robots and conversational AI systems. Through human-AI interaction, we seek both to advance artificial social intelligence and to test and refine theories of human social cognition.",
+    "zh": "我们研究人类社会知觉与多模态线索整合背后的认知机制，构建这些机制的计算模型，并将其转化为具有社会智能的机器人与对话式人工智能系统。通过人与人工智能的交互研究，我们既推动人工社会智能的发展，也检验并完善人类社会认知的理论。"
+  },
+  "What computational models can learn from human selective attention": {
+    "en": "What computational models can learn from human selective attention",
+    "zh": "计算模型能从人类选择性注意中学到什么"
+  },
+  "What makes a face, a gaze direction or a face-like object capture and guide attention-and which mechanisms explain that effect?": {
+    "en": "What makes a face, a gaze direction or a face-like object capture and guide attention - and which mechanisms explain that effect?",
+    "zh": "是什么使面孔、注视方向或类面孔物体捕获并引导注意？哪些机制可以解释这一效应？"
+  },
+  "What makes interaction with AI appropriate to the person, the emotional context and the purpose of the interaction?": {
+    "en": "What makes interaction with AI appropriate to the person, emotional context and purpose?",
+    "zh": "如何使人与人工智能的交互适合参与者、情绪情境和交互目的？"
+  },
+  "Workshop participants gathered at the second InterAI Workshop. This photograph shows the wider workshop community, not solely SEIL Lab members.": {
+    "en": "Workshop participants at the second InterAI Workshop. The photograph shows the wider workshop community, not only SEIL Lab members.",
+    "zh": "第二届 InterAI Workshop 的参与者合影。照片呈现的是更广泛的研讨会群体，并非只有 SEIL Lab 成员。"
+  },
+  "Wrapyfi and human-participant research accepted at HRI 2024": {
+    "en": "Wrapyfi and human-participant research accepted at HRI 2024",
+    "zh": "Wrapyfi 与涉及人类参与者的研究获 HRI 2024 接收"
+  },
+  "Writing for Psychology Today on Humanoid Robots and Everyday Life": {
+    "en": "Writing for Psychology Today on Humanoid Robots and Everyday Life",
+    "zh": "为《Psychology Today》撰写关于人形机器人与日常生活的文章"
+  },
+  "Year 2 BSc student": {
+    "en": "Year 2 BSc student",
+    "zh": "本科二年级学生"
+  },
+  "Year 3 BSc student": {
+    "en": "Year 3 BSc student",
+    "zh": "本科三年级学生"
+  },
+  "i-Perception · 2025": {
+    "en": "i-Perception · 2025",
+    "zh": "i-Perception · 2025"
+  },
+  "product image unavailable.": {
+    "en": "Product image unavailable.",
+    "zh": "产品图片暂不可用。"
+  },
+  "to": {
+    "en": "to",
+    "zh": "至"
+  },
+  "© SoftBank Robotics": {
+    "en": "© SoftBank Robotics",
+    "zh": "© SoftBank Robotics"
+  },
+  "© Unitree Robotics (representative Go2 image)": {
+    "en": "© Unitree Robotics (representative Go2 image)",
+    "zh": "© Unitree Robotics（Go2 代表性图片）"
+  },
+  "· United Kingdom": {
+    "en": "· United Kingdom",
+    "zh": "· 英国"
+  },
+  "A call shared by co-organiser Doreen Jirak invited work on explainable AI, trust and human-centred interaction for the CO-HABIT Workshop at IEEE RO-MAN 2025. This is an archived call for papers.": {
+    "en": "A call shared by co-organiser Doreen Jirak invited work on explainable AI, trust and human-centred interaction for the CO-HABIT Workshop at IEEE RO-MAN 2025. Archived call for papers.",
+    "zh": "联合组织者 Doreen Jirak 分享的征稿启事，邀请研究者为 IEEE RO-MAN 2025 的 CO-HABIT Workshop 投稿，主题包括可解释人工智能、信任和以人为中心的交互。此征稿启事已存档。"
+  },
+  "Abstract for the 2017 EUCog meeting; posted to arXiv in 2018.": {
+    "en": "Abstract for the 2017 EUCog meeting; posted to arXiv in 2018.",
+    "zh": "2017 年 EUCog 会议摘要；2018 年发布于 arXiv。"
+  },
+  "As organising chair, Di Fu reflected on the inaugural Exploring Interdisciplinary Frontiers conference at Selwyn College, Cambridge, held on 9-10 May 2025 with over 120 participants from 18 countries.": {
+    "en": "As organising chair, Di Fu reflected on the inaugural Exploring Interdisciplinary Frontiers conference at Selwyn College, Cambridge, held on 9-10 May 2025 with over 120 participants from 18 countries.",
+    "zh": "作为组织主席，Di Fu 回顾了首届 Exploring Interdisciplinary Frontiers 会议。会议于 2025 年 5 月 9-10 日在剑桥大学塞尔文学院举行，吸引了来自 18 个国家的 120 多名参与者。"
+  },
+  "At ICRA in Atlanta, Di Fu presented HRI-Free, co-authored with Fares Abawi, and co-chaired the Perception for Human-Robot Interaction session. The study supports scalable and reproducible evaluation of embodied social attention.": {
+    "en": "At ICRA in Atlanta, Di Fu presented HRI-Free, co-authored with Fares Abawi, and co-chaired the Perception for Human-Robot Interaction session. The study supports scalable, reproducible evaluation of embodied social attention.",
+    "zh": "在亚特兰大举行的 ICRA 上，Di Fu 介绍了与 Fares Abawi 合著的 HRI-Free，并共同主持了 Perception for Human-Robot Interaction 分会。该研究支持对具身社会注意进行可扩展、可复现的评估。"
+  },
+  "Chinese-language article.": {
+    "en": "Chinese-language article.",
+    "zh": "中文文章。"
+  },
+  "Chinese-language review. First released online in 2022; assigned to the 2023 journal issue.": {
+    "en": "Chinese-language review. First released online in 2022; assigned to the 2023 journal issue.",
+    "zh": "中文综述。2022 年首次在线发表，编入 2023 年期刊卷期。"
+  },
+  "Computational Modelling & AI": {
+    "en": "Computational Modelling & AI",
+    "zh": "计算建模与人工智能"
+  },
+  "Conference poster listed in the CV; not counted as a published paper. Year refers to the event.": {
+    "en": "Conference poster listed in the CV; not counted as a published paper. Year refers to the event.",
+    "zh": "简历所列会议海报；不计作已发表论文。年份指会议举办年份。"
+  },
+  "Contribution to the IROS 2018 Crossmodal Learning workshop; available as an arXiv preprint.": {
+    "en": "Contribution to the IROS 2018 Crossmodal Learning workshop; available as an arXiv preprint.",
+    "zh": "对 IROS 2018 Crossmodal Learning workshop 的贡献；以 arXiv 预印本形式提供。"
+  },
+  "Contribution to the RO-MAN 2022 Machine Learning for HRI workshop; available as an arXiv preprint.": {
+    "en": "Contribution to the RO-MAN 2022 Machine Learning for HRI workshop; available as an arXiv preprint.",
+    "zh": "对 RO-MAN 2022 Machine Learning for HRI workshop 的贡献；以 arXiv 预印本形式提供。"
+  },
+  "Di Fu and fellow organisers brought together the HRI community for the second InterAI Workshop, with discussions of embodiment, responsible robotics and flexible human-robot teaming.": {
+    "en": "Di Fu and fellow organisers brought together the HRI community for the second InterAI Workshop, with discussions of embodiment, responsible robotics and flexible human-robot teaming.",
+    "zh": "Di Fu 与其他组织者共同举办第二届 InterAI Workshop，汇聚人机交互领域的研究者，讨论具身性、负责任的机器人技术及灵活的人机协作。"
+  },
+  "Di Fu announced her invitation to speak at the IROS 2025 workshop on Embodied AI and Robotics for Future Scientific Discovery, scheduled for 24 October in Hangzhou.": {
+    "en": "Di Fu announced her invitation to speak at the IROS 2025 workshop on Embodied AI and Robotics for Future Scientific Discovery, scheduled for 24 October in Hangzhou.",
+    "zh": "Di Fu 宣布受邀在 IROS 2025 的 Embodied AI and Robotics for Future Scientific Discovery workshop 上演讲。该活动定于 10 月 24 日在杭州举行。"
+  },
+  "Di Fu congratulated her MSc dissertation student Beyza Akyıldız-Greenhalgh on receiving the Research Excellence Prize at Surrey’s MSc Psychology Summer Conference 2025.": {
+    "en": "Di Fu congratulated her MSc dissertation student Beyza Akyıldız-Greenhalgh on receiving the Research Excellence Prize at Surrey’s MSc Psychology Summer Conference 2025.",
+    "zh": "Di Fu 祝贺其硕士论文学生 Beyza Akyıldız-Greenhalgh 获得萨里大学 2025 年心理学硕士夏季会议的研究优秀奖。"
+  },
+  "Di Fu delivered a keynote at the SynSci 2026 satellite session at the University of Glasgow, joining researchers to discuss connections between social cognitive science and AI.": {
+    "en": "Di Fu delivered a keynote at the SynSci 2026 satellite session at the University of Glasgow, joining researchers to discuss connections between social cognitive science and AI.",
+    "zh": "Di Fu 在格拉斯哥大学举行的 SynSci 2026 卫星会议上作主题演讲，并与研究者探讨社会认知科学与人工智能之间的联系。"
+  },
+  "Di Fu highlighted university media coverage of the team’s new face pareidolia research, published in Perception / i-Perception.": {
+    "en": "Di Fu highlighted university media coverage of the team’s new face pareidolia research, published in Perception / i-Perception.",
+    "zh": "Di Fu 分享了大学媒体对团队新发表的面孔空想研究的报道。该研究发表于 Perception / i-Perception。"
+  },
+  "Di Fu shared an invitation to participate in MSc student Beyza’s game research experiment, following her own experience as its first participant. This is an archived recruitment announcement.": {
+    "en": "Di Fu shared an invitation to take part in MSc student Beyza’s game research experiment, after being its first participant herself. Archived recruitment announcement.",
+    "zh": "Di Fu 分享了硕士生 Beyza 的游戏研究实验招募信息；她本人曾是首位参与者。此招募公告已存档。"
+  },
+  "Di Fu shared her Psychology Today article offering a perspective on humanoid robots, human-robot interaction and their potential role in everyday life.": {
+    "en": "Di Fu shared her Psychology Today article on humanoid robots, human-robot interaction and their potential role in everyday life.",
+    "zh": "Di Fu 分享了她发表于 Psychology Today 的文章，探讨人形机器人、人机交互及其在日常生活中可能发挥的作用。"
+  },
+  "Di Fu shared her new role at the Surrey Institute for People-Centred AI (PAI), alongside her position in the School of Psychology, and reflected on the lab’s growth and arrival of Misty Robot.": {
+    "en": "Di Fu shared her new role at the Surrey Institute for People-Centred AI (PAI), alongside her position in the School of Psychology, and reflected on the lab’s growth and the arrival of Misty Robot.",
+    "zh": "Di Fu 分享了她在萨里大学以人为中心人工智能研究院（PAI）的新职务，以及她在心理学学院的职位，并回顾了实验室的发展和 Misty Robot 的到来。"
+  },
+  "Dr Di Fu co-organised the first HAID workshop at ACM NordiCHI 2024 in Uppsala, Sweden. The workshop focused on human-centred AI for people living with dementia and their caregivers, including deployment challenges and ethical considerations.": {
+    "en": "Dr Di Fu co-organised the first HAID workshop at ACM NordiCHI 2024 in Uppsala, Sweden. It focused on human-centred AI for people living with dementia and their caregivers, including deployment challenges and ethical considerations.",
+    "zh": "Di Fu 博士共同组织了在瑞典乌普萨拉举行的 ACM NordiCHI 2024 首届 HAID workshop。研讨会聚焦于面向痴呆患者及其照护者的以人为中心人工智能，包括部署挑战和伦理考量。"
+  },
+  "Dr Di Fu co-organised the first InterAI: Interactive AI for Human-Centred Robotics workshop at IEEE RO-MAN 2024 in Pasadena, USA. The workshop explored interactive AI approaches to human-robot interaction and collaboration.": {
+    "en": "Dr Di Fu co-organised the first InterAI: Interactive AI for Human-Centred Robotics workshop at IEEE RO-MAN 2024 in Pasadena, USA. It explored interactive AI approaches to human-robot interaction and collaboration.",
+    "zh": "Di Fu 博士共同组织了在美国帕萨迪纳举行的 IEEE RO-MAN 2024 首届 InterAI: Interactive AI for Human-Centred Robotics workshop。研讨会探讨了用于人机交互与协作的交互式人工智能方法。"
+  },
+  "Dr Di Fu presented Human Impression of Humanoid Robots Mirroring Social Cues at ACM/IEEE HRI 2024 in Boulder, Colorado. The study compares how robot platforms and control methods influence people's perceptions of affective and movement mirroring.": {
+    "en": "Dr Di Fu presented Human Impression of Humanoid Robots Mirroring Social Cues at ACM/IEEE HRI 2024 in Boulder, Colorado. The study compares how robot platforms and control methods influence perceptions of affective and movement mirroring.",
+    "zh": "Di Fu 博士在科罗拉多州博尔德举行的 ACM/IEEE HRI 2024 上介绍了 Human Impression of Humanoid Robots Mirroring Social Cues。该研究比较机器人平台和控制方法如何影响人们对情感及动作模仿的感知。"
+  },
+  "English": {
+    "en": "English",
+    "zh": "英语"
+  },
+  "First published online in 2020; assigned to the 2021 journal issue.": {
+    "en": "First published online in 2020; assigned to the 2021 journal issue.",
+    "zh": "2020 年首次在线发表；编入 2021 年期刊卷期。"
+  },
+  "HAID workshop / ACM NordiCHI 2024": {
+    "en": "HAID workshop / ACM NordiCHI 2024",
+    "zh": "HAID workshop / ACM NordiCHI 2024"
+  },
+  "Human Social Cognition": {
+    "en": "Human Social Cognition",
+    "zh": "人类社会认知"
+  },
+  "Image source for": {
+    "en": "Image source",
+    "zh": "图片来源"
+  },
+  "InterAI workshop / IEEE RO-MAN 2024": {
+    "en": "InterAI workshop / IEEE RO-MAN 2024",
+    "zh": "InterAI研讨会 / IEEE RO-MAN 2024"
+  },
+  "Official profile of": {
+    "en": "Official profile",
+    "zh": "官方简介"
+  },
+  "Platform details for": {
+    "en": "Platform details",
+    "zh": "平台详情"
+  },
+  "Public PsyArXiv preprint posted in 2025; journal review status follows the October 2026 CV.": {
+    "en": "Public PsyArXiv preprint posted in 2025; journal review status is based on the October 2026 CV.",
+    "zh": "2025年发布的公开PsyArXiv预印本；期刊审稿状态依据2026年10月的简历。"
+  },
+  "Public bioRxiv preprint posted in 2025; journal review status follows the October 2026 CV.": {
+    "en": "Public bioRxiv preprint posted in 2025; journal review status is based on the October 2026 CV.",
+    "zh": "2025年发布的公开bioRxiv预印本；期刊审稿状态依据2026年10月的简历。"
+  },
+  "Published in 2026; the 2025 preprint is linked below.": {
+    "en": "Published in 2026; the 2025 preprint is linked below.",
+    "zh": "发表于2026年；下方提供2025年预印本链接。"
+  },
+  "Revise and resubmit, as listed in the October 2026 CV. No public preprint link or publication year was established.": {
+    "en": "Revise and resubmit, as listed in the October 2026 CV. No public preprint link or publication year was established.",
+    "zh": "根据2026年10月的简历，该稿件处于修改后重投阶段。未确认公开预印本链接或发表年份。"
+  },
+  "Select language": {
+    "en": "Select language",
+    "zh": "选择语言"
+  },
+  "Simulation & Interaction": {
+    "en": "Simulation & Interaction",
+    "zh": "仿真与交互"
+  },
+  "The University of Hamburg's Knowledge Technology group announced the acceptance of its human-participant study and Wrapyfi framework contribution at HRI 2024. Co-authored by Dr Di Fu, Wrapyfi integrates robots, sensors and applications across multiple middleware frameworks.": {
+    "en": "The University of Hamburg’s Knowledge Technology group announced that its human-participant study and Wrapyfi framework contribution were accepted at HRI 2024. Co-authored by Dr Di Fu, Wrapyfi connects robots, sensors and applications across multiple middleware frameworks.",
+    "zh": "汉堡大学知识技术组宣布，其涉及人类参与者的研究及Wrapyfi框架贡献已被HRI 2024接收。Wrapyfi由Di Fu博士合著，可通过多种中间件框架连接机器人、传感器和应用程序。"
+  },
+  "The lab’s ICRA work on cognitive robotic simulation and social attention was featured in an Irish Times article discussing the future of AGI and human-AI interaction.": {
+    "en": "The Irish Times featured the lab’s ICRA work on cognitive robotic simulation and social attention in an article about the future of AGI and human-AI interaction.",
+    "zh": "《爱尔兰时报》在一篇探讨通用人工智能（AGI）与人机交互未来的文章中，介绍了实验室在ICRA发表的认知机器人仿真与社会注意研究。"
+  },
+  "Three pillars in a feedback loop": {
+    "en": "Three pillars in a feedback loop",
+    "zh": "反馈循环中的三大支柱"
+  },
+  "University of Hamburg - Knowledge Technology": {
+    "en": "University of Hamburg - Knowledge Technology",
+    "zh": "汉堡大学 - 知识技术"
+  },
+  "Mechanisms of Social Cognition": {
+    "en": "Mechanisms of Social Cognition",
+    "zh": "社会认知机制"
+  },
+  "Our research connects crossmodal social cue integration and the mechanisms of social cognition with human-robot cooperation, human-AI interaction and embodied AI.": {
+    "en": "Our research links crossmodal social cue integration and social cognition mechanisms with human-robot cooperation, human-AI interaction and embodied AI.",
+    "zh": "我们的研究将跨模态社会线索整合与社会认知机制，同人机合作、人机交互及具身智能联系起来。"
+  },
+  "NeuroImage · 2024": {
+    "en": "NeuroImage · 2024",
+    "zh": "NeuroImage · 2024"
+  },
+  "Mechanistic constraints": {
+    "en": "Mechanistic constraints",
+    "zh": "机制约束"
+  },
+  "Embodied implementation": {
+    "en": "Embodied implementation",
+    "zh": "具身实现"
+  },
+  "Interactive validation & new hypotheses": {
+    "en": "Interactive validation & new hypotheses",
+    "zh": "交互验证与新假设"
+  },
+  "Behavioural and neural evidence constrains the architecture and parameters of computational models.": {
+    "en": "Behavioural and neural evidence constrains the architecture and parameters of computational models.",
+    "zh": "行为与神经证据约束计算模型的结构与参数。"
+  },
+  "Models are implemented on robots and conversational agents, generating human-like social behaviour under controlled conditions.": {
+    "en": "Models are implemented on robots and conversational agents, generating human-like social behaviour under controlled conditions.",
+    "zh": "模型部署于机器人与对话智能体，在受控条件下生成类人的社会行为。"
+  },
+  "Interaction studies test whether model-driven behaviour is perceived as socially meaningful, validating the models and generating new hypotheses about human social cognition.": {
+    "en": "Interaction studies test whether model-driven behaviour is perceived as socially meaningful, validating the models and generating new hypotheses about human social cognition.",
+    "zh": "交互研究检验模型驱动的行为能否被人类感知为具有社会意义，从而验证模型，并为人类社会认知研究提出新假设。"
+  },
+  "A reciprocal, synthetic approach: mechanisms of human social cognition are formalised as computational models that generate human-like social behaviour in artificial agents. How people perceive and interact with these agents provides a controlled yet ecologically valid test of both the models and the cognitive theories they embody.": {
+    "en": "A reciprocal, synthetic approach: mechanisms of human social cognition are formalised as computational models that generate human-like social behaviour in artificial agents. How people perceive and interact with these agents provides a controlled yet ecologically valid test of both the models and the cognitive theories behind them.",
+    "zh": "相互促进的闭环研究路径：我们将人类社会认知的加工机制形式化为计算模型，使人工智能体产生类人的社会行为；人们在交互中如何感知并回应这些智能体，又为模型及其背后的认知理论提供兼具实验控制与生态效度的检验。"
+  },
+  "HRI-Free evaluates attention models using prerecorded stimuli and human gaze data with physical iCub sensing. This is early-stage evaluation, not live human interaction.": {
+    "en": "HRI-Free evaluates attention models using prerecorded stimuli and human gaze data with physical iCub sensing. This is early-stage evaluation, not live human interaction.",
+    "zh": "HRI-Free 使用预录刺激、人类注视数据及实体 iCub 感知评估注意模型。这是早期评估，并非实时人机交互。"
+  },
+  "Fig. 3 from Abawi and Fu, IEEE ICRA, 2025.": {
+    "en": "Fig. 3 from Abawi and Fu, IEEE ICRA, 2025.",
+    "zh": "图 3 引自 Abawi 和 Fu，IEEE ICRA，2025。"
+  },
+  "Abawi and Fu, IEEE ICRA 2025, Fig. 3": {
+    "en": "Abawi and Fu, IEEE ICRA 2025, Fig. 3",
+    "zh": "Abawi 和 Fu，IEEE ICRA 2025，图 3"
+  },
+  "HRI-Free scanpath control pipeline": {
+    "en": "HRI-Free scanpath control pipeline",
+    "zh": "HRI-Free 扫视路径控制流程"
+  },
+  "Pipeline diagram: sampled video frames and audio chunks feed social cue detection; fixation history, output buffers and sequential integration predict a priority map whose peak is converted into coordinates for the robot gaze controller.": {
+    "en": "Pipeline diagram: sampled video frames and audio chunks feed social cue detection; fixation history, output buffers and sequential integration predict a priority map whose peak is converted into coordinates for the robot gaze controller.",
+    "zh": "流程图：采样的视频帧与音频片段输入社会线索检测；注视历史、输出缓冲与时序整合共同预测优先级图，其峰值经坐标转换后送入机器人注视控制器。"
+  },
+  "The gaze model pipeline: social cues detected in sampled video and audio are integrated over time with fixation history to predict a priority map, whose peak drives the robot's gaze in real time.": {
+    "en": "The gaze model pipeline: social cues detected in sampled video and audio are integrated over time with fixation history to predict a priority map, whose peak drives the robot's gaze in real time.",
+    "zh": "注视模型流程：从采样视频与音频中检测社会线索，结合注视历史进行时序整合以预测优先级图，其峰值实时驱动机器人的注视。"
+  },
+  "Fig. 2 from Abawi and Fu, IEEE ICRA, 2025.": {
+    "en": "Fig. 2 from Abawi and Fu, IEEE ICRA, 2025.",
+    "zh": "图 2 引自 Abawi 和 Fu，IEEE ICRA，2025。"
+  },
+  "Abawi and Fu, IEEE ICRA 2025, Fig. 2": {
+    "en": "Abawi and Fu, IEEE ICRA 2025, Fig. 2",
+    "zh": "Abawi 和 Fu，IEEE ICRA 2025，图 2"
+  },
+  "Neural responses to unfairness to self and others": {
+    "en": "Neural responses to unfairness to self and others",
+    "zh": "自身与他人遭受不公时的神经反应"
+  },
+  "Fig. 9 from Li, Lai et al. (incl. Fu), NeuroImage, 2024; CC BY-NC-ND 4.0.": {
+    "en": "Fig. 9 from Li, Lai et al. (incl. Fu), NeuroImage, 2024; CC BY-NC-ND 4.0.",
+    "zh": "图 9 引自 Li、Lai 等（含 Fu），NeuroImage，2024；CC BY-NC-ND 4.0。"
+  },
+  "Li et al., NeuroImage 2024, Fig. 9": {
+    "en": "Li et al., NeuroImage 2024, Fig. 9",
+    "zh": "Li 等，NeuroImage 2024，图 9"
+  },
+  "Original experiment footage: running our trained audiovisual saliency model, iCub views the same masked-avatar scene as human participants and orients towards gaze and sound cues.": {
+    "en": "Original experiment footage: running our trained audiovisual saliency model, iCub views the same masked-avatar scene as human participants and orients towards gaze and sound cues.",
+    "zh": "原始实验录像：iCub 搭载我们训练的视听显著性模型，观看与人类被试相同的戴口罩虚拟人场景，并依据注视与声音线索调整视线。"
+  },
+  "Silent original footage of the iCub robot head with headphones watching three masked avatars on a monitor and moving its eyes in an audiovisual attention experiment.": {
+    "en": "Silent original footage of the iCub robot head with headphones watching three masked avatars on a monitor and moving its eyes in an audiovisual attention experiment.",
+    "zh": "无声原始录像：戴着耳机的 iCub 机器人头部注视显示器上三个戴口罩的虚拟人，并在视听注意实验中转动眼球。"
+  },
+  "An fMRI meta-analysis of social decision-making: unfairness to self and to others both engage the anterior insula and dACC/SMA, more strongly for self. Unfairness to others recruits theory-of-mind regions (IPL-TPJ) during evaluation and cognitive control (left DLPFC) during response.": {
+    "en": "An fMRI meta-analysis of social decision-making: unfairness to self and to others both engage the anterior insula and dACC/SMA, more strongly for self. Unfairness to others recruits theory-of-mind regions (IPL-TPJ) during evaluation and cognitive control (left DLPFC) during response.",
+    "zh": "社会决策的 fMRI 元分析：自身与他人遭受不公均激活前脑岛和背侧前扣带回/辅助运动区，且自身不公时更强。他人遭受不公在评价阶段募集心理理论相关脑区（顶下小叶-颞顶联合区），在反应阶段募集认知控制相关脑区（左侧背外侧前额叶）。"
+  },
+  "Fig. 9 schematic of brain regions in unfairness processing: SMA and dorsal anterior insula are common to self and others, with dACC and ventral anterior insula stronger for self; self-evaluation recruits dACC/SMA, right DLPFC and anterior insula, self-response left anterior insula and putamen; others-evaluation recruits left IPL-TPJ and others-response left DLPFC.": {
+    "en": "Fig. 9 schematic of brain regions in unfairness processing: SMA and dorsal anterior insula are common to self and others, with dACC and ventral anterior insula stronger for self; self-evaluation recruits dACC/SMA, right DLPFC and anterior insula, self-response left anterior insula and putamen; others-evaluation recruits left IPL-TPJ and others-response left DLPFC.",
+    "zh": "论文图 9 不公平加工脑区示意图：辅助运动区和背侧前脑岛为自身与他人共同激活，背侧前扣带回和腹侧前脑岛在自身不公时更强；自身评价募集背侧前扣带回/辅助运动区、右侧背外侧前额叶和前脑岛，自身反应募集左侧前脑岛和壳核；他人评价募集左侧顶下小叶-颞顶联合区，他人反应募集左侧背外侧前额叶。"
+  },
+  "IJSR · 2023": {
+    "en": "IJSR · 2023",
+    "zh": "IJSR · 2023"
+  },
+  "iScience · 2024": {
+    "en": "iScience · 2024",
+    "zh": "iScience · 2024"
+  },
+  "IJHCI · 2026": {
+    "en": "IJHCI · 2026",
+    "zh": "IJHCI · 2026"
+  },
+  "Under review · 2025": {
+    "en": "Under review · 2025",
+    "zh": "审稿中 · 2025"
+  },
+  "Social signals rarely arrive through a single sense. We study when gaze, facial expression, gesture and voice are integrated and when they compete, varying their spatial and semantic congruence in behavioural experiments that inform computational models of multisensory attention.": {
+    "en": "Social signals rarely arrive through a single sense. We study when gaze, facial expression, gesture and voice are integrated and when they compete, varying their spatial and semantic congruence in behavioural experiments that inform computational models of multisensory attention.",
+    "zh": "社会信号很少只经由单一感官传递。我们研究注视、面部表情、手势与语音何时被整合、何时相互竞争，在行为实验中操控其空间与语义一致性，并据此构建多感官注意的计算模型。"
+  },
+  "Which cognitive and neural mechanisms allow us to detect, attend to and evaluate social information?": {
+    "en": "Which cognitive and neural mechanisms allow us to detect, attend to and evaluate social information?",
+    "zh": "我们依靠哪些认知与神经机制来觉察、注意并评价社会信息？"
+  },
+  "We examine how faces, face-like patterns and gaze capture and orient attention, how cognitive control resolves conflict, and how fairness and empathy shape social evaluation, combining behavioural experiments, EEG and neuroimaging.": {
+    "en": "We examine how faces, face-like patterns and gaze capture and orient attention, how cognitive control resolves conflict, and how fairness and empathy shape social evaluation, combining behavioural experiments, EEG and neuroimaging.",
+    "zh": "我们研究面孔、似脸图案与注视如何捕获并引导注意，认知控制如何化解冲突，以及公平与共情如何塑造社会评价，综合运用行为实验、脑电与神经影像方法。"
+  },
+  "We build models of attention, scanpaths and crossmodal learning from human data and examine human-centred affective AI, such as pain recognition. Attention models drive robot gaze and are evaluated on humanoid robots and in cognitive robotic simulation.": {
+    "en": "We build models of attention, scanpaths and crossmodal learning from human data and examine human-centred affective AI, such as pain recognition. Attention models drive robot gaze and are evaluated on humanoid robots and in cognitive robotic simulation.",
+    "zh": "我们基于人类数据构建注意、视觉扫描路径与跨模态学习模型，并探讨以人为中心的情感人工智能，如疼痛识别。注意模型用于驱动机器人注视，并在仿人机器人与认知机器人仿真中接受评估。"
+  },
+  "How do a robot’s social cues shape cooperation, trust and people’s judgements of the robot?": {
+    "en": "How do a robot’s social cues shape cooperation, trust and people’s judgements of the robot?",
+    "zh": "机器人的社会线索如何影响合作、信任以及人们对机器人的评价？"
+  },
+  "We manipulate robot gaze, facial expression, voice, mirroring and personality in dyadic and multi-party tasks, measuring cooperation, compliance, trust and perceived intelligence. Cognitive robotic simulation lets us evaluate robot behaviour before studies with people.": {
+    "en": "We manipulate robot gaze, facial expression, voice, mirroring and personality in dyadic and multi-party tasks, measuring cooperation, compliance, trust and perceived intelligence. Cognitive robotic simulation lets us evaluate robot behaviour before studies with people.",
+    "zh": "我们在双人与多人任务中操控机器人的注视、面部表情、声音、模仿与人格特征，测量合作、服从、信任与感知智能等指标；认知机器人仿真则让我们在开展被试实验之前评估机器人行为。"
+  },
+  "Beyond robots, we study voice assistants, conversational agents and LLM chatbots: how people respond to affective cues, how human strategies and user traits can inform emotion-aware, personalised design, and what AI-mediated social connection means for wellbeing.": {
+    "en": "Beyond robots, we study voice assistants, conversational agents and LLM chatbots: how people respond to affective cues, how human strategies and user traits can inform emotion-aware, personalised design, and what AI-mediated social connection means for wellbeing.",
+    "zh": "在机器人之外，我们研究语音助手、对话智能体与大语言模型聊天机器人：人们如何回应情感线索，人类应答策略与用户特质如何指导具有情绪感知能力的个性化设计，以及 AI 介导的社会连接对身心福祉意味着什么。"
+  },
+  "How can models grounded in human cognition give artificial agents human-like perception and social behaviour?": {
+    "en": "How can models grounded in human cognition give artificial agents human-like perception and social behaviour?",
+    "zh": "如何让基于人类认知的模型赋予人工智能体类人的感知与社会行为？"
+  }
+}

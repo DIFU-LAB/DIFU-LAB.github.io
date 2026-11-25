@@ -1,0 +1,17 @@
+{
+  "id": "unique-gallery-slug",
+  "title": "English title",
+  "titleZh": "中文标题",
+  "description": "English caption",
+  "descriptionZh": "中文说明",
+  "category": "Lab life",
+  "categoryZh": "实验室生活",
+  "image": "/media/gallery/your-photo.webp",
+  "width": 1600,
+  "height": 1200,
+  "date": "2026-11-25",
+  "dateLabel": "25 November 2026",
+  "sourceUrl": "",
+  "sourceLabel": "",
+  "originalImageUrl": ""
+}

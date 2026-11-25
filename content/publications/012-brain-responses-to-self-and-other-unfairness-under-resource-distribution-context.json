@@ -1,0 +1,54 @@
+{
+  "id": "10.1016/j.neuroimage.2024.120707",
+  "title": "Brain responses to self- and other- unfairness under resource distribution context: Meta-analysis of fMRI studies",
+  "authors": "Qi Li, Xinyu Lai, Ting Li, Kristoffer Hougaard Madsen, Jing Xiao, Kesong Hu, Chunliang Feng, Di Fu, Xun Liu",
+  "authorNames": [
+    "Qi Li",
+    "Xinyu Lai",
+    "Ting Li",
+    "Kristoffer Hougaard Madsen",
+    "Jing Xiao",
+    "Kesong Hu",
+    "Chunliang Feng",
+    "Di Fu",
+    "Xun Liu"
+  ],
+  "authorsComplete": true,
+  "year": 2024,
+  "journal": "NeuroImage",
+  "doi": "10.1016/j.neuroimage.2024.120707",
+  "url": "https://www.sciencedirect.com/science/article/pii/S105381192400199X",
+  "type": "journal",
+  "status": "published",
+  "sourceUrl": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991115563402346",
+  "sourceRecordIds": [
+    "CV:cv-journal-07",
+    "Scholar:AUqLvaIAAAAJ:ULOm3_A8WrAC",
+    "Surrey:alma991115563402346",
+    "ORCID:209710683"
+  ],
+  "versions": [],
+  "sources": [
+    {
+      "name": "CV (October 2026)",
+      "url": "",
+      "recordId": "cv-journal-07"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:ULOm3_A8WrAC",
+      "recordId": "AUqLvaIAAAAJ:ULOm3_A8WrAC"
+    },
+    {
+      "name": "University record",
+      "url": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991115563402346",
+      "recordId": "alma991115563402346"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "209710683"
+    }
+  ],
+  "notes": ""
+}

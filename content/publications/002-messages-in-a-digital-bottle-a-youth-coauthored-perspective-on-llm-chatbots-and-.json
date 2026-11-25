@@ -1,0 +1,41 @@
+{
+  "id": "10.48550/arxiv.2604.03470",
+  "title": "Messages in a Digital Bottle: A Youth-Coauthored Perspective on LLM Chatbots and Adolescent Loneliness",
+  "authors": "Jinyao Liu, Di Fu",
+  "authorNames": [
+    "Jinyao Liu",
+    "Di Fu"
+  ],
+  "authorsComplete": true,
+  "year": 2026,
+  "journal": "arXiv",
+  "doi": "10.48550/arxiv.2604.03470",
+  "url": "https://arxiv.org/abs/2604.03470",
+  "type": "preprint",
+  "status": "preprint",
+  "sourceUrl": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991126269802346",
+  "sourceRecordIds": [
+    "Scholar:AUqLvaIAAAAJ:hFOr9nPyWt4C",
+    "Surrey:alma991126269802346",
+    "ORCID:214704298"
+  ],
+  "versions": [],
+  "sources": [
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:hFOr9nPyWt4C",
+      "recordId": "AUqLvaIAAAAJ:hFOr9nPyWt4C"
+    },
+    {
+      "name": "University record",
+      "url": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991126269802346",
+      "recordId": "alma991126269802346"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "214704298"
+    }
+  ],
+  "notes": ""
+}

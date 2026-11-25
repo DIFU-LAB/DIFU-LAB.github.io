@@ -1,0 +1,20 @@
+{
+  "id": "unique-news-slug",
+  "title": "News title in English",
+  "titleZh": "中文标题",
+  "excerpt": "A short English summary.",
+  "excerptZh": "中文摘要。",
+  "content": "",
+  "imageUrl": "",
+  "publishedAt": "2026-11-25T12:00:00Z",
+  "linkedinUrl": "https://example.org/original-post",
+  "source": {
+    "category": "News",
+    "sourceAuthor": "",
+    "sourceUrl": "https://example.org/original-post",
+    "sourceName": "Original source",
+    "sourceKind": "university",
+    "dateBasis": "publication",
+    "dateValue": "2026-11-25"
+  }
+}

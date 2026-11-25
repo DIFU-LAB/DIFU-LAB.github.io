@@ -1,0 +1,30 @@
+{
+  "id": "cv-poster-01",
+  "title": "Common and distinct neural substrates of subjective and objective fairness",
+  "authors": "Di Fu, Li, Q., Liu, X.",
+  "authorNames": [
+    "Di Fu",
+    "Li, Q.",
+    "Liu, X."
+  ],
+  "authorsComplete": true,
+  "year": 2017,
+  "journal": "Organization for Human Brain Mapping (OHBM)",
+  "doi": "",
+  "url": "",
+  "type": "poster",
+  "status": "presented",
+  "sourceUrl": "",
+  "sourceRecordIds": [
+    "CV:cv-poster-01"
+  ],
+  "versions": [],
+  "sources": [
+    {
+      "name": "CV (October 2026)",
+      "url": "",
+      "recordId": "cv-poster-01"
+    }
+  ],
+  "notes": "Conference poster listed in the CV; not counted as a published paper. Year refers to the event."
+}

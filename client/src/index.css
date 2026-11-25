@@ -1,0 +1,347 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* ============================================================
+   Design Philosophy: Classic British Academic
+   - Clean white background, structured layout
+   - Deep navy text (#1B2A4A) for authority
+   - Burgundy accent (#8B1A1A) for distinction
+   - EB Garamond headings for scholarly elegance
+   - Source Sans 3 body for modern readability
+   - Compact, purposeful spacing
+   ============================================================ */
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+:root {
+  /* Burgundy accent */
+  --primary: #8B1A1A;
+  --primary-foreground: #FFFFFF;
+  /* Clean white background */
+  --background: #FFFFFF;
+  /* Deep navy text */
+  --foreground: #1B2A4A;
+  --card: #FFFFFF;
+  --card-foreground: #1B2A4A;
+  --popover: #FFFFFF;
+  --popover-foreground: #1B2A4A;
+  /* Light gray sections */
+  --secondary: #F7F8FA;
+  --secondary-foreground: #2D3748;
+  --muted: #EDF0F4;
+  --muted-foreground: #64748B;
+  /* Burgundy accent */
+  --accent: #8B1A1A;
+  --accent-foreground: #FFFFFF;
+  --destructive: #DC2626;
+  --destructive-foreground: #FFFFFF;
+  --border: #E2E8F0;
+  --input: #E2E8F0;
+  --ring: #8B1A1A;
+  --radius: 0.375rem;
+  --chart-1: #8B1A1A;
+  --chart-2: #1B2A4A;
+  --chart-3: #2D6A4F;
+  --chart-4: #D4A574;
+  --chart-5: #64748B;
+  --sidebar: #FFFFFF;
+  --sidebar-foreground: #1B2A4A;
+  --sidebar-primary: #8B1A1A;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: #8B1A1A;
+  --sidebar-accent-foreground: #FFFFFF;
+  --sidebar-border: #E2E8F0;
+  --sidebar-ring: #8B1A1A;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Source Sans 3', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, sans-serif;
+    letter-spacing: 0.005em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  h1, h2, h3, h4 {
+    font-family: 'SEIL Hyphen', 'EB Garamond', Georgia, 'Times New Roman', serif;
+    color: #1B2A4A;
+  }
+  h1 {
+    font-weight: 500;
+    line-height: 1.15;
+  }
+  h2 {
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  h3 {
+    font-weight: 500;
+    line-height: 1.3;
+  }
+  h4 {
+    font-weight: 500;
+    line-height: 1.35;
+  }
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]),
+  [type="button"]:not(:disabled),
+  [type="submit"]:not(:disabled),
+  [type="reset"]:not(:disabled),
+  a[href],
+  select:not(:disabled),
+  input[type="checkbox"]:not(:disabled),
+  input[type="radio"]:not(:disabled) {
+    @apply cursor-pointer;
+  }
+}
+
+@layer components {
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .flex {
+    min-height: 0;
+    min-width: 0;
+  }
+
+  @media (min-width: 640px) {
+    .container {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container {
+      padding-left: 2rem;
+      padding-right: 2rem;
+      max-width: 1280px;
+    }
+  }
+
+  /* Burgundy accent line */
+  .red-accent-line {
+    display: block;
+    width: 2.5rem;
+    height: 2px;
+    background-color: #8B1A1A;
+  }
+
+  /* Scroll animation */
+  .fade-up {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  .fade-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Navigation link underline */
+  .nav-link {
+    position: relative;
+  }
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #8B1A1A;
+    transition: width 0.3s ease;
+  }
+  .nav-link:hover::after,
+  .nav-link.active::after {
+    width: 100%;
+  }
+
+  /* Font utility classes */
+  .font-heading {
+    font-family: 'SEIL Hyphen', 'EB Garamond', Georgia, 'Times New Roman', serif;
+  }
+  .font-body {
+    font-family: 'Source Sans 3', 'Source Sans Pro', sans-serif;
+  }
+
+  /* Hero background — custom strong breathing animation */
+  @keyframes hero-breathe {
+    0%, 100% {
+      opacity: 0.3;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.7;
+      transform: scale(1.02);
+    }
+  }
+
+  .hero-breathe {
+    animation: hero-breathe 3.5s ease-in-out infinite;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hero-breathe {
+      animation: none;
+      opacity: 0.5;
+      transform: none;
+    }
+  }
+
+  /* Visitor map: a soft breathing halo around each visitor marker */
+  @keyframes visitor-halo {
+    0% {
+      opacity: 0.35;
+      transform: scale(1);
+    }
+    70%,
+    100% {
+      opacity: 0;
+      transform: scale(2.6);
+    }
+  }
+
+  .visitor-halo {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: visitor-halo 3.5s ease-out infinite;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .visitor-halo {
+      animation: none;
+      opacity: 0;
+    }
+  }
+}
+
+/* Chinese: contemporary, confident typography; English styles above are unchanged.
+   Original Noto Sans SC, SIL Open Font License; unaltered glyphs in a named web subset.
+   License: /media/fonts/OFL-Noto-Sans-SC.txt */
+/*! SEIL Hyphen: EB Garamond hyphen (U+002D/U+00AD) with its built-in upward slant removed,
+    so headings show a level hyphen. Derived from EB Garamond, SIL Open Font License 1.1. */
+@font-face {
+  font-family: "SEIL Hyphen";
+  src: url("data:font/woff2;base64,d09GMgABAAAAAAKkAA8AAAAABYwAAAJMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGyAcMAZgP1NUQVRIADwRCApMYwE2AiQDCgsIAAQgBYROByAMBxuXBCCeBXbjSxF+EgMRoeQwnI71aocxHp72x3fuzHyvqLbbHOGoBDWATdWJ6lCIRN13taZ7Ycc2PytDJVYAIB9h74GsiCurKlWhSzG5eyBui8Lyn7PQ572lnUT1MQDrzccD7tRRx2kYaHm3zWaBnBZouk3b4S1VbBNMXKBRNwI24+TqCVoKVAAUa5hF1e8GsyXyQLgVSQACfRuU+BJH1ZD2p/kAZh67xFJY9a+Q4b3m7bEGv4ab5x//31E6xm4ExNG0H70MMKFeQjsV9FPZZFoJw8qXPdYkFO1UkaQ4SrqHLKRoBgIkZCASaKdmEFCrCMlw8wo4sHrjGQOEqGgJMqhFoDXQHqhFM2Cdu/Xr/th2runm+/GnTtl6tt3bmz43amtbb6/7KcZPPMhtj1x/tDiUWkEvQHfv/vkrEJ6fuhmmLmtP+9fK+SO867D2LnzoceRSDFMrgWCONP4SlKErJNWDFH9hTG3AM2StsQ0BewmBJvtlURpwhytCBz9IWniBbIo/FD3qhBpdmoBa3ZpntzChNY6gWVxUm8yr722mMe6YjnCliM1kSaBVy1ZsQU8sOnTsADoli8h8JKBBdyLEoVMl0L5UwkIiMTRiSSS42K4lS0w2SVZKsUhFfEuIKiHL2Agni2jIUvPUlLNi1dijY+euoDMlzqILPNCZUp7s3ysWLVu2Zs8dwzHNnm3LgjhPA4bWLfkXukjMNqhhKyJNprGQPg5GOIUajDgJj019HIvpFpGI6ZX+Pd65hEz92QPikwWqQLUxKn4rqq6XQwAAAA==") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+002D, U+00AD;
+}
+@font-face {
+  font-family: "SEIL Hyphen";
+  src: url("data:font/woff2;base64,d09GMgABAAAAAAK0AA8AAAAABaAAAAJfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGyAcMAZgP1NUQVREADwRCApMYwE2AiQDCgsIAAQgBYRmByAMBxurBAiuBuyGeMMIEIrNbncwRh4I+mgatlA1nqf243fu7n4TxKzijd/QSLLEEBJDpKo0yxotSxULEZra+7+19ufukKb6aeeScI+rs2Kzb/Yv0ki0do1EIiVKgkK9ewAreJPScC33SCutrirzn7PQf7ylO8n2cACyDv+kaXRRFHGgS48TaBZIHugAscxbTey9JDnnTFYKKhg01zY2cXz5CNMadADBoLWqsth7i3tUBrD9DlIE28w5aPnSVz2U42UvgO3zkOyDpn8BFf7Jnjsy4RfWGdcP/9/QZuQLCORKOQ4stIiJfgVTZbBU5ojtEMPhrwVsSDTjGKTmK6ooGQYBBRVTZQVT5awEejVRrDPuYDd2rzxhgEjHGKigF8EkYBrQi2GgP3uSyzl2bejp26OXfF6d2qvFHeifdrZ/0iGzMzEx48S9j3a0XmEhYK7v9PghiMez71Fmtn7rr/U9vFnmEeDdtrfaOL0KCJek/ILYZkrvAEDJL2vaNQ+GahI2InCVCIZdlpU2gIdghZjuB8WoZ6g2+0Mzv1X0mF0XveZ2a0atL7DCcG7yqu/wIf3wG4cN5olthNgHyWVzENRU19CDHjk4dGQfOqGRNCEhYkK3JMHDGQjakyIOQUqgPAchscRQTY3NRRwpXZVBCNUIBqJ55RJiGskk1A6o9TANTQUPjpy5hE59iDm4yD3OlgrYuBuq6upaRm5ZjphG6o6KoE2KD3XU1T3jRckl6cG8nK+6rtS+xBV2GFlkJSTgMjZLCa5KkGwv+I+mr3AmVyp0hmhsZPeEkCaSBbo1heL9dN1rpwA=") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  unicode-range: U+002D, U+00AD;
+}
+@font-face {
+  font-family: "SEIL Hyphen";
+  src: url("data:font/woff2;base64,d09GMgABAAAAAAK8AA8AAAAABaQAAAJnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGyAcMAZgP1NUQVREADwRCApMYwE2AiQDCgsIAAQgBYRqByAMBxuvBCCuBuyGeCO0qhAaEXzqlnF61N8Wqot4+LX/zbm7X1xRyTSPJMiERKZaNS0JT3gSCxEaIT3Wh9Z9b/4eFKU5AnXF2Q+1S1cvwSFBDUrlSgAT4GGRQr17K4g3KQ2X/5yFRWMND/1N/Q3AAHsYgHV5omFgizIMtE1jnn9LpweaYCCa3oqUt7jarJxUQbdZ+ciJsZkVJKihAQi67VSHgzyXulGfhfzHBxzkw5ugTsuzgVjK1dGAk2lyAU1+FRX8k3M3KuEFtc6rf/9DPUG2AIE88FwFLEpFRKeCUR6s8lxWtQABlz5vkWRRG0QgbeU8oBIlvSCgoMIoTjAqxiZoV4til/MGvmHzwyoCiDQEKtCOYAiMgXb0AnHvofVdcuUo+cPv0XeweTvp7Y/i283E6dOkfQ4aZzw2J5pS6APqdmERmHGbEfwjiHfvYl8v1vOVwFV/gV/pvnuAP/nbZ5YP7QoIN3TTAogcmzgAACUtlFTnGQgqQ0gjMJcIet3ESd2FF/Akxt1R9PtC5bg3avNl0ma6NtrNtmD2O5xlCb15SpvBLujRmzd769Wdz4YxrigfnUoTQDVp0KgdtUIjo0YNocbxfHg2xiGhFvgwBplIljMoKEDD+PhRFTQBAS6/LvXqqXRQY5Cgjoix1WNWZOCF6BhXypMw9eLh+fWNmlRaNmrSDGpClEsjcyyRqYIsPJ9GdRo0aNZtgWKUpHttQi05jsBqqk2DBmtkPn46xkFJOdRg6rXh5xjHuGQOBeMIsOjEaPOT1WF8VOvk75m4TGbTDWEskkkBPOrLljA2noMDmtGk/M/SdBVzAw==") format("woff2");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  unicode-range: U+002D, U+00AD;
+}
+@font-face {
+  font-family: "SEIL Hyphen";
+  src: url("data:font/woff2;base64,d09GMgABAAAAAAKQAA8AAAAABZwAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGyAcMAZgP1NUQVREADwRCApMYwE2AiQDCgsIAAQgBYRiByAMBxunBBFVnCkgfh7YzRx/YEvKUDXOTFWtjp7d5g2I8SFEa5CZvXtmUISsECwQ2ee62tZVESzO1YEykcegGP91y8N0QAFQjf/wfN3S3YqwhwFYk8crFthFGQa64XEDfQvktEAXUNNtKoK3WLE5MFGBoqqrKfoPHD5eYTn8HxAoqrmWMsh35WeuX7FIzUXTVy1RE74N8lQ4PVWAdCBNxrBjk5iirb+LDP7J6DkDZnmphWvZL/99l1eKPQiIK+kAaisvhMISykuoL62dO29VYP6q6YuimJArLSAKpafIhBTFQYCEDOVlAuXlGqOgXEhauPZ//MD/v/4FIMT/lQIZKIhAGVRAQRQH4txl/g/E9jOVPvww4Ngx204Wffu13u2ixWpevThmjTHbJhequaZ4n80hLyioDVXdirr+DYR3ce/P5dRS3X8tnGU/w/eKK57ATzWPXrV2Ckog2GGaAqCqxsQFAEgp1IjubhHIlBGNgL2EQHHHZSIvgsdcCRU9JinpI5mufiRXMypTQNXoSEHVY3RYUsdYFAmKx2UKKRzXKaZ43H9vcUUD8XqDpggtpWMY9PpT+GoBuzUcSEg89Dk8Q7QFi2GVxBrDCGo6jk206HaVBZJKaIeh10UWk9RCQ0KOXfHClOkP6p/d6QrHwmjhv4VKXJrb/U6vN1w+5Y4vx9a0yVUEDExHjv6JMLLQB6mEms+gXbwOgwZil+jHrsUexyLRwVD9i+/pWKPLTzGhOPZGj/hV+P+sQWUfxt03cwA=") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  unicode-range: U+002D, U+00AD;
+}
+
+/*! SEIL Han Sans: Noto Sans SC web subset, SIL Open Font License 1.1.
+    License: /media/fonts/OFL-Noto-Sans-SC.txt */
+@font-face {
+  font-family: "SEIL Han Sans";
+  src: url("/media/fonts/philosophy-v8-d50a7f0b.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+html[lang="zh-CN"] body,
+html[lang="zh-CN"] .font-sans,
+html[lang="zh-CN"] .font-body {
+  --seil-font-license: "Noto Sans SC web subset; SIL Open Font License 1.1; /media/fonts/OFL-Noto-Sans-SC.txt";
+  font-family: "Source Sans 3", "SEIL Han Sans", "PingFang SC", "Microsoft YaHei", sans-serif;
+  letter-spacing: 0.012em;
+  font-kerning: normal;
+}
+
+html[lang="zh-CN"] h1,
+html[lang="zh-CN"] h2,
+html[lang="zh-CN"] h3,
+html[lang="zh-CN"] h4,
+html[lang="zh-CN"] .font-heading,
+html[lang="zh-CN"] .font-serif {
+  font-family: "SEIL Hyphen", "EB Garamond", "SEIL Han Sans", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.015em;
+  line-height: 1.42;
+  text-wrap: balance;
+  overflow-wrap: break-word;
+}
+
+html[lang="zh-CN"] h1 { line-height: 1.28; }
+html[lang="zh-CN"] h2 { line-height: 1.32; }
+html[lang="zh-CN"] p {
+  line-height: 1.85;
+  text-wrap: pretty;
+}
+html[lang="zh-CN"] nav,
+html[lang="zh-CN"] button,
+html[lang="zh-CN"] [role="button"] {
+  letter-spacing: 0.025em;
+}

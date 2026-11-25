@@ -1,0 +1,86 @@
+{
+  "id": "10.1177/20416695251352129",
+  "title": "How face-like objects and averted gaze faces orient our attention: The role of global configuration and local features",
+  "authors": "Ziwei Chen, Mengxin Wen, Xun Liu, Di Fu",
+  "authorNames": [
+    "Ziwei Chen",
+    "Mengxin Wen",
+    "Xun Liu",
+    "Di Fu"
+  ],
+  "authorsComplete": true,
+  "year": 2025,
+  "journal": "i-Perception",
+  "doi": "10.1177/20416695251352129",
+  "url": "https://journals.sagepub.com/doi/10.1177/20416695251352129",
+  "type": "journal",
+  "status": "published",
+  "sourceUrl": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991115558902346",
+  "sourceRecordIds": [
+    "CV:cv-journal-04",
+    "Scholar:AUqLvaIAAAAJ:UebtZRa9Y70C",
+    "Scholar:AUqLvaIAAAAJ:mVmsd5A6BfQC",
+    "Surrey:alma991115558902346",
+    "Surrey:10.31234/osf.io/5s2yn",
+    "Surrey:4872915",
+    "ORCID:188525325",
+    "ORCID:209710675"
+  ],
+  "versions": [
+    {
+      "doi": "10.31234/osf.io/5s2yn",
+      "url": "https://osf.io/preprints/psyarxiv/5s2yn_v1",
+      "type": "preprint",
+      "year": 2023
+    },
+    {
+      "doi": "10.2139/ssrn.4872915",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4872915",
+      "type": "preprint",
+      "year": 2024
+    }
+  ],
+  "sources": [
+    {
+      "name": "CV (October 2026)",
+      "url": "",
+      "recordId": "cv-journal-04"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:UebtZRa9Y70C",
+      "recordId": "AUqLvaIAAAAJ:UebtZRa9Y70C"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:mVmsd5A6BfQC",
+      "recordId": "AUqLvaIAAAAJ:mVmsd5A6BfQC"
+    },
+    {
+      "name": "University record",
+      "url": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991115558902346",
+      "recordId": "alma991115558902346"
+    },
+    {
+      "name": "Original source",
+      "url": "https://osf.io/preprints/psyarxiv/5s2yn_v1",
+      "recordId": "10.31234/osf.io/5s2yn"
+    },
+    {
+      "name": "Original source",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4872915",
+      "recordId": "4872915"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "188525325"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "209710675"
+    }
+  ],
+  "notes": ""
+}

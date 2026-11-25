@@ -1,0 +1,530 @@
+{
+  "sourceUrl": "https://www.surrey.ac.uk/people/di-fu",
+  "sourceRecords": 27,
+  "sourceCounts": {
+    "CV": 34,
+    "Google Scholar profile rows": 45,
+    "University direct records": 27,
+    "ORCID public versions": 41
+  },
+  "rawRecordsTotal": 180,
+  "uniqueWorks": 43,
+  "publishedWorks": 27,
+  "separatePreprints": 12,
+  "publicPreprintWorks": 11,
+  "underReviewWorks": 3,
+  "posterContributions": 4,
+  "mergedPreprintVersions": {
+    "10.48550/arxiv.2511.06954": [
+      {
+        "doi": "10.48550/arxiv.2511.06954",
+        "url": "https://arxiv.org/abs/2511.06954",
+        "type": "preprint",
+        "year": 2025
+      }
+    ],
+    "10.1007/978-3-031-92977-9_19": [
+      {
+        "doi": "10.48550/arxiv.2502.15367",
+        "url": "https://arxiv.org/abs/2502.15367",
+        "type": "preprint",
+        "year": 2025
+      }
+    ],
+    "10.31234/osf.io/7cxf5_v2": [
+      {
+        "doi": "10.31234/osf.io/7cxf5_v1",
+        "url": "https://osf.io/preprints/psyarxiv/7cxf5_v1",
+        "type": "preprint",
+        "year": 2025
+      }
+    ],
+    "10.1177/20416695251352129": [
+      {
+        "doi": "10.31234/osf.io/5s2yn",
+        "url": "https://osf.io/preprints/psyarxiv/5s2yn_v1",
+        "type": "preprint",
+        "year": 2023
+      },
+      {
+        "doi": "10.2139/ssrn.4872915",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4872915",
+        "type": "preprint",
+        "year": 2024
+      }
+    ],
+    "10.1109/ICRA55743.2025.11127539": [
+      {
+        "doi": "",
+        "url": "https://fares.abawi.me/assets/pdf/hrifree_paper.pdf",
+        "type": "preprint",
+        "year": null
+      }
+    ],
+    "10.1145/3610978.3640580": [
+      {
+        "doi": "10.48550/arXiv.2401.12076",
+        "url": "https://arxiv.org/abs/2401.12076",
+        "type": "preprint",
+        "year": 2024
+      }
+    ],
+    "10.1016/j.isci.2024.110570": [
+      {
+        "doi": "10.48550/arXiv.2110.04249",
+        "url": "https://arxiv.org/abs/2110.04249",
+        "type": "preprint",
+        "year": 2021
+      }
+    ],
+    "10.1145/3610977.3637471": [
+      {
+        "doi": "10.48550/arXiv.2302.09648",
+        "url": "https://arxiv.org/abs/2302.09648",
+        "type": "preprint",
+        "year": 2023
+      }
+    ],
+    "10.1007/s12369-023-00993-3": [
+      {
+        "doi": "10.48550/arXiv.2111.01906",
+        "url": "https://arxiv.org/abs/2111.01906",
+        "type": "preprint",
+        "year": 2021
+      }
+    ],
+    "10.1109/RO-MAN57019.2023.10309321": [
+      {
+        "doi": "10.48550/arXiv.2307.02924",
+        "url": "https://arxiv.org/abs/2307.02924",
+        "type": "preprint",
+        "year": 2023
+      }
+    ],
+    "10.1109/RO-MAN57019.2023.10309334": [
+      {
+        "doi": "10.48550/arXiv.2303.14285",
+        "url": "https://arxiv.org/abs/2303.14285",
+        "type": "preprint",
+        "year": 2023
+      }
+    ],
+    "10.1111/puar.13236": [
+      {
+        "doi": "10.31234/osf.io/hgzj9",
+        "url": "https://osf.io/preprints/psyarxiv/hgzj9_v1",
+        "type": "preprint",
+        "year": 2020
+      }
+    ],
+    "10.3389/fnint.2020.00010": [
+      {
+        "doi": "10.31234/osf.io/s3u9j",
+        "url": "https://osf.io/preprints/psyarxiv/s3u9j_v1/",
+        "type": "preprint",
+        "year": 2019,
+        "withdrawn": true
+      },
+      {
+        "doi": "10.31234/osf.io/sx3uc",
+        "url": "https://osf.io/preprints/psyarxiv/sx3uc",
+        "type": "preprint",
+        "year": 2019
+      },
+      {
+        "doi": "10.48550/arxiv.1909.05654",
+        "url": "https://arxiv.org/abs/1909.05654",
+        "type": "preprint",
+        "year": 2019
+      }
+    ],
+    "10.1109/IROS.2018.8594036": [
+      {
+        "doi": "10.48550/arXiv.1802.10408",
+        "url": "https://arxiv.org/abs/1802.10408",
+        "type": "preprint",
+        "year": 2018
+      }
+    ]
+  },
+  "mergedPreprintVersionCount": 17,
+  "cvEntryCount": 34,
+  "cvEntryMatches": [
+    {
+      "cvId": "cv-journal-01",
+      "workId": "10.48550/arxiv.2511.06954",
+      "title": "Personalizing Emotion-aware Conversional Agents? Exploring User Traits-driven Conversational Strategies for Enhanced Interaction",
+      "status": "published"
+    },
+    {
+      "cvId": "cv-journal-02",
+      "workId": "10.1101/2025.09.10.675272",
+      "title": "From ambiguous object to illusory faces: EEG decoding reveals a dynamic cascade of face pareidolia",
+      "status": "under-review"
+    },
+    {
+      "cvId": "cv-journal-03",
+      "workId": "10.31234/osf.io/7cxf5_v2",
+      "title": "Atypical Affective Touch in Autism Spectrum Disorder: Integrating Neural, Cognitive, and Developmental Perspectives",
+      "status": "under-review"
+    },
+    {
+      "cvId": "cv-journal-04",
+      "workId": "10.1177/20416695251352129",
+      "title": "How face-like objects and averted gaze faces orient our attention: The role of global configuration and local features",
+      "status": "published"
+    },
+    {
+      "cvId": "cv-journal-05",
+      "workId": "cv-journal-05",
+      "title": "Social Attention Models for Personalized Scanpath Prediction and Robot Gaze Control",
+      "status": "under-review"
+    },
+    {
+      "cvId": "cv-journal-06",
+      "workId": "10.1145/3706066",
+      "title": "Influence of robots’ voice naturalness on trust and compliance",
+      "status": "published"
+    },
+    {
+      "cvId": "cv-journal-07",
+      "workId": "10.1016/j.neuroimage.2024.120707",
+      "title": "Brain responses to self- and other- unfairness under resource distribution context: meta-analysis of fMRI studies",
+      "status": "published"
+    },
+    {
+      "cvId": "cv-journal-08",
+      "workId": "10.1016/j.isci.2024.110570",
+      "title": "Pain recognition and pain empathy from a human-centered AI perspective",
+      "status": "published"
+    },
+    {
+      "cvId": "cv-journal-09",
+      "workId": "10.1007/s12369-023-00993-3",
+      "title": "A trained humanoid robot can perform human-like crossmodal social attention and conflict resolution",
+      "status": "published"
+    },
+    {
+      "cvId": "cv-journal-10",
+      "workId": "10.3724/SP.J.1042.2023.00240",
+      "title": "Better to misidentify than to miss: a review of occurrence mechanisms and applications of face pareidolia",
+      "status": "published"
+    },
+    {
+      "cvId": "cv-journal-11",
+      "workId": "10.1360/SSV-2020-0248",
+      "title": "Developmental neuroscience of cognitive control: the future path and layout",
+      "status": "published"
+    },
+    {
+      "cvId": "cv-journal-12",
+      "workId": "10.1111/puar.13236",
+      "title": "The effects of governmental and individual predictors on COVID-19 protective behaviors in China: a path analysis model",
+      "status": "published"
+    },
+    {
+      "cvId": "cv-journal-13",
+      "workId": "10.3389/fnint.2020.00010",
+      "title": "What can computational models learn from human selective attention? A review from an audiovisual unimodal and crossmodal perspective",
+      "status": "published"
+    },
+    {
+      "cvId": "cv-journal-14",
+      "workId": "10.1007/s12369-020-00690-5",
+      "title": "Do I Have a Personality? Endowing Care Robots with Context-Dependent Personality Traits",
+      "status": "published"
+    },
+    {
+      "cvId": "cv-journal-15",
+      "workId": "10.3389/fpsyg.2018.02679",
+      "title": "Humor affects fairness considerations in the gain and loss contexts",
+      "status": "published"
+    },
+    {
+      "cvId": "cv-journal-16",
+      "workId": "10.1360/N972016-01108",
+      "title": "Integrative neurocognitive mechanism of empathy and counter-empathy",
+      "status": "published"
+    },
+    {
+      "cvId": "cv-journal-17",
+      "workId": "10.1515/pjbr-2018-0026",
+      "title": "Deep reinforcement learning using compositional representations for performing instructions",
+      "status": "published"
+    },
+    {
+      "cvId": "cv-conference-01",
+      "workId": "10.1145/3757279.3788802",
+      "title": "Neutral by Default? Replicating User Vocal Responses to Negative Affective Cues in Conversational Agents",
+      "status": "published"
+    },
+    {
+      "cvId": "cv-conference-02",
+      "workId": "10.1109/ICRA55743.2025.11127539",
+      "title": "HRI-Free: Cognitive Robotic Simulation for Evaluating Embodied Social Attention Models",
+      "status": "published"
+    },
+    {
+      "cvId": "cv-conference-03",
+      "workId": "10.1007/978-3-031-92977-9_19",
+      "title": "Advancing User-Voice Interaction: Exploring Emotion-Aware Voice Assistants Through a Role-Swapping Approach",
+      "status": "published"
+    },
+    {
+      "cvId": "cv-conference-04",
+      "workId": "10.1145/3610978.3640580",
+      "title": "Human Impression of Humanoid Robots Mirroring Social Cues",
+      "status": "published"
+    },
+    {
+      "cvId": "cv-conference-05",
+      "workId": "10.1145/3610977.3637471",
+      "title": "Wrapyfi: A Wrapper for Message-Oriented and Robotics Middlewre",
+      "status": "published"
+    },
+    {
+      "cvId": "cv-conference-06",
+      "workId": "10.1109/RO-MAN57019.2023.10309334",
+      "title": "The Robot in the Room: Influence of Robot Facial Expressions and Gaze on Human-Human-Robot Collaboration",
+      "status": "published"
+    },
+    {
+      "cvId": "cv-conference-07",
+      "workId": "10.1109/RO-MAN57019.2023.10309321",
+      "title": "The Emotional Dilemma: Influence of a Human-like Robot on Trust and Cooperation",
+      "status": "published"
+    },
+    {
+      "cvId": "cv-conference-08",
+      "workId": "10.48550/arxiv.2208.11647",
+      "title": "Judging by the look: The impact of robot gaze strategies on human cooperation",
+      "status": "preprint"
+    },
+    {
+      "cvId": "cv-conference-09",
+      "workId": "cvpr-workshops-2019-crossmodal-conflict-resolution",
+      "title": "A Neurorobotic Experiment for Crossmodal Conflict Resolution",
+      "status": "published"
+    },
+    {
+      "cvId": "cv-conference-10",
+      "workId": "10.48550/arxiv.1810.06748",
+      "title": "Assessing the contribution of semantic congruency to multisensory integration and conflict resolution",
+      "status": "preprint"
+    },
+    {
+      "cvId": "cv-conference-11",
+      "workId": "10.1109/IROS.2018.8594036",
+      "title": "A neurorobotic experiment for crossmodal conflict resolution in complex environments",
+      "status": "published"
+    },
+    {
+      "cvId": "cv-conference-12",
+      "workId": "10.1109/IJCNN.2018.8489303",
+      "title": "Expectation learning and crossmodal modulation with a deep adversarial network",
+      "status": "published"
+    },
+    {
+      "cvId": "cv-conference-13",
+      "workId": "10.48550/arXiv.1801.07654",
+      "title": "Expectation learning for adaptive crossmodal stimuli association",
+      "status": "preprint"
+    },
+    {
+      "cvId": "cv-poster-01",
+      "workId": "cv-poster-01",
+      "title": "Common and distinct neural substrates of subjective and objective fairness",
+      "status": "presented"
+    },
+    {
+      "cvId": "cv-poster-02",
+      "workId": "cv-poster-02",
+      "title": "An fMRI meta-analyses support an integrative framework for empathy and counter-empathy",
+      "status": "presented"
+    },
+    {
+      "cvId": "cv-poster-03",
+      "workId": "cv-poster-03",
+      "title": "Resting-state functional homogeneity changes after inhibition task predict conflict processing",
+      "status": "presented"
+    },
+    {
+      "cvId": "cv-poster-04",
+      "workId": "cv-poster-04",
+      "title": "Human inhibition cognitive component through rest and task performance: Dual-Regression",
+      "status": "presented"
+    }
+  ],
+  "existingEntryCount": 25,
+  "existingEntriesPreserved": 25,
+  "existingEntryMatches": [
+    {
+      "existingId": "10.1145/3776734.3789490",
+      "workId": "10.1145/3776734.3789490",
+      "preserved": true,
+      "title": "InterAI: Interactive AI for Human-Centered Robotics"
+    },
+    {
+      "existingId": "10.1145/3757279.3788802",
+      "workId": "10.1145/3757279.3788802",
+      "preserved": true,
+      "title": "Neutral by Default? Replicating User Vocal Responses to Negative Affective Cues in Conversational Agents"
+    },
+    {
+      "existingId": "10.1145/3772363.3778696",
+      "workId": "10.1145/3772363.3778696",
+      "preserved": true,
+      "title": "The 3rd InterAI Workshop: Interactive AI for Human-centered Robotics"
+    },
+    {
+      "existingId": "10.1007/978-3-031-92977-9_19",
+      "workId": "10.1007/978-3-031-92977-9_19",
+      "preserved": true,
+      "title": "Advancing User-Voice Interaction: Exploring Emotion-Aware Voice Assistants Through a Role-Swapping Approach"
+    },
+    {
+      "existingId": "10.1177/20416695251352129",
+      "workId": "10.1177/20416695251352129",
+      "preserved": true,
+      "title": "How face-like objects and averted gaze faces orient our attention: The role of global configuration and local features"
+    },
+    {
+      "existingId": "10.1109/ICRA55743.2025.11127539",
+      "workId": "10.1109/ICRA55743.2025.11127539",
+      "preserved": true,
+      "title": "HRI-Free: Cognitive Robotic Simulation for Evaluating Embodied Social Attention Models"
+    },
+    {
+      "existingId": "10.1145/3706066",
+      "workId": "10.1145/3706066",
+      "preserved": true,
+      "title": "Influence of Robots’ Voice Naturalness on Trust and Compliance"
+    },
+    {
+      "existingId": "10.1016/j.neuroimage.2024.120707",
+      "workId": "10.1016/j.neuroimage.2024.120707",
+      "preserved": true,
+      "title": "Brain responses to self- and other- unfairness under resource distribution context: Meta-analysis of fMRI studies"
+    },
+    {
+      "existingId": "10.1145/3677045.3685469",
+      "workId": "10.1145/3677045.3685469",
+      "preserved": true,
+      "title": "HAID: Human-AI Interaction for Dementia Care"
+    },
+    {
+      "existingId": "10.1145/3610978.3640580",
+      "workId": "10.1145/3610978.3640580",
+      "preserved": true,
+      "title": "Human Impression of Humanoid Robots Mirroring Social Cues"
+    },
+    {
+      "existingId": "10.1016/j.isci.2024.110570",
+      "workId": "10.1016/j.isci.2024.110570",
+      "preserved": true,
+      "title": "Pain recognition and pain empathy from a human-centered AI perspective"
+    },
+    {
+      "existingId": "10.1145/3610977.3637471",
+      "workId": "10.1145/3610977.3637471",
+      "preserved": true,
+      "title": "Wrapyfi: A Python Wrapper for Integrating Robots, Sensors, and Applications across Multiple Middleware"
+    },
+    {
+      "existingId": "10.1007/s12369-023-00993-3",
+      "workId": "10.1007/s12369-023-00993-3",
+      "preserved": true,
+      "title": "A Trained Humanoid Robot can Perform Human-Like Crossmodal Social Attention and Conflict Resolution"
+    },
+    {
+      "existingId": "10.1109/RO-MAN57019.2023.10309334",
+      "workId": "10.1109/RO-MAN57019.2023.10309334",
+      "preserved": true,
+      "title": "The Robot in the Room: Influence of Robot Facial Expressions and Gaze on Human-Human-Robot Collaboration"
+    },
+    {
+      "existingId": "10.1007/s12369-020-00690-5",
+      "workId": "10.1007/s12369-020-00690-5",
+      "preserved": true,
+      "title": "Do I Have a Personality? Endowing Care Robots with Context-Dependent Personality Traits"
+    },
+    {
+      "existingId": "10.1111/puar.13236",
+      "workId": "10.1111/puar.13236",
+      "preserved": true,
+      "title": "The Effects of Governmental and Individual Predictors on COVID-19 Protective Behaviors in China: A Path Analysis Model"
+    },
+    {
+      "existingId": "10.3389/fnint.2020.00010",
+      "workId": "10.3389/fnint.2020.00010",
+      "preserved": true,
+      "title": "What Can Computational Models Learn From Human Selective Attention? A Review From an Audiovisual Unimodal and Crossmodal Perspective"
+    },
+    {
+      "existingId": "10.3389/fpsyg.2018.02679",
+      "workId": "10.3389/fpsyg.2018.02679",
+      "preserved": true,
+      "title": "Humor Affects Fairness Considerations in the Gain and Loss Contexts"
+    },
+    {
+      "existingId": "10.1109/IROS.2018.8594036",
+      "workId": "10.1109/IROS.2018.8594036",
+      "preserved": true,
+      "title": "A Neurorobotic Experiment for Crossmodal Conflict Resolution in Complex Environments"
+    },
+    {
+      "existingId": "10.1360/N972016-01108",
+      "workId": "10.1360/N972016-01108",
+      "preserved": true,
+      "title": "Integrative neurocognitive mechanism of empathy and counter-empathy"
+    },
+    {
+      "existingId": "10.48550/arxiv.1810.06748",
+      "workId": "10.48550/arxiv.1810.06748",
+      "preserved": true,
+      "title": "Assessing the Contribution of Semantic Congruency to Multisensory Integration and Conflict Resolution"
+    },
+    {
+      "existingId": "10.48550/arxiv.2208.11647",
+      "workId": "10.48550/arxiv.2208.11647",
+      "preserved": true,
+      "title": "Judging by the Look: The Impact of Robot Gaze Strategies on Human Cooperation"
+    },
+    {
+      "existingId": "10.48550/arxiv.2604.03470",
+      "workId": "10.48550/arxiv.2604.03470",
+      "preserved": true,
+      "title": "Messages in a Digital Bottle: A Youth-Coauthored Perspective on LLM Chatbots and Adolescent Loneliness"
+    },
+    {
+      "existingId": "10.48550/arxiv.2511.06954",
+      "workId": "10.48550/arxiv.2511.06954",
+      "preserved": true,
+      "title": "Personalizing Emotion-aware Conversational Agents? Exploring User Traits-driven Conversational Strategies for Enhanced Interaction"
+    },
+    {
+      "existingId": "10.48550/arxiv.2405.02929",
+      "workId": "10.48550/arxiv.2405.02929",
+      "preserved": true,
+      "title": "Unified Dynamic Scanpath Predictors Outperform Individually Trained Neural Models"
+    }
+  ],
+  "scope": "Includes all bibliography entries in the supplied October 2026 CV and scholarly works identified in public Google Scholar, University of Surrey and ORCID records, checked on 7 November 2026. Conference posters are presented separately from published papers.",
+  "accessLimitations": [
+    "Coverage is based on the public records available at the verification date; private ORCID works are not included."
+  ],
+  "yearPolicy": "Published papers use verified first-online publication years; public preprints use first-posted years. Posters use CV event years. One CV-only manuscript has no verified publication or posting year.",
+  "excludedRecords": [
+    {
+      "sourceRecordId": "Scholar:AUqLvaIAAAAJ:-f6ydRqryjwC",
+      "title": "Can Humanoid Robots Make Your 2030 Life Better?",
+      "reason": "Public outreach commentary, rather than a scholarly paper or preprint."
+    },
+    {
+      "sourceRecordId": "Surrey:5031629",
+      "title": "Can Humanoid Robots Make Your 2030 Life Better?",
+      "reason": "Public outreach commentary, rather than a scholarly paper or preprint."
+    }
+  ],
+  "verificationDate": "2026-11-07"
+}

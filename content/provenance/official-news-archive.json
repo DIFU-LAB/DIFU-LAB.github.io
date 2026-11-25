@@ -1,0 +1,74 @@
+[
+  {
+    "id": "haid-nordichi-2024",
+    "sourceUrl": "https://sites.google.com/view/haidworkshops",
+    "sourceKind": "workshop",
+    "sourceName": "HAID workshop / ACM NordiCHI 2024",
+    "sourceAuthor": "HAID workshop organisers",
+    "dateBasis": "event",
+    "dateValue": "2024-10-13",
+    "dateEvidence": "Official workshop homepage: Sunday Morning (09:00–13:00) 13th October 2024, Uppsala, Sweden. NordiCHI's official programme independently lists Sunday 13 October morning. This is an event date, not a LinkedIn posting date.",
+    "title": "Co-organising HAID: Human-AI Interaction for Dementia Care at NordiCHI 2024",
+    "excerpt": "Dr Di Fu co-organised the first HAID workshop at ACM NordiCHI 2024 in Uppsala, Sweden. The workshop focused on human-centred AI for people living with dementia and their caregivers, including deployment challenges and ethical considerations.",
+    "category": "Talks & Events",
+    "imageUrl": "/media/news/90003.webp",
+    "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72sPjFM4a3Nn1T8ePb0VQAucD5D8toNehJdCmWIi8loozZuYeokLYBH4wPhhow7JXLjhJNvM2T90WNUqJMHbLPIfS3kb7tt6jtdnRUsoS7DVYuHSjxKZGcVyx--UInA_hVqjkEt2A6ZpnKg-I6l9UkyqE8fK0BC2hhu_m_C6BDZoLpCaEfiXxPWs7tud4vQ=w16383",
+    "supportingSources": [
+      "https://www.surrey.ac.uk/people/di-fu",
+      "https://sites.google.com/view/haidworkshops/organizers",
+      "https://www.nordichi2024.se/workshops/"
+    ]
+  },
+  {
+    "id": "interai-roman-2024",
+    "sourceUrl": "https://sites.google.com/view/interaiworkshops/home",
+    "sourceKind": "workshop",
+    "sourceName": "InterAI workshop / IEEE RO-MAN 2024",
+    "sourceAuthor": "InterAI workshop organisers",
+    "dateBasis": "event",
+    "dateValue": "2024-08-26",
+    "dateEvidence": "Official workshop homepage: 26 August 2024, Pasadena, CA, USA. Organiser and Surrey biography confirm Di Fu's co-organiser role. This settled event date takes precedence over the older CFP's tentative August 26 or 30 venue wording; June 30 was a submission deadline, not a posting date.",
+    "title": "Co-organising the first InterAI workshop at IEEE RO-MAN 2024",
+    "excerpt": "Dr Di Fu co-organised the first InterAI: Interactive AI for Human-Centred Robotics workshop at IEEE RO-MAN 2024 in Pasadena, USA. The workshop explored interactive AI approaches to human-robot interaction and collaboration.",
+    "category": "Talks & Events",
+    "imageUrl": "/media/news/90004.webp",
+    "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72vkhxsVLRCm8bs5TT94vWZ5iz8oU1Ta_jv3WbGiF0z5bvjUOsjZ7n7Lad5WV1OHHqAD611l1KlNbI-i--AGfDwA3q_Tx74JSG-2TxGxwuTi0DvSy5sJrDtjYpuupqzj57ZYrfQxs7l2-bcrO4R8-XZPIXZlvkPAhBbGoHwHdx6pcweZQDrwCiZhLX0Ro-lSqOG1IkSMfW7Ry57rq19hZoxSWlgpBt-BAVg3UIptkHo=w1280",
+    "supportingSources": [
+      "https://www.surrey.ac.uk/people/di-fu",
+      "https://sites.google.com/view/interaiworkshops/organizers",
+      "https://easychair.org/cfp/InterAI2024"
+    ]
+  },
+  {
+    "id": "hri-2024-presentation-event",
+    "sourceUrl": "https://www.inf.uni-hamburg.de/en/inst/ab/wtm/about/news/20240319wtmathri.html",
+    "sourceKind": "university",
+    "sourceName": "University of Hamburg - Knowledge Technology",
+    "sourceAuthor": "University of Hamburg - Knowledge Technology",
+    "dateBasis": "publication",
+    "dateValue": "2024-03-19",
+    "dateEvidence": "Hamburg news article displays 19 March 2024 and its NewsArticle JSON-LD gives datePublished 2024-03-19T00:00:00.000000+01:00. The 20 March footer is a modification date. Exact individual presentation day is not established, so the news publication date is shown, not an invented talk or LinkedIn date.",
+    "title": "Presenting humanoid-robot social mirroring research at HRI 2024",
+    "excerpt": "Dr Di Fu presented Human Impression of Humanoid Robots Mirroring Social Cues at ACM/IEEE HRI 2024 in Boulder, Colorado. The study compares how robot platforms and control methods influence people's perceptions of affective and movement mirroring.",
+    "category": "Talks & Events",
+    "imageUrl": "/media/news/90005.webp",
+    "originalImageUrl": "https://www.inf.uni-hamburg.de/37396003/hricover-8866222c72ed71d209a0d7341a0c36d848b836a4.jpg",
+    "supportingSources": ["https://www.surrey.ac.uk/people/di-fu"]
+  },
+  {
+    "id": "hri-2024-acceptance-news",
+    "sourceUrl": "https://www.inf.uni-hamburg.de/en/inst/ab/wtm/about/news/20240120wrapfyi.html",
+    "sourceKind": "university",
+    "sourceName": "University of Hamburg - Knowledge Technology",
+    "sourceAuthor": "University of Hamburg - Knowledge Technology",
+    "dateBasis": "publication",
+    "dateValue": "2024-01-20",
+    "dateEvidence": "Hamburg news article displays 20 January 2024 and its NewsArticle JSON-LD gives datePublished 2024-01-20T00:00:00.000000+01:00. The 12 February footer is a modification date. No original LinkedIn acceptance-post date was verified.",
+    "title": "Wrapyfi and human-participant research accepted at HRI 2024",
+    "excerpt": "The University of Hamburg's Knowledge Technology group announced the acceptance of its human-participant study and Wrapyfi framework contribution at HRI 2024. Co-authored by Dr Di Fu, Wrapyfi integrates robots, sensors and applications across multiple middleware frameworks.",
+    "category": "Research",
+    "imageUrl": "",
+    "originalImageUrl": "https://www.inf.uni-hamburg.de/36986183/wrapfyicover2-ea38bc4764181385c686cbb0162cae81c45dd8bf.jpg",
+    "supportingSources": ["https://www.surrey.ac.uk/people/di-fu"]
+  }
+]

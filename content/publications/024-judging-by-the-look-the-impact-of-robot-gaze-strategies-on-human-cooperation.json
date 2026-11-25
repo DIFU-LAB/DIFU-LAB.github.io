@@ -1,0 +1,49 @@
+{
+  "id": "10.48550/arxiv.2208.11647",
+  "title": "Judging by the Look: The Impact of Robot Gaze Strategies on Human Cooperation",
+  "authors": "Di Fu, Fares Abawi, Erik Strahl, Stefan Wermter",
+  "authorNames": [
+    "Di Fu",
+    "Fares Abawi",
+    "Erik Strahl",
+    "Stefan Wermter"
+  ],
+  "authorsComplete": true,
+  "year": 2022,
+  "journal": "arXiv",
+  "doi": "10.48550/arxiv.2208.11647",
+  "url": "https://arxiv.org/abs/2208.11647",
+  "type": "preprint",
+  "status": "preprint",
+  "sourceUrl": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991114254502346",
+  "sourceRecordIds": [
+    "CV:cv-conference-08",
+    "Scholar:AUqLvaIAAAAJ:LkGwnXOMwfcC",
+    "Surrey:alma991114254502346",
+    "ORCID:209961816"
+  ],
+  "versions": [],
+  "sources": [
+    {
+      "name": "CV (October 2026)",
+      "url": "",
+      "recordId": "cv-conference-08"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:LkGwnXOMwfcC",
+      "recordId": "AUqLvaIAAAAJ:LkGwnXOMwfcC"
+    },
+    {
+      "name": "University record",
+      "url": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991114254502346",
+      "recordId": "alma991114254502346"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "209961816"
+    }
+  ],
+  "notes": "Contribution to the RO-MAN 2022 Machine Learning for HRI workshop; available as an arXiv preprint."
+}

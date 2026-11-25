@@ -1,0 +1,67 @@
+{
+  "id": "10.1109/RO-MAN57019.2023.10309334",
+  "title": "The Robot in the Room: Influence of Robot Facial Expressions and Gaze on Human-Human-Robot Collaboration",
+  "authors": "Di Fu, Fares Abawi, Stefan Wermter",
+  "authorNames": [
+    "Di Fu",
+    "Fares Abawi",
+    "Stefan Wermter"
+  ],
+  "authorsComplete": true,
+  "year": 2023,
+  "journal": "2023 32nd IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)",
+  "doi": "10.1109/RO-MAN57019.2023.10309334",
+  "url": "https://ieeexplore.ieee.org/document/10309334/",
+  "type": "conference",
+  "status": "published",
+  "sourceUrl": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991115553002346",
+  "sourceRecordIds": [
+    "CV:cv-conference-06",
+    "Scholar:AUqLvaIAAAAJ:hqOjcs7Dif8C",
+    "Scholar:arXiv:2303.14285",
+    "Surrey:alma991115553002346",
+    "Surrey:10.48550/arXiv.2303.14285",
+    "ORCID:209961811"
+  ],
+  "versions": [
+    {
+      "doi": "10.48550/arXiv.2303.14285",
+      "url": "https://arxiv.org/abs/2303.14285",
+      "type": "preprint",
+      "year": 2023
+    }
+  ],
+  "sources": [
+    {
+      "name": "CV (October 2026)",
+      "url": "",
+      "recordId": "cv-conference-06"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:hqOjcs7Dif8C",
+      "recordId": "AUqLvaIAAAAJ:hqOjcs7Dif8C"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://arxiv.org/abs/2303.14285",
+      "recordId": "arXiv:2303.14285"
+    },
+    {
+      "name": "University record",
+      "url": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991115553002346",
+      "recordId": "alma991115553002346"
+    },
+    {
+      "name": "Original source",
+      "url": "https://arxiv.org/abs/2303.14285",
+      "recordId": "10.48550/arXiv.2303.14285"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "209961811"
+    }
+  ],
+  "notes": ""
+}

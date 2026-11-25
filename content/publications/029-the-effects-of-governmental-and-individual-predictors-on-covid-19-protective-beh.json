@@ -1,0 +1,64 @@
+{
+  "id": "10.1111/puar.13236",
+  "title": "The Effects of Governmental and Individual Predictors on COVID-19 Protective Behaviors in China: A Path Analysis Model",
+  "authors": "Bibing Dai, Di Fu, Guangteng Meng, Bingsheng Liu, Qi Li, Xun Liu",
+  "authorNames": [
+    "Bibing Dai",
+    "Di Fu",
+    "Guangteng Meng",
+    "Bingsheng Liu",
+    "Qi Li",
+    "Xun Liu"
+  ],
+  "authorsComplete": true,
+  "year": 2020,
+  "journal": "Public Administration Review",
+  "doi": "10.1111/puar.13236",
+  "url": "https://onlinelibrary.wiley.com/doi/10.1111/puar.13236",
+  "type": "journal",
+  "status": "published",
+  "sourceUrl": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma99922460402346",
+  "sourceRecordIds": [
+    "CV:cv-journal-12",
+    "Scholar:AUqLvaIAAAAJ:zYLM7Y9cAGgC",
+    "Surrey:alma99922460402346",
+    "ORCID:176770290",
+    "ORCID:161707075"
+  ],
+  "versions": [
+    {
+      "doi": "10.31234/osf.io/hgzj9",
+      "url": "https://osf.io/preprints/psyarxiv/hgzj9_v1",
+      "type": "preprint",
+      "year": 2020
+    }
+  ],
+  "sources": [
+    {
+      "name": "CV (October 2026)",
+      "url": "",
+      "recordId": "cv-journal-12"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:zYLM7Y9cAGgC",
+      "recordId": "AUqLvaIAAAAJ:zYLM7Y9cAGgC"
+    },
+    {
+      "name": "University record",
+      "url": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma99922460402346",
+      "recordId": "alma99922460402346"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "176770290"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "161707075"
+    }
+  ],
+  "notes": ""
+}

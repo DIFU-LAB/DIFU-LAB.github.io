@@ -1,0 +1,52 @@
+{
+  "id": "10.1145/3772363.3778696",
+  "title": "The 3rd InterAI Workshop: Interactive AI for Human-centered Robotics",
+  "authors": "Yuchong Zhang, Di Fu, Yong Ma, Elmira Yadollahi, Iolanda Leite, Danica Kragic",
+  "authorNames": [
+    "Yuchong Zhang",
+    "Di Fu",
+    "Yong Ma",
+    "Elmira Yadollahi",
+    "Iolanda Leite",
+    "Danica Kragic"
+  ],
+  "authorsComplete": true,
+  "year": 2026,
+  "journal": "Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems",
+  "doi": "10.1145/3772363.3778696",
+  "url": "https://dl.acm.org/doi/10.1145/3772363.3778696",
+  "type": "workshop",
+  "status": "published",
+  "sourceUrl": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991126372502346",
+  "sourceRecordIds": [
+    "Scholar:AUqLvaIAAAAJ:mB3voiENLucC",
+    "Surrey:alma991126372502346",
+    "ORCID:211491616",
+    "ORCID:214704297"
+  ],
+  "versions": [],
+  "sources": [
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:mB3voiENLucC",
+      "recordId": "AUqLvaIAAAAJ:mB3voiENLucC"
+    },
+    {
+      "name": "University record",
+      "url": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991126372502346",
+      "recordId": "alma991126372502346"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "211491616"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "214704297"
+    }
+  ],
+  "notes": "",
+  "kindLabel": "Workshop abstract"
+}

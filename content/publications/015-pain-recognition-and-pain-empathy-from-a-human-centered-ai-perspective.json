@@ -1,0 +1,70 @@
+{
+  "id": "10.1016/j.isci.2024.110570",
+  "title": "Pain recognition and pain empathy from a human-centered AI perspective",
+  "authors": "Siqi Cao, Di Fu, Xu Yang, Stefan Wermter, Xun Liu, Haiyan Wu",
+  "authorNames": [
+    "Siqi Cao",
+    "Di Fu",
+    "Xu Yang",
+    "Stefan Wermter",
+    "Xun Liu",
+    "Haiyan Wu"
+  ],
+  "authorsComplete": true,
+  "year": 2024,
+  "journal": "iScience",
+  "doi": "10.1016/j.isci.2024.110570",
+  "url": "https://www.cell.com/iscience/fulltext/S2589-0042(24)01795-4",
+  "type": "journal",
+  "status": "published",
+  "sourceUrl": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991114259602346",
+  "sourceRecordIds": [
+    "CV:cv-journal-08",
+    "Scholar:AUqLvaIAAAAJ:YOwf2qJgpHMC",
+    "Scholar:AUqLvaIAAAAJ:eQOLeE2rZwMC",
+    "Surrey:alma991114259602346",
+    "Surrey:10.48550/arXiv.2110.04249",
+    "ORCID:209961808"
+  ],
+  "versions": [
+    {
+      "doi": "10.48550/arXiv.2110.04249",
+      "url": "https://arxiv.org/abs/2110.04249",
+      "type": "preprint",
+      "year": 2021
+    }
+  ],
+  "sources": [
+    {
+      "name": "CV (October 2026)",
+      "url": "",
+      "recordId": "cv-journal-08"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:YOwf2qJgpHMC",
+      "recordId": "AUqLvaIAAAAJ:YOwf2qJgpHMC"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:eQOLeE2rZwMC",
+      "recordId": "AUqLvaIAAAAJ:eQOLeE2rZwMC"
+    },
+    {
+      "name": "University record",
+      "url": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991114259602346",
+      "recordId": "alma991114259602346"
+    },
+    {
+      "name": "Original source",
+      "url": "https://arxiv.org/abs/2110.04249",
+      "recordId": "10.48550/arXiv.2110.04249"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "209961808"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,57 @@
+{
+  "id": "10.31234/osf.io/7cxf5_v2",
+  "title": "Atypical Affective Touch in Autism Spectrum Disorder: Integrating Neural, Cognitive, and Developmental Perspectives",
+  "authors": "Letong Wang, Xiao Zhong, Elize English, Jiayue Sun, Di Fu",
+  "authorNames": [
+    "Letong Wang",
+    "Xiao Zhong",
+    "Elize English",
+    "Jiayue Sun",
+    "Di Fu"
+  ],
+  "authorsComplete": true,
+  "year": 2025,
+  "journal": "PsyArXiv",
+  "doi": "10.31234/osf.io/7cxf5_v2",
+  "url": "https://osf.io/preprints/psyarxiv/7cxf5_v2",
+  "type": "preprint",
+  "status": "under-review",
+  "sourceUrl": "https://osf.io/preprints/psyarxiv/7cxf5_v2",
+  "sourceRecordIds": [
+    "CV:cv-journal-03",
+    "Scholar:AUqLvaIAAAAJ:L8Ckcad2t8MC",
+    "Surrey:10.31234/osf.io/7cxf5_v1",
+    "Surrey:10.31234/osf.io/7cxf5_v2"
+  ],
+  "versions": [
+    {
+      "doi": "10.31234/osf.io/7cxf5_v1",
+      "url": "https://osf.io/preprints/psyarxiv/7cxf5_v1",
+      "type": "preprint",
+      "year": 2025
+    }
+  ],
+  "sources": [
+    {
+      "name": "CV (October 2026)",
+      "url": "",
+      "recordId": "cv-journal-03"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:L8Ckcad2t8MC",
+      "recordId": "AUqLvaIAAAAJ:L8Ckcad2t8MC"
+    },
+    {
+      "name": "Original source",
+      "url": "https://osf.io/preprints/psyarxiv/7cxf5_v1",
+      "recordId": "10.31234/osf.io/7cxf5_v1"
+    },
+    {
+      "name": "Original source",
+      "url": "https://osf.io/preprints/psyarxiv/7cxf5_v2",
+      "recordId": "10.31234/osf.io/7cxf5_v2"
+    }
+  ],
+  "notes": "Public PsyArXiv preprint posted in 2025; journal review status follows the October 2026 CV."
+}

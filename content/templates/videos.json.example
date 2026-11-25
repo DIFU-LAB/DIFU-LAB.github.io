@@ -1,0 +1,18 @@
+{
+  "id": "unique-video-slug",
+  "title": "English video title",
+  "titleZh": "中文视频标题",
+  "description": "English description",
+  "descriptionZh": "中文说明",
+  "poster": "",
+  "captionsEn": "",
+  "captionsZh": "",
+  "sources": [
+    {
+      "provider": "youtube",
+      "id": "",
+      "src": "",
+      "page": 1
+    }
+  ]
+}

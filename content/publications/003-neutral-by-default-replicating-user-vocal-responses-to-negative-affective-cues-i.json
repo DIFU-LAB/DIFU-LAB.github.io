@@ -1,0 +1,56 @@
+{
+  "id": "10.1145/3757279.3788802",
+  "title": "Neutral by Default? Replicating User Vocal Responses to Negative Affective Cues in Conversational Agents",
+  "authors": "Yong Ma, Yuchong Zhang, Di Fu, Stephanie Zubicueta Portales, Morten Fjeld",
+  "authorNames": [
+    "Yong Ma",
+    "Yuchong Zhang",
+    "Di Fu",
+    "Stephanie Zubicueta Portales",
+    "Morten Fjeld"
+  ],
+  "authorsComplete": true,
+  "year": 2026,
+  "journal": "Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction",
+  "doi": "10.1145/3757279.3788802",
+  "url": "https://dl.acm.org/doi/10.1145/3757279.3788802",
+  "type": "conference",
+  "status": "published",
+  "sourceUrl": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991114263002346",
+  "sourceRecordIds": [
+    "CV:cv-conference-01",
+    "Scholar:AUqLvaIAAAAJ:IWHjjKOFINEC",
+    "Surrey:alma991114263002346",
+    "ORCID:207933590",
+    "ORCID:209710680"
+  ],
+  "versions": [],
+  "sources": [
+    {
+      "name": "CV (October 2026)",
+      "url": "",
+      "recordId": "cv-conference-01"
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AUqLvaIAAAAJ&pagesize=100&citation_for_view=AUqLvaIAAAAJ:IWHjjKOFINEC",
+      "recordId": "AUqLvaIAAAAJ:IWHjjKOFINEC"
+    },
+    {
+      "name": "University record",
+      "url": "https://openresearch.surrey.ac.uk/permalink/44SUR_INST/15d8lgh/alma991114263002346",
+      "recordId": "alma991114263002346"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "207933590"
+    },
+    {
+      "name": "ORCID",
+      "url": "https://orcid.org/0000-0002-5385-2982",
+      "recordId": "209710680"
+    }
+  ],
+  "notes": ""
+}

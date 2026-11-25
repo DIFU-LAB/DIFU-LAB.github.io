@@ -1,0 +1,10 @@
+{
+  "videoSrc": "/media/home/hero/hero-motion.mp4",
+  "posterSrc": "/media/home/hero/hero-motion-poster.webp",
+  "fallbackSrc": "/media/home/hero/hero-embodied-cAXq4tNk6KVBRRLkBCX3G3.webp",
+  "width": 1280,
+  "height": 720,
+  "durationSeconds": 8.041667,
+  "sizeBytes": 337642,
+  "hasAudio": false
+}
