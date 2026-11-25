@@ -103,7 +103,7 @@ export function VisitorMap() {
               {t("Visitors around the world")}
             </h2>
 
-            <p className="mt-3 text-sm text-[#64748B]">{history ? t("Historical opt-in visits") : goatCounter ? t("") : t("")}</p>
+            {history && <p className="mt-3 text-sm text-[#64748B]">{t("Historical opt-in visits")}</p>}
             <dl className="mt-8 grid grid-cols-2 gap-6 border-t border-[#E2E8F0] pt-6">
               <div>
                 <dt className="text-sm text-[#64748B]">{countLabel}</dt>
